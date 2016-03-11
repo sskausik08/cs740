@@ -1,0 +1,51 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{float}
+%opening
+\title{Latency-sensitive Flow management in a Software-Defined Network}
+
+\author{Riccardo Mutschlechner, Stephen Sturdevant, Kausik Subramanian}
+
+\begin{document}
+
+\maketitle
+
+\section{Measurement Model}
+In software defined networks, the network is managed by a central controller
+and switches can be programmed by  the OpenFlow API by the controller. 
+OpenFlow also supports queries to switches, which would retrieve statistics
+from the switches. For this project, we can assume a measurement model
+where each switch is probed every $t_m$ seconds (the measurement interval)
+time. 
+
+Work on this to do presently :
+\begin{itemize}
+	\item Figure out the different statistics supported by OpenFlow. Primarily, 
+	we would need switch queue sizes, and flow statistics on the switch. 
+	\item Build a preliminary monitoring system using POX and Mininet. 
+\end{itemize}
+
+\section{Estimating Flow Characteristics}
+Something similar to CSFQ, ideally we would want to predict the throughput
+of a flow with respect to time (denoted by $\Theta$). Look at the next section for decisions based on this. 
+This would use the measurement model and $t_m$ and other factors to
+estimate the throughput function for the flow. An assumption we can make
+in this case is that a flow (identified by a set of headers) will occur 
+regularly in the datacenter. This is not unreasonable, consider distributed applications.
+For example, short queries can occur between different modules (will possess the
+same flow headers), thus estimating a flow can reap benefits in the future as 
+we can make better decisions for this particular flow. Another assumption we
+can consider is that the throughput function is periodic (?) or based on
+some distribution. This needs to be thought about. 
+
+\section{Flow Decisions}
+\subsection{Queue buildup model}
+Le
+
+
+\end{document}
