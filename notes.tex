@@ -45,7 +45,40 @@ some distribution. This needs to be thought about.
 
 \section{Flow Decisions}
 \subsection{Queue buildup model}
-Le
+Flows in datacenters require strong latency guarantees, and one of the major
+factors causing latency is queue buildup in switches. Thus, it is of paramount
+importance to be able to quantify queue buildups in switches to make better scheduling
+decisions. By building a queue buildup model, we aim to achieve two things: (1) Provide
+latency guarantees (2) Predict congestion. Using the queue buildup model, we can predict 
+when latency guarantees or congestion will happen in the future, and accordingly 
+decide which flows to move around. 
+
+For a switch $sw_i$ and output port $j$, let us define $F_i^j$ to the be the set of flows 
+traversing through the switch to port $j$ and the link has capacity $C$. The Queue
+buildup function $\Omega_i^j$ is as follows : 
+\[ 
+\Omega_i^j(t) = \Sigma_{f \in F_i^j} \Theta_f(t) - C  
+\]
+The other consideration we need to make is the modifications to $\Theta$ as the
+throughput will vary depending on the utilization on each switch the flow traverses
+through. 
+
+\subsection{Flow Durations}
+By building a model of the flow, we can extract two important 
+times for improving decision-making in SDNs. We assume flows follow
+a ON/OFF model.
+\begin{itemize}
+	\item $t_{on}$ : The duration of time the flow is active. While this can
+	help classify elephant and mice flows; in SDNs there is another use case
+	for this. The rules installed by the controllers have a timeout value after which
+	the rule is discarded. By estimating accurate time durations, we can set the 
+	timeout values so that the rules are removed after the flow becomes inactive,
+	thus increasing the efficiency of switch tables.
+	\item $t_{off}$ : The duration of time when the flow is OFF. This can be used
+	by the controller to pre-emptively install rules. By doing this, the latency-
+	sensitive flows do not suffer the additional overhead of the controller
+	adding the rules on the switches. 
+\end{itemize}
 
 
 \end{document}
