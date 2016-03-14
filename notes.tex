@@ -54,14 +54,28 @@ when latency guarantees or congestion will happen in the future, and accordingly
 decide which flows to move around. 
 
 For a switch $sw_i$ and output port $j$, let us define $F_i^j$ to the be the set of flows 
-traversing through the switch to port $j$ and the link has capacity $C$. The Queue
+traversing through the switch to switch $j$ and the link has capacity $C_{ij}$. The Queue
 buildup function $\Omega_i^j$ is as follows : 
 \[ 
-\Omega_i^j(t) = \Sigma_{f \in F_i^j} \Theta_f(t) - C  
+\Omega_i^j(t) = \Omega_i^j(0) + \Sigma_{f \in F_i^j} \int_{0}^{t}\Theta_i^f(t) - C_{ij}t 
 \]
 The other consideration we need to make is the modifications to $\Theta$ as the
 throughput will vary depending on the utilization on each switch the flow traverses
-through. 
+through. The modified throughput function is defined as follows : 
+\[
+\Theta_j^f(t) = min(C_{ij} \frac{\int_{0}^{\Gamma^f_i}\Theta_i^f(t)dt}
+							   {\Sigma_{f \in F_i^j}{\int_{0}^{\Gamma^f_i}\Theta_i^f(t)dt}},
+							\Theta_i^f(t))
+\]
+The modified active time interval of the flow $\Gamma_j^f$ is defined as follows : 
+\[
+\Gamma_j^f = \frac{\int_{0}^{\Gamma^f_i}\Theta_i^f(t)dt}
+							{\Theta_j^f(t)}
+\]
+The modified inactive interval of the flow $\overline{\Gamma_j^f}$ is as follows : 
+\[
+\overline{\Gamma_j^f} = \overline{\Gamma_i^f} - (\Gamma_j^f - \Gamma_i^f)
+\]
 
 \subsection{Flow Durations}
 By building a model of the flow, we can extract two important 
