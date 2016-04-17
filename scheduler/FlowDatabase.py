@@ -1,3 +1,5 @@
+from FlowCharacteristic import FlowCharacteristic
+from Topology import Topology
 class FlowDatabase(object):
 	def __init__(self, topo) :
 		""" Database to store the set of flows in the network """
@@ -7,9 +9,9 @@ class FlowDatabase(object):
 		self.flowID = 0
 		self.topology = topo
 
-	def addFlow(self, header, src, dst) :
+	def addFlow(self, header, src, dst, fc) :
 		self.flows[self.flowID] = [src, dst, header]
-		self.flowCharacteristics[self.flowID] = [1, 1, 2] # 1 Mbps, t_ON = 1, t_OFF = 2
+		self.flowCharacteristics[self.flowID] = fc
 		self.flowID += 1
 		return self.flowID - 1
 
@@ -49,16 +51,6 @@ class FlowDatabase(object):
 			# a threshold value, if yes, update the flows all the way to destination
 		
 					
-
-
-
-
-
-
-
-
-
-
 
 	def updateCriticalTime(self, sw1, sw2) : 
 		""" Updates the critical time for queue at sw1 going to link sw2 """

@@ -23,7 +23,8 @@ import os
 import sys
 import time
 from Topology import Topology
-
+from FlowCharacteristic import FlowCharacteristic
+from FlowDatabase import FlowDatabase
 log = core.getLogger()
 
 hostMap = dict()
@@ -50,9 +51,18 @@ class Scheduler (EventMixin):
 
 		self.topology = Topology()
 
+		self.fdb = FlowDatabase(self.topology)
+
 		self.routeStatus = []
 
-		self.measurementInfra = Timer(5, self._measurement, recurring=True)
+		self.startTime = time.time()
+
+		self.measurementEpoch = 5 
+		self.measurementInfra = Timer(self.measurementEpoch, self._measurement, recurring=True)
+
+		self.schedulerEpoch = 100
+		self.scheduler = Timer(self.schedulerEpoch, self._scheduler, recurring=True)
+
 		
 	"""This event will be raised each time a switch will connect to the controller"""
 	def _handle_ConnectionUp(self, event):
@@ -225,7 +235,11 @@ class Scheduler (EventMixin):
 		# add flooding rule for dst :
 		self.addRule(srcip, dstip, dstSw, None)
 
-		status = [srcip, dstip, path]
+		# Create flow characteristic for flow
+		fc = FlowCharacteristic()
+		fid = self.fdb.addFlow([srcip, dstip], srcSw, dstSw, fc) # Adding flow to flow database
+		self.fdb.addPath(fid, path)
+		status = [srcip, dstip, path, fc, fid]
 		self.routeStatus.append(status)
 
 	def addRule(self, srcip, dstip, sw1, sw2) : 
@@ -264,20 +278,25 @@ class Scheduler (EventMixin):
 
 	def _handle_FlowStatsReceived (self, event):
 		stats = flow_stats_to_list(event.stats)
-	
-		web_flows = 0
+		swdpid = dpidToStr(event.dpid)
+		swID = self.topology.getSwID(self.findSwitchName(swdpid))
+
 		for f in event.stats:
-			#if f.match.tp_dst == 80 or f.match.tp_src == 80:
-			# web_bytes += f.byte_count
-			# web_packet += f.packet_count
-			web_flows += 1
-		
-		print web_flows
+			for stat in self.routeStatus : 
+				if f.match.nw_src == stat[0] and f.match.nw_dst == stat[1] and stat[2][0] == swID : 
+					# Edge switch for flow. Update Flow Characteristics
+					fc = stat[3]
+					fc.insert(f.byte_count, time.time() - self.startTime)
+					print "Updating stats:", stat[0], stat[1], swID, f.byte_count
+
 
 	def _measurement (self) :
 		for connection in self.switchConnections.values():
 			connection.send(of.ofp_stats_request(body=of.ofp_flow_stats_request()))
 			#connection.send(of.ofp_stats_request(body=of.ofp_port_stats_request()))
+
+	def _scheduler(self) :
+		# perform scheduling for events in the current epoch.
 		
 
 def launch():
