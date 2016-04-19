@@ -8,6 +8,7 @@ class FlowDatabase(object):
 		self.paths = dict()
 		self.flowID = 0
 		self.topology = topo
+		self.switchBytes = dict()
 
 	def addFlow(self, header, src, dst, fc) :
 		self.flows[self.flowID] = [src, dst, header]
@@ -49,8 +50,10 @@ class FlowDatabase(object):
 			
 			# Need to modify other flows affected by this, check if difference crosses
 			# a threshold value, if yes, update the flows all the way to destination
-		
+
 					
+	def addSwitchBytes(swID, swBytes) :
+		self.switchBytes[swID] = swBytes
 
 	def updateCriticalTime(self, sw1, sw2) : 
 		""" Updates the critical time for queue at sw1 going to link sw2 """

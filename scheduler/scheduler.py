@@ -277,7 +277,7 @@ class Scheduler (EventMixin):
 		pass
 
 	def _handle_FlowStatsReceived (self, event):
-		stats = flow_stats_to_list(event.stats)
+		#stats = flow_stats_to_list(event.stats)
 		swdpid = dpidToStr(event.dpid)
 		swID = self.topology.getSwID(self.findSwitchName(swdpid))
 
@@ -289,11 +289,23 @@ class Scheduler (EventMixin):
 					fc.insert(f.byte_count, time.time() - self.startTime)
 					print "Updating stats:", stat[0], stat[1], swID, f.byte_count
 
+	def _handle_PortStatsReceived(self, event) :
+		swdpid = dpidToStr(event.dpid)
+		swID = self.topology.getSwID(self.findSwitchName(swdpid))
+
+		swBytes = 0
+		for f in event.stats:
+			swBytes += f.rx_bytes - f.tx_bytes 
+
+		self.FlowDatabase.addSwitchBytes(swID, swBytes)
+
+
+	
 
 	def _measurement (self) :
 		for connection in self.switchConnections.values():
 			connection.send(of.ofp_stats_request(body=of.ofp_flow_stats_request()))
-			#connection.send(of.ofp_stats_request(body=of.ofp_port_stats_request()))
+			connection.send(of.ofp_stats_request(body=of.ofp_port_stats_request()))
 
 	def _scheduler(self) :
 		# perform scheduling for events in the current epoch.
