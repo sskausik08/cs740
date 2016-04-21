@@ -36,6 +36,9 @@ macMap["10.0.0.1"] = EthAddr("00:00:00:00:00:01")
 macMap["10.0.0.2"] = EthAddr("00:00:00:00:00:02")
 
 EthAddr("00:00:00:00:00:01")
+
+QUEUE_SIZE = 500 # In Kbytes
+
 class Scheduler (EventMixin):
 
 	def __init__(self):
@@ -183,6 +186,8 @@ class Scheduler (EventMixin):
 
 			else :
 				#print ip.__str__() 
+				if str(ip.srcip) not in hostMap or str(ip.dstip) not in hostMap :
+					return # Ignore packet
 
 				srcSw = self.topology.getSwID(hostMap[str(ip.srcip)])
 				dstSw = self.topology.getSwID(hostMap[str(ip.dstip)])
@@ -217,13 +222,20 @@ class Scheduler (EventMixin):
 		event.connection.send(msg)
 
 	def addForwardingRules(self, srcip, srcSw, dstip, dstSw, path=[]) :
-		
 		if self.checkRouteStatus(srcip, dstip) : return
+
 
 		print "Adding forwarding rules for", srcip, "->", dstip, ":", srcSw, "->", dstSw
 		if path == [] :
 			path = self.topology.getPath(srcSw, dstSw) 
 		self.printPath(path)
+
+		# Create flow characteristic for flow
+		fc = FlowCharacteristic()
+		fid = self.fdb.addFlow([srcip, dstip], srcSw, dstSw, fc) # Adding flow to flow database
+		self.fdb.changePath(fid, path)
+		status = [srcip, dstip, path, fc, fid]
+		self.routeStatus.append(status)
 		
 		for i in range(len(path) - 1) :
 			sw1 = path[i]
@@ -235,12 +247,6 @@ class Scheduler (EventMixin):
 		# add flooding rule for dst :
 		self.addRule(srcip, dstip, dstSw, None)
 
-		# Create flow characteristic for flow
-		fc = FlowCharacteristic()
-		fid = self.fdb.addFlow([srcip, dstip], srcSw, dstSw, fc) # Adding flow to flow database
-		self.fdb.addPath(fid, path)
-		status = [srcip, dstip, path, fc, fid]
-		self.routeStatus.append(status)
 
 	def addRule(self, srcip, dstip, sw1, sw2) : 
 		msg = of.ofp_flow_mod()
@@ -286,29 +292,32 @@ class Scheduler (EventMixin):
 				if f.match.nw_src == stat[0] and f.match.nw_dst == stat[1] and stat[2][0] == swID : 
 					# Edge switch for flow. Update Flow Characteristics
 					fc = stat[3]
-					fc.insert(f.byte_count, time.time() - self.startTime)
-					print "Updating stats:", stat[0], stat[1], swID, f.byte_count
+					fc.insert(f.byte_count / 1000, time.time() - self.startTime)
+					print "Updating stats:", stat[0], stat[1], swID, f.byte_count / 1000
 
-	def _handle_PortStatsReceived(self, event) :
-		swdpid = dpidToStr(event.dpid)
-		swID = self.topology.getSwID(self.findSwitchName(swdpid))
+	# def _handle_PortStatsReceived(self, event) :
+	# 	print "Port event"
+	# 	swdpid = dpidToStr(event.dpid)
+	# 	swID = self.topology.getSwID(self.findSwitchName(swdpid))
 
-		swBytes = 0
-		for f in event.stats:
-			swBytes += f.rx_bytes - f.tx_bytes 
+	# 	swBytes = 0
+	# 	print event.stats
+	# 	for f in event.stats:
+	# 		print f.port_no, f.tx_bytes, f.rx_bytes
+	# 		swBytes += f.rx_bytes - f.tx_bytes 
 
-		self.FlowDatabase.addSwitchBytes(swID, swBytes)
+	# 	print "Updating Switch ", swID, swBytes
+	# 	#self.fdb.addSwitchBytes(swID, swBytes)
 
-
-	
 
 	def _measurement (self) :
 		for connection in self.switchConnections.values():
 			connection.send(of.ofp_stats_request(body=of.ofp_flow_stats_request()))
-			connection.send(of.ofp_stats_request(body=of.ofp_port_stats_request()))
+			#connection.send(of.ofp_stats_request(body=of.ofp_port_stats_request()))
 
 	def _scheduler(self) :
 		# perform scheduling for events in the current epoch.
+		self.fdb.updateCriticalTimes(QUEUE_SIZE)
 		
 
 def launch():
