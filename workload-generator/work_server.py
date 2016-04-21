@@ -31,9 +31,9 @@ def main_tcp():
 
 
 # https://wiki.python.org/moin/UdpCommunication
-def main_udp():
+def main_udp(bytes_expected):
 	UDP_IP = "127.0.0.1"
-	UDP_PORT = 5006
+	UDP_PORT = 5005
 
 
 	print "UDP IP: ", UDP_IP
@@ -44,18 +44,27 @@ def main_udp():
 
 	sock.bind((UDP_IP, UDP_PORT))
 
+	messagecount = 1
+
 	while True:
 		data, addr = sock.recvfrom(1024) # 1024 byte buffer
 		print "received message: ", data
+		messagecount += 1
+
+		if messagecount == bytes_expected:
+			print "No packet loss.."
+			exit(0)
 
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="work_server argument parser")
 	parser.add_argument("-u", "--udp", action="store_true", help="use UDP", default=False)
+	parser.add_argument("-b", "--bytes", help="#bytes expected", default=4096)
+
 	args = vars(parser.parse_args())
 
 	if(args["udp"]):
-		main_udp()
+		main_udp(int(args["bytes"]))
 
 	else:
 		main_tcp()
