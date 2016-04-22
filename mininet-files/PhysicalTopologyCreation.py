@@ -56,7 +56,7 @@ class PhyTopo( Topo ):
 		#Add Links.
 		for line in link_desc:
 			lineArr = line.split()
-			self.addLink( switchMap[lineArr[0]],  switchMap[lineArr[1]], bw= float(lineArr[2]), max_queue_size=1000) 
+			self.addLink( switchMap[lineArr[0]],  switchMap[lineArr[1]], bw= float(lineArr[2]), max_queue_size=500) 
 	
 
 
