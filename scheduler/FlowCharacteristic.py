@@ -2,10 +2,10 @@
 
 class FlowCharacteristic:
     # Constructor, tell it how long of a history to keep
-    def __init__(self):
-        self.AvgThroughput = 0
-        self.AvgTOn = 0
-        self.AvgTOff = 0
+    def __init__(self, Throughput=0, TOn=0, TOff=0):
+        self.AvgThroughput = Throughput
+        self.AvgTOn = TOn
+        self.AvgTOff = TOff
         self.ewmaConst = 0.2
 
         self.Throughput = 0
@@ -18,10 +18,11 @@ class FlowCharacteristic:
         
     # Get the "best" value, determined by value at 50% of sum
     def getBytes(self, t=100) :
-        if self.AvgTOn == 0 or self.AvgTOff == 0 : 
+        if self.AvgTOn == 0 : 
             return 0
-        periods = t/(self.AvgTOn + self.AvgTOff)
-        return self.AvgThroughput * (periods) 
+        periods = int(t/(self.AvgTOn + self.AvgTOff))
+        print "Bytes in time", t, (self.AvgThroughput * periods) + (t - periods*(self.AvgTOn + self.AvgTOff)) * self.AvgThroughput/self.AvgTOn 
+        return (self.AvgThroughput * periods) + (t - periods*(self.AvgTOn + self.AvgTOff)) * self.AvgThroughput/self.AvgTOn 
 
     # Insert a value into the flow's history
     def insert(self, byteValue, timeValue):
@@ -57,6 +58,13 @@ class FlowCharacteristic:
         self.prevTime = timeValue
 
         print "Stat", self.AvgThroughput, self.AvgTOn, self.AvgTOff
+        
+    def learned(self) :
+        """ has the system learned something about this flow """
+        if self.AvgTOn > 0 and self.AvgTOff > 0: 
+            # Something inferred. 
+            return True    
+
 
 
         

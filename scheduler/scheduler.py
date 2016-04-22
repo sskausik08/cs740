@@ -54,7 +54,7 @@ class Scheduler (EventMixin):
 
 		self.topology = Topology()
 
-		self.fdb = FlowDatabase(self.topology)
+		self.fdb = FlowDatabase(self.topology, QUEUE_SIZE)
 
 		self.routeStatus = []
 
@@ -63,7 +63,7 @@ class Scheduler (EventMixin):
 		self.measurementEpoch = 5 
 		self.measurementInfra = Timer(self.measurementEpoch, self._measurement, recurring=True)
 
-		self.schedulerEpoch = 100
+		self.schedulerEpoch = 30
 		self.scheduler = Timer(self.schedulerEpoch, self._scheduler, recurring=True)
 
 		
@@ -224,7 +224,6 @@ class Scheduler (EventMixin):
 	def addForwardingRules(self, srcip, srcSw, dstip, dstSw, path=[]) :
 		if self.checkRouteStatus(srcip, dstip) : return
 
-
 		print "Adding forwarding rules for", srcip, "->", dstip, ":", srcSw, "->", dstSw
 		if path == [] :
 			path = self.topology.getPath(srcSw, dstSw) 
@@ -233,7 +232,7 @@ class Scheduler (EventMixin):
 		# Create flow characteristic for flow
 		fc = FlowCharacteristic()
 		fid = self.fdb.addFlow([srcip, dstip], srcSw, dstSw, fc) # Adding flow to flow database
-		self.fdb.changePath(fid, path)
+		#self.fdb.changePath(fid, path)
 		status = [srcip, dstip, path, fc, fid]
 		self.routeStatus.append(status)
 		
@@ -292,8 +291,8 @@ class Scheduler (EventMixin):
 				if f.match.nw_src == stat[0] and f.match.nw_dst == stat[1] and stat[2][0] == swID : 
 					# Edge switch for flow. Update Flow Characteristics
 					fc = stat[3]
-					fc.insert(f.byte_count / 1000, time.time() - self.startTime)
-					print "Updating stats:", stat[0], stat[1], swID, f.byte_count / 1000
+					val = fc.insert(f.byte_count / 1000, time.time() - self.startTime)
+
 
 	# def _handle_PortStatsReceived(self, event) :
 	# 	print "Port event"
@@ -316,8 +315,17 @@ class Scheduler (EventMixin):
 			#connection.send(of.ofp_stats_request(body=of.ofp_port_stats_request()))
 
 	def _scheduler(self) :
+		# Update new and learned flows
+		for stat in self.routeStatus : 
+			fid = stat[4]
+			fc = stat[3]
+			path = stat[2]
+			if fc.learned() and len(self.fdb.getPath(fid)) == 0 :
+				# Add this flow to the scheduler
+				self.fdb.changePath(fid, path)
+
 		# perform scheduling for events in the current epoch.
-		self.fdb.updateCriticalTimes(QUEUE_SIZE)
+		self.fdb.updateCriticalTimes()
 		
 
 def launch():
