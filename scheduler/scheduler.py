@@ -60,10 +60,10 @@ class Scheduler (EventMixin):
 
 		self.startTime = time.time()
 
-		self.measurementEpoch = 5 
+		self.measurementEpoch = 2
 		self.measurementInfra = Timer(self.measurementEpoch, self._measurement, recurring=True)
 
-		self.schedulerEpoch = 30
+		self.schedulerEpoch = 20
 		self.scheduler = Timer(self.schedulerEpoch, self._scheduler, recurring=True)
 
 		

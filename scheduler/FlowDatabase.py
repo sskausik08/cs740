@@ -123,10 +123,10 @@ class FlowDatabase(object):
 			t = t + T_MIN
 			totBytes = 0
 			for f in switchFlows : 
-				if sw1 not in self.pathCharacteristics[flowID] :
+				if sw1 not in self.pathCharacteristics[f] :
 					print "Characteristic does not exist!!"
 				else : 
-					fc = self.pathCharacteristics[flowID][sw1]
+					fc = self.pathCharacteristics[f][sw1]
 					totBytes += fc.getBytes(t)
 
 		# Critical time is t 
@@ -248,7 +248,7 @@ class FlowDatabase(object):
 		rerouteFlows = []
 		rerouteDecisions = []
 		if len(criticalSwitches) == 0 : 
-			return # No switches in critical state this epoch
+			return [] # No switches in critical state this epoch
 
 		for cpair in criticalSwitches : 
 			sw1 = cpair[0]
