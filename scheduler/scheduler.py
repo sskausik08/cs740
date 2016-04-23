@@ -222,7 +222,7 @@ class Scheduler (EventMixin):
 		event.connection.send(msg)
 
 	def addForwardingRules(self, srcip, srcSw, dstip, dstSw, path=[]) :
-		if self.checkRouteStatus(srcip, dstip) : return
+		if path == [] and self.checkRouteStatus(srcip, dstip) : return
 
 		print "Adding forwarding rules for", srcip, "->", dstip, ":", srcSw, "->", dstSw
 		if path == [] :
@@ -265,6 +265,17 @@ class Scheduler (EventMixin):
 
 		connection.send(msg)
 
+	def deleteRule(self, srcip, dstip, sw1, sw2) : 
+		msg = of.ofp_flow_mod()
+		connection = self.switchConnections[sw1]
+		msg.command = OFPFC_DELETE
+		#Match 
+		msg.match = of.ofp_match()
+		msg.match.dl_type = ethernet.IP_TYPE
+		msg.match.set_nw_src(IPAddr(srcip, 32), 32)
+		msg.match.set_nw_dst(IPAddr(dstip, 32), 32)
+		connection.send(msg)
+
 	def printPath(self, path) :
 		namedPath = []
 		for i in range(len(path)) : 
@@ -278,8 +289,15 @@ class Scheduler (EventMixin):
 		return False
 
 	def deleteStaleForwardingRules(self,srcip, dstip, path) :
-		""" Delete rules for srcip -> dstip on path """
-		pass
+		""" Delete stale rules for srcip -> dstip on path """
+
+		for i in range(len(path) - 1) :
+			sw1 = path[i]
+			sw2 = path[i + 1]
+
+			# delete rule to go from sw1 to sw2
+			self.deleteRule(srcip, dstip, sw1, sw2)
+
 
 	def _handle_FlowStatsReceived (self, event):
 		#stats = flow_stats_to_list(event.stats)
@@ -326,8 +344,20 @@ class Scheduler (EventMixin):
 
 		# perform scheduling for events in the current epoch.
 		self.fdb.updateCriticalTimes()
-		
 
+		rerouteDecisions = self.fdb.scheduleEpoch()
+
+		for dec in rerouteDecisions :
+			fid = dec[0]
+			oldpath = dec[1]
+			newpath = dec[2]
+			self.addForwardingRules(srcip=self.fdb.getSourceIP(fid), srcSw=newpath[0], dstip=self.fdb.getDestinationIP(fid), dstSw=newpath[len(newpath)-1], path=newpath)
+			self.deleteStaleForwardingRules(srcip=self.fdb.getSourceIP(fid), dstip=self.fdb.getDestinationIP(fid), path=oldpath)
+
+			# update stat
+			for stat in self.routeStatus : 
+				if fid == stat[4] : stat[2] = newpath
+					
 def launch():
 	# Run spanning tree so that we can deal with topologies with loops
 	pox.openflow.discovery.launch()
