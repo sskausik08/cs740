@@ -4,8 +4,8 @@ import socket, argparse
 
 
 # https://wiki.python.org/moin/TcpCommunication
-def main_tcp():
-	TCP_IP = "127.0.0.1"
+def main_tcp(bytes_expected, ip):
+	TCP_IP = ip
 	TCP_PORT = 5006
 
 
@@ -18,6 +18,8 @@ def main_tcp():
 	s.bind((TCP_IP, TCP_PORT))
 	s.listen(1)
 
+        numMessages = 0
+
 	conn, addr = s.accept()
 	print "Connection addr: ", addr
 
@@ -26,13 +28,18 @@ def main_tcp():
 		if not data: break
 		print "received data: ", data
 		conn.send(data) # echo
+                numMessages += 1
 
+                if numMessages == bytes_expected:
+                        print "No data loss... exiting server"
+                        exit(0)
+                
 	conn.close()
 
 
 # https://wiki.python.org/moin/UdpCommunication
-def main_udp(bytes_expected):
-	UDP_IP = "127.0.0.1"
+def main_udp(bytes_expected, ip):
+	UDP_IP = ip
 	UDP_PORT = 5005
 
 
@@ -58,13 +65,15 @@ def main_udp(bytes_expected):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="work_server argument parser")
-	parser.add_argument("-u", "--udp", action="store_true", help="use UDP", default=False)
+	parser.add_argument("-u", "--udp", action="store_true", help="use UDP", default=True)
 	parser.add_argument("-b", "--bytes", help="#bytes expected", default=4096)
+        parser.add_argument("-ip", "--ip", help="IP address to recv from", default="127.0.0.1")
 
 	args = vars(parser.parse_args())
+        bytes_expected = int(args["bytes"])
 
 	if(args["udp"]):
-		main_udp(int(args["bytes"]))
+		main_udp(bytes_expected, args["ip"])
 
 	else:
-		main_tcp()
+		main_tcp(bytes_expected, args["ip"])
