@@ -10,6 +10,8 @@ To start the client:
 Options:
 
 `-u ` UDP (TCP otherwise)
+
 `-b <#bytes>` Client: #bytes to send. Server: #bytes to expect.
+
 `-ip "IP Address"` Client: IP address to send to. Server: IP address to bind to / recv on.
 
