@@ -14,15 +14,22 @@ def main_tcp(bytesToSend, ip):
 	print "UDP port: ", UDP_PORT
 	print "message: ", MESSAGE
 
+
+	# Create TCP socket
 	s = socket.socket(socket.AF_INET, 
 						 socket.SOCK_STREAM)
 	
+	# Connect to TCP server
 	s.connect((TCP_IP, TCP_PORT))
 
-        for i in range(bytesToSend):
-                s.send(MESSAGE)
-                data = s.recv(BUFFER_SIZE)
-                print "received reply: ", data
+
+	# Send bytesToSend# of bytes
+    for i in range(bytesToSend):
+            s.send(MESSAGE)
+            data = s.recv(BUFFER_SIZE)
+            print "received reply: ", data
+
+    # Close TCP connection        
 	s.close()
 
 
@@ -38,9 +45,12 @@ def main_udp(bytesToSend, ip):
 	print "message: ", MESSAGE
 	print "#bytes: ", bytesToSend
 
+	# Create UDP socket
 	sock = socket.socket(socket.AF_INET, 
 						 socket.SOCK_DGRAM)
 	
+
+	# Send #bytesToSend TCP packets
 	for i in range(bytesToSend):
 		sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
 		time.sleep(0.0001)
@@ -49,9 +59,11 @@ def main_udp(bytesToSend, ip):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="work_client argument parser")
-	parser.add_argument("-u", "--udp", help="use UDP", default=True)
+	parser.add_argument("-u", "--udp", help="use UDP", default=False)
 	parser.add_argument("-b", "--bytes", help="#bytes to send", default=4096)
-        parser.add_argument("-ip", "--ip", help="IP address to send to", default="127.0.0.1")
+    parser.add_argument("-ip", "--ip", help="IP address to send to", default="127.0.0.1")
+    parser.add_argument("-t", "--trace", help="trace file to use (.txt)", default="")
+
 
 	args = vars(parser.parse_args())
        
