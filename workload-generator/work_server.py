@@ -70,17 +70,17 @@ def main_udp(bytes_expected, ip):
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="work_server argument parser")
-	parser.add_argument("-u", "--udp", action="store_true", help="use UDP", default=False)
-	parser.add_argument("-b", "--bytes", help="#bytes expected", default=4096)
+	#parser.add_argument("-u", "--udp", action="store_true", help="use UDP", default=False)
+	#parser.add_argument("-b", "--bytes", help="#bytes expected", default=4096)
     parser.add_argument("-ip", "--ip", help="IP address to recv from", default="127.0.0.1")
-    parser.add_argument("-t", "--trace", help="trace file to use (.txt)", default="")
+    #parser.add_argument("-t", "--trace", help="trace file to use (.txt)", default="")
 
 
 	args = vars(parser.parse_args())
-        bytes_expected = int(args["bytes"])
+    bytes_expected = int(args["bytes"])
 
-	if(args["udp"]):
-		main_udp(bytes_expected, args["ip"])
+	#if(args["udp"]):
+	main_udp(bytes_expected, args["ip"])
 
-	else:
-		main_tcp(bytes_expected, args["ip"])
+	#else:
+	#	main_tcp(bytes_expected, args["ip"])
