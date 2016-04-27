@@ -20,10 +20,21 @@ for fname in fnames:
         a.add(fname)
         m += 1
     t += 1
-print a
+
+# Set up mapping Don't sample more than 256 things!
+d = {}
+for i, host in enumerate(a):
+    d[host] = "10.0.0." + str(i)
 
 # Only include packets with a source & dest in the sampled set
 for fname in a:
-    with open(fname, 'r') as inFile, open("samples/" + fname, 'w') as outFile:
+    with open(fname, 'r') as inFile, open("samples/"+d[fname], 'w') as outFile:
         for line in inFile:
-            outFile.write(line)
+            ln = line.split()
+            # Want a closed set of hosts
+            if ln[4] in a:
+                # Perform mapping and write
+                ln[2] = d[ln[2]]
+                ln[4] = d[ln[4]]
+                line = " ".join(ln)
+                outFile.write(line)
