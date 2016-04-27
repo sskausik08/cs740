@@ -1,0 +1,6 @@
+181690  61.070023 47.167.92.67 -> 244.3.41.84  TCP 64 tolteces > telnet [ACK] Seq=4 Ack=7 Win=65523 Len=0
+758073 244.102925 47.167.92.67 -> 244.3.41.84  TCP 64 tolteces > telnet [ACK] Seq=14 Ack=528 Win=65002 Len=0
+843571 277.353160 47.167.92.67 -> 244.3.41.84  TCP 64 tolteces > telnet [ACK] Seq=35 Ack=1719 Win=65535 Len=0
+848105 280.196974 47.167.92.67 -> 244.3.41.84  TCP 64 tolteces > telnet [ACK] Seq=45 Ack=1925 Win=65329 Len=0
+875235 289.776790 47.167.92.67 -> 244.3.41.84  TCP 64 tolteces > telnet [ACK] Seq=72 Ack=4339 Win=65535 Len=0
+1009444 338.405899 47.167.92.67 -> 244.3.41.84  TCP 64 tolteces > telnet [ACK] Seq=151 Ack=6831 Win=65535 Len=0

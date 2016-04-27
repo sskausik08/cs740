@@ -1,0 +1,2 @@
+537860 174.136506 210.82.205.163 -> 244.3.61.16  TCP 66 bmap > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+549656 177.057919 210.82.205.163 -> 244.3.61.16  TCP 66 [TCP Retransmission] bmap > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

@@ -1,0 +1,2 @@
+331510 115.578521 92.40.222.20 -> 244.3.61.124 TCP 66 sns-query > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1360 SACK_PERM=1
+350898 118.568143 92.40.222.20 -> 244.3.61.124 TCP 66 [TCP Retransmission] sns-query > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1360 SACK_PERM=1

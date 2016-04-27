@@ -1,0 +1,26 @@
+870564 287.941266 145.95.75.108 -> 244.3.41.84  TCP 66 isbconference1 > telnet [SYN] Seq=0 Win=65535 Len=0 MSS=1260 SACK_PERM=1
+870570 287.944831 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1 Ack=1 Win=65535 Len=0
+871247 288.190446 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=31 Ack=47 Win=65489 Len=0
+871989 288.391633 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=39 Ack=119 Win=65417 Len=0
+872581 288.592711 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=211 Ack=142 Win=65394 Len=0
+873083 288.793916 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=383 Ack=175 Win=65361 Len=0
+873607 288.995140 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=383 Ack=1132 Win=64404 Len=0
+874221 289.296921 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=393 Ack=1141 Win=64395 Len=0
+874586 289.498077 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=573 Ack=1182 Win=64354 Len=0
+874994 289.699193 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=745 Ack=2256 Win=65535 Len=0
+882138 293.420763 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=806 Ack=3402 Win=64389 Len=0
+921804 305.893580 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=867 Ack=4548 Win=65535 Len=0
+932074 310.520336 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=928 Ack=5694 Win=64389 Len=0
+934832 311.425789 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=989 Ack=6681 Win=65535 Len=0
+937608 312.230274 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=999 Ack=6690 Win=65526 Len=0
+938171 312.431437 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1179 Ack=6731 Win=65485 Len=0
+938914 312.632666 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1351 Ack=7805 Win=64411 Len=0
+954040 316.354399 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1412 Ack=8951 Win=65535 Len=0
+958042 318.064176 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1473 Ack=8960 Win=65526 Len=0
+958043 318.064348 145.95.75.108 -> 244.3.41.84  TCP 64 trim > telnet [ACK] Seq=1 Ack=1051 Win=65535 Len=0
+962328 319.874899 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1499 Ack=11960 Win=64554 Len=0
+965289 321.383566 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1509 Ack=12941 Win=65535 Len=0
+968244 322.389398 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1519 Ack=13922 Win=64554 Len=0
+969790 323.093571 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1529 Ack=13931 Win=64545 Len=0
+976523 325.306338 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1529 Ack=14621 Win=65535 Len=0
+991412 330.664661 145.95.75.108 -> 244.3.41.84  TCP 64 isbconference1 > telnet [ACK] Seq=1592 Ack=16633 Win=65535 Len=0

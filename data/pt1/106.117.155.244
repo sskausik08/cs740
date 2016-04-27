@@ -1,0 +1,2 @@
+217805  74.334027 106.117.155.244 -> 244.3.61.225 TCP 66 admins-lms > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+226345  77.330534 106.117.155.244 -> 244.3.61.225 TCP 66 [TCP Retransmission] admins-lms > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

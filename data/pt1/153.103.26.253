@@ -1,0 +1,5 @@
+70938  29.307779 153.103.26.253 -> 41.177.98.143 TCP 94 pslicser > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=17110 Len=36
+71938  29.549122 153.103.26.253 -> 41.177.98.143 TCP 64 pslicser > vcom-tunnel [ACK] Seq=37 Ack=83 Win=17028 Len=0
+846836 279.308116 153.103.26.253 -> 41.177.98.143 TCP 94 pslicser > vcom-tunnel [PSH, ACK] Seq=37 Ack=83 Win=17028 Len=36
+847548 279.808107 153.103.26.253 -> 41.177.98.143 TCP 94 [TCP Retransmission] pslicser > vcom-tunnel [PSH, ACK] Seq=37 Ack=83 Win=17028 Len=36
+848121 280.210480 153.103.26.253 -> 41.177.98.143 TCP 64 pslicser > vcom-tunnel [ACK] Seq=73 Ack=165 Win=17520 Len=0

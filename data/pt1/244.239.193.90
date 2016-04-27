@@ -1,0 +1,51 @@
+147854  50.752679 244.239.193.90 -> 41.177.98.143 TCP 71 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=65250 Len=13
+148368  50.953758 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=14 Ack=28 Win=65223 Len=0
+148979  51.166114 244.239.193.90 -> 41.177.98.143 TCP 76 dls-monitor > vcom-tunnel [PSH, ACK] Seq=14 Ack=28 Win=65223 Len=18
+149084  51.222735 244.239.193.90 -> 41.177.98.143 TCP 80 dls-monitor > vcom-tunnel [PSH, ACK] Seq=32 Ack=100 Win=65151 Len=22
+149321  51.267357 244.239.193.90 -> 41.177.98.143 TCP 81 dls-monitor > vcom-tunnel [PSH, ACK] Seq=54 Ack=121 Win=65130 Len=23
+149657  51.350017 244.239.193.90 -> 41.177.98.143 TCP 374 dls-monitor > vcom-tunnel [PSH, ACK] Seq=77 Ack=121 Win=65130 Len=316
+150136  51.557328 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=393 Ack=250 Win=65001 Len=0
+150201  51.583523 244.239.193.90 -> 41.177.98.143 TCP 79 dls-monitor > vcom-tunnel [PSH, ACK] Seq=393 Ack=749 Win=64502 Len=21
+150825  51.759431 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=414 Ack=805 Win=64446 Len=0
+154228  52.686342 244.239.193.90 -> 41.177.98.143 TCP 79 dls-monitor > vcom-tunnel [PSH, ACK] Seq=414 Ack=805 Win=64446 Len=21
+154582  52.792683 244.239.193.90 -> 41.177.98.143 TCP 81 dls-monitor > vcom-tunnel [PSH, ACK] Seq=435 Ack=861 Win=64390 Len=23
+154816  52.869890 244.239.193.90 -> 41.177.98.143 TCP 376 dls-monitor > vcom-tunnel [PSH, ACK] Seq=458 Ack=861 Win=64390 Len=318
+155656  53.067044 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=776 Ack=989 Win=64262 Len=0
+155747  53.092584 244.239.193.90 -> 41.177.98.143 TCP 79 dls-monitor > vcom-tunnel [PSH, ACK] Seq=776 Ack=1488 Win=65535 Len=21
+156705  53.367996 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=797 Ack=1589 Win=65434 Len=0
+159042  54.156548 244.239.193.90 -> 41.177.98.143 TCP 79 dls-monitor > vcom-tunnel [PSH, ACK] Seq=797 Ack=1589 Win=65434 Len=21
+159347  54.241003 244.239.193.90 -> 41.177.98.143 TCP 81 dls-monitor > vcom-tunnel [PSH, ACK] Seq=818 Ack=1690 Win=65333 Len=23
+159588  54.320051 244.239.193.90 -> 41.177.98.143 TCP 368 dls-monitor > vcom-tunnel [PSH, ACK] Seq=841 Ack=1690 Win=65333 Len=310
+160304  54.576735 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1151 Ack=1818 Win=65205 Len=0
+160931  54.776900 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1151 Ack=1970 Win=65053 Len=0
+161497  54.977078 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1151 Ack=2008 Win=65015 Len=0
+162676  55.279284 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1151 Ack=2046 Win=64977 Len=0
+164006  55.586461 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1151 Ack=2130 Win=64893 Len=0
+166231  55.983888 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1151 Ack=2179 Win=64844 Len=0
+166425  56.009148 244.239.193.90 -> 41.177.98.143 TCP 79 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1151 Ack=2406 Win=64617 Len=21
+167684  56.184107 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1172 Ack=2555 Win=64468 Len=0
+171639  57.092755 244.239.193.90 -> 41.177.98.143 TCP 79 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1172 Ack=2555 Win=64468 Len=21
+172047  57.293432 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1193 Ack=2704 Win=64319 Len=0
+177363  59.530222 244.239.193.90 -> 41.177.98.143 TCP 69 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1193 Ack=2704 Win=64319 Len=11
+177465  59.556445 244.239.193.90 -> 41.177.98.143 TCP 73 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1204 Ack=3301 Win=65535 Len=15
+177782  59.706910 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1219 Ack=3639 Win=65197 Len=0
+179265  60.276036 244.239.193.90 -> 41.177.98.143 TCP 143 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1219 Ack=3639 Win=65197 Len=85
+179308  60.301261 244.239.193.90 -> 41.177.98.143 TCP 65 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1304 Ack=3650 Win=65186 Len=7
+179466  60.413331 244.239.193.90 -> 41.177.98.143 TCP 137 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1311 Ack=4615 Win=64221 Len=79
+179645  60.488768 244.239.193.90 -> 41.177.98.143 TCP 137 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1390 Ack=4930 Win=65535 Len=79
+179777  60.545587 244.239.193.90 -> 41.177.98.143 TCP 137 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1469 Ack=5232 Win=65233 Len=79
+180304  60.712254 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1548 Ack=5567 Win=64898 Len=0
+184665  62.073821 244.239.193.90 -> 41.177.98.143 TCP 143 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1548 Ack=5567 Win=64898 Len=85
+184861  62.099403 244.239.193.90 -> 41.177.98.143 TCP 65 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1633 Ack=5578 Win=64887 Len=7
+185962  62.321632 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1640 Ack=6543 Win=65535 Len=0
+192682  66.344413 244.239.193.90 -> 41.177.98.143 TCP 140 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1640 Ack=6543 Win=65535 Len=82
+193125  66.448860 244.239.193.90 -> 41.177.98.143 TCP 141 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1722 Ack=7852 Win=64226 Len=83
+193541  66.579757 244.239.193.90 -> 41.177.98.143 TCP 142 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1805 Ack=9223 Win=65535 Len=84
+193779  66.645024 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1889 Ack=10683 Win=65535 Len=0
+193785  66.647154 244.239.193.90 -> 41.177.98.143 TCP 142 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1889 Ack=10683 Win=65535 Len=84
+194167  66.753039 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=1973 Ack=12599 Win=65535 Len=0
+230788  79.696511 244.239.193.90 -> 41.177.98.143 TCP 143 dls-monitor > vcom-tunnel [PSH, ACK] Seq=1973 Ack=12599 Win=65535 Len=85
+230821  79.721955 244.239.193.90 -> 41.177.98.143 TCP 83 dls-monitor > vcom-tunnel [PSH, ACK] Seq=2058 Ack=12610 Win=65524 Len=25
+231171  79.856794 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=2083 Ack=15203 Win=65535 Len=0
+985304 328.939870 244.239.193.90 -> 41.177.98.143 TCP 94 dls-monitor > vcom-tunnel [PSH, ACK] Seq=2083 Ack=15203 Win=65535 Len=36
+985944 329.168157 244.239.193.90 -> 41.177.98.143 TCP 64 dls-monitor > vcom-tunnel [ACK] Seq=2119 Ack=15285 Win=65453 Len=0

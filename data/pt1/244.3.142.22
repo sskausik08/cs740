@@ -1,0 +1,31 @@
+3181   1.070764 244.3.142.22 -> 41.177.98.220 TCP 132 hpvmmagent > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=74
+4482   1.366163 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=75 Ack=360 Win=65176 Len=0
+7844   2.723332 244.3.142.22 -> 41.177.98.220 TCP 132 hpvmmagent > ups-onlinet [PSH, ACK] Seq=75 Ack=360 Win=65176 Len=74
+8149   2.864448 244.3.142.22 -> 41.177.98.220 TCP 132 hpvmmagent > ups-onlinet [PSH, ACK] Seq=149 Ack=1351 Win=64185 Len=74
+8751   3.076097 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=223 Ack=2312 Win=65535 Len=0
+96605  36.301098 244.3.142.22 -> 41.177.98.220 TCP 866 hpvmmagent > ups-onlinet [PSH, ACK] Seq=223 Ack=2312 Win=65535 Len=808
+97020  36.442734 244.3.142.22 -> 41.177.98.220 TCP 884 hpvmmagent > ups-onlinet [PSH, ACK] Seq=1031 Ack=3137 Win=64710 Len=826
+97036  36.453060 244.3.142.22 -> 41.177.98.220 TCP 926 hpvmmagent > ups-onlinet [PSH, ACK] Seq=1857 Ack=3217 Win=64630 Len=868
+101321  37.275060 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=2725 Ack=4104 Win=65535 Len=0
+117191  41.941767 244.3.142.22 -> 41.177.98.220 TCP 836 hpvmmagent > ups-onlinet [PSH, ACK] Seq=2725 Ack=4104 Win=65535 Len=778
+117384  42.072044 244.3.142.22 -> 41.177.98.220 TCP 854 hpvmmagent > ups-onlinet [PSH, ACK] Seq=3503 Ack=4899 Win=64740 Len=796
+117397  42.083011 244.3.142.22 -> 41.177.98.220 TCP 896 hpvmmagent > ups-onlinet [PSH, ACK] Seq=4299 Ack=4979 Win=64660 Len=838
+118185  42.404907 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5137 Ack=5836 Win=65535 Len=0
+124794  44.553835 244.3.142.22 -> 41.177.98.220 TCP 156 hpvmmagent > ups-onlinet [PSH, ACK] Seq=5137 Ack=5836 Win=65535 Len=98
+124944  44.607184 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5235 Ack=8756 Win=65535 Len=0
+124945  44.607310 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5235 Ack=10467 Win=65535 Len=0
+125023  44.650163 244.3.142.22 -> 41.177.98.220 TCP 129 hpvmmagent > ups-onlinet [PSH, ACK] Seq=5235 Ack=10467 Win=65535 Len=71
+125028  44.652093 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5306 Ack=13387 Win=65535 Len=0
+125029  44.652215 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5306 Ack=14964 Win=65535 Len=0
+125032  44.658443 244.3.142.22 -> 41.177.98.220 TCP 130 hpvmmagent > ups-onlinet [PSH, ACK] Seq=5306 Ack=14964 Win=65535 Len=72
+125037  44.660097 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5378 Ack=17884 Win=65535 Len=0
+125038  44.660220 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5378 Ack=19423 Win=65535 Len=0
+125046  44.664877 244.3.142.22 -> 41.177.98.220 TCP 130 hpvmmagent > ups-onlinet [PSH, ACK] Seq=5378 Ack=19423 Win=65535 Len=72
+125053  44.666585 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5450 Ack=22343 Win=65535 Len=0
+125063  44.671184 244.3.142.22 -> 41.177.98.220 TCP 130 hpvmmagent > ups-onlinet [PSH, ACK] Seq=5450 Ack=23743 Win=64135 Len=72
+125067  44.672930 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5522 Ack=26663 Win=65535 Len=0
+125071  44.677490 244.3.142.22 -> 41.177.98.220 TCP 130 hpvmmagent > ups-onlinet [PSH, ACK] Seq=5522 Ack=27976 Win=64222 Len=72
+125075  44.679356 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5594 Ack=30896 Win=65535 Len=0
+125082  44.684398 244.3.142.22 -> 41.177.98.220 TCP 130 hpvmmagent > ups-onlinet [PSH, ACK] Seq=5594 Ack=32287 Win=64144 Len=72
+125086  44.686077 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5666 Ack=35207 Win=65535 Len=0
+125427  44.818951 244.3.142.22 -> 41.177.98.220 TCP 64 hpvmmagent > ups-onlinet [ACK] Seq=5666 Ack=36280 Win=64462 Len=0

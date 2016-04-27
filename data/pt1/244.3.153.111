@@ -1,0 +1,19 @@
+7320   2.451807 244.3.153.111 -> 41.177.24.241 TCP 132 qip-qdhcp > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=48460 Len=74[Packet size limited during capture]
+25168   9.658603 244.3.153.111 -> 41.177.3.117 TCP 64 netadmin > microsoft-ds [ACK] Seq=1343 Ack=1357 Win=64591 Len=0
+41167  17.202637 244.3.153.111 -> 41.177.24.241 TCP 64 qip-qdhcp > xmpp-client [ACK] Seq=75 Ack=331 Win=48130 Len=0
+50587  20.624360 244.3.153.111 -> 41.177.24.241 TCP 64 pwrsevent > imaps [ACK] Seq=33 Ack=41 Win=65290 Len=0
+172413  57.452365 244.3.153.111 -> 41.177.24.241 TCP 132 qip-qdhcp > xmpp-client [PSH, ACK] Seq=75 Ack=331 Win=48130 Len=74[Packet size limited during capture]
+202241  69.809750 244.3.153.111 -> 41.177.3.117 TCP 64 netadmin > microsoft-ds [ACK] Seq=2685 Ack=2713 Win=64591 Len=0
+321817 110.101527 244.3.153.111 -> 41.177.153.71 UDP 124 Source port: fpo-fns  Destination port: snmp
+321857 110.106486 244.3.153.111 -> 41.177.153.188 UDP 124 Source port: fpo-fns  Destination port: snmp
+326020 112.462035 244.3.153.111 -> 41.177.24.241 TCP 132 qip-qdhcp > xmpp-client [PSH, ACK] Seq=149 Ack=331 Win=48130 Len=74[Packet size limited during capture]
+389266 129.961148 244.3.153.111 -> 41.177.3.117 TCP 64 netadmin > microsoft-ds [ACK] Seq=4027 Ack=4069 Win=64591 Len=0
+435521 142.031384 244.3.153.111 -> 41.177.24.241 TCP 64 pwrsevent > imaps [ACK] Seq=65 Ack=81 Win=65250 Len=0
+517782 167.447975 244.3.153.111 -> 41.177.24.241 TCP 132 qip-qdhcp > xmpp-client [PSH, ACK] Seq=223 Ack=331 Win=48130 Len=74[Packet size limited during capture]
+599535 190.112005 244.3.153.111 -> 41.177.3.117 TCP 64 netadmin > microsoft-ds [ACK] Seq=5369 Ack=5425 Win=64591 Len=0
+700704 222.472995 244.3.153.111 -> 41.177.24.241 TCP 132 qip-qdhcp > xmpp-client [PSH, ACK] Seq=297 Ack=331 Win=48130 Len=74[Packet size limited during capture]
+776743 250.262972 244.3.153.111 -> 41.177.3.117 TCP 64 netadmin > microsoft-ds [ACK] Seq=6711 Ack=6781 Win=64591 Len=0
+806579 263.540546 244.3.153.111 -> 41.177.24.241 TCP 64 pwrsevent > imaps [ACK] Seq=97 Ack=121 Win=65210 Len=0
+843795 277.455508 244.3.153.111 -> 41.177.24.241 TCP 132 qip-qdhcp > xmpp-client [PSH, ACK] Seq=371 Ack=331 Win=48130 Len=74[Packet size limited during capture]
+931675 310.414013 244.3.153.111 -> 41.177.3.117 TCP 64 netadmin > microsoft-ds [ACK] Seq=8053 Ack=8137 Win=64591 Len=0
+995842 332.454950 244.3.153.111 -> 41.177.24.241 TCP 132 qip-qdhcp > xmpp-client [PSH, ACK] Seq=445 Ack=331 Win=48130 Len=74[Packet size limited during capture]

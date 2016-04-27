@@ -1,0 +1,4 @@
+768636 248.600384 194.66.177.202 -> 244.3.41.84  TCP 64 vnwk-prapi > telnet [ACK] Seq=11 Ack=1390 Win=65535 Len=0
+779551 251.674521 194.66.177.202 -> 244.3.41.84  TCP 64 vnwk-prapi > telnet [ACK] Seq=29 Ack=4223 Win=65535 Len=0
+800331 261.314431 194.66.177.202 -> 244.3.41.84  TCP 64 vnwk-prapi > telnet [ACK] Seq=63 Ack=5801 Win=65535 Len=0
+897124 296.829475 194.66.177.202 -> 244.3.41.84  TCP 64 vnwk-prapi > telnet [ACK] Seq=108 Ack=7379 Win=65535 Len=0

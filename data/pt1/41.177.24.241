@@ -1,0 +1,441 @@
+6439   2.071718 41.177.24.241 -> 244.3.153.186 TCP 64 xmpp-client > 4790 [ACK] Seq=1 Ack=75 Win=49450 Len=0
+7321   2.452386 41.177.24.241 -> 244.3.153.111 TCP 64 xmpp-client > qip-qdhcp [ACK] Seq=1 Ack=75 Win=49450 Len=0
+21127   7.102292 41.177.24.241 -> 244.3.153.33 TCP 388 xmpp-client > vdmplay [PSH, ACK] Seq=1 Ack=267 Win=49450 Len=330[Packet size limited during capture]
+21136   7.110380 41.177.24.241 -> 244.3.153.33 TCP 340 xmpp-client > vdmplay [PSH, ACK] Seq=331 Ack=267 Win=49450 Len=282[Packet size limited during capture]
+21162   7.142585 41.177.24.241 -> 244.3.153.33 TCP 324 xmpp-client > vdmplay [PSH, ACK] Seq=613 Ack=533 Win=49450 Len=266[Packet size limited during capture]
+21228   7.215129 41.177.24.241 -> 244.3.153.33 TCP 64 xmpp-client > vdmplay [ACK] Seq=879 Ack=799 Win=49450 Len=0
+24874   9.483715 41.177.24.241 -> 244.3.153.0  TCP 64 xmpp-client > netattachsdmp [ACK] Seq=1 Ack=75 Win=49450 Len=0
+28882  11.739026 41.177.24.241 -> 244.3.153.48 TCP 64 imaps > mc-client [ACK] Seq=1 Ack=32 Win=49450 Len=0
+29066  11.810986 41.177.24.241 -> 244.3.153.48 TCP 64 imaps > mc-client [ACK] Seq=40 Ack=79 Win=49450 Len=0
+29266  11.919788 41.177.24.241 -> 244.3.153.48 TCP 64 imaps > mc-client [ACK] Seq=288 Ack=161 Win=49450 Len=0
+33603  14.262822 41.177.24.241 -> 244.3.153.48 TCP 64 xmpp-client > dossier [ACK] Seq=1 Ack=75 Win=49450 Len=0
+36953  15.416062 41.177.24.241 -> 244.3.153.106 TCP 64 xmpp-client > imagequery [ACK] Seq=1 Ack=75 Win=49450 Len=0
+40831  17.056601 41.177.24.241 -> 244.3.153.111 TCP 388 xmpp-client > qip-qdhcp [PSH, ACK] Seq=1 Ack=75 Win=49450 Len=330[Packet size limited during capture]
+40835  17.057767 41.177.24.241 -> 244.3.153.33 TCP 388 xmpp-client > vdmplay [PSH, ACK] Seq=879 Ack=799 Win=49450 Len=330[Packet size limited during capture]
+42434  17.837114 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=1 Ack=1 Win=49450 Len=250[Packet size limited during capture]
+42900  18.146415 41.177.24.241 -> 244.3.153.33 TCP 64 xmpp-client > vdmplay [ACK] Seq=1209 Ack=873 Win=49450 Len=0
+45453  19.028690 41.177.24.241 -> 244.3.153.142 TCP 324 xmpp-client > 51016 [PSH, ACK] Seq=251 Ack=1 Win=49450 Len=266[Packet size limited during capture]
+45652  19.122504 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=517 Ack=1 Win=49450 Len=250[Packet size limited during capture]
+50359  20.500137 41.177.24.241 -> 244.3.153.111 TCP 64 imaps > pwrsevent [ACK] Seq=1 Ack=33 Win=49450 Len=0
+50389  20.508892 41.177.24.241 -> 244.3.153.142 TCP 420 xmpp-client > 51016 [PSH, ACK] Seq=767 Ack=1 Win=49450 Len=362[Packet size limited during capture]
+50645  20.646624 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=1129 Ack=198 Win=49450 Len=0
+50681  20.671350 41.177.24.241 -> 244.3.153.142 TCP 340 xmpp-client > 51016 [PSH, ACK] Seq=1129 Ack=198 Win=49450 Len=282[Packet size limited during capture]
+50999  20.928007 41.177.24.241 -> 244.3.153.117 TCP 70 imaps > 49376 [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 WS=1 SACK_PERM=1
+51007  20.932729 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=1 Ack=183 Win=49268 Len=0
+51050  20.953467 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=123 Ack=226 Win=49450 Len=0
+54829  22.689820 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=1 Ack=102 Win=50072 Len=314 TSval=380519845 TSecr=505830403[Packet size limited during capture]
+54966  22.726794 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=1 Ack=102 Win=50072 Len=330 TSval=380519848 TSecr=505830404[Packet size limited during capture]
+60655  24.577195 41.177.24.241 -> 244.3.153.156 TCP 64 xmpp-client > gpfs [ACK] Seq=1 Ack=75 Win=49450 Len=0
+65755  27.102353 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=775 Ack=304 Win=49450 Len=0
+65919  27.162998 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=800 Ack=383 Win=49450 Len=0
+66256  27.308795 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=842 Ack=468 Win=49450 Len=0
+66411  27.360222 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=1 Ack=102 Win=49028 Len=314 TSval=440304089 TSecr=599059957[Packet size limited during capture]
+66483  27.414917 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=955 Ack=502 Win=49450 Len=0
+66623  27.472769 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=1080 Ack=541 Win=49450 Len=0
+66883  27.556275 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=1220 Ack=577 Win=49450 Len=0
+67085  27.625923 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=1933 Ack=691 Win=49450 Len=0
+67376  27.712316 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=2040 Ack=771 Win=49450 Len=0
+67527  27.797314 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=2422 Ack=813 Win=49450 Len=0
+67752  27.886540 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=2644 Ack=906 Win=49450 Len=0
+68323  28.137436 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=1411 Ack=395 Win=49450 Len=0
+69017  28.575776 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=1411 Ack=704 Win=49450 Len=0
+69212  28.708374 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=1411 Ack=885 Win=49450 Len=0
+71553  29.494178 41.177.24.241 -> 244.3.153.30 TCP 64 xmpp-client > olsv [ACK] Seq=1 Ack=75 Win=49450 Len=0
+84046  32.658368 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=1411 Ack=885 Win=49450 Len=250[Packet size limited during capture]
+87466  33.834024 41.177.24.241 -> 244.3.153.142 TCP 340 xmpp-client > 51016 [PSH, ACK] Seq=1661 Ack=885 Win=49450 Len=282[Packet size limited during capture]
+87617  33.900920 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=1943 Ack=885 Win=49450 Len=250[Packet size limited during capture]
+94149  35.798296 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=2193 Ack=1082 Win=49450 Len=0
+96351  36.207838 41.177.24.241 -> 244.3.153.117 TCP 70 xmpp-client > 49379 [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 WS=1 SACK_PERM=1
+96377  36.212394 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=1 Ack=201 Win=49250 Len=0
+96404  36.223387 41.177.24.241 -> 244.3.153.117 TCP 221 xmpp-client > 49379 [PSH, ACK] Seq=1 Ack=201 Win=49450 Len=163[Packet size limited during capture]
+96406  36.223922 41.177.24.241 -> 244.3.153.117 TCP 259 xmpp-client > 49379 [PSH, ACK] Seq=164 Ack=201 Win=49450 Len=201[Packet size limited during capture]
+96447  36.233240 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=365 Ack=252 Win=49450 Len=0
+96459  36.234276 41.177.24.241 -> 244.3.153.117 TCP 108 xmpp-client > 49379 [PSH, ACK] Seq=365 Ack=252 Win=49450 Len=50[Packet size limited during capture]
+98441  36.724380 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=2193 Ack=1391 Win=49450 Len=0
+99021  36.868414 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=2193 Ack=1572 Win=49450 Len=0
+103441  37.615879 41.177.24.241 -> 244.3.153.117 TCP 1208 xmpp-client > 49379 [ACK] Seq=415 Ack=376 Win=49450 Len=1150[Packet size limited during capture]
+103442  37.615883 41.177.24.241 -> 244.3.153.117 TCP 1208 xmpp-client > 49379 [ACK] Seq=1565 Ack=376 Win=49450 Len=1150[Packet size limited during capture]
+103443  37.615887 41.177.24.241 -> 244.3.153.117 TCP 1208 xmpp-client > 49379 [ACK] Seq=2715 Ack=376 Win=49450 Len=1150[Packet size limited during capture]
+103444  37.615891 41.177.24.241 -> 244.3.153.117 TCP 442 xmpp-client > 49379 [PSH, ACK] Seq=3865 Ack=376 Win=49450 Len=384[Packet size limited during capture]
+103850  37.678507 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=4249 Ack=702 Win=49450 Len=0
+104269  37.728409 41.177.24.241 -> 244.3.153.117 TCP 117 xmpp-client > 49379 [PSH, ACK] Seq=4249 Ack=702 Win=49450 Len=59[Packet size limited during capture]
+104296  37.734389 41.177.24.241 -> 244.3.153.117 TCP 292 xmpp-client > 49379 [PSH, ACK] Seq=4308 Ack=968 Win=49450 Len=234[Packet size limited during capture]
+104302  37.735126 41.177.24.241 -> 244.3.153.117 TCP 260 xmpp-client > 49379 [PSH, ACK] Seq=4542 Ack=968 Win=49450 Len=202[Packet size limited during capture]
+104418  37.798533 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=4744 Ack=1138 Win=49450 Len=0
+107600  38.707859 41.177.24.241 -> 244.3.153.117 TCP 180 xmpp-client > 49379 [PSH, ACK] Seq=4744 Ack=1138 Win=49450 Len=122[Packet size limited during capture]
+107665  38.716760 41.177.24.241 -> 244.3.153.117 TCP 292 xmpp-client > 49379 [PSH, ACK] Seq=4866 Ack=1404 Win=49450 Len=234[Packet size limited during capture]
+107667  38.717231 41.177.24.241 -> 244.3.153.117 TCP 260 xmpp-client > 49379 [PSH, ACK] Seq=5100 Ack=1404 Win=49450 Len=202[Packet size limited during capture]
+107709  38.728517 41.177.24.241 -> 244.3.153.117 TCP 260 xmpp-client > 49379 [PSH, ACK] Seq=5302 Ack=1606 Win=49450 Len=202[Packet size limited during capture]
+107927  38.778633 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=5504 Ack=1792 Win=49450 Len=0
+108026  38.834805 41.177.24.241 -> 244.3.153.117 TCP 244 xmpp-client > 49379 [PSH, ACK] Seq=5504 Ack=1792 Win=49450 Len=186[Packet size limited during capture]
+108156  38.899718 41.177.24.241 -> 244.3.153.117 TCP 1208 xmpp-client > 49379 [ACK] Seq=5690 Ack=1946 Win=49450 Len=1150[Packet size limited during capture]
+108157  38.899723 41.177.24.241 -> 244.3.153.117 TCP 710 xmpp-client > 49379 [PSH, ACK] Seq=6840 Ack=1946 Win=49450 Len=652[Packet size limited during capture]
+108425  39.009997 41.177.24.241 -> 244.3.153.33 TCP 388 xmpp-client > vdmplay [PSH, ACK] Seq=1209 Ack=873 Win=49450 Len=330[Packet size limited during capture]
+108498  39.027166 41.177.24.241 -> 244.3.153.117 TCP 372 xmpp-client > 49379 [PSH, ACK] Seq=7492 Ack=2212 Win=49450 Len=314[Packet size limited during capture]
+108514  39.030897 41.177.24.241 -> 244.3.153.117 TCP 356 xmpp-client > 49379 [PSH, ACK] Seq=7806 Ack=2212 Win=49450 Len=298[Packet size limited during capture]
+108518  39.031764 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=8104 Ack=2894 Win=49450 Len=330[Packet size limited during capture]
+108529  39.034743 41.177.24.241 -> 244.3.153.117 TCP 436 xmpp-client > 49379 [PSH, ACK] Seq=8434 Ack=2894 Win=49450 Len=378[Packet size limited during capture]
+108531  39.035616 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=8812 Ack=2894 Win=49450 Len=330[Packet size limited during capture]
+108540  39.037739 41.177.24.241 -> 244.3.153.117 TCP 468 xmpp-client > 49379 [PSH, ACK] Seq=9142 Ack=2894 Win=49450 Len=410[Packet size limited during capture]
+108542  39.038935 41.177.24.241 -> 244.3.153.117 TCP 532 xmpp-client > 49379 [PSH, ACK] Seq=9552 Ack=2894 Win=49450 Len=474[Packet size limited during capture]
+108550  39.040563 41.177.24.241 -> 244.3.153.117 TCP 372 xmpp-client > 49379 [PSH, ACK] Seq=10026 Ack=2894 Win=49450 Len=314[Packet size limited during capture]
+108566  39.044787 41.177.24.241 -> 244.3.153.117 TCP 484 xmpp-client > 49379 [PSH, ACK] Seq=10340 Ack=2894 Win=49450 Len=426[Packet size limited during capture]
+108574  39.045728 41.177.24.241 -> 244.3.153.117 TCP 404 xmpp-client > 49379 [PSH, ACK] Seq=10766 Ack=2894 Win=49450 Len=346[Packet size limited during capture]
+108596  39.048808 41.177.24.241 -> 244.3.153.117 TCP 564 xmpp-client > 49379 [PSH, ACK] Seq=11112 Ack=2894 Win=49450 Len=506[Packet size limited during capture]
+108598  39.049730 41.177.24.241 -> 244.3.153.117 TCP 436 xmpp-client > 49379 [PSH, ACK] Seq=11618 Ack=2894 Win=49450 Len=378[Packet size limited during capture]
+108601  39.050664 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=11996 Ack=2894 Win=49450 Len=330[Packet size limited during capture]
+108608  39.053034 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=12326 Ack=2894 Win=49450 Len=330[Packet size limited during capture]
+108610  39.053927 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=12656 Ack=2894 Win=49450 Len=330[Packet size limited during capture]
+108614  39.055686 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=12986 Ack=2894 Win=49450 Len=330[Packet size limited during capture]
+108628  39.058480 41.177.24.241 -> 244.3.153.117 TCP 420 xmpp-client > 49379 [PSH, ACK] Seq=13316 Ack=2894 Win=49450 Len=362[Packet size limited during capture]
+108633  39.059535 41.177.24.241 -> 244.3.153.117 TCP 468 xmpp-client > 49379 [PSH, ACK] Seq=13678 Ack=2894 Win=49450 Len=410[Packet size limited during capture]
+108647  39.063255 41.177.24.241 -> 244.3.153.117 TCP 436 xmpp-client > 49379 [PSH, ACK] Seq=14088 Ack=2894 Win=49450 Len=378[Packet size limited during capture]
+108651  39.063972 41.177.24.241 -> 244.3.153.117 TCP 340 xmpp-client > 49379 [PSH, ACK] Seq=14466 Ack=2894 Win=49450 Len=282[Packet size limited during capture]
+108657  39.064880 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=14748 Ack=3144 Win=49450 Len=330[Packet size limited during capture]
+108671  39.066784 41.177.24.241 -> 244.3.153.117 TCP 340 xmpp-client > 49379 [PSH, ACK] Seq=15078 Ack=3144 Win=49450 Len=282[Packet size limited during capture]
+108674  39.067894 41.177.24.241 -> 244.3.153.117 TCP 484 xmpp-client > 49379 [PSH, ACK] Seq=15360 Ack=3144 Win=49450 Len=426[Packet size limited during capture]
+108689  39.068587 41.177.24.241 -> 244.3.153.117 TCP 340 xmpp-client > 49379 [PSH, ACK] Seq=15786 Ack=3144 Win=49450 Len=282[Packet size limited during capture]
+108693  39.069832 41.177.24.241 -> 244.3.153.117 TCP 340 xmpp-client > 49379 [PSH, ACK] Seq=16068 Ack=3144 Win=49450 Len=282[Packet size limited during capture]
+108697  39.071766 41.177.24.241 -> 244.3.153.117 TCP 340 xmpp-client > 49379 [PSH, ACK] Seq=16350 Ack=3144 Win=49450 Len=282[Packet size limited during capture]
+108738  39.076660 41.177.24.241 -> 244.3.153.117 TCP 852 xmpp-client > 49379 [PSH, ACK] Seq=16632 Ack=3144 Win=49450 Len=794[Packet size limited during capture]
+108744  39.078273 41.177.24.241 -> 244.3.153.117 TCP 308 xmpp-client > 49379 [PSH, ACK] Seq=17426 Ack=3144 Win=49450 Len=250[Packet size limited during capture]
+108763  39.082748 41.177.24.241 -> 244.3.153.117 TCP 692 xmpp-client > 49379 [PSH, ACK] Seq=17676 Ack=3144 Win=49450 Len=634[Packet size limited during capture]
+108804  39.096395 41.177.24.241 -> 244.3.153.117 TCP 340 xmpp-client > 49379 [PSH, ACK] Seq=18310 Ack=3144 Win=49450 Len=282[Packet size limited during capture]
+108808  39.096977 41.177.24.241 -> 244.3.153.117 TCP 276 xmpp-client > 49379 [PSH, ACK] Seq=18592 Ack=3144 Win=49450 Len=218[Packet size limited during capture]
+108813  39.097580 41.177.24.241 -> 244.3.153.117 TCP 276 xmpp-client > 49379 [PSH, ACK] Seq=18810 Ack=3144 Win=49450 Len=218[Packet size limited during capture]
+109038  39.176961 41.177.24.241 -> 244.3.153.117 TCP 276 xmpp-client > 49379 [PSH, ACK] Seq=19028 Ack=3144 Win=49450 Len=218[Packet size limited during capture]
+109041  39.177723 41.177.24.241 -> 244.3.153.117 TCP 276 xmpp-client > 49379 [PSH, ACK] Seq=19246 Ack=3144 Win=49450 Len=218[Packet size limited during capture]
+109435  39.276895 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=19464 Ack=4912 Win=49450 Len=0
+109440  39.278236 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=19464 Ack=8362 Win=46000 Len=0
+109469  39.284179 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=19464 Ack=11168 Win=49450 Len=0
+109819  39.358694 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=19464 Ack=12106 Win=49450 Len=0
+110958  39.683767 41.177.24.241 -> 244.3.153.117 TCP 1092 xmpp-client > 49379 [PSH, ACK] Seq=19464 Ack=12106 Win=49450 Len=1034[Packet size limited during capture]
+111006  39.691373 41.177.24.241 -> 244.3.153.117 TCP 820 xmpp-client > 49379 [PSH, ACK] Seq=20498 Ack=12106 Win=49450 Len=762[Packet size limited during capture]
+111389  39.803493 41.177.24.241 -> 244.3.153.117 TCP 452 xmpp-client > 49379 [PSH, ACK] Seq=21260 Ack=12106 Win=49450 Len=394[Packet size limited during capture]
+113999  40.613197 41.177.24.241 -> 244.3.153.117 TCP 820 xmpp-client > 49379 [PSH, ACK] Seq=21654 Ack=12106 Win=49450 Len=762[Packet size limited during capture]
+114007  40.618887 41.177.24.241 -> 244.3.153.117 TCP 468 xmpp-client > 49379 [PSH, ACK] Seq=22416 Ack=12106 Win=49450 Len=410[Packet size limited during capture]
+114009  40.620420 41.177.24.241 -> 244.3.153.117 TCP 820 xmpp-client > 49379 [PSH, ACK] Seq=22826 Ack=12106 Win=49450 Len=762[Packet size limited during capture]
+114023  40.627789 41.177.24.241 -> 244.3.153.117 TCP 1108 xmpp-client > 49379 [PSH, ACK] Seq=23588 Ack=12106 Win=49450 Len=1050[Packet size limited during capture]
+114033  40.632627 41.177.24.241 -> 244.3.153.117 TCP 1108 xmpp-client > 49379 [PSH, ACK] Seq=24638 Ack=12106 Win=49450 Len=1050[Packet size limited during capture]
+114039  40.633293 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=25688 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114043  40.634074 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=26018 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114046  40.634858 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=26348 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114051  40.636969 41.177.24.241 -> 244.3.153.117 TCP 1108 xmpp-client > 49379 [PSH, ACK] Seq=26678 Ack=12106 Win=49450 Len=1050[Packet size limited during capture]
+114054  40.637613 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=27728 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114060  40.638399 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=28058 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114062  40.639204 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=28388 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114064  40.639982 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=28718 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114066  40.640720 41.177.24.241 -> 244.3.153.117 TCP 356 xmpp-client > 49379 [PSH, ACK] Seq=29048 Ack=12106 Win=49450 Len=298[Packet size limited during capture]
+114069  40.641642 41.177.24.241 -> 244.3.153.117 TCP 420 xmpp-client > 49379 [PSH, ACK] Seq=29346 Ack=12106 Win=49450 Len=362[Packet size limited during capture]
+114071  40.642356 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=29708 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114073  40.643140 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=30038 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114076  40.643918 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=30368 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114080  40.644692 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=30698 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114082  40.645531 41.177.24.241 -> 244.3.153.117 TCP 420 xmpp-client > 49379 [PSH, ACK] Seq=31028 Ack=12106 Win=49450 Len=362[Packet size limited during capture]
+114092  40.651747 41.177.24.241 -> 244.3.153.117 TCP 420 xmpp-client > 49379 [PSH, ACK] Seq=31390 Ack=12106 Win=49450 Len=362[Packet size limited during capture]
+114220  40.748539 41.177.24.241 -> 244.3.153.117 TCP 724 xmpp-client > 49379 [PSH, ACK] Seq=31752 Ack=12106 Win=49450 Len=666[Packet size limited during capture]
+114222  40.749610 41.177.24.241 -> 244.3.153.117 TCP 468 xmpp-client > 49379 [PSH, ACK] Seq=32418 Ack=12106 Win=49450 Len=410[Packet size limited during capture]
+114710  40.999941 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=32828 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114727  41.000944 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=33158 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+114732  41.001876 41.177.24.241 -> 244.3.153.117 TCP 356 xmpp-client > 49379 [PSH, ACK] Seq=33488 Ack=12106 Win=49450 Len=298[Packet size limited during capture]
+114738  41.002870 41.177.24.241 -> 244.3.153.117 TCP 420 xmpp-client > 49379 [PSH, ACK] Seq=33786 Ack=12106 Win=49450 Len=362[Packet size limited during capture]
+114745  41.003651 41.177.24.241 -> 244.3.153.117 TCP 388 xmpp-client > 49379 [PSH, ACK] Seq=34148 Ack=12106 Win=49450 Len=330[Packet size limited during capture]
+117434  42.109012 41.177.24.241 -> 244.3.153.25 TCP 64 xmpp-client > 49421 [ACK] Seq=1 Ack=75 Win=49450 Len=0
+119307  42.770192 41.177.24.241 -> 244.3.153.117 TCP 724 xmpp-client > 49379 [PSH, ACK] Seq=34478 Ack=12106 Win=49450 Len=666[Packet size limited during capture]
+119309  42.771115 41.177.24.241 -> 244.3.153.117 TCP 452 xmpp-client > 49379 [PSH, ACK] Seq=35144 Ack=12106 Win=49450 Len=394[Packet size limited during capture]
+122374  43.565282 41.177.24.241 -> 244.3.153.117 TCP 596 xmpp-client > 49379 [PSH, ACK] Seq=35538 Ack=12106 Win=49450 Len=538[Packet size limited during capture]
+123766  44.113742 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=2193 Ack=1572 Win=49450 Len=250[Packet size limited during capture]
+125151  44.726386 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=290 Ack=157 Win=49450 Len=0
+125522  44.831528 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=328 Ack=204 Win=49450 Len=0
+126424  44.922584 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=488 Ack=255 Win=49450 Len=0
+129275  45.245616 41.177.24.241 -> 244.3.153.13 TCP 64 xmpp-client > nucleus-sand [ACK] Seq=1 Ack=75 Win=49450 Len=0
+129797  45.373720 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=581 Ack=286 Win=49450 Len=0
+130090  45.454677 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=780 Ack=384 Win=49450 Len=0
+131743  45.845145 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52684 [ACK] Seq=69 Ack=379 Win=50072 Len=0 TSval=431499986 TSecr=505830634
+131761  45.850070 41.177.24.241 -> 244.3.153.142 TCP 340 xmpp-client > 51016 [PSH, ACK] Seq=2443 Ack=1572 Win=49450 Len=282[Packet size limited during capture]
+131868  45.912541 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=2725 Ack=1572 Win=49450 Len=250[Packet size limited during capture]
+132023  45.971356 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52684 [ACK] Seq=838 Ack=605 Win=50072 Len=0 TSval=431499999 TSecr=505830636
+132424  46.141917 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=912 Ack=462 Win=49450 Len=0
+134636  46.769975 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=2975 Ack=1572 Win=49450 Len=250[Packet size limited during capture]
+136232  47.426841 41.177.24.241 -> 244.3.153.142 TCP 420 xmpp-client > 51016 [PSH, ACK] Seq=3225 Ack=1572 Win=49450 Len=362[Packet size limited during capture]
+136617  47.560137 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=3587 Ack=1769 Win=49450 Len=0
+136636  47.563314 41.177.24.241 -> 244.3.153.142 TCP 340 xmpp-client > 51016 [PSH, ACK] Seq=3587 Ack=1769 Win=49450 Len=282[Packet size limited during capture]
+143496  49.306555 41.177.24.241 -> 244.3.153.142 TCP 340 xmpp-client > 51016 [PSH, ACK] Seq=3869 Ack=1769 Win=49450 Len=282[Packet size limited during capture]
+143710  49.372898 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=4151 Ack=1769 Win=49450 Len=250[Packet size limited during capture]
+148320  50.935978 41.177.24.241 -> 244.3.153.117 TCP 70 imaps > 49380 [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 WS=1 SACK_PERM=1
+148335  50.938863 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=1 Ack=183 Win=49268 Len=0
+148378  50.959609 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=123 Ack=226 Win=49450 Len=0
+148562  51.012553 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=2908 Ack=982 Win=49450 Len=0
+148872  51.104453 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=800 Ack=367 Win=49450 Len=0
+150984  51.812553 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=2053 Ack=713 Win=49450 Len=0
+152683  52.280363 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=2748 Ack=996 Win=49450 Len=0
+153819  52.570073 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=4401 Ack=1769 Win=49450 Len=250[Packet size limited during capture]
+154240  52.690004 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=315 Ack=203 Win=50072 Len=314 TSval=380522844 TSecr=505830703[Packet size limited during capture]
+154383  52.727255 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=331 Ack=203 Win=50072 Len=330 TSval=380522848 TSecr=505830703[Packet size limited during capture]
+154853  52.897382 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=79183 Ack=1432 Win=49450 Len=0
+158197  53.896840 41.177.24.241 -> 244.3.153.239 TCP 66 imaps > connect [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 SACK_PERM=1
+158229  53.900643 41.177.24.241 -> 244.3.153.239 TCP 66 imaps > unbind-cluster [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 SACK_PERM=1
+158247  53.904546 41.177.24.241 -> 244.3.153.239 TCP 66 imaps > ias-auth [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 SACK_PERM=1
+158699  54.042128 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > unbind-cluster [ACK] Seq=1 Ack=103 Win=49348 Len=0
+158702  54.042263 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=1 Ack=103 Win=49450 Len=0
+158703  54.042295 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > ias-auth [ACK] Seq=1 Ack=103 Win=49348 Len=0
+158964  54.139944 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=123 Ack=146 Win=49450 Len=0
+159029  54.153781 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > stone-design-1 [ACK] Seq=41 Ack=65 Win=49450 Len=0
+159343  54.239849 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > unbind-cluster [ACK] Seq=123 Ack=146 Win=49450 Len=0
+159357  54.243904 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > ias-auth [ACK] Seq=123 Ack=146 Win=49450 Len=0
+160100  54.505801 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=778 Ack=262 Win=49450 Len=0
+160262  54.559348 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > unbind-cluster [ACK] Seq=778 Ack=244 Win=49450 Len=0
+160263  54.559353 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > ias-auth [ACK] Seq=778 Ack=244 Win=49450 Len=0
+160443  54.634347 41.177.24.241 -> 244.3.153.67 TCP 64 xmpp-client > pictrography [ACK] Seq=1 Ack=75 Win=49450 Len=0
+161395  54.938445 41.177.24.241 -> 244.3.153.142 TCP 340 xmpp-client > 51016 [PSH, ACK] Seq=4651 Ack=1769 Win=49450 Len=282[Packet size limited during capture]
+161562  55.003075 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=4933 Ack=1769 Win=49450 Len=250[Packet size limited during capture]
+162026  55.127142 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=1154 Ack=410 Win=49450 Len=0
+162960  55.325991 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=1229 Ack=468 Win=49450 Len=0
+163794  55.524315 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=1303 Ack=518 Win=49450 Len=0
+164688  55.752279 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=1369 Ack=569 Win=49450 Len=0
+171603  57.076725 41.177.24.241 -> 244.3.153.186 TCP 64 xmpp-client > 4790 [ACK] Seq=1 Ack=149 Win=49450 Len=0
+171940  57.258307 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=315 Ack=203 Win=49028 Len=314 TSval=440307079 TSecr=599060256[Packet size limited during capture]
+172796  57.506768 41.177.24.241 -> 244.3.153.111 TCP 64 xmpp-client > qip-qdhcp [ACK] Seq=331 Ack=149 Win=49450 Len=0
+173992  57.836311 41.177.24.241 -> 244.3.153.239 TCP 64 [TCP Dup ACK 170680#1] imaps > ias-auth [ACK] Seq=3684 Ack=469 Win=49450 Len=0
+179179  60.242257 41.177.24.241 -> 244.3.153.239 TCP 64 [TCP Dup ACK 170680#2] imaps > ias-auth [ACK] Seq=3684 Ack=469 Win=49450 Len=0
+189062  64.482245 41.177.24.241 -> 244.3.153.0  TCP 64 xmpp-client > netattachsdmp [ACK] Seq=1 Ack=149 Win=49450 Len=0
+189635  64.922741 41.177.24.241 -> 244.3.153.117 TCP 452 xmpp-client > 49379 [PSH, ACK] Seq=36076 Ack=12106 Win=49450 Len=394[Packet size limited during capture]
+200908  69.267861 41.177.24.241 -> 244.3.153.48 TCP 64 xmpp-client > dossier [ACK] Seq=1 Ack=149 Win=49450 Len=0
+204666  70.412200 41.177.24.241 -> 244.3.153.106 TCP 64 xmpp-client > imagequery [ACK] Seq=1 Ack=149 Win=49450 Len=0
+208904  71.874387 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=5183 Ack=1769 Win=49450 Len=250[Packet size limited during capture]
+212735  73.092540 41.177.24.241 -> 244.3.153.33 TCP 64 xmpp-client > vdmplay [ACK] Seq=1539 Ack=947 Win=49450 Len=0
+230505  79.593193 41.177.24.241 -> 244.3.153.156 TCP 64 xmpp-client > gpfs [ACK] Seq=1 Ack=149 Win=49450 Len=0
+238306  82.691433 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=629 Ack=304 Win=50072 Len=314 TSval=380525844 TSecr=505831002[Packet size limited during capture]
+238366  82.728331 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=661 Ack=304 Win=50072 Len=330 TSval=380525848 TSecr=505831003[Packet size limited during capture]
+242975  84.499146 41.177.24.241 -> 244.3.153.30 TCP 64 xmpp-client > olsv [ACK] Seq=1 Ack=149 Win=49450 Len=0
+243268  84.686638 41.177.24.241 -> 244.3.153.22 TCP 66 https > discovery-port [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 SACK_PERM=1
+243495  84.836840 41.177.24.241 -> 244.3.153.22 TCP 64 https > discovery-port [ACK] Seq=1 Ack=103 Win=49348 Len=0
+243787  85.002709 41.177.24.241 -> 244.3.153.22 TCP 64 https > discovery-port [ACK] Seq=904 Ack=285 Win=49450 Len=0
+244270  85.177897 41.177.24.241 -> 244.3.153.22 TCP 64 https > discovery-port [ACK] Seq=947 Ack=1592 Win=49450 Len=0
+244436  85.224488 41.177.24.241 -> 244.3.153.22 TCP 64 https > discovery-port [FIN, ACK] Seq=3361 Ack=1592 Win=49450 Len=0
+244810  85.385243 41.177.24.241 -> 244.3.153.22 TCP 64 https > discovery-port [ACK] Seq=3362 Ack=1593 Win=49450 Len=0
+247574  87.024132 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=629 Ack=304 Win=49028 Len=314 TSval=440310055 TSecr=599060556[Packet size limited during capture]
+251842  89.082319 41.177.24.241 -> 244.3.153.117 TCP 452 xmpp-client > 49379 [PSH, ACK] Seq=36470 Ack=12106 Win=49450 Len=394[Packet size limited during capture]
+251878  89.086675 41.177.24.241 -> 244.3.153.117 TCP 724 xmpp-client > 49379 [PSH, ACK] Seq=36864 Ack=12106 Win=49450 Len=666[Packet size limited during capture]
+251893  89.091672 41.177.24.241 -> 244.3.153.117 TCP 452 xmpp-client > 49379 [PSH, ACK] Seq=37530 Ack=12106 Win=49450 Len=394[Packet size limited during capture]
+253525  89.826128 41.177.24.241 -> 244.3.153.142 TCP 468 xmpp-client > 51016 [PSH, ACK] Seq=5433 Ack=1769 Win=49450 Len=410[Packet size limited during capture]
+253610  89.890947 41.177.24.241 -> 244.3.153.142 TCP 308 xmpp-client > 51016 [PSH, ACK] Seq=5843 Ack=1769 Win=49450 Len=250[Packet size limited during capture]
+277947  93.824846 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=37924 Ack=12180 Win=49450 Len=0
+290766  97.095224 41.177.24.241 -> 244.3.153.25 TCP 64 xmpp-client > 49421 [ACK] Seq=1 Ack=149 Win=49450 Len=0
+291950  97.725932 41.177.24.241 -> 244.3.153.0  TCP 372 xmpp-client > netattachsdmp [PSH, ACK] Seq=1 Ack=149 Win=49450 Len=314[Packet size limited during capture]
+291983  97.753194 41.177.24.241 -> 244.3.153.30 TCP 372 xmpp-client > olsv [PSH, ACK] Seq=1 Ack=149 Win=49450 Len=314[Packet size limited during capture]
+297001 100.250630 41.177.24.241 -> 244.3.153.13 TCP 64 xmpp-client > nucleus-sand [ACK] Seq=1 Ack=149 Win=49450 Len=0
+299311 100.929805 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [ACK] Seq=1436 Ack=604 Win=49450 Len=0
+299318 100.930637 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > connect [RST] Seq=1459 Win=49450 Len=0
+299360 100.945951 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > unbind-cluster [ACK] Seq=1403 Ack=586 Win=49450 Len=0
+299487 100.970026 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > ias-auth [ACK] Seq=3684 Ack=503 Win=49450 Len=0
+299488 100.970098 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > ias-auth [ACK] Seq=3684 Ack=504 Win=49450 Len=0
+299493 100.971609 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > unbind-cluster [RST] Seq=1426 Win=49450 Len=0
+299571 101.016531 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > ias-auth [RST] Seq=3707 Win=49450 Len=0
+310084 105.845067 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52684 [ACK] Seq=8197 Ack=741 Win=50072 Len=0 TSval=431505986 TSecr=505831233
+310205 105.882930 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52687 [ACK] Seq=388 Ack=232 Win=50072 Len=0 TSval=431505990 TSecr=505831234
+310628 105.997003 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52687 [ACK] Seq=484 Ack=1932 Win=50072 Len=0 TSval=431506001 TSecr=505831234
+321040 109.631445 41.177.24.241 -> 244.3.153.67 TCP 64 xmpp-client > pictrography [ACK] Seq=1 Ack=149 Win=49450 Len=0
+325406 112.071781 41.177.24.241 -> 244.3.153.186 TCP 64 xmpp-client > 4790 [ACK] Seq=1 Ack=223 Win=49450 Len=0
+326169 112.531795 41.177.24.241 -> 244.3.153.111 TCP 64 xmpp-client > qip-qdhcp [ACK] Seq=331 Ack=223 Win=49450 Len=0
+326526 112.690165 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=943 Ack=405 Win=50072 Len=314 TSval=380528844 TSecr=505831302[Packet size limited during capture]
+326591 112.727786 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=991 Ack=405 Win=50072 Len=330 TSval=380528848 TSecr=505831302[Packet size limited during capture]
+334699 117.022548 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=943 Ack=405 Win=49028 Len=314 TSval=440313055 TSecr=599060856[Packet size limited during capture]
+352395 119.467870 41.177.24.241 -> 244.3.153.0  TCP 64 xmpp-client > netattachsdmp [ACK] Seq=315 Ack=223 Win=49450 Len=0
+364870 124.272753 41.177.24.241 -> 244.3.153.48 TCP 64 xmpp-client > dossier [ACK] Seq=1 Ack=223 Win=49450 Len=0
+366542 125.418369 41.177.24.241 -> 244.3.153.106 TCP 64 xmpp-client > imagequery [ACK] Seq=1 Ack=223 Win=49450 Len=0
+368607 126.241146 41.177.24.241 -> 244.3.153.142 TCP 420 xmpp-client > 51016 [PSH, ACK] Seq=6093 Ack=1769 Win=49450 Len=362[Packet size limited during capture]
+372426 126.383516 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=6455 Ack=1982 Win=49450 Len=0
+374546 126.465790 41.177.24.241 -> 244.3.153.142 TCP 356 xmpp-client > 51016 [PSH, ACK] Seq=6455 Ack=1982 Win=49450 Len=298[Packet size limited during capture]
+385885 128.098644 41.177.24.241 -> 244.3.153.33 TCP 64 xmpp-client > vdmplay [ACK] Seq=1539 Ack=1021 Win=49450 Len=0
+389131 129.871764 41.177.24.241 -> 244.3.153.117 TCP 228 xmpp-client > 49379 [PSH, ACK] Seq=37924 Ack=12180 Win=49450 Len=170[Packet size limited during capture]
+389133 129.873724 41.177.24.241 -> 244.3.153.30 TCP 228 xmpp-client > olsv [PSH, ACK] Seq=315 Ack=149 Win=49450 Len=170[Packet size limited during capture]
+399921 134.599376 41.177.24.241 -> 244.3.153.156 TCP 64 xmpp-client > gpfs [ACK] Seq=1 Ack=223 Win=49450 Len=0
+424551 139.494130 41.177.24.241 -> 244.3.153.30 TCP 64 xmpp-client > olsv [ACK] Seq=485 Ack=223 Win=49450 Len=0
+437580 142.690633 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=1257 Ack=506 Win=50072 Len=314 TSval=380531844 TSecr=505831601[Packet size limited during capture]
+437683 142.730899 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=1321 Ack=506 Win=50072 Len=330 TSval=380531848 TSecr=505831602[Packet size limited during capture]
+452568 147.405408 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=1257 Ack=506 Win=49028 Len=314 TSval=440316093 TSecr=599061156[Packet size limited during capture]
+455982 148.835186 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=38094 Ack=12254 Win=49450 Len=0
+458960 150.074637 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=1165 Ack=544 Win=49450 Len=0
+459117 150.134063 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=1204 Ack=591 Win=49450 Len=0
+463202 152.101324 41.177.24.241 -> 244.3.153.25 TCP 64 xmpp-client > 49421 [ACK] Seq=1 Ack=223 Win=49450 Len=0
+463340 152.161189 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=1496 Ack=720 Win=49450 Len=0
+463553 152.254996 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=1656 Ack=771 Win=49450 Len=0
+470267 155.245568 41.177.24.241 -> 244.3.153.13 TCP 64 xmpp-client > nucleus-sand [ACK] Seq=1 Ack=223 Win=49450 Len=0
+512238 164.636441 41.177.24.241 -> 244.3.153.67 TCP 64 xmpp-client > pictrography [ACK] Seq=1 Ack=223 Win=49450 Len=0
+516956 167.076641 41.177.24.241 -> 244.3.153.186 TCP 64 xmpp-client > 4790 [ACK] Seq=1 Ack=297 Win=49450 Len=0
+517866 167.516674 41.177.24.241 -> 244.3.153.111 TCP 64 xmpp-client > qip-qdhcp [ACK] Seq=331 Ack=297 Win=49450 Len=0
+526172 171.025838 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=3193 Ack=1108 Win=49450 Len=0
+526312 171.075281 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=83197 Ack=1508 Win=49450 Len=0
+526622 171.163905 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=3348 Ack=1158 Win=49450 Len=0
+532509 172.692259 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=1571 Ack=607 Win=50072 Len=314 TSval=380534843 TSecr=505831901[Packet size limited during capture]
+532651 172.729357 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=1651 Ack=607 Win=50072 Len=330 TSval=380534847 TSecr=505831901[Packet size limited during capture]
+538495 174.483838 41.177.24.241 -> 244.3.153.0  TCP 64 xmpp-client > netattachsdmp [ACK] Seq=315 Ack=297 Win=49450 Len=0
+549434 177.020641 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=1571 Ack=607 Win=49028 Len=314 TSval=440319054 TSecr=599061455[Packet size limited during capture]
+549824 177.094092 41.177.24.241 -> 244.3.153.142 TCP 356 xmpp-client > 51016 [PSH, ACK] Seq=6753 Ack=2083 Win=49450 Len=298[Packet size limited during capture]
+552112 177.588621 41.177.24.241 -> 244.3.153.197 TCP 480 xmpp-client > 49699 [PSH, ACK] Seq=1885 Ack=607 Win=49028 Len=410 TSval=440319111 TSecr=599061455[Packet size limited during capture]
+552317 177.663862 41.177.24.241 -> 244.3.153.197 TCP 432 xmpp-client > 49699 [PSH, ACK] Seq=2295 Ack=607 Win=49028 Len=362 TSval=440319118 TSecr=599061461[Packet size limited during capture]
+554353 178.439328 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49684 [ACK] Seq=1369 Ack=459 Win=50072 Len=0 TSval=441252803 TSecr=599061469
+554477 178.485973 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=94 Ack=1211 Win=48934 Len=0 TSval=441252808 TSecr=599061470
+554667 178.562130 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49684 [ACK] Seq=1453 Ack=612 Win=50072 Len=0 TSval=441252815 TSecr=599061470
+556357 179.137005 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=2174 Ack=3310 Win=48934 Len=0 TSval=441252873 TSecr=599061477
+556607 179.244088 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49684 [ACK] Seq=6122 Ack=842 Win=50072 Len=0 TSval=441252883 TSecr=599061477
+556608 179.244093 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=2174 Ack=3358 Win=50072 Len=0 TSval=441252883 TSecr=599061477
+556697 179.267707 41.177.24.241 -> 244.3.153.48 TCP 64 xmpp-client > dossier [ACK] Seq=1 Ack=297 Win=49450 Len=0
+556995 179.358677 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=2260 Ack=4275 Win=50072 Len=0 TSval=441252895 TSecr=599061478
+557255 179.390550 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49684 [ACK] Seq=18032 Ack=1143 Win=50072 Len=0 TSval=441252898 TSecr=599061479
+562568 180.334896 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=4465 Ack=5538 Win=50072 Len=0 TSval=441252993 TSecr=599061488
+563599 180.424586 41.177.24.241 -> 244.3.153.106 TCP 64 xmpp-client > imagequery [ACK] Seq=1 Ack=297 Win=49450 Len=0
+565431 180.877540 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=6542 Ack=7599 Win=48934 Len=0 TSval=441253047 TSecr=599061494
+565986 180.985191 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=6633 Ack=8484 Win=50072 Len=0 TSval=441253058 TSecr=599061495
+566458 181.091510 41.177.24.241 -> 244.3.153.209 TCP 70 https > natdataservice [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 WS=1 SACK_PERM=1
+566471 181.095200 41.177.24.241 -> 244.3.153.209 TCP 64 https > natdataservice [ACK] Seq=1 Ack=71 Win=49380 Len=0
+566718 181.190889 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=8682 Ack=9689 Win=48934 Len=0 TSval=441253078 TSecr=599061497
+567265 181.301474 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=8682 Ack=9732 Win=50072 Len=0 TSval=441253089 TSecr=599061497
+567614 181.402303 41.177.24.241 -> 244.3.153.209 TCP 64 https > natdataservice [ACK] Seq=904 Ack=253 Win=49450 Len=0
+567660 181.411996 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=8769 Ack=10625 Win=50072 Len=0 TSval=441253100 TSecr=599061498
+567708 181.415399 41.177.24.241 -> 244.3.153.209 TCP 64 https > natdataservice [ACK] Seq=947 Ack=1616 Win=49450 Len=0
+569071 181.812809 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=10860 Ack=11832 Win=48934 Len=0 TSval=441253140 TSecr=599061503
+569270 181.918781 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=10860 Ack=11883 Win=50072 Len=0 TSval=441253151 TSecr=599061503
+569562 182.026597 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=10949 Ack=12719 Win=50072 Len=0 TSval=441253162 TSecr=599061504
+570206 182.196140 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=12980 Ack=13928 Win=48934 Len=0 TSval=441253179 TSecr=599061507
+570726 182.305098 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=12980 Ack=13938 Win=50072 Len=0 TSval=441253190 TSecr=599061507
+571401 182.414761 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=13071 Ack=14866 Win=50072 Len=0 TSval=441253201 TSecr=599061508
+572212 182.570083 41.177.24.241 -> 244.3.153.0  TCP 420 xmpp-client > netattachsdmp [PSH, ACK] Seq=315 Ack=297 Win=49450 Len=362[Packet size limited during capture]
+576393 183.104817 41.177.24.241 -> 244.3.153.33 TCP 64 xmpp-client > vdmplay [ACK] Seq=1539 Ack=1095 Win=49450 Len=0
+578167 183.626933 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=15153 Ack=16083 Win=48934 Len=0 TSval=441253322 TSecr=599061512
+578577 183.739257 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=15252 Ack=17008 Win=50072 Len=0 TSval=441253333 TSecr=599061522
+578826 183.827047 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=17367 Ack=18217 Win=48934 Len=0 TSval=441253342 TSecr=599061523
+579007 183.935437 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=17458 Ack=19132 Win=50072 Len=0 TSval=441253353 TSecr=599061524
+579484 184.178422 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=19517 Ack=20338 Win=48934 Len=0 TSval=441253377 TSecr=599061526
+579685 184.298659 41.177.24.241 -> 244.3.153.197 TCP 70 imaps > 49685 [ACK] Seq=20789 Ack=21088 Win=50072 Len=0 TSval=441253389 TSecr=599061528
+585122 186.433500 41.177.24.241 -> 244.3.153.209 TCP 64 https > natdataservice [FIN, ACK] Seq=1736 Ack=1616 Win=49450 Len=0
+598347 189.615524 41.177.24.241 -> 244.3.153.156 TCP 64 xmpp-client > gpfs [ACK] Seq=1 Ack=297 Win=49450 Len=0
+602214 190.995247 41.177.24.241 -> 244.3.153.209 TCP 64 https > natdataservice [ACK] Seq=1737 Ack=1617 Win=49450 Len=0
+612856 194.494358 41.177.24.241 -> 244.3.153.30 TCP 64 xmpp-client > olsv [ACK] Seq=485 Ack=297 Win=49450 Len=0
+615610 195.486554 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=1749 Ack=802 Win=49450 Len=0
+615845 195.626245 41.177.24.241 -> 244.3.153.33 TCP 64 imaps > centra [ACK] Seq=1948 Ack=900 Win=49450 Len=0
+623405 197.849182 41.177.24.241 -> 244.3.153.197 TCP 528 xmpp-client > 49699 [PSH, ACK] Seq=2657 Ack=607 Win=49028 Len=458 TSval=440321136 TSecr=599061462[Packet size limited during capture]
+623580 197.905886 41.177.24.241 -> 244.3.153.197 TCP 352 xmpp-client > 49699 [PSH, ACK] Seq=3115 Ack=804 Win=49028 Len=282 TSval=440321142 TSecr=599061664[Packet size limited during capture]
+625415 198.558230 41.177.24.241 -> 244.3.153.209 TCP 66 xmpp-client > syam-webserver [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 SACK_PERM=1
+625423 198.561527 41.177.24.241 -> 244.3.153.209 TCP 64 xmpp-client > syam-webserver [ACK] Seq=1 Ack=201 Win=49250 Len=0
+625477 198.574778 41.177.24.241 -> 244.3.153.209 TCP 224 xmpp-client > syam-webserver [PSH, ACK] Seq=1 Ack=201 Win=49450 Len=166[Packet size limited during capture]
+625484 198.575394 41.177.24.241 -> 244.3.153.209 TCP 259 xmpp-client > syam-webserver [PSH, ACK] Seq=167 Ack=201 Win=49450 Len=201[Packet size limited during capture]
+625493 198.579610 41.177.24.241 -> 244.3.153.209 TCP 64 xmpp-client > syam-webserver [ACK] Seq=368 Ack=252 Win=49450 Len=0
+625500 198.580862 41.177.24.241 -> 244.3.153.209 TCP 108 xmpp-client > syam-webserver [PSH, ACK] Seq=368 Ack=252 Win=49450 Len=50[Packet size limited during capture]
+626024 198.737134 41.177.24.241 -> 244.3.153.209 TCP 1208 xmpp-client > syam-webserver [ACK] Seq=418 Ack=376 Win=49450 Len=1150[Packet size limited during capture]
+626025 198.737219 41.177.24.241 -> 244.3.153.209 TCP 1208 xmpp-client > syam-webserver [ACK] Seq=1568 Ack=376 Win=49450 Len=1150[Packet size limited during capture]
+626026 198.737263 41.177.24.241 -> 244.3.153.209 TCP 1208 xmpp-client > syam-webserver [ACK] Seq=2718 Ack=376 Win=49450 Len=1150[Packet size limited during capture]
+626027 198.737267 41.177.24.241 -> 244.3.153.209 TCP 442 xmpp-client > syam-webserver [PSH, ACK] Seq=3868 Ack=376 Win=49450 Len=384[Packet size limited during capture]
+626239 198.799483 41.177.24.241 -> 244.3.153.209 TCP 64 xmpp-client > syam-webserver [ACK] Seq=4252 Ack=702 Win=49450 Len=0
+626386 198.850955 41.177.24.241 -> 244.3.153.209 TCP 117 xmpp-client > syam-webserver [PSH, ACK] Seq=4252 Ack=702 Win=49450 Len=59[Packet size limited during capture]
+626894 199.021394 41.177.24.241 -> 244.3.153.209 TCP 292 xmpp-client > syam-webserver [PSH, ACK] Seq=4311 Ack=968 Win=49450 Len=234[Packet size limited during capture]
+626896 199.022188 41.177.24.241 -> 244.3.153.209 TCP 260 xmpp-client > syam-webserver [PSH, ACK] Seq=4545 Ack=968 Win=49450 Len=202[Packet size limited during capture]
+627043 199.073532 41.177.24.241 -> 244.3.153.209 TCP 64 xmpp-client > syam-webserver [ACK] Seq=4747 Ack=1138 Win=49450 Len=0
+630773 199.875686 41.177.24.241 -> 244.3.153.209 TCP 180 xmpp-client > syam-webserver [PSH, ACK] Seq=4747 Ack=1138 Win=49450 Len=122[Packet size limited during capture]
+636876 201.042138 41.177.24.241 -> 244.3.153.209 TCP 292 xmpp-client > syam-webserver [PSH, ACK] Seq=4869 Ack=1404 Win=49450 Len=234[Packet size limited during capture]
+636879 201.042634 41.177.24.241 -> 244.3.153.209 TCP 260 xmpp-client > syam-webserver [PSH, ACK] Seq=5103 Ack=1404 Win=49450 Len=202[Packet size limited during capture]
+636918 201.048298 41.177.24.241 -> 244.3.153.209 TCP 260 xmpp-client > syam-webserver [PSH, ACK] Seq=5305 Ack=1606 Win=49450 Len=202[Packet size limited during capture]
+637207 201.107681 41.177.24.241 -> 244.3.153.209 TCP 64 xmpp-client > syam-webserver [ACK] Seq=5507 Ack=1792 Win=49450 Len=0
+637246 201.112092 41.177.24.241 -> 244.3.153.209 TCP 244 xmpp-client > syam-webserver [PSH, ACK] Seq=5507 Ack=1792 Win=49450 Len=186[Packet size limited during capture]
+637726 201.273630 41.177.24.241 -> 244.3.153.209 TCP 708 xmpp-client > syam-webserver [PSH, ACK] Seq=5693 Ack=1946 Win=49450 Len=650[Packet size limited during capture]
+637796 201.307249 41.177.24.241 -> 244.3.153.209 TCP 436 xmpp-client > syam-webserver [PSH, ACK] Seq=6343 Ack=2212 Win=49450 Len=378[Packet size limited during capture]
+637800 201.308360 41.177.24.241 -> 244.3.153.209 TCP 388 xmpp-client > syam-webserver [PSH, ACK] Seq=6721 Ack=2212 Win=49450 Len=330[Packet size limited during capture]
+637808 201.309749 41.177.24.241 -> 244.3.153.209 TCP 388 xmpp-client > syam-webserver [PSH, ACK] Seq=7051 Ack=2212 Win=49450 Len=330[Packet size limited during capture]
+637810 201.310741 41.177.24.241 -> 244.3.153.209 TCP 436 xmpp-client > syam-webserver [PSH, ACK] Seq=7381 Ack=2702 Win=49450 Len=378[Packet size limited during capture]
+637815 201.312209 41.177.24.241 -> 244.3.153.209 TCP 372 xmpp-client > syam-webserver [PSH, ACK] Seq=7759 Ack=2702 Win=49450 Len=314[Packet size limited during capture]
+638061 201.389009 41.177.24.241 -> 244.3.153.209 TCP 852 xmpp-client > syam-webserver [PSH, ACK] Seq=8073 Ack=2702 Win=49450 Len=794[Packet size limited during capture]
+638065 201.390410 41.177.24.241 -> 244.3.153.209 TCP 308 xmpp-client > syam-webserver [PSH, ACK] Seq=8867 Ack=2702 Win=49450 Len=250[Packet size limited during capture]
+638074 201.392516 41.177.24.241 -> 244.3.153.209 TCP 548 xmpp-client > syam-webserver [PSH, ACK] Seq=9117 Ack=2702 Win=49450 Len=490[Packet size limited during capture]
+644062 202.691268 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=1885 Ack=708 Win=50072 Len=314 TSval=380537843 TSecr=505832200[Packet size limited during capture]
+644269 202.728703 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=1981 Ack=708 Win=50072 Len=330 TSval=380537847 TSecr=505832201[Packet size limited during capture]
+648784 203.847137 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=38094 Ack=12328 Win=49450 Len=0
+665433 207.091652 41.177.24.241 -> 244.3.153.142 TCP 356 xmpp-client > 51016 [PSH, ACK] Seq=7051 Ack=2184 Win=49450 Len=298[Packet size limited during capture]
+665457 207.117499 41.177.24.241 -> 244.3.153.25 TCP 64 xmpp-client > 49421 [ACK] Seq=1 Ack=297 Win=49450 Len=0
+666011 207.365897 41.177.24.241 -> 244.3.153.30 TCP 420 xmpp-client > olsv [PSH, ACK] Seq=485 Ack=297 Win=49450 Len=362[Packet size limited during capture]
+673757 210.240518 41.177.24.241 -> 244.3.153.13 TCP 64 xmpp-client > nucleus-sand [ACK] Seq=1 Ack=297 Win=49450 Len=0
+687586 216.064859 41.177.24.241 -> 244.3.153.197 TCP 560 xmpp-client > 49699 [PSH, ACK] Seq=3397 Ack=804 Win=49028 Len=490 TSval=440322958 TSecr=599061664[Packet size limited during capture]
+687765 216.129656 41.177.24.241 -> 244.3.153.197 TCP 70 xmpp-client > 49699 [ACK] Seq=3887 Ack=1017 Win=49028 Len=0 TSval=440322964 TSecr=599061846
+687785 216.134756 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=3887 Ack=1017 Win=49028 Len=314 TSval=440322965 TSecr=599061846[Packet size limited during capture]
+694360 219.631398 41.177.24.241 -> 244.3.153.67 TCP 64 xmpp-client > pictrography [ACK] Seq=1 Ack=297 Win=49450 Len=0
+700118 222.071565 41.177.24.241 -> 244.3.153.186 TCP 64 xmpp-client > 4790 [ACK] Seq=1 Ack=371 Win=49450 Len=0
+700873 222.541623 41.177.24.241 -> 244.3.153.111 TCP 64 xmpp-client > qip-qdhcp [ACK] Seq=331 Ack=371 Win=49450 Len=0
+708888 225.847455 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52684 [ACK] Seq=8323 Ack=843 Win=50072 Len=0 TSval=431517986 TSecr=505832431
+709494 226.035941 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52687 [ACK] Seq=2703 Ack=3301 Win=48934 Len=0 TSval=431518005 TSecr=505832433
+718826 229.490028 41.177.24.241 -> 244.3.153.0  TCP 64 xmpp-client > netattachsdmp [ACK] Seq=677 Ack=371 Win=49450 Len=0
+721450 230.320199 41.177.24.241 -> 244.3.153.142 TCP 436 xmpp-client > 51016 [PSH, ACK] Seq=7349 Ack=2184 Win=49450 Len=378[Packet size limited during capture]
+721757 230.454646 41.177.24.241 -> 244.3.153.142 TCP 356 xmpp-client > 51016 [PSH, ACK] Seq=7727 Ack=2397 Win=49450 Len=298[Packet size limited during capture]
+726518 232.691641 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=2199 Ack=809 Win=50072 Len=314 TSval=380540843 TSecr=505832500[Packet size limited during capture]
+726601 232.728606 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=2311 Ack=809 Win=50072 Len=330 TSval=380540846 TSecr=505832500[Packet size limited during capture]
+729595 234.272672 41.177.24.241 -> 244.3.153.48 TCP 64 xmpp-client > dossier [ACK] Seq=1 Ack=371 Win=49450 Len=0
+736396 235.420644 41.177.24.241 -> 244.3.153.106 TCP 64 xmpp-client > imagequery [ACK] Seq=1 Ack=371 Win=49450 Len=0
+744724 238.080942 41.177.24.241 -> 244.3.153.33 TCP 64 xmpp-client > vdmplay [ACK] Seq=1539 Ack=1169 Win=49450 Len=0
+746094 238.512001 41.177.24.241 -> 244.3.153.142 TCP 388 xmpp-client > 51016 [PSH, ACK] Seq=8025 Ack=2397 Win=49450 Len=330[Packet size limited during capture]
+759178 244.601817 41.177.24.241 -> 244.3.153.156 TCP 64 xmpp-client > gpfs [ACK] Seq=1 Ack=371 Win=49450 Len=0
+773542 249.494049 41.177.24.241 -> 244.3.153.30 TCP 64 xmpp-client > olsv [ACK] Seq=847 Ack=371 Win=49450 Len=0
+788572 256.114660 41.177.24.241 -> 244.3.153.209 TCP 64 xmpp-client > syam-webserver [ACK] Seq=9607 Ack=2776 Win=49450 Len=0
+790069 256.648429 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52684 [ACK] Seq=9437 Ack=1373 Win=50072 Len=0 TSval=431521066 TSecr=505832739
+790510 256.806794 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52684 [ACK] Seq=9479 Ack=1447 Win=50072 Len=0 TSval=431521081 TSecr=505832740
+794491 258.801230 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52684 [ACK] Seq=13600 Ack=1515 Win=50072 Len=0 TSval=431521281 TSecr=505832760
+794611 258.853317 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=38094 Ack=12402 Win=49450 Len=0
+801467 262.133654 41.177.24.241 -> 244.3.153.25 TCP 64 xmpp-client > 49421 [ACK] Seq=1 Ack=371 Win=49450 Len=0
+804073 262.693060 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=2513 Ack=910 Win=50072 Len=314 TSval=380543842 TSecr=505832800[Packet size limited during capture]
+804212 262.733341 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=2641 Ack=910 Win=50072 Len=330 TSval=380543846 TSecr=505832800[Packet size limited during capture]
+813159 265.235517 41.177.24.241 -> 244.3.153.13 TCP 64 xmpp-client > nucleus-sand [ACK] Seq=1 Ack=371 Win=49450 Len=0
+818389 267.018516 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=4201 Ack=1118 Win=49028 Len=314 TSval=440328053 TSecr=599062355[Packet size limited during capture]
+838210 274.636330 41.177.24.241 -> 244.3.153.67 TCP 64 xmpp-client > pictrography [ACK] Seq=1 Ack=371 Win=49450 Len=0
+841641 276.319810 41.177.24.241 -> 244.3.153.55 TCP 66 https > utsftp [SYN, ACK] Seq=0 Ack=1 Win=49450 Len=0 MSS=1380 SACK_PERM=1
+841678 276.369277 41.177.24.241 -> 244.3.153.55 TCP 64 https > utsftp [ACK] Seq=1 Ack=103 Win=49348 Len=0
+841728 276.421979 41.177.24.241 -> 244.3.153.55 TCP 64 https > utsftp [ACK] Seq=904 Ack=285 Win=49450 Len=0
+841856 276.481878 41.177.24.241 -> 244.3.153.55 TCP 64 https > utsftp [ACK] Seq=947 Ack=1731 Win=49450 Len=0
+841956 276.527189 41.177.24.241 -> 244.3.153.55 TCP 64 https > utsftp [FIN, ACK] Seq=3407 Ack=1731 Win=49450 Len=0
+842027 276.581549 41.177.24.241 -> 244.3.153.55 TCP 64 https > utsftp [ACK] Seq=3408 Ack=1732 Win=49450 Len=0
+843128 277.076546 41.177.24.241 -> 244.3.153.186 TCP 64 xmpp-client > 4790 [ACK] Seq=1 Ack=445 Win=49450 Len=0
+843885 277.516661 41.177.24.241 -> 244.3.153.111 TCP 64 xmpp-client > qip-qdhcp [ACK] Seq=331 Ack=445 Win=49450 Len=0
+853334 282.049690 41.177.24.241 -> 244.3.153.142 TCP 436 xmpp-client > 51016 [PSH, ACK] Seq=8355 Ack=2397 Win=49450 Len=378[Packet size limited during capture]
+853701 282.195910 41.177.24.241 -> 244.3.153.142 TCP 64 xmpp-client > 51016 [ACK] Seq=8733 Ack=2610 Win=49450 Len=0
+854554 282.491351 41.177.24.241 -> 244.3.153.142 TCP 372 xmpp-client > 51016 [PSH, ACK] Seq=8733 Ack=2610 Win=49450 Len=314[Packet size limited during capture]
+862263 284.486133 41.177.24.241 -> 244.3.153.0  TCP 64 xmpp-client > netattachsdmp [ACK] Seq=677 Ack=445 Win=49450 Len=0
+874135 289.267642 41.177.24.241 -> 244.3.153.48 TCP 64 xmpp-client > dossier [ACK] Seq=1 Ack=445 Win=49450 Len=0
+876645 290.417201 41.177.24.241 -> 244.3.153.106 TCP 64 xmpp-client > imagequery [ACK] Seq=1 Ack=445 Win=49450 Len=0
+877658 291.090265 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49380 [ACK] Seq=83437 Ack=1635 Win=49450 Len=0
+877685 291.106685 41.177.24.241 -> 244.3.153.117 TCP 64 imaps > 49376 [ACK] Seq=3478 Ack=1234 Win=49450 Len=0
+879267 292.355919 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=1216 Win=48300 Len=0
+879294 292.359745 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=3516 Win=46000 Len=0
+879299 292.364404 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=5333 Win=48300 Len=0
+879306 292.367198 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=7633 Win=46000 Len=0
+879314 292.372290 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=9450 Win=48300 Len=0
+879320 292.373748 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=11750 Win=46000 Len=0
+879333 292.377199 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=13567 Win=48300 Len=0
+879339 292.378759 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=15867 Win=46000 Len=0
+879346 292.381990 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=17684 Win=48300 Len=0
+879351 292.385892 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=19984 Win=46000 Len=0
+879360 292.388752 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=21801 Win=48300 Len=0
+879374 292.390886 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=23973 Win=49450 Len=0
+879477 292.503017 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=1 Ack=23996 Win=49450 Len=0
+879809 292.692341 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=2827 Ack=1011 Win=50072 Len=314 TSval=380546842 TSecr=505833099[Packet size limited during capture]
+879953 292.729277 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=2971 Ack=1011 Win=50072 Len=330 TSval=380546846 TSecr=505833099[Packet size limited during capture]
+881319 293.073217 41.177.24.241 -> 244.3.153.30 TCP 64 imaps > ncpm-hip [ACK] Seq=91 Ack=24026 Win=49450 Len=0
+881328 293.087098 41.177.24.241 -> 244.3.153.33 TCP 64 xmpp-client > vdmplay [ACK] Seq=1539 Ack=1243 Win=49450 Len=0
+898393 297.017233 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=4515 Ack=1219 Win=49028 Len=314 TSval=440331052 TSecr=599062654[Packet size limited during capture]
+908236 299.617862 41.177.24.241 -> 244.3.153.156 TCP 64 xmpp-client > gpfs [ACK] Seq=1 Ack=445 Win=49450 Len=0
+912079 301.727913 41.177.24.241 -> 244.3.153.209 TCP 388 xmpp-client > syam-webserver [PSH, ACK] Seq=9607 Ack=2776 Win=49450 Len=330[Packet size limited during capture]
+912100 301.756227 41.177.24.241 -> 244.3.153.30 TCP 388 xmpp-client > olsv [PSH, ACK] Seq=847 Ack=371 Win=49450 Len=330[Packet size limited during capture]
+916811 304.499102 41.177.24.241 -> 244.3.153.30 TCP 64 xmpp-client > olsv [ACK] Seq=1177 Ack=445 Win=49450 Len=0
+920485 305.117219 41.177.24.241 -> 244.3.153.239 TCP 64 imaps > stone-design-1 [ACK] Seq=121 Ack=129 Win=49450 Len=0
+933687 311.109641 41.177.24.241 -> 244.3.153.209 TCP 64 xmpp-client > syam-webserver [ACK] Seq=9937 Ack=2850 Win=49450 Len=0
+945068 313.839826 41.177.24.241 -> 244.3.153.117 TCP 64 xmpp-client > 49379 [ACK] Seq=38094 Ack=12476 Win=49450 Len=0
+954653 316.569165 41.177.24.241 -> 244.3.153.34 TCP 70 imaps > 52687 [ACK] Seq=4943 Ack=5232 Win=48934 Len=0 TSval=431527058 TSecr=505833337
+956043 317.120372 41.177.24.241 -> 244.3.153.25 TCP 64 xmpp-client > 49421 [ACK] Seq=1 Ack=445 Win=49450 Len=0
+962938 320.240455 41.177.24.241 -> 244.3.153.13 TCP 64 xmpp-client > nucleus-sand [ACK] Seq=1 Ack=445 Win=49450 Len=0
+968853 322.692534 41.177.24.241 -> 244.3.153.34 TCP 384 xmpp-client > 52693 [PSH, ACK] Seq=3141 Ack=1112 Win=50072 Len=314 TSval=380549842 TSecr=505833399[Packet size limited during capture]
+969036 322.729423 41.177.24.241 -> 244.3.153.34 TCP 400 xmpp-client > 52694 [PSH, ACK] Seq=3301 Ack=1112 Win=50072 Len=330 TSval=380549845 TSecr=505833399[Packet size limited during capture]
+980232 327.016363 41.177.24.241 -> 244.3.153.197 TCP 384 xmpp-client > 49699 [PSH, ACK] Seq=4829 Ack=1320 Win=49028 Len=314 TSval=440334052 TSecr=599062954[Packet size limited during capture]
+980414 327.096575 41.177.24.241 -> 244.3.153.142 TCP 356 xmpp-client > 51016 [PSH, ACK] Seq=9047 Ack=2711 Win=49450 Len=298[Packet size limited during capture]
+984130 328.634650 41.177.24.241 -> 244.3.153.48 TCP 452 xmpp-client > dossier [PSH, ACK] Seq=1 Ack=445 Win=49450 Len=394[Packet size limited during capture]
+984479 328.725958 41.177.24.241 -> 244.3.153.30 TCP 452 xmpp-client > olsv [PSH, ACK] Seq=1177 Ack=445 Win=49450 Len=394[Packet size limited during capture]
+988392 329.641417 41.177.24.241 -> 244.3.153.67 TCP 64 xmpp-client > pictrography [ACK] Seq=1 Ack=445 Win=49450 Len=0
+995262 332.081546 41.177.24.241 -> 244.3.153.186 TCP 64 xmpp-client > 4790 [ACK] Seq=1 Ack=519 Win=49450 Len=0
+995939 332.512338 41.177.24.241 -> 244.3.153.111 TCP 64 xmpp-client > qip-qdhcp [ACK] Seq=331 Ack=519 Win=49450 Len=0
+1011674 339.482322 41.177.24.241 -> 244.3.153.0  TCP 64 xmpp-client > netattachsdmp [ACK] Seq=677 Ack=519 Win=49450 Len=0
+1020526 344.262625 41.177.24.241 -> 244.3.153.48 TCP 64 xmpp-client > dossier [ACK] Seq=395 Ack=519 Win=49450 Len=0

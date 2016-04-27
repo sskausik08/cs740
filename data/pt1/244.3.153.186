@@ -1,0 +1,7 @@
+6246   1.958772 244.3.153.186 -> 41.177.24.241 TCP 132 4790 > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+171477  56.959005 244.3.153.186 -> 41.177.24.241 TCP 132 4790 > xmpp-client [PSH, ACK] Seq=75 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+325240 111.959627 244.3.153.186 -> 41.177.24.241 TCP 132 4790 > xmpp-client [PSH, ACK] Seq=149 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+516827 166.959884 244.3.153.186 -> 41.177.24.241 TCP 132 4790 > xmpp-client [PSH, ACK] Seq=223 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+699870 221.960302 244.3.153.186 -> 41.177.24.241 TCP 132 4790 > xmpp-client [PSH, ACK] Seq=297 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+842803 276.960565 244.3.153.186 -> 41.177.24.241 TCP 132 4790 > xmpp-client [PSH, ACK] Seq=371 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+994844 331.960956 244.3.153.186 -> 41.177.24.241 TCP 132 4790 > xmpp-client [PSH, ACK] Seq=445 Ack=1 Win=48774 Len=74[Packet size limited during capture]

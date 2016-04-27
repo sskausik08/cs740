@@ -1,0 +1,3 @@
+181776  61.103817 41.177.93.39 -> 244.3.41.84  TCP 64 commlinx-avl > telnet [ACK] Seq=4 Ack=7 Win=65484 Len=0
+570110 182.181865 41.177.93.39 -> 244.3.41.84  TCP 64 3comnetman > telnet [ACK] Seq=4 Ack=7 Win=63763 Len=0
+758039 244.088758 41.177.93.39 -> 244.3.41.84  TCP 64 commlinx-avl > telnet [ACK] Seq=14 Ack=528 Win=64963 Len=0

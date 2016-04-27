@@ -1,0 +1,93 @@
+903564 298.004511 244.3.79.121 -> 41.177.98.220 TCP 66 iascontrol-oms > ups-onlinet [SYN] Seq=0 Win=65535 Len=0 MSS=1380 SACK_PERM=1
+903570 298.005207 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=1 Ack=1 Win=65535 Len=0
+903571 298.005655 244.3.79.121 -> 41.177.98.220 TCP 142 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=84
+907724 299.298703 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=85 Ack=102 Win=65434 Len=0
+923465 306.812382 244.3.79.121 -> 41.177.98.220 TCP 144 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=85 Ack=102 Win=65434 Len=86
+923662 306.930177 244.3.79.121 -> 41.177.98.220 TCP 135 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=171 Ack=194 Win=65342 Len=77
+924799 307.712318 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=2954 Win=65535 Len=0
+924801 307.712557 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=5714 Win=65535 Len=0
+924810 307.713366 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=8474 Win=65535 Len=0
+924814 307.713626 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=11234 Win=65535 Len=0
+924818 307.713842 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=13994 Win=65535 Len=0
+924822 307.714330 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=16754 Win=65535 Len=0
+924826 307.714559 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=19514 Win=65535 Len=0
+924830 307.714814 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=22274 Win=65535 Len=0
+924834 307.715049 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=25034 Win=65535 Len=0
+924838 307.715261 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=27794 Win=65535 Len=0
+924842 307.715491 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=30554 Win=65535 Len=0
+924846 307.715722 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=33314 Win=65535 Len=0
+924850 307.715960 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=36074 Win=65535 Len=0
+924854 307.716191 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=38834 Win=65535 Len=0
+924858 307.716430 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=41594 Win=65535 Len=0
+924862 307.716694 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=44354 Win=65535 Len=0
+924864 307.716890 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=47114 Win=65535 Len=0
+924870 307.717124 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=49874 Win=65535 Len=0
+924874 307.717376 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=52634 Win=65535 Len=0
+924877 307.717603 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=55394 Win=65535 Len=0
+924882 307.717836 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=58154 Win=65535 Len=0
+924887 307.718078 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=60914 Win=65535 Len=0
+924889 307.718289 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=63674 Win=65535 Len=0
+924897 307.718565 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=66434 Win=65535 Len=0
+924903 307.718780 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=69194 Win=65535 Len=0
+924904 307.718989 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=71954 Win=65535 Len=0
+924905 307.719220 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=74714 Win=65535 Len=0
+924906 307.719451 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=77474 Win=65535 Len=0
+924907 307.719686 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=80234 Win=65535 Len=0
+924908 307.719915 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=82994 Win=65535 Len=0
+924909 307.720148 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=85754 Win=65535 Len=0
+924910 307.720402 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=88514 Win=65535 Len=0
+924911 307.720613 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=91274 Win=62775 Len=0
+924912 307.720643 244.3.79.121 -> 41.177.98.220 TCP 64 [TCP Window Update] iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=91274 Win=65535 Len=0
+924913 307.720846 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=94034 Win=65535 Len=0
+924914 307.721109 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=96794 Win=65535 Len=0
+924915 307.721312 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=99554 Win=62775 Len=0
+924916 307.721551 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=102314 Win=60015 Len=0
+924917 307.721623 244.3.79.121 -> 41.177.98.220 TCP 64 [TCP Window Update] iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=102314 Win=65535 Len=0
+924918 307.721798 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=248 Ack=105088 Win=65521 Len=0
+932049 310.504401 244.3.79.121 -> 41.177.98.220 TCP 128 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=248 Ack=105088 Win=65521 Len=70
+932118 310.529445 244.3.79.121 -> 41.177.98.220 TCP 119 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=318 Ack=105642 Win=65535 Len=61
+932155 310.544764 244.3.79.121 -> 41.177.98.220 TCP 141 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=379 Ack=106693 Win=65535 Len=83
+932180 310.558385 244.3.79.121 -> 41.177.98.220 TCP 111 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=462 Ack=106801 Win=65427 Len=53
+932205 310.564672 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=515 Ack=109561 Win=65535 Len=0
+932206 310.564913 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=515 Ack=112272 Win=65535 Len=0
+932221 310.570307 244.3.79.121 -> 41.177.98.220 TCP 110 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=515 Ack=112272 Win=65535 Len=52
+932275 310.581687 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=567 Ack=114137 Win=65535 Len=0
+932278 310.582871 244.3.79.121 -> 41.177.98.220 TCP 114 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=567 Ack=114137 Win=65535 Len=56
+932363 310.605050 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=116897 Win=65535 Len=0
+932368 310.605235 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=119657 Win=65535 Len=0
+932370 310.605470 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=122417 Win=65535 Len=0
+932371 310.605691 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=125177 Win=65535 Len=0
+932372 310.605936 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=127937 Win=65535 Len=0
+932374 310.606161 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=130697 Win=65535 Len=0
+932376 310.606404 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=133457 Win=65535 Len=0
+932377 310.606622 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=136217 Win=65535 Len=0
+932378 310.606861 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=138977 Win=65535 Len=0
+932379 310.607096 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=141737 Win=65535 Len=0
+932380 310.607326 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=144497 Win=65535 Len=0
+932382 310.607553 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=147257 Win=65535 Len=0
+932384 310.607790 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=150017 Win=65535 Len=0
+932387 310.608039 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=152777 Win=65535 Len=0
+932388 310.608263 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=155537 Win=65535 Len=0
+932390 310.608488 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=158297 Win=65535 Len=0
+932392 310.608732 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=161057 Win=65535 Len=0
+932393 310.608972 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=163817 Win=65535 Len=0
+932394 310.609218 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=166577 Win=65535 Len=0
+932395 310.609433 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=169337 Win=65535 Len=0
+932396 310.609661 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=172097 Win=65535 Len=0
+932397 310.609888 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=174857 Win=65535 Len=0
+932398 310.610168 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=177617 Win=65535 Len=0
+932399 310.610335 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=623 Ack=179737 Win=65535 Len=0
+932586 310.672903 244.3.79.121 -> 41.177.98.220 TCP 117 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=623 Ack=179737 Win=65535 Len=59
+932614 310.683097 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=682 Ack=182497 Win=65535 Len=0
+932615 310.683277 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=682 Ack=184652 Win=65535 Len=0
+932662 310.698915 244.3.79.121 -> 41.177.98.220 TCP 123 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=682 Ack=184652 Win=65535 Len=65
+932701 310.709287 244.3.79.121 -> 41.177.98.220 TCP 123 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=747 Ack=185405 Win=65535 Len=65
+932729 310.717337 244.3.79.121 -> 41.177.98.220 TCP 123 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=812 Ack=185502 Win=65438 Len=65
+932816 310.741440 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=877 Ack=188262 Win=65535 Len=0
+932833 310.746426 244.3.79.121 -> 41.177.98.220 TCP 123 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=877 Ack=189021 Win=65535 Len=65
+933250 310.915056 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=942 Ack=189661 Win=65535 Len=0
+939587 312.781731 244.3.79.121 -> 41.177.98.220 TCP 111 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=942 Ack=189661 Win=65535 Len=53
+940149 312.917873 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=995 Ack=189921 Win=65275 Len=0
+940406 312.962247 244.3.79.121 -> 41.177.98.220 TCP 137 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=995 Ack=189921 Win=65275 Len=79
+940457 312.975538 244.3.79.121 -> 41.177.98.220 TCP 113 iascontrol-oms > ups-onlinet [PSH, ACK] Seq=1074 Ack=190111 Win=65085 Len=55
+941544 313.118168 244.3.79.121 -> 41.177.98.220 TCP 64 iascontrol-oms > ups-onlinet [ACK] Seq=1129 Ack=190428 Win=65535 Len=0

@@ -1,0 +1,2 @@
+389583 130.152585 46.201.244.116 -> 244.3.61.22  TCP 66 lutcp > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+397093 133.308683 46.201.244.116 -> 244.3.61.22  TCP 66 [TCP Retransmission] lutcp > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

@@ -1,0 +1,4 @@
+279513  94.298341 77.197.64.193 -> 244.3.210.98 TCP 64 http > pns [ACK] Seq=1 Ack=2 Win=4474 Len=0
+279560  94.309091 77.197.64.193 -> 244.3.210.98 TCP 64 http > pns [FIN, ACK] Seq=1 Ack=2 Win=4474 Len=0
+283502  95.063193 77.197.64.193 -> 244.3.210.98 TCP 64 http > moy-corp [ACK] Seq=1 Ack=2 Win=4515 Len=0
+283587  95.076641 77.197.64.193 -> 244.3.210.98 TCP 64 http > moy-corp [FIN, ACK] Seq=1 Ack=2 Win=4515 Len=0

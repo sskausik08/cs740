@@ -1,0 +1,2 @@
+900595 297.283366 92.40.167.111 -> 244.3.61.39  TCP 66 di-traceware > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1360 SACK_PERM=1
+909159 300.158197 92.40.167.111 -> 244.3.61.39  TCP 66 [TCP Retransmission] di-traceware > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1360 SACK_PERM=1

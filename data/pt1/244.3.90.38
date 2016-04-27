@@ -1,0 +1,9 @@
+614971 195.144945  244.3.90.38 -> 41.177.98.220 TCP 1431 hpss-ndapi > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=1373
+614983 195.147889  244.3.90.38 -> 41.177.98.220 TCP 64 hpss-ndapi > ups-onlinet [ACK] Seq=1374 Ack=1390 Win=65535 Len=0
+615239 195.282663  244.3.90.38 -> 41.177.98.220 TCP 1438 hpss-ndapi > ups-onlinet [ACK] Seq=1374 Ack=1390 Win=65535 Len=1380
+615240 195.282668  244.3.90.38 -> 41.177.98.220 TCP 69 hpss-ndapi > ups-onlinet [PSH, ACK] Seq=2754 Ack=1390 Win=65535 Len=11
+615256 195.292479  244.3.90.38 -> 41.177.98.220 TCP 1437 hpss-ndapi > ups-onlinet [PSH, ACK] Seq=2765 Ack=1469 Win=65456 Len=1379
+615614 195.491855  244.3.90.38 -> 41.177.98.220 TCP 64 hpss-ndapi > ups-onlinet [ACK] Seq=4144 Ack=2408 Win=64517 Len=0
+618318 196.656807  244.3.90.38 -> 41.177.98.220 TCP 1438 hpss-ndapi > ups-onlinet [ACK] Seq=4144 Ack=2408 Win=64517 Len=1380
+618319 196.656812  244.3.90.38 -> 41.177.98.220 TCP 112 hpss-ndapi > ups-onlinet [PSH, ACK] Seq=5524 Ack=2408 Win=64517 Len=54
+618787 196.772454  244.3.90.38 -> 41.177.98.220 TCP 64 hpss-ndapi > ups-onlinet [ACK] Seq=5578 Ack=4127 Win=65535 Len=0

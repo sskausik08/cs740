@@ -1,0 +1,4 @@
+239123  83.033580 194.46.94.159 -> 41.177.98.143 TCP 94 santak-ups > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=64305 Len=36
+239581  83.173874 194.46.94.159 -> 41.177.98.143 TCP 64 santak-ups > vcom-tunnel [ACK] Seq=37 Ack=83 Win=64223 Len=0
+970143 323.352908 194.46.94.159 -> 41.177.98.143 TCP 94 santak-ups > vcom-tunnel [PSH, ACK] Seq=37 Ack=83 Win=64223 Len=36
+970483 323.581289 194.46.94.159 -> 41.177.98.143 TCP 64 santak-ups > vcom-tunnel [ACK] Seq=73 Ack=165 Win=64141 Len=0

@@ -1,0 +1,2 @@
+395069 132.350258 41.177.199.156 -> 41.177.98.220 TCP 229 t1distproc > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65108 Len=171
+395554 132.526413 41.177.199.156 -> 41.177.98.220 TCP 64 t1distproc > ups-onlinet [ACK] Seq=172 Ack=117 Win=64992 Len=0

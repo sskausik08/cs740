@@ -1,0 +1,9 @@
+150412  51.628677 244.3.79.201 -> 41.177.98.220 TCP 124 dberegister > empowerid [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=66
+152064  52.105122 244.3.79.201 -> 41.177.98.220 TCP 64 dberegister > empowerid [ACK] Seq=67 Ack=2761 Win=65535 Len=0
+152065  52.105462 244.3.79.201 -> 41.177.98.220 TCP 64 dberegister > empowerid [ACK] Seq=67 Ack=5521 Win=65535 Len=0
+152066  52.105641 244.3.79.201 -> 41.177.98.220 TCP 64 dberegister > empowerid [ACK] Seq=67 Ack=8281 Win=65535 Len=0
+152068  52.105912 244.3.79.201 -> 41.177.98.220 TCP 64 dberegister > empowerid [ACK] Seq=67 Ack=11041 Win=65535 Len=0
+152069  52.106127 244.3.79.201 -> 41.177.98.220 TCP 64 dberegister > empowerid [ACK] Seq=67 Ack=13801 Win=65535 Len=0
+152071  52.106287 244.3.79.201 -> 41.177.98.220 TCP 64 dberegister > empowerid [ACK] Seq=67 Ack=16561 Win=65535 Len=0
+152148  52.123514 244.3.79.201 -> 41.177.98.220 TCP 137 dberegister > empowerid [PSH, ACK] Seq=67 Ack=17597 Win=64499 Len=79
+152601  52.253322 244.3.79.201 -> 41.177.98.220 TCP 64 dberegister > empowerid [ACK] Seq=146 Ack=18546 Win=65535 Len=0

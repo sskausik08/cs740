@@ -1,0 +1,2 @@
+67763  27.888631 41.177.219.77 -> 244.3.41.84  TCP 64 playsta2-app > telnet [FIN, ACK] Seq=1 Ack=1 Win=65535 Len=0
+67811  27.908136 41.177.219.77 -> 244.3.41.84  TCP 64 playsta2-app > telnet [ACK] Seq=2 Ack=2 Win=65535 Len=0

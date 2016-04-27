@@ -1,0 +1,2 @@
+867843 286.906111 67.247.57.176 -> 244.3.61.16  TCP 66 ndsp > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+875246 289.783218 67.247.57.176 -> 244.3.61.16  TCP 66 [TCP Retransmission] ndsp > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

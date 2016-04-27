@@ -1,0 +1,2 @@
+767252 248.014653 151.90.218.164 -> 244.3.61.124 TCP 66 ms-sna-server > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+778317 250.951992 151.90.218.164 -> 244.3.61.124 TCP 66 [TCP Retransmission] ms-sna-server > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

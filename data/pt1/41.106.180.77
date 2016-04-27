@@ -1,0 +1,386 @@
+204   0.039927 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+3005   0.980517 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+5004   1.539662 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+5950   1.865303 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+6474   2.114837 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+6519   2.132835 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+6906   2.274710 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+7337   2.480244 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+8518   3.039785 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+10557   3.633046 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+12325   3.774839 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+14023   3.980219 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+17472   5.130340 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=34 Ack=34 Win=64743 Len=0
+17473   5.132891 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+17637   5.274658 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+19808   6.516484 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=34 Ack=34 Win=65403 Len=0
+20458   6.774900 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+20869   6.908594 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+21166   7.144613 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+22908   8.274794 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+25390   9.774835 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+27911  11.132545 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+28105  11.274805 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+29325  11.967065 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+29610  12.174372 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+30287  12.632264 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+30694  12.774886 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+31323  13.232088 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 61602  Destination port: https
+33323  14.136490 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+33619  14.274966 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+40541  17.017917 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+41173  17.204371 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+52847  22.065830 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+53716  22.234267 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+60420  24.443877 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=67 Ack=34 Win=65172 Len=0
+61842  25.339619 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 43550  Destination port: https
+62212  25.511317 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: mxi  Destination port: https
+64502  26.648652 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=67 Ack=34 Win=64413 Len=0
+65790  27.113377 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+66416  27.363093 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+82593  32.162653 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+83324  32.392439 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+85747  33.314707 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+92799  35.508107 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=100 Ack=67 Win=64710 Len=0
+98330  36.692641 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=100 Ack=67 Win=65370 Len=0
+101080  37.223163 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+102225  37.422709 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+112117  39.998218 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=723 Ack=254 Win=65535 Len=0
+112632  40.126100 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=723 Ack=286 Win=65503 Len=0
+117853  42.275146 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+119186  42.752077 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+121706  43.362794 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+130313  45.526150 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+130382  45.558471 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+136875  47.623016 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+138327  47.982049 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+140825  48.547954 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 43550  Destination port: https
+149962  51.475988 41.106.180.77 -> 41.177.241.46 UDP 331 Source port: mxi  Destination port: https
+154557  52.784607 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+155814  53.111029 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+163411  55.424665 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=133 Ack=67 Win=65139 Len=0
+169455  56.475444 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+171553  57.025399 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=133 Ack=67 Win=65535 Len=0
+174373  57.943804 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+175157  58.241335 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+187023  63.113546 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+187594  63.471861 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+187953  63.737283 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+191739  65.986543 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=166 Ack=100 Win=64677 Len=0
+194800  66.970059 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=166 Ack=100 Win=65337 Len=0
+198735  68.290112 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+199437  68.601854 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+200021  68.911567 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+214053  73.473239 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+214829  73.731056 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+215250  73.877224 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+224580  76.783222 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+228849  78.612180 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+229404  78.862423 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+229455  78.911004 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+233140  80.588928 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+240916  83.759067 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+241437  84.091730 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+243262  84.685152 41.106.180.77 -> 41.177.241.46 UDP 155 Source port: mxi  Destination port: https
+243488  84.835655 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: mxi  Destination port: https
+243492  84.836100 41.106.180.77 -> 41.177.241.46 UDP 251 Source port: mxi  Destination port: https
+243785  85.001997 41.106.180.77 -> 41.177.241.46 UDP 331 Source port: mxi  Destination port: https
+244254  85.176865 41.106.180.77 -> 41.177.241.46 UDP 1291 Source port: mxi  Destination port: https
+244255  85.177074 41.106.180.77 -> 41.177.241.46 UDP 299 Source port: mxi  Destination port: https
+244789  85.371248 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: mxi  Destination port: https
+244791  85.372442 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: mxi  Destination port: https
+244808  85.384551 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: mxi  Destination port: https
+246542  86.408283 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=199 Ack=100 Win=65106 Len=0
+248219  87.402402 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=199 Ack=100 Win=65502 Len=0
+251472  88.913705 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+252158  89.222990 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+278528  94.054396 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+278729  94.097758 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+280322  94.457705 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+288453  96.364243 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=232 Ack=133 Win=64644 Len=0
+292153  97.849610 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=232 Ack=133 Win=65304 Len=0
+294514  99.257484 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+294518  99.260524 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+295430  99.587335 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+296238 100.011658 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=1445 Ack=539 Win=65250 Len=0
+296616 100.179039 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=1445 Ack=571 Win=65218 Len=0
+302372 102.041576 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+304340 102.983189 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+305715 103.541481 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+307199 104.429518 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+307352 104.482342 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+307885 104.717216 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+308490 105.041553 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+309718 105.671311 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+309848 105.744744 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 61602  Destination port: https
+310341 105.919837 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=361 Ack=207 Win=64570 Len=0
+310576 105.982561 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+320200 109.260968 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+320904 109.580179 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+321440 109.846192 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+323843 111.046541 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+325280 111.982503 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+326189 112.546627 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+327337 113.132587 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+327888 113.482453 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+328596 114.046653 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+329259 114.632521 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+329510 114.749938 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+330155 114.976472 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+330159 114.982721 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+331348 115.496094 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+331353 115.496934 41.106.180.77 -> 41.177.241.46 UDP 155 Source port: 30882  Destination port: https
+331472 115.547584 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+331478 115.548014 41.106.180.77 -> 41.177.241.46 UDP 251 Source port: 30882  Destination port: https
+331530 115.608120 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 30882  Destination port: https
+331537 115.610247 41.106.180.77 -> 41.177.241.46 UDP 987 Source port: 30882  Destination port: https
+331820 115.671475 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+332359 115.877506 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+332741 116.132362 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+334888 117.086020 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=265 Ack=133 Win=65073 Len=0
+349773 118.243053 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 43550  Destination port: https
+349887 118.282441 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=265 Ack=133 Win=65469 Len=0
+352930 119.805492 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+353229 120.005273 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+353284 120.046701 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+354987 120.982689 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+356236 121.545607 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+357839 122.133036 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+358125 122.276061 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+358676 122.482658 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+360422 123.045765 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+362501 123.633021 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+363160 123.776216 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+364205 123.982790 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+365675 124.850407 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+366133 125.132755 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+366140 125.135263 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+366325 125.276228 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+381288 126.776492 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+385656 127.925069 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=298 Ack=166 Win=65271 Len=0
+386065 128.276245 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+388920 129.776782 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+389313 130.008778 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+389608 130.165306 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+391073 130.696552 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+392100 131.136301 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+392522 131.276488 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+395831 132.636343 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+396111 132.776575 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+398610 134.136151 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+398968 134.276283 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+402244 134.982607 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+402634 135.064968 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+403617 135.294249 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+407337 136.196612 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=427 Ack=240 Win=64537 Len=0
+428034 140.118282 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+428827 140.330658 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+447054 145.163727 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+447398 145.353131 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+447989 145.561420 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: mxi  Destination port: https
+452878 147.563504 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=331 Ack=166 Win=65040 Len=0
+456806 149.134687 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+457369 149.364590 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=331 Ack=166 Win=65436 Len=0
+459283 150.213635 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+459712 150.382997 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+469860 155.077085 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+470350 155.262802 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+470921 155.512881 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+481529 158.769780 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: mxi  Destination port: https
+481653 158.805227 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=364 Ack=199 Win=65238 Len=0
+481988 158.894165 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 30882  Destination port: https
+485697 159.974097 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=2167 Ack=824 Win=64965 Len=0
+486609 160.125155 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=2167 Ack=856 Win=64933 Len=0
+487923 160.352733 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+488742 160.542113 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+513928 165.077670 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+514385 165.411927 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+514599 165.571574 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+515759 166.373055 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=493 Ack=273 Win=64504 Len=0
+522146 169.194875 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+524796 170.462071 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+525610 170.702625 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+540657 175.506174 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+541437 175.731005 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+541595 175.769732 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+552973 177.941317 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=397 Ack=199 Win=65007 Len=0
+556523 179.195189 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+557846 179.442053 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=397 Ack=199 Win=65403 Len=0
+564220 180.554002 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+565043 180.761149 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+581906 185.172473 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+582711 185.531584 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 43550  Destination port: https
+582827 185.601181 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+583270 185.790318 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+596837 188.981613 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=430 Ack=232 Win=65205 Len=0
+601258 190.649650 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+601726 190.819788 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+615043 195.172681 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+616053 195.699698 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+616422 195.866077 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+616605 195.949325 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+617808 196.448802 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=559 Ack=306 Win=64471 Len=0
+633651 200.570517 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+634866 200.739114 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+636636 200.979002 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+640494 202.159051 41.106.180.77 -> 41.177.241.46 UDP 331 Source port: 30882  Destination port: https
+656131 205.529719 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+656559 205.792123 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+656818 205.865819 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+657108 206.008612 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+668064 208.218723 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=463 Ack=232 Win=64974 Len=0
+672269 209.530256 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+672690 209.715214 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=463 Ack=232 Win=65370 Len=0
+674973 210.838579 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+675319 211.037974 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+680553 213.009247 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 43550  Destination port: https
+685404 215.268951 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+686970 215.887951 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+687593 216.067969 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+693553 219.157522 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=496 Ack=265 Win=65172 Len=0
+694703 219.901007 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=2889 Ack=1109 Win=64680 Len=0
+695189 220.078164 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=2889 Ack=1141 Win=64648 Len=0
+697462 220.938041 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+697787 221.091882 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+700074 222.047826 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+701633 222.984740 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+702969 223.547221 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+705438 224.484677 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+706824 225.047212 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+708057 225.484684 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+708640 225.722428 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 61602  Destination port: https
+709305 225.961868 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+709339 225.984799 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+709358 225.991062 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+709960 226.227023 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+712219 227.228563 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=625 Ack=339 Win=64438 Len=0
+722698 231.046610 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+722761 231.099706 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+723160 231.251814 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+723525 231.466381 41.106.180.77 -> 41.177.241.46 UDP 267 Source port: 30882  Destination port: https
+724803 231.984987 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+725093 232.111647 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 30882  Destination port: https
+726137 232.546275 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+727158 233.122724 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+727165 233.132378 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+727728 233.484860 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+729010 234.046582 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+734715 234.632448 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+735993 234.985059 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+739703 235.962232 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+740050 236.137205 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+740063 236.146438 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+740379 236.386071 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+746157 238.528135 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 43550  Destination port: https
+746637 238.796192 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=529 Ack=265 Win=64941 Len=0
+748981 240.046156 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+751464 240.896672 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=529 Ack=265 Win=65337 Len=0
+751691 240.985147 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+751986 241.207149 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+752684 241.545830 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+752906 241.615801 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+753561 241.814319 41.106.180.77 -> 41.177.241.46 UDP 331 Source port: 61602  Destination port: https
+754195 242.136852 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+754452 242.277295 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+754660 242.484922 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+755773 243.046174 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+756550 243.636470 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+757030 243.777617 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+757596 243.985277 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+760121 245.136508 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+760441 245.277291 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+763762 246.495344 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+764524 246.777561 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+764848 246.945426 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+767954 248.277461 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+775338 249.635476 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=562 Ack=298 Win=65139 Len=0
+775982 249.777311 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+777932 250.695247 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+777935 250.696921 41.106.180.77 -> 41.177.241.46 UDP 155 Source port: 30882  Destination port: https
+778074 250.796892 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+778076 250.797269 41.106.180.77 -> 41.177.241.46 UDP 251 Source port: 30882  Destination port: https
+778210 250.878445 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 30882  Destination port: https
+778225 250.885553 41.106.180.77 -> 41.177.241.46 UDP 987 Source port: 30882  Destination port: https
+778550 251.135916 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+778698 251.168414 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+778951 251.277408 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+779842 251.804959 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+780199 251.974868 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+781630 252.635775 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+781907 252.777390 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+784364 254.135336 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 43550  Destination port: https
+784639 254.277458 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: mxi  Destination port: https
+788226 255.985124 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+790665 256.854602 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+791196 257.104578 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+793129 258.209645 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=691 Ack=372 Win=64405 Len=0
+801168 261.898696 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+801469 262.134242 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+814548 265.611621 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: mxi  Destination port: https
+815947 266.005774 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+818142 266.944822 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+818753 267.163591 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+824105 269.134274 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+825240 269.374326 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=595 Ack=298 Win=64908 Len=0
+830379 271.373890 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=595 Ack=298 Win=65304 Len=0
+832060 271.993071 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+832421 272.193453 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+841387 276.099842 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+843031 277.042810 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+843401 277.223091 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+847550 279.811348 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=628 Ack=331 Win=65106 Len=0
+847682 279.915985 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=3611 Ack=1394 Win=64395 Len=0
+847842 280.024021 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=3611 Ack=1426 Win=65535 Len=0
+853460 282.102945 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+854129 282.352535 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+864485 285.658474 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+865506 286.100154 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+868683 287.156198 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+869300 287.382794 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+871983 288.386071 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=757 Ack=405 Win=65535 Len=0
+874082 289.234854 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+879102 292.201882 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+879415 292.411924 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+893309 295.658773 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+900324 297.243690 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+901381 297.441437 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+907623 299.233932 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+908281 299.651802 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=661 Ack=331 Win=64875 Len=0
+911524 301.551609 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=661 Ack=331 Win=65271 Len=0
+912989 302.291361 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+913322 302.470521 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+922398 306.195013 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+924317 307.350352 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+924633 307.600501 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+930194 309.886983 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=694 Ack=364 Win=65073 Len=0
+938094 312.400168 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+938895 312.629964 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+952057 315.753866 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+953548 316.195292 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+955392 316.890428 41.106.180.77 -> 41.177.241.46 UDP 187 Source port: 43550  Destination port: https
+956483 317.450107 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+956818 317.659368 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+958932 318.462143 41.106.180.77 -> 41.177.241.46 TCP 64 25958 > https [ACK] Seq=823 Ack=438 Win=65502 Len=0
+963477 320.551009 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+968360 322.493155 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+968839 322.689165 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+977811 325.753793 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: mxi  Destination port: https
+981053 327.542824 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+981214 327.718627 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+989439 329.891026 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 43550  Destination port: https
+989624 329.928819 41.106.180.77 -> 41.177.241.46 TCP 64 watilapp > https [ACK] Seq=727 Ack=364 Win=64842 Len=0
+995407 332.128382 41.106.180.77 -> 41.177.241.46 TCP 64 47084 > https [ACK] Seq=727 Ack=364 Win=65238 Len=0
+996149 332.603240 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+996651 332.848253 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+1002942 336.289392 41.106.180.77 -> 41.177.241.46 UDP 107 Source port: 61602  Destination port: https
+1007944 337.651147 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+1008612 337.877882 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+1012195 339.931331 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=4333 Ack=1679 Win=65282 Len=0
+1012408 340.063203 41.106.180.77 -> 41.177.241.46 TCP 64 49572 > https [ACK] Seq=760 Ack=397 Win=65040 Len=0
+1012420 340.078099 41.106.180.77 -> 41.177.241.46 TCP 64 13463 > https [ACK] Seq=4333 Ack=1711 Win=65250 Len=0
+1016180 342.047493 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+1017243 342.707371 41.106.180.77 -> 41.177.241.46 UDP 315 Source port: 30882  Destination port: https
+1017673 342.987148 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https
+1017725 343.007263 41.106.180.77 -> 41.177.241.46 UDP 139 Source port: 30882  Destination port: https
+1018826 343.547286 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 30882  Destination port: https
+1021048 344.487083 41.106.180.77 -> 41.177.241.46 UDP 203 Source port: 61602  Destination port: https

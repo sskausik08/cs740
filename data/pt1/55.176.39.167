@@ -1,0 +1,2 @@
+210315  72.487156 55.176.39.167 -> 244.3.61.18  TCP 66 rootd > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1414 SACK_PERM=1
+220178  75.346234 55.176.39.167 -> 244.3.61.18  TCP 66 [TCP Retransmission] rootd > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1414 SACK_PERM=1

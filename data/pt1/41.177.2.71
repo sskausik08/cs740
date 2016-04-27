@@ -1,0 +1,9 @@
+1008969 338.104633  41.177.2.71 -> 41.177.98.220 TCP 170 llsurfup-http > op-probe [PSH, ACK] Seq=1 Ack=1 Win=64548 Len=112
+1009106 338.177450  41.177.2.71 -> 41.177.98.220 TCP 162 llsurfup-http > op-probe [PSH, ACK] Seq=113 Ack=123 Win=64426 Len=104
+1009328 338.334630  41.177.2.71 -> 41.177.98.220 TCP 163 llsurfup-http > op-probe [PSH, ACK] Seq=217 Ack=1015 Win=65535 Len=105
+1009500 338.463516  41.177.2.71 -> 41.177.98.220 TCP 129 llsurfup-http > op-probe [PSH, ACK] Seq=322 Ack=1643 Win=64907 Len=71
+1009545 338.482307  41.177.2.71 -> 41.177.98.220 TCP 163 llsurfup-http > op-probe [PSH, ACK] Seq=393 Ack=1726 Win=64824 Len=105
+1009798 338.615513  41.177.2.71 -> 41.177.98.220 TCP 64 llsurfup-http > op-probe [ACK] Seq=498 Ack=2196 Win=64354 Len=0
+1014969 341.571960  41.177.2.71 -> 41.177.98.220 TCP 131 llsurfup-http > op-probe [PSH, ACK] Seq=498 Ack=2196 Win=64354 Len=73
+1015004 341.595888  41.177.2.71 -> 41.177.98.220 TCP 248 llsurfup-http > op-probe [PSH, ACK] Seq=571 Ack=2304 Win=64246 Len=190
+1015898 341.896784  41.177.2.71 -> 41.177.98.220 TCP 64 llsurfup-http > op-probe [ACK] Seq=761 Ack=2525 Win=65535 Len=0

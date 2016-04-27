@@ -1,0 +1,5 @@
+4017   1.184992 41.177.56.138 -> 244.3.41.84  TCP 64 inova-ip-disco > telnet [ACK] Seq=11 Ack=238 Win=65292 Len=0
+4902   1.499047 41.177.56.138 -> 244.3.41.84  TCP 64 inova-ip-disco > telnet [ACK] Seq=21 Ack=1870 Win=65535 Len=0
+9557   3.397935 41.177.56.138 -> 244.3.41.84  TCP 64 inova-ip-disco > telnet [ACK] Seq=31 Ack=1927 Win=65478 Len=0
+17680   5.301230 41.177.56.138 -> 244.3.41.84  TCP 64 inova-ip-disco > telnet [FIN, ACK] Seq=39 Ack=2944 Win=64461 Len=0
+17688   5.319626 41.177.56.138 -> 244.3.41.84  TCP 64 inova-ip-disco > telnet [ACK] Seq=40 Ack=2945 Win=64461 Len=0

@@ -1,0 +1,2 @@
+690019 217.395618 72.18.218.210 -> 244.3.31.41  TCP 66 srp-feedback > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+695788 220.345630 72.18.218.210 -> 244.3.31.41  TCP 66 [TCP Retransmission] srp-feedback > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

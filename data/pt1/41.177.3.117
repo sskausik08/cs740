@@ -1,0 +1,6 @@
+393680 131.721767 41.177.3.117 -> 244.3.153.41 TCP 64 [TCP Keep-Alive] microsoft-ds > netdb-export [ACK] Seq=1 Ack=1 Win=64696 Len=1
+633522 200.517578 41.177.3.117 -> 244.3.153.177 TCP 64 [TCP Keep-Alive] microsoft-ds > web2host [ACK] Seq=1 Ack=1 Win=65351 Len=1
+708546 225.673408 41.177.3.117 -> 244.3.153.24 TCP 64 [TCP Keep-Alive] microsoft-ds > findviatv [ACK] Seq=1 Ack=1 Win=65329 Len=1
+758278 244.157565 41.177.3.117 -> 244.3.153.0  TCP 64 [TCP Keep-Alive] microsoft-ds > goahead-fldup [ACK] Seq=2660730 Ack=45015 Win=65535 Len=1
+779608 251.704283 41.177.3.117 -> 244.3.153.41 TCP 64 [TCP Keep-Alive] microsoft-ds > netdb-export [ACK] Seq=1 Ack=1 Win=64696 Len=1
+963299 320.500070 41.177.3.117 -> 244.3.153.177 TCP 64 [TCP Keep-Alive] microsoft-ds > web2host [ACK] Seq=1 Ack=1 Win=65351 Len=1

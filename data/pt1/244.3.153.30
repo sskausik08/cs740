@@ -1,0 +1,17 @@
+71325  29.429961 244.3.153.30 -> 41.177.24.241 TCP 132 olsv > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=48146 Len=74[Packet size limited during capture]
+242753  84.431673 244.3.153.30 -> 41.177.24.241 TCP 132 olsv > xmpp-client [PSH, ACK] Seq=75 Ack=1 Win=48146 Len=74[Packet size limited during capture]
+292219  97.896840 244.3.153.30 -> 41.177.24.241 TCP 64 olsv > xmpp-client [ACK] Seq=149 Ack=315 Win=49152 Len=0
+389471 130.085598 244.3.153.30 -> 41.177.24.241 TCP 64 olsv > xmpp-client [ACK] Seq=149 Ack=485 Win=48982 Len=0
+393495 131.646966 244.3.153.30 -> 244.3.160.80 TCP 66 rrilwm > https [SYN] Seq=0 Win=65535 Len=0 MSS=1150 SACK_PERM=1
+393510 131.649933 244.3.153.30 -> 244.3.160.80 TCP 64 rrilwm > https [ACK] Seq=1 Ack=1 Win=65535 Len=0
+393950 131.895351 244.3.153.30 -> 244.3.160.80 TCP 64 rrilwm > https [ACK] Seq=1123 Ack=1642 Win=65535 Len=0
+423756 139.430602 244.3.153.30 -> 41.177.24.241 TCP 132 olsv > xmpp-client [PSH, ACK] Seq=149 Ack=485 Win=48982 Len=74[Packet size limited during capture]
+450918 146.747135 244.3.153.30 -> 244.3.160.80 TCP 64 rrilwm > https [ACK] Seq=1123 Ack=1666 Win=65512 Len=0
+612688 194.429689 244.3.153.30 -> 41.177.24.241 TCP 132 olsv > xmpp-client [PSH, ACK] Seq=223 Ack=485 Win=48982 Len=74[Packet size limited during capture]
+666853 207.640912 244.3.153.30 -> 41.177.24.241 TCP 64 olsv > xmpp-client [ACK] Seq=297 Ack=847 Win=48620 Len=0
+772886 249.433446 244.3.153.30 -> 41.177.24.241 TCP 132 olsv > xmpp-client [PSH, ACK] Seq=297 Ack=847 Win=48620 Len=74[Packet size limited during capture]
+881847 293.237336 244.3.153.30 -> 41.177.24.241 TCP 64 ncpm-hip > imaps [ACK] Seq=24026 Ack=129 Win=64781 Len=0
+882167 293.438372 244.3.153.30 -> 41.177.24.241 TCP 64 ncpm-hip > imaps [ACK] Seq=24083 Ack=227 Win=64683 Len=0
+912343 301.888159 244.3.153.30 -> 41.177.24.241 TCP 64 olsv > xmpp-client [ACK] Seq=371 Ack=1177 Win=48290 Len=0
+916705 304.436733 244.3.153.30 -> 41.177.24.241 TCP 132 olsv > xmpp-client [PSH, ACK] Seq=371 Ack=1177 Win=48290 Len=74[Packet size limited during capture]
+985096 328.846123 244.3.153.30 -> 41.177.24.241 TCP 64 olsv > xmpp-client [ACK] Seq=445 Ack=1571 Win=49152 Len=0

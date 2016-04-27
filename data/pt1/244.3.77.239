@@ -1,0 +1,36 @@
+19052   6.224098 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+53695  22.230262 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=67 Ack=34 Win=65517 Len=0
+63469  26.231651 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+96463  36.234684 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+152540  52.240978 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=133 Ack=67 Win=65517 Len=0
+168073  56.242368 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+192309  66.245195 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+235801  82.250825 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=199 Ack=100 Win=65517 Len=0
+246333  86.252127 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+288160  96.254943 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+325740 112.261135 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=265 Ack=133 Win=65517 Len=0
+332929 116.262659 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+368693 126.265712 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+436424 142.272005 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=331 Ack=166 Win=65517 Len=0
+449875 146.273393 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+473846 156.276426 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+530740 172.282821 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=397 Ack=199 Win=65517 Len=0
+544062 176.284209 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+584584 186.287266 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+641003 202.293494 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=463 Ack=232 Win=65517 Len=0
+660400 206.294863 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+688081 216.297875 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+725488 232.304289 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=529 Ack=265 Win=65517 Len=0
+740250 236.305688 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+763205 246.308646 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+802777 262.314442 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=595 Ack=298 Win=65517 Len=0
+816463 266.315661 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+841566 276.226290 244.3.77.239 -> 41.177.241.46 UDP 171 Source port: 50711  Destination port: https
+874212 289.291518 244.3.77.239 -> 41.177.241.46 UDP 187 Source port: 50711  Destination port: https
+874644 289.562900 244.3.77.239 -> 41.177.241.46 UDP 187 Source port: 50711  Destination port: https
+875378 289.833868 244.3.77.239 -> 41.177.241.46 UDP 187 Source port: 50711  Destination port: https
+880305 292.835383 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=661 Ack=331 Win=65517 Len=0
+923514 306.839369 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+969355 322.845875 244.3.77.239 -> 41.177.241.46 TCP 64 51805 > https [ACK] Seq=727 Ack=364 Win=65517 Len=0
+979988 326.847388 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https
+1006066 336.850574 244.3.77.239 -> 41.177.241.46 UDP 107 Source port: 50711  Destination port: https

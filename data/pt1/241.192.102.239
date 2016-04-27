@@ -1,0 +1,2 @@
+588842 187.602445 241.192.102.239 -> 41.177.98.143 TCP 94 informatik-lm > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=16984 Len=36
+589148 187.747521 241.192.102.239 -> 41.177.98.143 TCP 64 informatik-lm > vcom-tunnel [ACK] Seq=37 Ack=83 Win=16902 Len=0

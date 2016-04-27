@@ -1,0 +1,2 @@
+536951 173.834594 210.197.203.197 -> 244.3.61.39  TCP 66 lansurveyorxml > microsoft-ds [SYN] Seq=0 Win=16384 Len=0 MSS=1440 SACK_PERM=1
+547256 176.808101 210.197.203.197 -> 244.3.61.39  TCP 66 [TCP Retransmission] lansurveyorxml > microsoft-ds [SYN] Seq=0 Win=16384 Len=0 MSS=1440 SACK_PERM=1

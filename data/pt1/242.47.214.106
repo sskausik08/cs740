@@ -1,0 +1,3 @@
+561845 180.291318 242.47.214.106 -> 244.3.210.255 TCP 64 smtp > dbreporter [RST, ACK] Seq=1 Ack=1 Win=8212 Len=0
+565062 180.778983 242.47.214.106 -> 244.3.210.255 TCP 64 smtp > dbreporter [RST, ACK] Seq=1 Ack=1 Win=8212 Len=0
+567819 181.435603 242.47.214.106 -> 244.3.210.255 TCP 64 smtp > dbreporter [RST, ACK] Seq=1 Ack=1 Win=8212 Len=0

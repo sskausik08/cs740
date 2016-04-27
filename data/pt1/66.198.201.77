@@ -1,0 +1,2 @@
+638448 201.482696 66.198.201.77 -> 244.3.31.41  TCP 66 res > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1380 SACK_PERM=1
+652107 204.427079 66.198.201.77 -> 244.3.31.41  TCP 66 [TCP Retransmission] res > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1380 SACK_PERM=1

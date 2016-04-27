@@ -1,0 +1,4 @@
+20942   6.946763 194.47.193.89 -> 41.177.98.143 TCP 94 ovwdb > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=64797 Len=36
+21117   7.092351 194.47.193.89 -> 41.177.98.143 TCP 64 ovwdb > vcom-tunnel [ACK] Seq=37 Ack=83 Win=64715 Len=0
+955559 316.952480 194.47.193.89 -> 41.177.98.143 TCP 94 ovwdb > vcom-tunnel [PSH, ACK] Seq=37 Ack=83 Win=64715 Len=36
+956003 317.103912 194.47.193.89 -> 41.177.98.143 TCP 64 ovwdb > vcom-tunnel [ACK] Seq=73 Ack=165 Win=64633 Len=0

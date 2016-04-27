@@ -1,0 +1,2 @@
+16940   4.765810 40.244.94.106 -> 244.3.210.98 TCP 64 http > netobjects2 [FIN, ACK] Seq=1 Ack=1 Win=5840 Len=0
+278901  94.115694 40.244.94.106 -> 244.3.210.98 TCP 64 http > netobjects2 [RST] Seq=2 Win=0 Len=0

@@ -1,0 +1,2 @@
+349774 118.243216 244.3.153.103 -> 244.3.176.224 TCP 64 slingshot > microsoft-ds [ACK] Seq=1 Ack=2 Win=65496 Len=0
+746159 238.528312 244.3.153.103 -> 244.3.176.224 TCP 64 [TCP Keep-Alive ACK] slingshot > microsoft-ds [ACK] Seq=1 Ack=2 Win=65496 Len=0

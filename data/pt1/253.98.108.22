@@ -1,0 +1,13 @@
+806423 263.502912 253.98.108.22 -> 253.37.253.43 TCP 64 printer > cisco-sccp [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1380
+806424 263.502917 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Out-Of-Order] printer > cisco-sccp [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1380
+806570 263.537063 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Keep-Alive] printer > cisco-sccp [PSH, ACK] Seq=1 Ack=8 Win=5833 Len=1
+806667 263.554049 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Keep-Alive] printer > cisco-sccp [PSH, ACK] Seq=2 Ack=31 Win=5810 Len=1
+808914 263.901808 253.98.108.22 -> 253.37.253.43 TCP 64 printer > cisco-sccp [ACK] Seq=3 Ack=111 Win=5730 Len=0
+808915 263.901813 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Dup ACK 808914#1] printer > cisco-sccp [ACK] Seq=3 Ack=111 Win=5730 Len=0
+808962 263.916767 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Keep-Alive] printer > cisco-sccp [PSH, ACK] Seq=3 Ack=112 Win=5729 Len=1
+809055 263.934967 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Keep-Alive] printer > cisco-sccp [PSH, ACK] Seq=4 Ack=135 Win=5706 Len=1
+809184 263.962731 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Keep-Alive] printer > cisco-sccp [PSH, ACK] Seq=5 Ack=570 Win=5271 Len=1
+809237 263.977527 253.98.108.22 -> 253.37.253.43 TCP 64 printer > cisco-sccp [ACK] Seq=6 Ack=572 Win=5270 Len=0
+809238 263.977532 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Dup ACK 809237#1] printer > cisco-sccp [ACK] Seq=6 Ack=572 Win=5270 Len=0
+809298 263.985925 253.98.108.22 -> 253.37.253.43 TCP 64 printer > cisco-sccp [FIN, ACK] Seq=6 Ack=572 Win=5270 Len=0
+809299 263.985929 253.98.108.22 -> 253.37.253.43 TCP 64 [TCP Out-Of-Order] printer > cisco-sccp [FIN, ACK] Seq=6 Ack=572 Win=5270 Len=0

@@ -1,0 +1,9 @@
+69044  28.596945 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=25 Ack=2221 Win=65535 Len=0
+665586 207.187700 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=49 Ack=4441 Win=65535 Len=0
+701970 223.087018 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=73 Ack=6661 Win=65535 Len=0
+759306 244.688839 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=97 Ack=8881 Win=65535 Len=0
+816157 266.140523 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=121 Ack=11101 Win=65535 Len=0
+845678 278.541320 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=145 Ack=13321 Win=65535 Len=0
+913823 302.632289 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=169 Ack=15541 Win=65535 Len=0
+970015 323.217216 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=193 Ack=17761 Win=65535 Len=0
+1014114 340.934389 41.177.93.64 -> 244.3.41.84  TCP 64 iascontrol-oms > telnet [ACK] Seq=217 Ack=19981 Win=65535 Len=0

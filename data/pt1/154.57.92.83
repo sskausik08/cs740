@@ -1,0 +1,2 @@
+937794 312.303925 154.57.92.83 -> 244.3.61.244 TCP 66 metasage > microsoft-ds [SYN] Seq=0 Win=16384 Len=0 MSS=1452 SACK_PERM=1
+949591 314.909257 154.57.92.83 -> 244.3.61.244 TCP 66 [TCP Retransmission] metasage > microsoft-ds [SYN] Seq=0 Win=16384 Len=0 MSS=1452 SACK_PERM=1

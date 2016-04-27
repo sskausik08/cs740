@@ -1,0 +1,441 @@
+1539   0.445123 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1547   0.445490 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1548   0.445549 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+9012   3.245106 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+9013   3.245195 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+9014   3.245242 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+18505   5.877155 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+18506   5.877466 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+18507   5.877513 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+23859   8.741113 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+23860   8.741294 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+23861   8.741356 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+28223  11.369130 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+28224  11.369216 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+28225  11.369265 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+32726  13.881187 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+32727  13.881438 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+32728  13.881486 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+39819  16.549151 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+39820  16.549299 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+39821  16.549356 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+42813  18.092178 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38046 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728561326 TSecr=1509547267 WS=1 SACK_PERM=1 MSS=1460
+42816  18.092749 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38046 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728561326 TSecr=1509547267
+42819  18.093150 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38046 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728561326 TSecr=1509547267
+42844  18.099086 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38046 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728561327 TSecr=1509547267
+42848  18.099475 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38046 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728561327 TSecr=1509547268
+46258  19.317137 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+46265  19.317327 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+46268  19.317392 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+54005  22.317133 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+54006  22.317281 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+54007  22.317331 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+60326  24.391686 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38050 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728561956 TSecr=1509547897 WS=1 SACK_PERM=1 MSS=1460
+60330  24.392231 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38050 [ACK] Seq=1 Ack=43 Win=24616 Len=0 TSval=1728561956 TSecr=1509547897
+60334  24.392535 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38050 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728561956 TSecr=1509547897
+60343  24.396642 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38050 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728561956 TSecr=1509547897
+60348  24.397142 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38050 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728561957 TSecr=1509547898
+61241  25.025149 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+61242  25.025384 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+61243  25.025429 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+67459  27.757155 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+67460  27.757347 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+67463  27.757360 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+75003  30.385234 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+75006  30.385317 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+75007  30.385366 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+85150  33.053163 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+85151  33.053286 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+85152  33.053343 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+94803  35.905178 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+94804  35.905274 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+94805  35.905321 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+108000  38.817192 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+108001  38.817270 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+108002  38.817321 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+116746  41.717247 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+116747  41.717316 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+116748  41.717365 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+124707  44.501259 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+124709  44.501470 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+124710  44.501517 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+135869  47.277210 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+135870  47.277311 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+135871  47.277360 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+145745  49.937209 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+145750  49.937378 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+145751  49.937416 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+153048  52.389206 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+153049  52.389411 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+153050  52.389456 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+162158  55.181209 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+162159  55.181365 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+162160  55.181411 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+173572  57.701209 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+173574  57.701312 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+173575  57.701353 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+179473  60.421300 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+179474  60.421393 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+179475  60.421442 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+186713  62.837235 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+186715  62.837421 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+186716  62.837463 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+190720  65.577226 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+190721  65.577336 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+190722  65.577391 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+198338  68.117238 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+198339  68.117355 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+198340  68.117401 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+205736  70.705534 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+205737  70.705699 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+205738  70.705745 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+214567  73.637233 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+214568  73.637416 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+214569  73.637481 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+222884  76.361250 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+222885  76.361327 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+222886  76.361373 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+229567  78.961265 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+229568  78.961507 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+229569  78.961562 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+234833  81.629259 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+234836  81.629473 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+234837  81.629541 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+243042  84.541252 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+243043  84.541330 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+243044  84.541380 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+247422  86.977276 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+247423  86.977361 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+247424  86.977411 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+250975  88.632102 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38083 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728568380 TSecr=1509554321 WS=1 SACK_PERM=1 MSS=1460
+250980  88.633088 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38083 [ACK] Seq=1 Ack=43 Win=24616 Len=0 TSval=1728568380 TSecr=1509554321
+250983  88.633592 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38083 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728568380 TSecr=1509554321
+251001  88.638135 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38083 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728568381 TSecr=1509554321
+251005  88.638581 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38083 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728568381 TSecr=1509554322
+252724  89.437337 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+252725  89.437443 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+252726  89.437491 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+271350  92.188324 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+271356  92.188456 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+271360  92.188505 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+281665  94.679818 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38092 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728568985 TSecr=1509554926 WS=1 SACK_PERM=1 MSS=1460
+281672  94.680161 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38092 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728568985 TSecr=1509554926
+281675  94.680473 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38092 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728568985 TSecr=1509554926
+281703  94.684718 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38092 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728568985 TSecr=1509554926
+281708  94.685185 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38092 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728568985 TSecr=1509554926
+283142  95.009444 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+283143  95.009538 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+283144  95.009588 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+291989  97.761334 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+291991  97.761418 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+291993  97.761477 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+298495 100.597759 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+298496 100.597851 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+298497 100.597898 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+305385 103.385318 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+305386 103.385466 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+305387 103.385511 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+310507 105.961397 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+310508 105.961473 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+310509 105.961525 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+318974 108.693321 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+318976 108.693429 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+318978 108.693472 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+324700 111.513345 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+324701 111.513444 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+324702 111.513488 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+329088 114.517372 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+329089 114.517493 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+329090 114.517553 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+335931 117.477328 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+335932 117.477476 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+335933 117.477524 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+353481 120.197338 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+353484 120.197461 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+353485 120.197503 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+359726 122.813589 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+359727 122.813759 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+359728 122.813806 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+366574 125.437368 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+366575 125.437468 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+366576 125.437514 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+385825 128.061355 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+385826 128.061542 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+385827 128.061587 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+391601 130.901379 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+391602 130.901506 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+391603 130.901580 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+397386 133.545382 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+397387 133.545492 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+397388 133.545542 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+398084 133.940802 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38123 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728572911 TSecr=1509558852 WS=1 SACK_PERM=1 MSS=1460
+398087 133.941328 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38123 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728572911 TSecr=1509558852
+398089 133.941676 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38123 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728572911 TSecr=1509558852
+398102 133.946780 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38123 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728572911 TSecr=1509558852
+398108 133.947177 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38123 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728572911 TSecr=1509558853
+408129 136.405378 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+408130 136.405570 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+408131 136.405626 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+420451 139.177399 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+420455 139.177610 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+420458 139.177656 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+434884 141.845514 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+434885 141.845776 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+434886 141.845823 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+443254 144.297442 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+443255 144.297593 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+443256 144.297641 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+451145 146.873394 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+451146 146.873472 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+451147 146.873530 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+458162 149.701449 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+458169 149.701577 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+458172 149.701629 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+463311 152.147179 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+463312 152.147489 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+463313 152.147538 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+469635 154.977411 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+469636 154.977493 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+469637 154.977539 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+478622 157.697413 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+478623 157.697534 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+478624 157.697596 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+488943 160.625430 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+488944 160.625640 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+488945 160.625692 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+496075 163.453441 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+496081 163.453544 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+496085 163.453655 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+515581 166.229444 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+515583 166.229548 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+515585 166.229591 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+521826 169.129477 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+521827 169.129774 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+521828 169.129822 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+522070 169.181733 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38130 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728576435 TSecr=1509562376 WS=1 SACK_PERM=1 MSS=1460
+522087 169.182089 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38130 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728576435 TSecr=1509562376
+522099 169.182463 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38130 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728576435 TSecr=1509562376
+522133 169.187097 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38130 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728576435 TSecr=1509562376
+522137 169.187596 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38130 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728576435 TSecr=1509562377
+528349 171.649462 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+528350 171.649599 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+528351 171.649649 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+532576 172.721171 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38132 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728576789 TSecr=1509562730 WS=1 SACK_PERM=1 MSS=1460
+532580 172.721581 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38132 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728576789 TSecr=1509562730
+532582 172.721941 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38132 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728576789 TSecr=1509562730
+532622 172.726323 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38132 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728576789 TSecr=1509562730
+532628 172.727199 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38132 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728576789 TSecr=1509562730
+538045 174.229461 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+538046 174.229721 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+538047 174.229768 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+547072 176.797443 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+547080 176.797543 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+547082 176.797574 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+556674 179.257540 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+556681 179.257644 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+556685 179.257732 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+569907 182.113577 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+569910 182.113845 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+569911 182.113894 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+581599 185.065563 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+581603 185.065807 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+581604 185.065859 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+588993 187.661462 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+588994 187.661540 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+588995 187.661588 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+600652 190.389486 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+600653 190.389722 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+600654 190.389766 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+608480 193.261490 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+608481 193.261589 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+608482 193.261639 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+617401 196.249584 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+617402 196.250024 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+617403 196.250080 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+626661 198.941488 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+626664 198.941670 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+626665 198.941721 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+639107 201.701511 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+639108 201.701881 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+639109 201.701927 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+652874 204.597557 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+652881 204.597619 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+652882 204.597651 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+665849 207.285562 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+665851 207.285688 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+665855 207.285750 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+673259 210.009594 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+673260 210.009687 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+673261 210.009733 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+680053 212.713610 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+680054 212.713759 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+680055 212.713826 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+685158 215.117999 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38144 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728581028 TSecr=1509566970 WS=1 SACK_PERM=1 MSS=1460
+685161 215.118460 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38144 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728581028 TSecr=1509566970
+685165 215.118899 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38144 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728581028 TSecr=1509566970
+685180 215.123808 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38144 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728581029 TSecr=1509566970
+685201 215.124487 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38144 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728581029 TSecr=1509566970
+685350 215.261534 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+685351 215.261697 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+685353 215.261747 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+691263 218.025583 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+691264 218.025682 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+691265 218.025729 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+696449 220.665537 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+696450 220.665610 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+696451 220.665657 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+702543 223.346203 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+702544 223.346343 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+702545 223.346388 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+709718 226.101616 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+709721 226.101788 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+709722 226.101831 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+709723 226.101913 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38147 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728582127 TSecr=1509568068 WS=1 SACK_PERM=1 MSS=1460
+709726 226.102496 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38147 [ACK] Seq=1 Ack=43 Win=24616 Len=0 TSval=1728582127 TSecr=1509568068
+709728 226.102880 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38147 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728582127 TSecr=1509568068
+709737 226.107012 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38147 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728582127 TSecr=1509568068
+709741 226.107474 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38147 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728582127 TSecr=1509568068
+717772 229.093572 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+717773 229.093642 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+717774 229.093701 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+724888 232.025948 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+724889 232.026120 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+724890 232.026167 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+734911 234.653619 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+734912 234.654101 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+734913 234.654148 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+742380 237.449587 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+742381 237.449737 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+742382 237.449795 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+749866 240.397572 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+749868 240.397684 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+749869 240.397729 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+755344 242.835212 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+755345 242.835347 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+755346 242.835393 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+761262 245.565665 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+761263 245.565832 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+761264 245.565887 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+767823 248.217616 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+767824 248.217712 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+767825 248.217759 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+778106 250.817630 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+778107 250.817741 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+778108 250.817820 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+783548 253.721592 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+783549 253.721702 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+783550 253.721763 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+790163 256.689641 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+790165 256.689717 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+790166 256.689766 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+795884 259.421666 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+795885 259.421831 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+795886 259.421881 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+802110 262.261627 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+802115 262.261748 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+802119 262.261816 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+813100 265.205635 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+813102 265.205989 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+813103 265.206031 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+821443 268.109653 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+821455 268.109864 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+821456 268.109898 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+829342 270.717704 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+829344 270.717776 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+829346 270.717820 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+835547 273.493635 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+835548 273.493831 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+835549 273.493898 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+839661 275.263861 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38158 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728587043 TSecr=1509572984 WS=1 SACK_PERM=1 MSS=1460
+839665 275.264266 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38158 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728587043 TSecr=1509572984
+839667 275.264577 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38158 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728587043 TSecr=1509572984
+839685 275.269186 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38158 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728587043 TSecr=1509572984
+839690 275.269612 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38158 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728587043 TSecr=1509572985
+841297 276.037642 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+841298 276.037781 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+841299 276.037829 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+846010 278.737830 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+846016 278.738102 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+846017 278.738163 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+846468 278.954746 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38161 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728587412 TSecr=1509573353 WS=1 SACK_PERM=1 MSS=1460
+846472 278.955493 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38161 [ACK] Seq=1 Ack=43 Win=24616 Len=0 TSval=1728587412 TSecr=1509573353
+846475 278.956213 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38161 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728587412 TSecr=1509573353
+846480 278.960915 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38161 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728587412 TSecr=1509573353
+846489 278.961668 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38161 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728587413 TSecr=1509573354
+852229 281.629693 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+852230 281.629794 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+852231 281.629845 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+861795 284.241911 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+861798 284.242095 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+861799 284.242142 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+867805 286.889676 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+867810 286.889959 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+867812 286.890007 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+874420 289.381682 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+874423 289.381809 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+874424 289.381858 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+879258 292.349767 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+879259 292.349873 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+879260 292.349924 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+892186 295.269874 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+892188 295.269956 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+892191 295.270026 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+903811 298.097805 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+903813 298.098112 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+903814 298.098160 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+909950 300.617736 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+909953 300.617885 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+909954 300.617929 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+915185 303.425717 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+915191 303.426032 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+915192 303.426084 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+922531 306.309812 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+922532 306.309985 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+922533 306.310033 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+926790 308.821767 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+926791 308.821873 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+926792 308.821919 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+936036 311.813741 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+936037 311.813862 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+936038 311.813923 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+947006 314.301763 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+947007 314.301913 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+947008 314.301968 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+956178 317.217757 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+956179 317.217872 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+956180 317.217924 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+957935 318.025106 244.3.160.186 -> 41.177.26.214 TCP 82 http > 38185 [SYN, ACK] Seq=0 Ack=1 Win=24616 Len=0 TSval=1728591319 TSecr=1509577260 WS=1 SACK_PERM=1 MSS=1460
+957938 318.025502 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38185 [ACK] Seq=1 Ack=43 Win=24574 Len=0 TSval=1728591319 TSecr=1509577260
+957940 318.026065 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38185 [ACK] Seq=1 Ack=69 Win=24616 Len=0 TSval=1728591319 TSecr=1509577260
+957950 318.030835 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38185 [FIN, ACK] Seq=1574 Ack=69 Win=24616 Len=0 TSval=1728591319 TSecr=1509577260
+957960 318.031507 244.3.160.186 -> 41.177.26.214 TCP 70 http > 38185 [ACK] Seq=1575 Ack=70 Win=24616 Len=0 TSval=1728591319 TSecr=1509577261
+962688 319.993754 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+962690 319.994277 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+962691 319.994332 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+968381 322.509748 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+968382 322.510206 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+968383 322.510257 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+976317 325.189750 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+976318 325.189831 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+976319 325.189878 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+981966 328.129763 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+981967 328.129972 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+981968 328.130027 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+991515 330.713784 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+991516 330.713944 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+991517 330.713989 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+997715 333.485833 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+997716 333.485982 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+997717 333.486031 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1003286 336.476478 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1003287 336.476630 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1003288 336.476704 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1011533 339.373807 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1011535 339.373930 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1011536 339.373976 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1016464 342.213792 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1016465 342.213911 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1016466 342.213964 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1021584 344.933788 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1021588 344.934093 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp
+1021590 344.934159 244.3.160.186 -> 210.218.218.164 UDP 66 Source port: hsrp  Destination port: hsrp

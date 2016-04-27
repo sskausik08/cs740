@@ -1,0 +1,8 @@
+61878  25.348842  244.3.3.249 -> 41.177.98.220 TCP 154 rdrmshc > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=96
+61956  25.403967  244.3.3.249 -> 41.177.98.220 TCP 131 rdrmshc > ups-onlinet [PSH, ACK] Seq=97 Ack=350 Win=65186 Len=73
+62245  25.557430  244.3.3.249 -> 41.177.98.220 TCP 64 rdrmshc > ups-onlinet [ACK] Seq=170 Ack=1416 Win=65535 Len=0
+78270  31.130399  244.3.3.249 -> 41.177.98.220 TCP 135 rdrmshc > ups-onlinet [PSH, ACK] Seq=170 Ack=1416 Win=65535 Len=77
+78928  31.290898  244.3.3.249 -> 41.177.98.220 TCP 64 rdrmshc > ups-onlinet [ACK] Seq=247 Ack=1591 Win=65360 Len=0
+83974  32.625790  244.3.3.249 -> 41.177.98.220 TCP 132 rdrmshc > ups-onlinet [PSH, ACK] Seq=247 Ack=1591 Win=65360 Len=74
+84587  32.811557  244.3.3.249 -> 41.177.98.220 TCP 129 rdrmshc > ups-onlinet [PSH, ACK] Seq=321 Ack=2053 Win=64898 Len=71
+85021  33.000886  244.3.3.249 -> 41.177.98.220 TCP 64 rdrmshc > ups-onlinet [ACK] Seq=392 Ack=2336 Win=64615 Len=0

@@ -1,0 +1,45 @@
+40653  17.029393 244.3.93.177 -> 41.177.98.220 TCP 128 ardus-trns > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65193 Len=70
+41200  17.213262 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=71 Ack=470 Win=64724 Len=0
+41632  17.357832 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=71 Ack=470 Win=64724 Len=72
+42126  17.517716 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=143 Ack=717 Win=64477 Len=72
+42134  17.521940 244.3.93.177 -> 41.177.98.220 TCP 129 ardus-trns > ups-onlinet [PSH, ACK] Seq=215 Ack=838 Win=64356 Len=71
+42140  17.524385 244.3.93.177 -> 41.177.98.220 TCP 131 ardus-trns > ups-onlinet [PSH, ACK] Seq=286 Ack=908 Win=64286 Len=73
+42427  17.817714 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=359 Ack=991 Win=64203 Len=0
+188553  64.116201 244.3.93.177 -> 41.177.98.220 TCP 227 ardus-trns > ups-onlinet [PSH, ACK] Seq=359 Ack=991 Win=64203 Len=169
+188641  64.150309 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=528 Ack=1107 Win=65535 Len=77
+188646  64.164541 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=605 Ack=1179 Win=65463 Len=77
+188964  64.388075 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=682 Ack=1250 Win=65392 Len=0
+225054  76.938093 244.3.93.177 -> 41.177.98.220 TCP 128 ardus-trns > ups-onlinet [PSH, ACK] Seq=682 Ack=1250 Win=65392 Len=70
+225430  77.061912 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=752 Ack=1719 Win=64923 Len=0
+225444  77.075238 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=752 Ack=1719 Win=64923 Len=72
+225656  77.229965 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=824 Ack=1966 Win=64676 Len=72
+225663  77.235205 244.3.93.177 -> 41.177.98.220 TCP 129 ardus-trns > ups-onlinet [PSH, ACK] Seq=896 Ack=2087 Win=64555 Len=71
+225690  77.238046 244.3.93.177 -> 41.177.98.220 TCP 131 ardus-trns > ups-onlinet [PSH, ACK] Seq=967 Ack=2157 Win=64485 Len=73
+226398  77.364674 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=1040 Ack=2240 Win=64402 Len=0
+291926  97.696760 244.3.93.177 -> 41.177.98.220 TCP 227 ardus-trns > ups-onlinet [PSH, ACK] Seq=1040 Ack=2240 Win=64402 Len=169
+291952  97.729823 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=1209 Ack=2356 Win=64286 Len=77
+291971  97.741283 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=1286 Ack=2428 Win=64214 Len=77
+292304  97.983792 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=1363 Ack=2499 Win=65535 Len=0
+397149 133.363577 244.3.93.177 -> 41.177.98.220 TCP 128 ardus-trns > ups-onlinet [PSH, ACK] Seq=1363 Ack=2499 Win=65535 Len=70
+397318 133.491578 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=1433 Ack=2968 Win=65066 Len=72
+397485 133.652589 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=1505 Ack=3215 Win=64819 Len=72
+397487 133.657311 244.3.93.177 -> 41.177.98.220 TCP 129 ardus-trns > ups-onlinet [PSH, ACK] Seq=1577 Ack=3336 Win=64698 Len=71
+397497 133.662227 244.3.93.177 -> 41.177.98.220 TCP 131 ardus-trns > ups-onlinet [PSH, ACK] Seq=1648 Ack=3406 Win=64628 Len=73
+397746 133.792427 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=1721 Ack=3489 Win=64545 Len=0
+495027 163.348011 244.3.93.177 -> 41.177.98.220 TCP 227 ardus-trns > ups-onlinet [PSH, ACK] Seq=1721 Ack=3489 Win=64545 Len=169
+495390 163.380397 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=1890 Ack=3605 Win=64429 Len=77
+495495 163.406293 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=1967 Ack=3677 Win=64357 Len=77
+498807 163.666458 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=2044 Ack=3748 Win=64286 Len=0
+590006 188.038728 244.3.93.177 -> 41.177.98.220 TCP 231 ardus-trns > ups-onlinet [PSH, ACK] Seq=2044 Ack=3748 Win=64286 Len=173
+590024 188.052456 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=2217 Ack=3841 Win=64193 Len=77
+591642 188.310063 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=2294 Ack=3913 Win=65535 Len=0
+765464 247.231243 244.3.93.177 -> 41.177.98.220 TCP 128 ardus-trns > ups-onlinet [PSH, ACK] Seq=2294 Ack=3913 Win=65535 Len=70
+765692 247.370717 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=2364 Ack=4382 Win=65066 Len=72
+765867 247.502720 244.3.93.177 -> 41.177.98.220 TCP 130 ardus-trns > ups-onlinet [PSH, ACK] Seq=2436 Ack=4625 Win=64823 Len=72
+765869 247.507588 244.3.93.177 -> 41.177.98.220 TCP 129 ardus-trns > ups-onlinet [PSH, ACK] Seq=2508 Ack=4746 Win=64702 Len=71
+765875 247.510380 244.3.93.177 -> 41.177.98.220 TCP 131 ardus-trns > ups-onlinet [PSH, ACK] Seq=2579 Ack=4816 Win=64632 Len=73
+766458 247.756431 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=2652 Ack=4899 Win=64549 Len=0
+921366 305.659029 244.3.93.177 -> 41.177.98.220 TCP 227 ardus-trns > ups-onlinet [PSH, ACK] Seq=2652 Ack=4899 Win=64549 Len=169
+921435 305.708240 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=2821 Ack=5015 Win=64433 Len=77
+921447 305.715933 244.3.93.177 -> 41.177.98.220 TCP 135 ardus-trns > ups-onlinet [PSH, ACK] Seq=2898 Ack=5087 Win=64361 Len=77
+922002 305.995672 244.3.93.177 -> 41.177.98.220 TCP 64 ardus-trns > ups-onlinet [ACK] Seq=2975 Ack=5158 Win=64290 Len=0

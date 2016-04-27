@@ -1,0 +1,2 @@
+252494  89.320093 214.26.210.241 -> 244.3.61.215 TCP 66 snifferclient > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+274019  92.307728 214.26.210.241 -> 244.3.61.215 TCP 66 [TCP Retransmission] snifferclient > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

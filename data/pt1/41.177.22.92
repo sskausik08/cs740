@@ -1,0 +1,2 @@
+817443 266.697751 41.177.22.92 -> 41.177.98.220 TCP 124 de-cache-query > empowerid [PSH, ACK] Seq=1 Ack=1 Win=65258 Len=66
+817950 266.907862 41.177.22.92 -> 41.177.98.220 TCP 64 de-cache-query > empowerid [ACK] Seq=67 Ack=71 Win=65188 Len=0

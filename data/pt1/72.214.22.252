@@ -1,0 +1,2 @@
+189713  64.984724 72.214.22.252 -> 244.3.61.22  TCP 70 isis-bcast > microsoft-ds [SYN] Seq=0 Win=32767 Len=0 MSS=1426 WS=1 SACK_PERM=1
+197957  67.894659 72.214.22.252 -> 244.3.61.22  TCP 70 [TCP Retransmission] isis-bcast > microsoft-ds [SYN] Seq=0 Win=32767 Len=0 MSS=1426 WS=1 SACK_PERM=1

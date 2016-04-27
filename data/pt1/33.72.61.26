@@ -1,0 +1,2 @@
+862352 284.516339  33.72.61.26 -> 244.3.31.180 TCP 66 ias-admind > microsoft-ds [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1
+869461 287.464696  33.72.61.26 -> 244.3.31.180 TCP 66 [TCP Retransmission] ias-admind > microsoft-ds [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1

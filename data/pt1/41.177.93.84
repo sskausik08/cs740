@@ -1,0 +1,10 @@
+181824  61.120945 41.177.93.84 -> 244.3.41.84  TCP 64 isoipsigport-1 > telnet [ACK] Seq=4 Ack=7 Win=65529 Len=0
+546021 176.679129 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=11 Ack=207 Win=65329 Len=0
+552840 177.882258 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=28 Ack=1002 Win=64534 Len=0
+585019 186.402343 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=120 Ack=2723 Win=65535 Len=0
+598692 189.748358 41.177.93.84 -> 244.3.41.84  TCP 64 isoipsigport-1 > telnet [ACK] Seq=32 Ack=1170 Win=64366 Len=0
+638916 201.641528 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=136 Ack=4470 Win=65535 Len=0
+698141 221.304750 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=299 Ack=5265 Win=64740 Len=0
+702068 223.138264 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=391 Ack=6986 Win=65535 Len=0
+885794 294.189460 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=407 Ack=8733 Win=65535 Len=0
+937964 312.356795 41.177.93.84 -> 244.3.41.84  TCP 64 mpc-lifenet > telnet [ACK] Seq=570 Ack=10454 Win=65535 Len=0

@@ -1,0 +1,2 @@
+44219  18.682544 209.176.160.155 -> 244.3.61.124 TCP 70 msfw-replica > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=8 SACK_PERM=1
+52465  21.656858 209.176.160.155 -> 244.3.61.124 TCP 70 [TCP Retransmission] msfw-replica > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 WS=8 SACK_PERM=1

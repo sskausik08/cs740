@@ -1,0 +1,2 @@
+27703  10.991605 41.177.91.249 -> 244.3.41.84  TCP 64 cera-bcm > telnet [ACK] Seq=11 Ack=242 Win=65294 Len=0
+31234  13.168425 41.177.91.249 -> 244.3.41.84  TCP 64 cera-bcm > telnet [ACK] Seq=38 Ack=2656 Win=65535 Len=0

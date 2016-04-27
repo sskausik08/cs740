@@ -1,0 +1,2 @@
+820091 267.557813  249.66.0.84 -> 244.3.61.68  TCP 66 seraph > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+828841 270.513124  249.66.0.84 -> 244.3.61.68  TCP 66 [TCP Retransmission] seraph > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

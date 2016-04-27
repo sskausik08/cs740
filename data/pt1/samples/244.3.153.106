@@ -1,0 +1,7 @@
+36735  15.354534 244.3.153.106 -> 41.177.24.241 TCP 132 imagequery > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=48790 Len=74[Packet size limited during capture]
+204561  70.348930 244.3.153.106 -> 41.177.24.241 TCP 132 imagequery > xmpp-client [PSH, ACK] Seq=75 Ack=1 Win=48790 Len=74[Packet size limited during capture]
+366406 125.348080 244.3.153.106 -> 41.177.24.241 TCP 132 imagequery > xmpp-client [PSH, ACK] Seq=149 Ack=1 Win=48790 Len=74[Packet size limited during capture]
+517036 167.122401 244.3.153.106 -> 41.177.202.249 TCP 64 aviva-sna > microsoft-ds [ACK] Seq=1 Ack=5 Win=64619 Len=0
+563002 180.356830 244.3.153.106 -> 41.177.24.241 TCP 132 imagequery > xmpp-client [PSH, ACK] Seq=223 Ack=1 Win=48790 Len=74[Packet size limited during capture]
+736336 235.358060 244.3.153.106 -> 41.177.24.241 TCP 132 imagequery > xmpp-client [PSH, ACK] Seq=297 Ack=1 Win=48790 Len=74[Packet size limited during capture]
+876503 290.357268 244.3.153.106 -> 41.177.24.241 TCP 132 imagequery > xmpp-client [PSH, ACK] Seq=371 Ack=1 Win=48790 Len=74[Packet size limited during capture]

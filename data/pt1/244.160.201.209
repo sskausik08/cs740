@@ -1,0 +1,2 @@
+608023 193.022012 244.160.201.209 -> 41.177.98.143 TCP 94 gds-db > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=65207 Len=36
+608326 193.178009 244.160.201.209 -> 41.177.98.143 TCP 64 gds-db > vcom-tunnel [ACK] Seq=37 Ack=83 Win=65125 Len=0

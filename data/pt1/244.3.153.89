@@ -1,0 +1,10 @@
+42675  17.986812 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=54 Ack=54 Win=64648 Len=0
+152481  52.221364 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=107 Ack=107 Win=64595 Len=0
+246484  86.346461 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=160 Ack=160 Win=64542 Len=0
+354025 120.471495 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=213 Ack=213 Win=64489 Len=0
+468379 154.487163 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=266 Ack=266 Win=64436 Len=0
+595285 188.721700 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=319 Ack=319 Win=65535 Len=0
+701439 222.846737 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=372 Ack=372 Win=65482 Len=0
+790938 256.972725 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=425 Ack=425 Win=65429 Len=0
+877560 290.988041 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=478 Ack=478 Win=65376 Len=0
+976374 325.222079 244.3.153.89 -> 244.3.176.224 TCP 64 lnvalarm > microsoft-ds [ACK] Seq=531 Ack=531 Win=65323 Len=0

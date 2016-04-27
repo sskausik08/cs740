@@ -1,0 +1,2 @@
+329901 114.885488  47.41.55.77 -> 41.177.98.143 TCP 94 DB2_db2inst1_END > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=16358 Len=36
+330756 115.118300  47.41.55.77 -> 41.177.98.143 TCP 64 DB2_db2inst1_END > vcom-tunnel [ACK] Seq=37 Ack=83 Win=16338 Len=0

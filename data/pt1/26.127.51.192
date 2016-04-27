@@ -1,0 +1,2 @@
+208484  71.609318 26.127.51.192 -> 244.3.61.22  TCP 70 isoft-p2p > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 WS=1 SACK_PERM=1
+218286  74.492347 26.127.51.192 -> 244.3.61.22  TCP 70 [TCP Retransmission] isoft-p2p > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 WS=1 SACK_PERM=1

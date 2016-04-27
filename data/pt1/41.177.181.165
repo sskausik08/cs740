@@ -1,0 +1,6 @@
+45544  19.084922 41.177.181.165 -> 244.3.41.84  TCP 64 nsjtp-ctrl > telnet [ACK] Seq=72 Ack=1770 Win=65535 Len=0
+74850  30.346144 41.177.181.165 -> 244.3.41.84  TCP 64 nsjtp-ctrl > telnet [ACK] Seq=143 Ack=3539 Win=65535 Len=0
+151207  51.872647 41.177.181.165 -> 244.3.41.84  TCP 64 nsjtp-ctrl > telnet [ACK] Seq=214 Ack=5308 Win=65535 Len=0
+230186  79.464141 41.177.181.165 -> 244.3.41.84  TCP 64 nsjtp-ctrl > telnet [ACK] Seq=285 Ack=7077 Win=65535 Len=0
+292887  98.330731 41.177.181.165 -> 244.3.41.84  TCP 64 nsjtp-ctrl > telnet [ACK] Seq=356 Ack=8846 Win=65535 Len=0
+335201 117.237267 41.177.181.165 -> 244.3.41.84  TCP 64 nsjtp-ctrl > telnet [ACK] Seq=427 Ack=10615 Win=65535 Len=0

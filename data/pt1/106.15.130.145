@@ -1,0 +1,2 @@
+71854  29.538221 106.15.130.145 -> 244.3.61.18  TCP 66 roketz > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+83515  32.473355 106.15.130.145 -> 244.3.61.18  TCP 66 [TCP Retransmission] roketz > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

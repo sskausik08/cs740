@@ -1,0 +1,2 @@
+534278 173.180598 106.71.77.188 -> 244.3.31.168 TCP 70 ias-reg > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 WS=16 SACK_PERM=1
+543782 176.211580 106.71.77.188 -> 244.3.31.168 TCP 70 [TCP Retransmission] ias-reg > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 WS=16 SACK_PERM=1

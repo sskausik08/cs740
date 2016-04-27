@@ -1,0 +1,20 @@
+236819  82.361717  244.3.31.64 -> 244.3.210.95 TCP 66 jetform > ssc-agent [SYN] Seq=0 Win=65535 Len=0 MSS=1380 SACK_PERM=1
+236822  82.362069  244.3.31.64 -> 244.3.210.95 TCP 64 jetform > ssc-agent [ACK] Seq=1 Ack=1 Win=65535 Len=0
+236823  82.362182  244.3.31.64 -> 244.3.210.95 TCP 74 jetform > ssc-agent [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=16
+236857  82.362739  244.3.31.64 -> 244.3.210.95 TCP 64 jetform > ssc-agent [ACK] Seq=17 Ack=273 Win=65263 Len=0
+236861  82.363054  244.3.31.64 -> 244.3.210.95 TCP 1424 jetform > ssc-agent [PSH, ACK] Seq=17 Ack=273 Win=65263 Len=1366
+236904  82.366237  244.3.31.64 -> 244.3.210.95 TCP 105 jetform > ssc-agent [PSH, ACK] Seq=1383 Ack=471 Win=65065 Len=47
+236905  82.366265  244.3.31.64 -> 244.3.210.95 TCP 134 jetform > ssc-agent [PSH, ACK] Seq=1430 Ack=471 Win=65065 Len=76
+236913  82.367243  244.3.31.64 -> 244.3.210.95 TCP 85 jetform > ssc-agent [PSH, ACK] Seq=1506 Ack=554 Win=64982 Len=27
+236914  82.367249  244.3.31.64 -> 244.3.210.95 TCP 122 jetform > ssc-agent [FIN, ACK] Seq=1533 Ack=554 Win=64982 Len=0
+236918  82.367601  244.3.31.64 -> 244.3.210.95 TCP 64 jetform > ssc-agent [ACK] Seq=1534 Ack=582 Win=64955 Len=0
+925231 307.942275  244.3.31.64 -> 244.3.153.41 TCP 66 ssc-agent > kjtsiteserver [SYN, ACK] Seq=0 Ack=1 Win=16384 Len=0 MSS=1380 SACK_PERM=1
+925259 307.952823  244.3.31.64 -> 244.3.153.41 TCP 74 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1 Ack=119 Win=65417 Len=16
+925263 307.958442  244.3.31.64 -> 244.3.153.41 TCP 1208 ssc-agent > kjtsiteserver [ACK] Seq=17 Ack=171 Win=65365 Len=1150
+925264 307.958447  244.3.31.64 -> 244.3.153.41 TCP 274 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1167 Ack=171 Win=65365 Len=216
+925274 307.965939  244.3.31.64 -> 244.3.153.41 TCP 105 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1383 Ack=369 Win=65167 Len=47
+925280 307.969417  244.3.31.64 -> 244.3.153.41 TCP 119 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1430 Ack=972 Win=64564 Len=61
+929771 309.757995  244.3.31.64 -> 244.3.153.41 TCP 119 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1491 Ack=1286 Win=65535 Len=61
+949184 314.780528  244.3.31.64 -> 244.3.153.41 TCP 119 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1552 Ack=1615 Win=65206 Len=61
+950040 315.046368  244.3.31.64 -> 244.3.153.41 TCP 119 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1613 Ack=1976 Win=64845 Len=61
+950087 315.057654  244.3.31.64 -> 244.3.153.41 TCP 119 ssc-agent > kjtsiteserver [PSH, ACK] Seq=1674 Ack=2356 Win=64465 Len=61

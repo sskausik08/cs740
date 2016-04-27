@@ -1,0 +1,40 @@
+18180   5.730650 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=1 Ack=1 Win=65092 Len=536
+18181   5.730710 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=537 Ack=1 Win=65092 Len=536
+18182   5.730715 244.3.185.135 -> 41.177.98.220 TCP 429 health-trap > ups-onlinet [PSH, ACK] Seq=1073 Ack=1 Win=65092 Len=371
+18188   5.733710 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=1444 Ack=1460 Win=65535 Len=0
+18811   6.047996 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=1444 Ack=1460 Win=65535 Len=536
+18812   6.048049 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=1980 Ack=1460 Win=65535 Len=536
+18813   6.048054 244.3.185.135 -> 41.177.98.220 TCP 447 health-trap > ups-onlinet [PSH, ACK] Seq=2516 Ack=1460 Win=65535 Len=389
+18830   6.058078 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=2905 Ack=1539 Win=65456 Len=536
+18831   6.058134 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=3441 Ack=1539 Win=65456 Len=536
+18832   6.058139 244.3.185.135 -> 41.177.98.220 TCP 435 health-trap > ups-onlinet [PSH, ACK] Seq=3977 Ack=1539 Win=65456 Len=377
+19153   6.268828 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=4354 Ack=2418 Win=65535 Len=0
+20899   6.930587 244.3.185.135 -> 41.177.98.220 TCP 126 health-trap > ups-onlinet [PSH, ACK] Seq=4354 Ack=2418 Win=65535 Len=68
+20917   6.936470 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=4422 Ack=2505 Win=65448 Len=536
+20918   6.936524 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=4958 Ack=2505 Win=65448 Len=536
+20919   6.936529 244.3.185.135 -> 41.177.98.220 TCP 473 health-trap > ups-onlinet [PSH, ACK] Seq=5494 Ack=2505 Win=65448 Len=415
+23649   8.611671 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=5909 Ack=4187 Win=65535 Len=0
+36986  15.426526 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=5909 Ack=4187 Win=65535 Len=536
+36987  15.426581 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=6445 Ack=4187 Win=65535 Len=536
+36988  15.426585 244.3.185.135 -> 41.177.98.220 TCP 449 health-trap > ups-onlinet [PSH, ACK] Seq=6981 Ack=4187 Win=65535 Len=391
+37005  15.429654 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=7372 Ack=5666 Win=65535 Len=0
+37917  15.749617 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=7372 Ack=5666 Win=65535 Len=536
+37918  15.749669 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=7908 Ack=5666 Win=65535 Len=536
+37919  15.749673 244.3.185.135 -> 41.177.98.220 TCP 467 health-trap > ups-onlinet [PSH, ACK] Seq=8444 Ack=5666 Win=65535 Len=409
+37988  15.760161 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=8853 Ack=5745 Win=65456 Len=536
+37989  15.760165 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=9389 Ack=5745 Win=65456 Len=536
+37990  15.760169 244.3.185.135 -> 41.177.98.220 TCP 455 health-trap > ups-onlinet [PSH, ACK] Seq=9925 Ack=5745 Win=65456 Len=397
+38433  15.882470 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=10322 Ack=6626 Win=65535 Len=0
+39601  16.474348 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=10322 Ack=6626 Win=65535 Len=536
+39602  16.474395 244.3.185.135 -> 41.177.98.220 TCP 594 health-trap > ups-onlinet [ACK] Seq=10858 Ack=6626 Win=65535 Len=536
+39603  16.474414 244.3.185.135 -> 41.177.98.220 TCP 508 health-trap > ups-onlinet [PSH, ACK] Seq=11394 Ack=6626 Win=65535 Len=450
+39994  16.625126 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=11844 Ack=8219 Win=65535 Len=0
+83704  32.535981 244.3.185.135 -> 41.177.98.220 TCP 136 health-trap > ups-onlinet [PSH, ACK] Seq=11844 Ack=8219 Win=65535 Len=78
+83764  32.564242 244.3.185.135 -> 41.177.98.220 TCP 133 health-trap > ups-onlinet [PSH, ACK] Seq=11922 Ack=8338 Win=65416 Len=75
+84190  32.684586 244.3.185.135 -> 41.177.98.220 TCP 130 health-trap > ups-onlinet [PSH, ACK] Seq=11997 Ack=8783 Win=65535 Len=72
+84566  32.806483 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=12069 Ack=9024 Win=65294 Len=0
+110433  39.552031 244.3.185.135 -> 41.177.98.220 TCP 138 health-trap > ups-onlinet [PSH, ACK] Seq=12069 Ack=9024 Win=65294 Len=80
+110455  39.560452 244.3.185.135 -> 41.177.98.220 TCP 160 health-trap > ups-onlinet [PSH, ACK] Seq=12149 Ack=9300 Win=65018 Len=102
+110460  39.562091 244.3.185.135 -> 41.177.98.220 TCP 316 health-trap > ups-onlinet [PSH, ACK] Seq=12251 Ack=9400 Win=65535 Len=258
+110541  39.580182 244.3.185.135 -> 41.177.98.220 TCP 381 health-trap > ups-onlinet [PSH, ACK] Seq=12509 Ack=9674 Win=65261 Len=323
+111421  39.816398 244.3.185.135 -> 41.177.98.220 TCP 64 health-trap > ups-onlinet [ACK] Seq=12832 Ack=9986 Win=65535 Len=0

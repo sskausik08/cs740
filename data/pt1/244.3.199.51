@@ -1,0 +1,32 @@
+67697  27.860865 244.3.199.51 -> 41.177.98.220 TCP 218 resacommunity > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=15184 Len=160
+68086  28.021452 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=161 Ack=117 Win=16560 Len=0
+131346  45.754710 244.3.199.51 -> 41.177.98.220 TCP 129 resacommunity > ups-onlinet [PSH, ACK] Seq=161 Ack=117 Win=16560 Len=71
+131638  45.800277 244.3.199.51 -> 41.177.98.220 TCP 130 resacommunity > ups-onlinet [PSH, ACK] Seq=232 Ack=187 Win=16490 Len=72
+132084  46.005214 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=304 Ack=689 Win=15988 Len=0
+160615  54.692609 244.3.199.51 -> 41.177.98.220 TCP 218 resacommunity > ups-onlinet [PSH, ACK] Seq=304 Ack=689 Win=15988 Len=160
+161139  54.842293 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=464 Ack=805 Win=15872 Len=0
+746365 238.656970 244.3.199.51 -> 41.177.98.220 TCP 138 resacommunity > ups-onlinet [PSH, ACK] Seq=464 Ack=805 Win=15872 Len=80
+746397 238.667126 244.3.199.51 -> 41.177.98.220 TCP 159 resacommunity > ups-onlinet [PSH, ACK] Seq=544 Ack=1182 Win=15495 Len=101
+746402 238.669688 244.3.199.51 -> 41.177.98.220 TCP 398 resacommunity > ups-onlinet [PSH, ACK] Seq=645 Ack=1282 Win=15395 Len=340
+746593 238.769100 244.3.199.51 -> 41.177.98.220 TCP 465 resacommunity > ups-onlinet [PSH, ACK] Seq=985 Ack=1639 Win=16560 Len=407
+746901 238.939774 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=1392 Ack=2034 Win=16165 Len=0
+749037 240.080911 244.3.199.51 -> 41.177.98.220 TCP 129 resacommunity > ups-onlinet [PSH, ACK] Seq=1392 Ack=2034 Win=16165 Len=71
+749072 240.127696 244.3.199.51 -> 41.177.98.220 TCP 130 resacommunity > ups-onlinet [PSH, ACK] Seq=1463 Ack=2104 Win=16095 Len=72
+749609 240.306016 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=1535 Ack=2606 Win=15593 Len=0
+786194 255.082901 244.3.199.51 -> 41.177.98.220 TCP 218 resacommunity > ups-onlinet [PSH, ACK] Seq=1535 Ack=2606 Win=15593 Len=160
+786434 255.268225 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=1695 Ack=2722 Win=15477 Len=0
+901065 297.370498 244.3.199.51 -> 41.177.98.220 TCP 222 resacommunity > ups-onlinet [PSH, ACK] Seq=1695 Ack=2722 Win=15477 Len=164
+901093 297.388407 244.3.199.51 -> 41.177.98.220 TCP 135 resacommunity > ups-onlinet [PSH, ACK] Seq=1859 Ack=2815 Win=15384 Len=77
+901626 297.503485 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=1936 Ack=2887 Win=15312 Len=0
+909223 300.216475 244.3.199.51 -> 41.177.98.220 TCP 129 resacommunity > ups-onlinet [PSH, ACK] Seq=1936 Ack=2887 Win=15312 Len=71
+909281 300.263142 244.3.199.51 -> 41.177.98.220 TCP 130 resacommunity > ups-onlinet [PSH, ACK] Seq=2007 Ack=2957 Win=15242 Len=72
+909458 300.385396 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=2079 Ack=3459 Win=16560 Len=0
+931670 310.410417 244.3.199.51 -> 41.177.98.220 TCP 218 resacommunity > ups-onlinet [PSH, ACK] Seq=2079 Ack=3459 Win=16560 Len=160
+932128 310.535002 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=2239 Ack=3575 Win=16444 Len=0
+956007 317.111618 244.3.199.51 -> 41.177.98.220 TCP 133 resacommunity > ups-onlinet [PSH, ACK] Seq=2239 Ack=3575 Win=16444 Len=75
+956385 317.391403 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=2314 Ack=6335 Win=16560 Len=0
+956386 317.391468 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=2314 Ack=9095 Win=16560 Len=0
+956738 317.573241 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=2314 Ack=9869 Win=15786 Len=0
+1011464 339.320101 244.3.199.51 -> 41.177.98.220 TCP 129 resacommunity > ups-onlinet [PSH, ACK] Seq=2314 Ack=9869 Win=15786 Len=71
+1011524 339.369514 244.3.199.51 -> 41.177.98.220 TCP 130 resacommunity > ups-onlinet [PSH, ACK] Seq=2385 Ack=9939 Win=15716 Len=72
+1011753 339.558069 244.3.199.51 -> 41.177.98.220 TCP 64 resacommunity > ups-onlinet [ACK] Seq=2457 Ack=10441 Win=15214 Len=0

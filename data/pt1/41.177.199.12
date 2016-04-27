@@ -1,0 +1,20 @@
+201606  69.563541 41.177.199.12 -> 41.177.98.220 TCP 130 msfw-storage > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65264 Len=72
+202374  69.855800 41.177.199.12 -> 41.177.98.220 TCP 64 msfw-storage > ups-onlinet [ACK] Seq=73 Ack=360 Win=64905 Len=0
+427463 140.028808 41.177.199.12 -> 41.177.98.220 TCP 1466 msfw-storage > ups-onlinet [PSH, ACK] Seq=73 Ack=360 Win=64905 Len=1408
+428158 140.155187 41.177.199.12 -> 41.177.98.220 TCP 1484 msfw-storage > ups-onlinet [PSH, ACK] Seq=1481 Ack=1785 Win=65535 Len=1426
+428190 140.164659 41.177.199.12 -> 41.177.98.220 TCP 1470 msfw-storage > ups-onlinet [PSH, ACK] Seq=2907 Ack=1865 Win=65455 Len=1412
+430840 140.768815 41.177.199.12 -> 41.177.98.220 TCP 64 msfw-storage > ups-onlinet [ACK] Seq=4319 Ack=2840 Win=64480 Len=0
+434275 141.652329 41.177.199.12 -> 41.177.98.220 TCP 128 msfw-storage > ups-onlinet [PSH, ACK] Seq=4319 Ack=2840 Win=64480 Len=70
+434295 141.658742 41.177.199.12 -> 41.177.98.220 TCP 1512 msfw-storage > ups-onlinet [PSH, ACK] Seq=4389 Ack=2928 Win=64392 Len=1454
+436540 142.308586 41.177.199.12 -> 41.177.98.220 TCP 64 msfw-storage > ups-onlinet [ACK] Seq=5843 Ack=4707 Win=65535 Len=0
+483705 159.643236 41.177.199.12 -> 41.177.98.220 TCP 136 msfw-storage > ups-onlinet [PSH, ACK] Seq=5843 Ack=4707 Win=65535 Len=78
+485204 159.880116 41.177.199.12 -> 41.177.98.220 TCP 64 msfw-storage > ups-onlinet [ACK] Seq=5921 Ack=4784 Win=65458 Len=0
+489366 160.934207 41.177.199.12 -> 41.177.98.220 TCP 214 msfw-storage > ups-onlinet [PSH, ACK] Seq=5921 Ack=4784 Win=65458 Len=156
+489595 161.087153 41.177.199.12 -> 41.177.98.220 TCP 64 msfw-storage > ups-onlinet [ACK] Seq=6077 Ack=4945 Win=65297 Len=0
+619051 196.819330 41.177.199.12 -> 41.177.98.220 TCP 159 msfw-storage > ups-onlinet [PSH, ACK] Seq=6077 Ack=4945 Win=65297 Len=101
+619057 196.821236 41.177.199.12 -> 41.177.98.220 TCP 311 msfw-storage > ups-onlinet [PSH, ACK] Seq=6178 Ack=5045 Win=65197 Len=253
+619090 196.857460 41.177.199.12 -> 41.177.98.220 TCP 129 msfw-storage > ups-onlinet [PSH, ACK] Seq=6431 Ack=5315 Win=64927 Len=71
+619096 196.863271 41.177.199.12 -> 41.177.98.220 TCP 355 msfw-storage > ups-onlinet [PSH, ACK] Seq=6502 Ack=5404 Win=64838 Len=297
+619769 197.096870 41.177.199.12 -> 41.177.98.220 TCP 64 msfw-storage > ups-onlinet [ACK] Seq=6799 Ack=5761 Win=64481 Len=0
+623387 197.841939 41.177.199.12 -> 41.177.98.220 TCP 130 msfw-storage > ups-onlinet [PSH, ACK] Seq=6799 Ack=5761 Win=64481 Len=72
+623832 198.002137 41.177.199.12 -> 41.177.98.220 TCP 64 msfw-storage > ups-onlinet [ACK] Seq=6871 Ack=6240 Win=65535 Len=0

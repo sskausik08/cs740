@@ -1,0 +1,4 @@
+687472 216.019598  244.3.3.145 -> 244.3.41.84  TCP 64 ice-location > telnet [ACK] Seq=22 Ack=194 Win=65324 Len=0
+690566 217.628962  244.3.3.145 -> 244.3.41.84  TCP 64 ice-location > telnet [ACK] Seq=40 Ack=710 Win=64808 Len=0
+711181 226.782340  244.3.3.145 -> 244.3.41.84  TCP 64 ice-location > telnet [ACK] Seq=79 Ack=1420 Win=65535 Len=0
+746574 238.752068  244.3.3.145 -> 244.3.41.84  TCP 64 ice-location > telnet [ACK] Seq=89 Ack=1657 Win=65298 Len=0

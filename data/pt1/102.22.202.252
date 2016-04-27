@@ -1,0 +1,2 @@
+677688 212.116567 102.22.202.252 -> 41.177.98.143 TCP 94 sflm > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=65453 Len=36
+679099 212.428180 102.22.202.252 -> 41.177.98.143 TCP 64 sflm > vcom-tunnel [ACK] Seq=37 Ack=83 Win=65371 Len=0

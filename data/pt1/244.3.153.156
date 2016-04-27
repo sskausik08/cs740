@@ -1,0 +1,28 @@
+58097  23.611588 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=54 Ack=54 Win=65164 Len=0
+58100  23.611682 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=54 Ack=54 Win=65270 Len=0
+60578  24.517456 244.3.153.156 -> 41.177.24.241 TCP 132 gpfs > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+158228  53.900494 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=107 Ack=111 Win=65213 Len=0
+158873  54.097747 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=107 Ack=107 Win=65111 Len=0
+230374  79.532557 244.3.153.156 -> 41.177.24.241 TCP 132 gpfs > xmpp-client [PSH, ACK] Seq=75 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+242946  84.481280 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=160 Ack=160 Win=65058 Len=0
+242948  84.481947 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=160 Ack=164 Win=65160 Len=0
+329790 114.863992 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=213 Ack=213 Win=65005 Len=0
+329792 114.864397 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=213 Ack=217 Win=65107 Len=0
+399761 134.537010 244.3.153.156 -> 41.177.24.241 TCP 132 gpfs > xmpp-client [PSH, ACK] Seq=149 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+447168 145.249503 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=266 Ack=266 Win=64952 Len=0
+447171 145.250182 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=266 Ack=270 Win=65054 Len=0
+541051 175.628991 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=319 Ack=319 Win=64899 Len=0
+541067 175.630143 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=319 Ack=323 Win=65001 Len=0
+598212 189.548297 244.3.153.156 -> 41.177.24.241 TCP 132 gpfs > xmpp-client [PSH, ACK] Seq=223 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+657096 206.005960 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=372 Ack=376 Win=64948 Len=0
+657097 206.006021 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=372 Ack=372 Win=64846 Len=0
+740372 236.382802 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=425 Ack=425 Win=64793 Len=0
+740378 236.383303 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=425 Ack=429 Win=64895 Len=0
+759130 244.549575 244.3.153.156 -> 41.177.24.241 TCP 132 gpfs > xmpp-client [PSH, ACK] Seq=297 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+817826 266.860121 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=478 Ack=478 Win=64740 Len=0
+817831 266.860638 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=478 Ack=482 Win=64842 Len=0
+900257 297.237156 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=531 Ack=531 Win=64687 Len=0
+900260 297.237397 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=531 Ack=535 Win=64789 Len=0
+908180 299.548588 244.3.153.156 -> 41.177.24.241 TCP 132 gpfs > xmpp-client [PSH, ACK] Seq=371 Ack=1 Win=48774 Len=74[Packet size limited during capture]
+981121 327.613615 244.3.153.156 -> 41.177.202.0 TCP 64 fryeserv > microsoft-ds [ACK] Seq=584 Ack=584 Win=64634 Len=0
+981123 327.613953 244.3.153.156 -> 41.177.202.249 TCP 64 simba-cs > microsoft-ds [ACK] Seq=584 Ack=588 Win=64736 Len=0

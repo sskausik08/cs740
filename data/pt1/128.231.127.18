@@ -1,0 +1,42 @@
+199915  68.853456 128.231.127.18 -> 41.177.98.143 TCP 66 tcoflashagent > vcom-tunnel [SYN] Seq=0 Win=65535 Len=0 MSS=1380
+199994  68.887482 128.231.127.18 -> 41.177.98.143 TCP 64 tcoflashagent > vcom-tunnel [ACK] Seq=1 Ack=1 Win=65535 Len=0
+199997  68.888001 128.231.127.18 -> 41.177.98.143 TCP 481 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=423
+200910  69.269271 128.231.127.18 -> 41.177.98.143 TCP 64 tcoflashagent > vcom-tunnel [ACK] Seq=424 Ack=2 Win=65534 Len=0
+200954  69.304054 128.231.127.18 -> 41.177.98.143 TCP 81 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=424 Ack=657 Win=64879 Len=23
+201024  69.338805 128.231.127.18 -> 41.177.98.143 TCP 68 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=447 Ack=712 Win=64824 Len=10
+201104  69.373406 128.231.127.18 -> 41.177.98.143 TCP 83 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=457 Ack=903 Win=64633 Len=25
+201242  69.421624 128.231.127.18 -> 41.177.98.143 TCP 79 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=482 Ack=930 Win=64606 Len=21
+201626  69.597258 128.231.127.18 -> 41.177.98.143 TCP 64 tcoflashagent > vcom-tunnel [ACK] Seq=503 Ack=973 Win=64563 Len=0
+201722  69.633773 128.231.127.18 -> 41.177.98.143 TCP 69 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=503 Ack=1117 Win=64419 Len=11
+202297  69.816001 128.231.127.18 -> 41.177.98.143 TCP 64 tcoflashagent > vcom-tunnel [ACK] Seq=514 Ack=1308 Win=64228 Len=0
+202481  69.875578 128.231.127.18 -> 41.177.98.143 TCP 88 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=514 Ack=1308 Win=64228 Len=30
+202655  69.941263 128.231.127.18 -> 41.177.98.143 TCP 79 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=544 Ack=1469 Win=65535 Len=21
+202929  69.992838 128.231.127.18 -> 41.177.98.143 TCP 84 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=565 Ack=1480 Win=65524 Len=26
+203343  70.092525 128.231.127.18 -> 41.177.98.143 TCP 92 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=591 Ack=1554 Win=65450 Len=34
+203509  70.135835 128.231.127.18 -> 41.177.98.143 TCP 79 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=625 Ack=1634 Win=65370 Len=21
+203632  70.186411 128.231.127.18 -> 41.177.98.143 TCP 70 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=646 Ack=1645 Win=65359 Len=12
+204579  70.362886 128.231.127.18 -> 41.177.98.143 TCP 64 tcoflashagent > vcom-tunnel [ACK] Seq=658 Ack=1656 Win=65348 Len=0
+208442  71.571154 128.231.127.18 -> 41.177.98.143 TCP 71 tcoflashagent > vcom-tunnel [PSH, ACK] Seq=658 Ack=1656 Win=65348 Len=13
+208763  71.784738 128.231.127.18 -> 41.177.98.143 TCP 64 tcoflashagent > vcom-tunnel [ACK] Seq=671 Ack=1683 Win=65321 Len=0
+394268 132.117014 128.231.127.18 -> 41.177.98.143 TCP 71 discovery-port > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=65486 Len=13
+395141 132.379404 128.231.127.18 -> 41.177.98.143 TCP 64 discovery-port > vcom-tunnel [ACK] Seq=14 Ack=28 Win=65459 Len=0
+395611 132.560389 128.231.127.18 -> 41.177.98.143 TCP 76 discovery-port > vcom-tunnel [PSH, ACK] Seq=14 Ack=28 Win=65459 Len=18
+395989 132.695288 128.231.127.18 -> 41.177.98.143 TCP 80 discovery-port > vcom-tunnel [PSH, ACK] Seq=32 Ack=100 Win=65387 Len=22
+396067 132.749400 128.231.127.18 -> 41.177.98.143 TCP 81 discovery-port > vcom-tunnel [PSH, ACK] Seq=54 Ack=121 Win=65366 Len=23
+396234 132.839761 128.231.127.18 -> 41.177.98.143 TCP 362 discovery-port > vcom-tunnel [PSH, ACK] Seq=77 Ack=121 Win=65366 Len=304
+396677 133.035634 128.231.127.18 -> 41.177.98.143 TCP 64 discovery-port > vcom-tunnel [ACK] Seq=381 Ack=172 Win=65315 Len=0
+398092 133.943334 128.231.127.18 -> 41.177.98.143 TCP 81 discovery-port > vcom-tunnel [PSH, ACK] Seq=381 Ack=172 Win=65315 Len=23
+398364 134.019872 128.231.127.18 -> 41.177.98.143 TCP 364 discovery-port > vcom-tunnel [PSH, ACK] Seq=404 Ack=172 Win=65315 Len=306
+398882 134.238805 128.231.127.18 -> 41.177.98.143 TCP 64 discovery-port > vcom-tunnel [ACK] Seq=710 Ack=223 Win=65264 Len=0
+402764 135.108435 128.231.127.18 -> 41.177.98.143 TCP 81 discovery-port > vcom-tunnel [PSH, ACK] Seq=710 Ack=223 Win=65264 Len=23
+403072 135.199762 128.231.127.18 -> 41.177.98.143 TCP 367 discovery-port > vcom-tunnel [PSH, ACK] Seq=733 Ack=223 Win=65264 Len=309
+404212 135.441958 128.231.127.18 -> 41.177.98.143 TCP 64 discovery-port > vcom-tunnel [ACK] Seq=1042 Ack=274 Win=65213 Len=0
+446037 144.871490 128.231.127.18 -> 41.177.98.143 TCP 81 discovery-port > vcom-tunnel [PSH, ACK] Seq=1042 Ack=274 Win=65213 Len=23
+446544 144.959914 128.231.127.18 -> 41.177.98.143 TCP 358 discovery-port > vcom-tunnel [PSH, ACK] Seq=1065 Ack=274 Win=65213 Len=300
+447066 145.176476 128.231.127.18 -> 41.177.98.143 TCP 64 discovery-port > vcom-tunnel [ACK] Seq=1365 Ack=325 Win=65162 Len=0
+449434 146.062032 128.231.127.18 -> 41.177.98.143 TCP 81 discovery-port > vcom-tunnel [PSH, ACK] Seq=1365 Ack=325 Win=65162 Len=23
+449677 146.149911 128.231.127.18 -> 41.177.98.143 TCP 360 discovery-port > vcom-tunnel [PSH, ACK] Seq=1388 Ack=325 Win=65162 Len=302
+450073 146.379561 128.231.127.18 -> 41.177.98.143 TCP 64 discovery-port > vcom-tunnel [ACK] Seq=1690 Ack=376 Win=65111 Len=0
+452157 147.249343 128.231.127.18 -> 41.177.98.143 TCP 81 discovery-port > vcom-tunnel [PSH, ACK] Seq=1690 Ack=376 Win=65111 Len=23
+452338 147.339858 128.231.127.18 -> 41.177.98.143 TCP 364 discovery-port > vcom-tunnel [PSH, ACK] Seq=1713 Ack=376 Win=65111 Len=306
+452909 147.582705 128.231.127.18 -> 41.177.98.143 TCP 64 discovery-port > vcom-tunnel [ACK] Seq=2019 Ack=427 Win=65060 Len=0

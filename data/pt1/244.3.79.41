@@ -1,0 +1,4 @@
+1021433 344.807900  244.3.79.41 -> 41.177.98.220 TCP 144 hpss-ndapi > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=64537 Len=86
+1021558 344.900020  244.3.79.41 -> 41.177.98.220 TCP 64 hpss-ndapi > ups-onlinet [ACK] Seq=87 Ack=2761 Win=65535 Len=0
+1021613 344.943354  244.3.79.41 -> 41.177.98.220 TCP 129 hpss-ndapi > ups-onlinet [PSH, ACK] Seq=87 Ack=4025 Win=64271 Len=71
+1021617 344.945127  244.3.79.41 -> 41.177.98.220 TCP 64 hpss-ndapi > ups-onlinet [ACK] Seq=158 Ack=5455 Win=65535 Len=0

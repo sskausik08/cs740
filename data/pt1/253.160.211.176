@@ -1,0 +1,2 @@
+670365 208.795510 253.160.211.176 -> 253.37.253.43 TCP 64 [TCP Keep-Alive] ssslic-mgr > telnet [ACK] Seq=1 Ack=1 Win=64205 Len=1
+893457 295.704140 253.160.211.176 -> 253.37.253.43 TCP 64 [TCP Keep-Alive] wysdma > telnet [ACK] Seq=1 Ack=1 Win=64175 Len=1

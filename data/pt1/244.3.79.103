@@ -1,0 +1,340 @@
+176727  59.089051 244.3.79.103 -> 41.177.98.220 TCP 66 autocueds > ups-onlinet [SYN] Seq=0 Win=65535 Len=0 MSS=1380 SACK_PERM=1
+176730  59.089823 244.3.79.103 -> 41.177.98.220 TCP 66 spiral-admin > op-probe [SYN] Seq=0 Win=65535 Len=0 MSS=1380 SACK_PERM=1
+176731  59.089828 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=1 Ack=1 Win=65535 Len=0
+176732  59.090025 244.3.79.103 -> 41.177.98.220 TCP 142 autocueds > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=84
+176736  59.090394 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1 Ack=1 Win=65535 Len=0
+176737  59.091721 244.3.79.103 -> 41.177.98.220 TCP 144 spiral-admin > op-probe [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=86
+179438  60.394687 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=87 Ack=103 Win=65433 Len=0
+179705  60.504083 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=85 Ack=102 Win=65434 Len=0
+192321  66.251574 244.3.79.103 -> 41.177.98.220 TCP 144 spiral-admin > op-probe [PSH, ACK] Seq=87 Ack=103 Win=65433 Len=86
+192398  66.299773 244.3.79.103 -> 41.177.98.220 TCP 113 spiral-admin > op-probe [PSH, ACK] Seq=173 Ack=194 Win=65342 Len=55
+193426  66.519678 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=228 Ack=627 Win=64909 Len=0
+197033  67.546430 244.3.79.103 -> 41.177.98.220 TCP 126 spiral-admin > op-probe [PSH, ACK] Seq=228 Ack=627 Win=64909 Len=68
+197263  67.633660 244.3.79.103 -> 41.177.98.220 TCP 114 spiral-admin > op-probe [PSH, ACK] Seq=296 Ack=893 Win=64643 Len=56
+197415  67.692550 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=352 Ack=2301 Win=65535 Len=0
+197416  67.693317 244.3.79.103 -> 41.177.98.220 TCP 114 spiral-admin > op-probe [PSH, ACK] Seq=352 Ack=2301 Win=65535 Len=56
+197485  67.709668 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=408 Ack=3787 Win=65535 Len=0
+197486  67.710403 244.3.79.103 -> 41.177.98.220 TCP 114 spiral-admin > op-probe [PSH, ACK] Seq=408 Ack=3787 Win=65535 Len=56
+197513  67.726783 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=464 Ack=5403 Win=65535 Len=0
+197514  67.727532 244.3.79.103 -> 41.177.98.220 TCP 114 spiral-admin > op-probe [PSH, ACK] Seq=464 Ack=5403 Win=65535 Len=56
+197565  67.743851 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=520 Ack=7007 Win=65535 Len=0
+197573  67.744585 244.3.79.103 -> 41.177.98.220 TCP 114 spiral-admin > op-probe [PSH, ACK] Seq=520 Ack=7007 Win=65535 Len=56
+197585  67.746986 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=576 Ack=7233 Win=65309 Len=54
+198088  67.952391 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=630 Ack=8916 Win=65535 Len=0
+198090  67.953403 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=630 Ack=8916 Win=65535 Len=54
+198107  67.966852 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=684 Ack=10629 Win=65535 Len=0
+198109  67.967927 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=684 Ack=10629 Win=65535 Len=54
+198121  67.981475 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=738 Ack=12296 Win=65535 Len=0
+198122  67.982442 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=738 Ack=12296 Win=65535 Len=54
+198135  67.995911 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=792 Ack=13963 Win=65535 Len=0
+198138  67.996958 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=792 Ack=13963 Win=65535 Len=54
+198158  68.010444 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=846 Ack=15676 Win=65535 Len=0
+198160  68.011485 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=846 Ack=15676 Win=65535 Len=54
+198180  68.024902 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=900 Ack=17413 Win=65535 Len=0
+198189  68.025922 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=900 Ack=17413 Win=65535 Len=54
+198222  68.038969 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=954 Ack=19121 Win=65535 Len=0
+198223  68.039984 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=954 Ack=19121 Win=65535 Len=54
+198241  68.053088 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1008 Ack=20800 Win=65535 Len=0
+198242  68.054085 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1008 Ack=20800 Win=65535 Len=54
+198260  68.067412 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1062 Ack=22493 Win=65535 Len=0
+198261  68.068403 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1062 Ack=22493 Win=65535 Len=54
+198292  68.081756 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1116 Ack=24226 Win=65535 Len=0
+198297  68.082773 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1116 Ack=24226 Win=65535 Len=54
+198315  68.096372 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1170 Ack=25976 Win=65535 Len=0
+198316  68.097379 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1170 Ack=25976 Win=65535 Len=54
+198331  68.110616 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1224 Ack=27693 Win=65535 Len=0
+198332  68.111592 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1224 Ack=27693 Win=65535 Len=54
+198348  68.124873 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1278 Ack=29363 Win=65535 Len=0
+198353  68.125876 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1278 Ack=29363 Win=65535 Len=54
+198388  68.139451 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1332 Ack=31023 Win=65535 Len=0
+198390  68.140453 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1332 Ack=31023 Win=65535 Len=54
+198450  68.154043 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1386 Ack=32741 Win=65535 Len=0
+198453  68.155040 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1386 Ack=32741 Win=65535 Len=54
+198464  68.168575 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1440 Ack=34424 Win=65535 Len=0
+198468  68.169577 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1440 Ack=34424 Win=65535 Len=54
+198486  68.183115 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1494 Ack=36077 Win=65535 Len=0
+198489  68.184122 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1494 Ack=36077 Win=65535 Len=54
+198510  68.197373 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1548 Ack=37768 Win=65535 Len=0
+198511  68.198377 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1548 Ack=37768 Win=65535 Len=54
+198527  68.211682 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1602 Ack=39494 Win=65535 Len=0
+198532  68.212689 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1602 Ack=39494 Win=65535 Len=54
+198566  68.226204 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1656 Ack=41225 Win=65535 Len=0
+198569  68.227221 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1656 Ack=41225 Win=65535 Len=54
+198581  68.240489 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1710 Ack=42927 Win=65535 Len=0
+198585  68.241486 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1710 Ack=42927 Win=65535 Len=54
+198607  68.254849 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1764 Ack=44664 Win=65535 Len=0
+198608  68.255832 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1764 Ack=44664 Win=65535 Len=54
+198668  68.269307 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1818 Ack=46396 Win=65535 Len=0
+198672  68.270330 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1818 Ack=46396 Win=65535 Len=54
+198708  68.283902 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1872 Ack=48114 Win=65535 Len=0
+198716  68.284900 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1872 Ack=48114 Win=65535 Len=54
+198751  68.298065 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1926 Ack=49847 Win=65535 Len=0
+198753  68.299079 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1926 Ack=49847 Win=65535 Len=54
+198786  68.312397 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=1980 Ack=51516 Win=65535 Len=0
+198788  68.313386 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=1980 Ack=51516 Win=65535 Len=54
+198820  68.326837 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2034 Ack=53185 Win=65535 Len=0
+198821  68.327833 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2034 Ack=53185 Win=65535 Len=54
+198850  68.341238 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2088 Ack=54821 Win=65535 Len=0
+198851  68.342216 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2088 Ack=54821 Win=65535 Len=54
+198881  68.355631 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2142 Ack=56499 Win=65535 Len=0
+198883  68.356645 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2142 Ack=56499 Win=65535 Len=54
+198920  68.370091 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2196 Ack=58154 Win=65535 Len=0
+198921  68.371076 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2196 Ack=58154 Win=65535 Len=54
+198942  68.385473 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2250 Ack=59912 Win=65535 Len=0
+198943  68.386482 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2250 Ack=59912 Win=65535 Len=54
+198962  68.400036 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2304 Ack=61593 Win=65535 Len=0
+198963  68.401056 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2304 Ack=61593 Win=65535 Len=54
+199003  68.413974 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2358 Ack=63334 Win=65535 Len=0
+199005  68.414966 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2358 Ack=63334 Win=65535 Len=54
+199036  68.428250 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2412 Ack=65020 Win=65535 Len=0
+199042  68.429385 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2412 Ack=65020 Win=65535 Len=54
+199066  68.442610 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2466 Ack=66771 Win=65535 Len=0
+199072  68.443644 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2466 Ack=66771 Win=65535 Len=54
+199101  68.456950 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2520 Ack=68506 Win=65535 Len=0
+199103  68.457981 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2520 Ack=68506 Win=65535 Len=54
+199135  68.471270 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2574 Ack=70200 Win=65535 Len=0
+199137  68.472258 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2574 Ack=70200 Win=65535 Len=54
+199153  68.485619 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2628 Ack=71930 Win=65535 Len=0
+199159  68.486620 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2628 Ack=71930 Win=65535 Len=54
+199223  68.500017 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2682 Ack=73669 Win=65535 Len=0
+199235  68.501115 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2682 Ack=73669 Win=65535 Len=54
+199258  68.514482 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2736 Ack=75377 Win=65535 Len=0
+199259  68.515561 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2736 Ack=75377 Win=65535 Len=54
+199275  68.528911 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2790 Ack=77094 Win=65535 Len=0
+199276  68.529929 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2790 Ack=77094 Win=65535 Len=54
+199303  68.543240 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2844 Ack=78790 Win=65535 Len=0
+199306  68.544248 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2844 Ack=78790 Win=65535 Len=54
+199332  68.557619 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2898 Ack=80451 Win=65535 Len=0
+199339  68.558648 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2898 Ack=80451 Win=65535 Len=54
+199367  68.571954 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=2952 Ack=82134 Win=65535 Len=0
+199375  68.573011 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=2952 Ack=82134 Win=65535 Len=54
+199385  68.586093 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3006 Ack=83791 Win=65535 Len=0
+199392  68.587115 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3006 Ack=83791 Win=65535 Len=54
+199435  68.600498 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3060 Ack=85493 Win=65535 Len=0
+199436  68.601531 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3060 Ack=85493 Win=65535 Len=54
+199447  68.615117 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3114 Ack=87186 Win=65535 Len=0
+199449  68.616132 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3114 Ack=87186 Win=65535 Len=54
+199482  68.629722 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3168 Ack=88861 Win=65535 Len=0
+199483  68.630731 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3168 Ack=88861 Win=65535 Len=54
+199517  68.644045 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3222 Ack=90491 Win=65535 Len=0
+199524  68.645146 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3222 Ack=90491 Win=65535 Len=54
+199587  68.658707 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3276 Ack=92199 Win=65535 Len=0
+199588  68.659695 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3276 Ack=92199 Win=65535 Len=54
+199604  68.673208 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3330 Ack=93847 Win=65535 Len=0
+199606  68.674228 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3330 Ack=93847 Win=65535 Len=54
+199621  68.687758 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3384 Ack=95520 Win=65535 Len=0
+199624  68.688784 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3384 Ack=95520 Win=65535 Len=54
+199641  68.703615 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3438 Ack=97373 Win=65535 Len=0
+199642  68.704633 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3438 Ack=97373 Win=65535 Len=54
+199692  68.718123 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3492 Ack=99214 Win=65535 Len=0
+199695  68.719126 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3492 Ack=99214 Win=65535 Len=54
+199735  68.732623 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3546 Ack=100986 Win=65535 Len=0
+199741  68.733659 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3546 Ack=100986 Win=65535 Len=54
+199756  68.747045 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3600 Ack=102733 Win=65535 Len=0
+199757  68.748039 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3600 Ack=102733 Win=65535 Len=54
+199779  68.761537 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3654 Ack=104514 Win=65535 Len=0
+199780  68.762549 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3654 Ack=104514 Win=65535 Len=54
+199801  68.775660 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3708 Ack=106288 Win=65535 Len=0
+199803  68.776658 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3708 Ack=106288 Win=65535 Len=54
+199812  68.789712 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3762 Ack=108041 Win=65535 Len=0
+199813  68.790694 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3762 Ack=108041 Win=65535 Len=54
+199825  68.804010 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3816 Ack=109758 Win=65535 Len=0
+199832  68.805083 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3816 Ack=109758 Win=65535 Len=54
+199866  68.818218 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3870 Ack=111501 Win=65535 Len=0
+199869  68.819245 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3870 Ack=111501 Win=65535 Len=54
+199879  68.832409 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3924 Ack=113236 Win=65535 Len=0
+199880  68.833421 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3924 Ack=113236 Win=65535 Len=54
+199902  68.847276 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=3978 Ack=114972 Win=65535 Len=0
+199904  68.848279 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=3978 Ack=114972 Win=65535 Len=54
+199921  68.861613 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4032 Ack=116673 Win=65535 Len=0
+199923  68.862668 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4032 Ack=116673 Win=65535 Len=54
+199958  68.875887 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4086 Ack=118410 Win=65535 Len=0
+199960  68.876961 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4086 Ack=118410 Win=65535 Len=54
+200003  68.889822 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4140 Ack=120131 Win=65535 Len=0
+200006  68.890835 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4140 Ack=120131 Win=65535 Len=54
+200015  68.904073 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4194 Ack=121817 Win=65535 Len=0
+200016  68.905092 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4194 Ack=121817 Win=65535 Len=54
+200029  68.918467 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4248 Ack=123521 Win=65535 Len=0
+200032  68.919499 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4248 Ack=123521 Win=65535 Len=54
+200052  68.932928 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4302 Ack=125197 Win=65535 Len=0
+200057  68.933987 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4302 Ack=125197 Win=65535 Len=54
+200080  68.947394 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4356 Ack=126862 Win=65535 Len=0
+200081  68.948478 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4356 Ack=126862 Win=65535 Len=54
+200090  68.961932 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4410 Ack=128547 Win=65535 Len=0
+200091  68.962956 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4410 Ack=128547 Win=65535 Len=54
+200132  68.976357 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4464 Ack=130262 Win=65535 Len=0
+200133  68.977375 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4464 Ack=130262 Win=65535 Len=54
+200152  68.990778 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4518 Ack=132044 Win=65535 Len=0
+200155  68.991804 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4518 Ack=132044 Win=65535 Len=54
+200186  69.004975 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4572 Ack=133776 Win=65535 Len=0
+200189  69.005999 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4572 Ack=133776 Win=65535 Len=54
+200233  69.019023 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4626 Ack=135401 Win=65535 Len=0
+200237  69.020064 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4626 Ack=135401 Win=65535 Len=54
+200243  69.023931 244.3.79.103 -> 41.177.98.220 TCP 110 spiral-admin > op-probe [PSH, ACK] Seq=4680 Ack=135767 Win=65169 Len=52
+200326  69.057226 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4732 Ack=136835 Win=65535 Len=54
+200413  69.093486 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4786 Ack=139595 Win=65535 Len=0
+200416  69.094134 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4786 Ack=140019 Win=65111 Len=54
+200421  69.095473 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=4840 Ack=142779 Win=65535 Len=0
+200422  69.096107 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4840 Ack=143199 Win=65115 Len=54
+200424  69.097307 244.3.79.103 -> 41.177.98.220 TCP 142 spiral-admin > op-probe [PSH, ACK] Seq=4894 Ack=144056 Win=64258 Len=84
+200430  69.099247 244.3.79.103 -> 41.177.98.220 TCP 112 spiral-admin > op-probe [PSH, ACK] Seq=4978 Ack=144166 Win=65535 Len=54
+200444  69.105368 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5032 Ack=146926 Win=65535 Len=0
+200445  69.105610 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5032 Ack=149639 Win=65535 Len=0
+200446  69.108449 244.3.79.103 -> 41.177.98.220 TCP 115 spiral-admin > op-probe [PSH, ACK] Seq=5032 Ack=149639 Win=65535 Len=57
+200526  69.128013 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=152399 Win=65535 Len=0
+200534  69.128230 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=155159 Win=65535 Len=0
+200536  69.128441 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=157919 Win=65535 Len=0
+200537  69.128673 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=160679 Win=65535 Len=0
+200538  69.128920 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=163439 Win=65535 Len=0
+200539  69.129151 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=166199 Win=65535 Len=0
+200540  69.129395 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=168959 Win=65535 Len=0
+200541  69.129610 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=171719 Win=65535 Len=0
+200542  69.129853 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=174479 Win=65535 Len=0
+200543  69.130079 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=177239 Win=65535 Len=0
+200544  69.130309 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=179999 Win=65535 Len=0
+200545  69.130540 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=182759 Win=65535 Len=0
+200546  69.130775 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=185519 Win=65535 Len=0
+200548  69.131018 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=188279 Win=65535 Len=0
+200551  69.131245 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=191039 Win=65535 Len=0
+200553  69.131503 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=193799 Win=65535 Len=0
+200554  69.131717 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=196559 Win=65535 Len=0
+200556  69.131953 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=199319 Win=65535 Len=0
+200557  69.132177 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=202079 Win=65535 Len=0
+200559  69.132423 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=204839 Win=65535 Len=0
+200560  69.132656 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=207599 Win=65535 Len=0
+200561  69.132901 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=210359 Win=65535 Len=0
+200562  69.133125 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=213119 Win=65535 Len=0
+200564  69.133292 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5089 Ack=215241 Win=65535 Len=0
+200650  69.163946 244.3.79.103 -> 41.177.98.220 TCP 118 spiral-admin > op-probe [PSH, ACK] Seq=5089 Ack=215241 Win=65535 Len=60
+200675  69.173914 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5149 Ack=218001 Win=65535 Len=0
+200676  69.174093 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5149 Ack=220157 Win=65535 Len=0
+200683  69.176814 244.3.79.103 -> 41.177.98.220 TCP 115 spiral-admin > op-probe [PSH, ACK] Seq=5149 Ack=220157 Win=65535 Len=57
+200735  69.195895 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=222917 Win=65535 Len=0
+200742  69.196096 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=225677 Win=65535 Len=0
+200743  69.196301 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=228437 Win=65535 Len=0
+200744  69.196535 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=231197 Win=65535 Len=0
+200745  69.196769 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=233957 Win=65535 Len=0
+200746  69.197001 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=236717 Win=65535 Len=0
+200747  69.197234 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=239477 Win=65535 Len=0
+200748  69.197469 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=242237 Win=65535 Len=0
+200749  69.197704 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=244997 Win=65535 Len=0
+200750  69.197934 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=247757 Win=65535 Len=0
+200751  69.198188 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=250517 Win=65535 Len=0
+200752  69.198425 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=253277 Win=65535 Len=0
+200753  69.198636 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=256037 Win=65535 Len=0
+200755  69.198875 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=258797 Win=65535 Len=0
+200756  69.199103 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=261557 Win=65535 Len=0
+200757  69.199344 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=264317 Win=65535 Len=0
+200758  69.199574 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=267077 Win=65535 Len=0
+200759  69.199806 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=269837 Win=65535 Len=0
+200760  69.200037 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=272597 Win=65535 Len=0
+200761  69.200278 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=275357 Win=65535 Len=0
+200762  69.200509 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=278117 Win=65535 Len=0
+200764  69.200736 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=280877 Win=65535 Len=0
+200765  69.200966 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=283637 Win=65535 Len=0
+200766  69.201148 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5206 Ack=285759 Win=65535 Len=0
+200792  69.220770 244.3.79.103 -> 41.177.98.220 TCP 124 spiral-admin > op-probe [PSH, ACK] Seq=5206 Ack=285759 Win=65535 Len=66
+200802  69.228477 244.3.79.103 -> 41.177.98.220 TCP 124 spiral-admin > op-probe [PSH, ACK] Seq=5272 Ack=286513 Win=64781 Len=66
+200807  69.230220 244.3.79.103 -> 41.177.98.220 TCP 124 spiral-admin > op-probe [PSH, ACK] Seq=5338 Ack=286611 Win=64683 Len=66
+200867  69.253277 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5404 Ack=289371 Win=65535 Len=0
+200872  69.255609 244.3.79.103 -> 41.177.98.220 TCP 124 spiral-admin > op-probe [PSH, ACK] Seq=5404 Ack=290131 Win=64775 Len=66
+201375  69.472822 244.3.79.103 -> 41.177.98.220 TCP 64 spiral-admin > op-probe [ACK] Seq=5470 Ack=290772 Win=65535 Len=0
+221230  75.843769 244.3.79.103 -> 41.177.98.220 TCP 143 autocueds > ups-onlinet [PSH, ACK] Seq=85 Ack=102 Win=65434 Len=85
+221365  75.875793 244.3.79.103 -> 41.177.98.220 TCP 133 autocueds > ups-onlinet [PSH, ACK] Seq=170 Ack=192 Win=65344 Len=75
+224751  76.873436 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=2952 Win=65535 Len=0
+224753  76.873678 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=5712 Win=65535 Len=0
+224759  76.874397 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=8472 Win=65535 Len=0
+224763  76.874628 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=11232 Win=65535 Len=0
+224767  76.874862 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=13992 Win=65535 Len=0
+224771  76.875293 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=16752 Win=65535 Len=0
+224775  76.875526 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=19512 Win=65535 Len=0
+224779  76.875759 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=22272 Win=65535 Len=0
+224783  76.876000 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=25032 Win=65535 Len=0
+224787  76.876226 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=27792 Win=65535 Len=0
+224791  76.876464 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=30552 Win=65535 Len=0
+224795  76.876692 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=33312 Win=65535 Len=0
+224799  76.876919 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=36072 Win=65535 Len=0
+224803  76.877158 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=38832 Win=65535 Len=0
+224805  76.877401 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=41592 Win=65535 Len=0
+224808  76.877642 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=44352 Win=65535 Len=0
+224812  76.877865 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=47112 Win=65535 Len=0
+224818  76.878115 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=49872 Win=65535 Len=0
+224823  76.878325 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=52632 Win=65535 Len=0
+224827  76.878561 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=55392 Win=65535 Len=0
+224831  76.878792 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=58152 Win=65535 Len=0
+224834  76.879035 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=60912 Win=65535 Len=0
+224839  76.879265 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=63672 Win=65535 Len=0
+224841  76.879432 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=65728 Win=65535 Len=0
+224848  76.879671 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=68488 Win=65535 Len=0
+224852  76.879902 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=71248 Win=65535 Len=0
+224856  76.880135 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=74008 Win=65535 Len=0
+224860  76.880366 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=76768 Win=65535 Len=0
+224864  76.880600 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=79528 Win=65535 Len=0
+224868  76.880832 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=82288 Win=65535 Len=0
+224872  76.881070 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=85048 Win=65535 Len=0
+224875  76.881307 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=87808 Win=65535 Len=0
+224880  76.881539 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=90568 Win=65535 Len=0
+224882  76.881765 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=93328 Win=65535 Len=0
+224883  76.882004 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=96088 Win=65535 Len=0
+224884  76.882233 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=98848 Win=65535 Len=0
+224887  76.882466 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=101608 Win=65535 Len=0
+224890  76.882704 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=104368 Win=65535 Len=0
+224891  76.882933 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=107128 Win=65535 Len=0
+224893  76.883167 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=109888 Win=65535 Len=0
+224898  76.883410 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=112648 Win=65535 Len=0
+224900  76.883630 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=115408 Win=65535 Len=0
+224902  76.883860 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=118168 Win=65535 Len=0
+224905  76.884108 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=120928 Win=65535 Len=0
+224906  76.884335 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=123688 Win=65535 Len=0
+224910  76.884567 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=126448 Win=65535 Len=0
+224911  76.884797 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=129208 Win=65535 Len=0
+224914  76.885033 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=131968 Win=65535 Len=0
+224916  76.885264 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=134728 Win=65535 Len=0
+224917  76.885497 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=137488 Win=65535 Len=0
+224918  76.885687 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=245 Ack=139734 Win=65535 Len=0
+234332  81.370411 244.3.79.103 -> 41.177.98.220 TCP 128 autocueds > ups-onlinet [PSH, ACK] Seq=245 Ack=139734 Win=65535 Len=70
+234357  81.377538 244.3.79.103 -> 41.177.98.220 TCP 119 autocueds > ups-onlinet [PSH, ACK] Seq=315 Ack=140288 Win=64981 Len=61
+234372  81.384266 244.3.79.103 -> 41.177.98.220 TCP 141 autocueds > ups-onlinet [PSH, ACK] Seq=376 Ack=141339 Win=65535 Len=83
+234376  81.386330 244.3.79.103 -> 41.177.98.220 TCP 111 autocueds > ups-onlinet [PSH, ACK] Seq=459 Ack=141447 Win=65427 Len=53
+234397  81.392604 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=512 Ack=144207 Win=65535 Len=0
+234398  81.392838 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=512 Ack=146918 Win=65535 Len=0
+234410  81.395627 244.3.79.103 -> 41.177.98.220 TCP 110 autocueds > ups-onlinet [PSH, ACK] Seq=512 Ack=146918 Win=65535 Len=52
+234425  81.401474 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=564 Ack=148783 Win=65535 Len=0
+234427  81.402082 244.3.79.103 -> 41.177.98.220 TCP 114 autocueds > ups-onlinet [PSH, ACK] Seq=564 Ack=148783 Win=65535 Len=56
+234490  81.422260 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=151543 Win=65535 Len=0
+234498  81.422490 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=154303 Win=65535 Len=0
+234499  81.422699 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=157063 Win=65535 Len=0
+234500  81.422923 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=159823 Win=65535 Len=0
+234501  81.423155 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=162583 Win=65535 Len=0
+234502  81.423383 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=165343 Win=65535 Len=0
+234503  81.423620 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=168103 Win=65535 Len=0
+234504  81.423853 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=170863 Win=65535 Len=0
+234505  81.424089 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=173623 Win=65535 Len=0
+234506  81.424335 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=176383 Win=65535 Len=0
+234507  81.424556 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=179143 Win=65535 Len=0
+234508  81.424787 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=181903 Win=65535 Len=0
+234509  81.425019 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=184663 Win=65535 Len=0
+234510  81.425266 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=187423 Win=65535 Len=0
+234511  81.425486 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=190183 Win=65535 Len=0
+234512  81.425719 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=192943 Win=65535 Len=0
+234513  81.425959 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=195703 Win=65535 Len=0
+234514  81.426188 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=198463 Win=65535 Len=0
+234515  81.426423 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=201223 Win=65535 Len=0
+234516  81.426657 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=203983 Win=65535 Len=0
+234517  81.426893 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=206743 Win=65535 Len=0
+234518  81.427120 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=209503 Win=65535 Len=0
+234519  81.427350 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=212263 Win=65535 Len=0
+234520  81.427533 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=620 Ack=214383 Win=65535 Len=0
+234560  81.457978 244.3.79.103 -> 41.177.98.220 TCP 117 autocueds > ups-onlinet [PSH, ACK] Seq=620 Ack=214383 Win=65535 Len=59
+234577  81.467944 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=679 Ack=217143 Win=65535 Len=0
+234578  81.468126 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=679 Ack=219298 Win=65535 Len=0
+234584  81.470485 244.3.79.103 -> 41.177.98.220 TCP 123 autocueds > ups-onlinet [PSH, ACK] Seq=679 Ack=219298 Win=65535 Len=65
+234598  81.478835 244.3.79.103 -> 41.177.98.220 TCP 123 autocueds > ups-onlinet [PSH, ACK] Seq=744 Ack=220051 Win=64782 Len=65
+234600  81.480594 244.3.79.103 -> 41.177.98.220 TCP 123 autocueds > ups-onlinet [PSH, ACK] Seq=809 Ack=220148 Win=64685 Len=65
+234634  81.504157 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=874 Ack=222908 Win=65535 Len=0
+234637  81.506510 244.3.79.103 -> 41.177.98.220 TCP 123 autocueds > ups-onlinet [PSH, ACK] Seq=874 Ack=223667 Win=64776 Len=65
+234822  81.613450 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=939 Ack=224307 Win=65535 Len=0
+240222  83.385326 244.3.79.103 -> 41.177.98.220 TCP 111 autocueds > ups-onlinet [PSH, ACK] Seq=939 Ack=224307 Win=65535 Len=53
+240601  83.505824 244.3.79.103 -> 41.177.98.220 TCP 140 autocueds > ups-onlinet [PSH, ACK] Seq=992 Ack=224567 Win=65275 Len=82
+240623  83.515824 244.3.79.103 -> 41.177.98.220 TCP 113 autocueds > ups-onlinet [PSH, ACK] Seq=1074 Ack=224701 Win=65141 Len=55
+240849  83.700514 244.3.79.103 -> 41.177.98.220 TCP 64 autocueds > ups-onlinet [ACK] Seq=1129 Ack=225018 Win=64824 Len=0

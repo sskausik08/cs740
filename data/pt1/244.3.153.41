@@ -1,0 +1,44 @@
+29036  11.803370 244.3.153.41 -> 41.177.3.117 TCP 64 netdb-export > microsoft-ds [ACK] Seq=1 Ack=2 Win=65188 Len=0
+62934  25.894773 244.3.153.41 -> 41.177.24.241 TCP 64 menandmice-lpm > imaps [ACK] Seq=33 Ack=41 Win=65175 Len=0
+393689 131.725940 244.3.153.41 -> 41.177.3.117 TCP 64 [TCP Keep-Alive ACK] netdb-export > microsoft-ds [ACK] Seq=1 Ack=2 Win=65188 Len=0
+451029 146.806449 244.3.153.41 -> 41.177.24.241 TCP 64 menandmice-lpm > imaps [ACK] Seq=65 Ack=81 Win=65135 Len=0
+779685 251.729005 244.3.153.41 -> 41.177.3.117 TCP 64 [TCP Keep-Alive ACK] netdb-export > microsoft-ds [ACK] Seq=1 Ack=2 Win=65188 Len=0
+819968 267.516933 244.3.153.41 -> 41.177.24.241 TCP 64 menandmice-lpm > imaps [ACK] Seq=97 Ack=121 Win=65095 Len=0
+878769 291.998248 244.3.153.41 -> 244.3.160.80 TCP 66 wmc-log-svc > https [SYN] Seq=0 Win=65535 Len=0 MSS=1150 SACK_PERM=1
+878778 292.003761 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=1 Ack=1 Win=65535 Len=0
+878795 292.013261 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=203 Ack=1308 Win=65535 Len=0
+879167 292.260606 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=1766 Ack=2065 Win=64778 Len=0
+907909 299.412170 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=4365 Win=65535 Len=0
+907911 299.412608 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=6665 Win=65535 Len=0
+907925 299.413965 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=8965 Win=65535 Len=0
+907935 299.415650 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=10763 Win=65535 Len=0
+907938 299.416457 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=13063 Win=65535 Len=0
+907948 299.417306 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=15363 Win=65535 Len=0
+907964 299.424935 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=17663 Win=65535 Len=0
+907965 299.425042 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=18976 Win=65535 Len=0
+907967 299.425238 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=21276 Win=65535 Len=0
+907969 299.425433 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=23576 Win=65535 Len=0
+907974 299.425730 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=25876 Win=63235 Len=0
+907985 299.426212 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=27189 Win=61922 Len=0
+907987 299.426328 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=28339 Win=64532 Len=0
+907998 299.429275 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=30639 Win=65535 Len=0
+908003 299.430022 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=32939 Win=65535 Len=0
+908007 299.432355 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=35239 Win=65535 Len=0
+908009 299.432534 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=36495 Win=65535 Len=0
+925229 307.941835 244.3.153.41 -> 244.3.31.64  TCP 66 kjtsiteserver > ssc-agent [SYN] Seq=0 Win=65535 Len=0 MSS=1150 SACK_PERM=1
+925236 307.944762 244.3.153.41 -> 244.3.31.64  TCP 64 kjtsiteserver > ssc-agent [ACK] Seq=1 Ack=1 Win=65535 Len=0
+925256 307.952556 244.3.153.41 -> 244.3.31.64  TCP 176 kjtsiteserver > ssc-agent [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=118
+925262 307.958047 244.3.153.41 -> 244.3.31.64  TCP 110 kjtsiteserver > ssc-agent [PSH, ACK] Seq=119 Ack=17 Win=65519 Len=52
+925270 307.961658 244.3.153.41 -> 244.3.31.64  TCP 64 kjtsiteserver > ssc-agent [ACK] Seq=171 Ack=1383 Win=65535 Len=0
+925272 307.963464 244.3.153.41 -> 244.3.31.64  TCP 256 kjtsiteserver > ssc-agent [PSH, ACK] Seq=171 Ack=1383 Win=65535 Len=198
+925278 307.969078 244.3.153.41 -> 244.3.31.64  TCP 661 kjtsiteserver > ssc-agent [PSH, ACK] Seq=369 Ack=1430 Win=65488 Len=603
+925429 308.155019 244.3.153.41 -> 244.3.31.64  TCP 64 kjtsiteserver > ssc-agent [ACK] Seq=972 Ack=1491 Win=65427 Len=0
+929752 309.754226 244.3.153.41 -> 244.3.31.64  TCP 372 kjtsiteserver > ssc-agent [PSH, ACK] Seq=972 Ack=1491 Win=65427 Len=314
+930162 309.866017 244.3.153.41 -> 244.3.31.64  TCP 64 kjtsiteserver > ssc-agent [ACK] Seq=1286 Ack=1552 Win=65366 Len=0
+947707 314.499563 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [ACK] Seq=3131 Ack=36533 Win=65498 Len=0
+949174 314.776891 244.3.153.41 -> 244.3.31.64  TCP 387 kjtsiteserver > ssc-agent [PSH, ACK] Seq=1286 Ack=1552 Win=65366 Len=329
+949543 314.894180 244.3.153.41 -> 244.3.31.64  TCP 64 kjtsiteserver > ssc-agent [ACK] Seq=1615 Ack=1613 Win=65305 Len=0
+950038 315.042634 244.3.153.41 -> 244.3.31.64  TCP 419 kjtsiteserver > ssc-agent [PSH, ACK] Seq=1615 Ack=1613 Win=65305 Len=361
+950076 315.054288 244.3.153.41 -> 244.3.31.64  TCP 438 kjtsiteserver > ssc-agent [PSH, ACK] Seq=1976 Ack=1674 Win=65244 Len=380
+950399 315.195686 244.3.153.41 -> 244.3.31.64  TCP 64 kjtsiteserver > ssc-agent [ACK] Seq=2356 Ack=1735 Win=65183 Len=0
+970003 323.206783 244.3.153.41 -> 244.3.160.80 TCP 64 wmc-log-svc > https [RST, ACK] Seq=3168 Ack=36533 Win=0 Len=0

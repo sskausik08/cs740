@@ -1,0 +1,4 @@
+122935  43.747451 194.31.194.116 -> 41.177.98.143 TCP 94 tgcconnect > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=64469 Len=36
+123587  43.964916 194.31.194.116 -> 41.177.98.143 TCP 64 tgcconnect > vcom-tunnel [ACK] Seq=37 Ack=83 Win=64387 Len=0
+883436 293.747665 194.31.194.116 -> 41.177.98.143 TCP 94 tgcconnect > vcom-tunnel [PSH, ACK] Seq=37 Ack=83 Win=64387 Len=36
+885190 293.919450 194.31.194.116 -> 41.177.98.143 TCP 64 tgcconnect > vcom-tunnel [ACK] Seq=73 Ack=165 Win=64305 Len=0

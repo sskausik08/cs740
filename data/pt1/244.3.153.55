@@ -1,0 +1,12 @@
+23691   8.639000 244.3.153.55 -> 41.177.24.247 TCP 132 asci-val > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+187825  63.635111 244.3.153.55 -> 41.177.24.247 TCP 132 asci-val > xmpp-client [PSH, ACK] Seq=75 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+351016 118.636600 244.3.153.55 -> 41.177.24.247 TCP 132 asci-val > xmpp-client [PSH, ACK] Seq=149 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+536224 173.636418 244.3.153.55 -> 41.177.24.247 TCP 132 asci-val > xmpp-client [PSH, ACK] Seq=223 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+716508 228.638951 244.3.153.55 -> 41.177.24.247 TCP 132 asci-val > xmpp-client [PSH, ACK] Seq=297 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+841638 276.318755 244.3.153.55 -> 41.177.24.241 TCP 66 utsftp > https [SYN] Seq=0 Win=65535 Len=0 MSS=1150 SACK_PERM=1
+841674 276.368440 244.3.153.55 -> 41.177.24.241 TCP 64 utsftp > https [ACK] Seq=1 Ack=1 Win=65535 Len=0
+842022 276.577329 244.3.153.55 -> 41.177.24.241 TCP 64 utsftp > https [ACK] Seq=1731 Ack=3247 Win=65535 Len=0
+842023 276.577393 244.3.153.55 -> 41.177.24.241 TCP 64 utsftp > https [ACK] Seq=1731 Ack=3408 Win=65375 Len=0
+842026 276.580988 244.3.153.55 -> 41.177.24.241 TCP 64 utsftp > https [FIN, ACK] Seq=1731 Ack=3408 Win=65375 Len=0
+858443 283.638529 244.3.153.55 -> 41.177.24.247 TCP 132 asci-val > xmpp-client [PSH, ACK] Seq=371 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+1009872 338.636355 244.3.153.55 -> 41.177.24.247 TCP 132 asci-val > xmpp-client [PSH, ACK] Seq=445 Ack=1 Win=48396 Len=74[Packet size limited during capture]

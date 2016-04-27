@@ -1,0 +1,53 @@
+3036   0.996242 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=339 Ack=2405 Win=65535 Len=0
+3045   0.996790 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=339 Ack=4705 Win=65535 Len=0
+4625   1.410018 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=6865 Ack=9790 Win=65197 Len=0
+17248   4.930233 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=9155 Ack=11728 Win=64476 Len=0
+18789   6.036895 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=11523 Ack=13662 Win=64892 Len=0
+21083   7.042722 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=14951 Ack=16467 Win=64733 Len=0
+23552   8.551504 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=15381 Ack=16979 Win=65535 Len=0
+27793  11.069084 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=20036 Ack=19938 Win=64908 Len=0
+37929  15.750085 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=20446 Ack=22342 Win=65535 Len=0
+37941  15.750872 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=20446 Ack=24642 Win=65535 Len=0
+37950  15.751455 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=20446 Ack=26942 Win=65535 Len=0
+37960  15.751955 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=20446 Ack=28186 Win=65535 Len=0
+38720  15.997746 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=21536 Ack=28901 Win=64820 Len=0
+40292  16.851723 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=21946 Ack=31305 Win=65535 Len=0
+40294  16.852296 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=21946 Ack=33605 Win=65535 Len=0
+40296  16.853133 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=21946 Ack=35905 Win=65535 Len=0
+40298  16.853558 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=21946 Ack=37149 Win=65535 Len=0
+42344  17.710652 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=48541 Ack=53186 Win=64999 Len=0
+58281  23.645104 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=54931 Ack=57116 Win=64661 Len=0
+59471  23.946865 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=57071 Ack=58402 Win=64554 Len=0
+59933  24.148104 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=58103 Ack=59045 Win=65119 Len=0
+60753  24.650963 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=60221 Ack=60331 Win=64999 Len=0
+61139  24.952470 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=62357 Ack=61617 Win=64892 Len=0
+61455  25.153726 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=63417 Ack=62260 Win=65496 Len=0
+61882  25.354792 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=64491 Ack=62903 Win=64853 Len=0
+62462  25.656840 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=65557 Ack=63546 Win=65376 Len=0
+63176  26.059207 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=67661 Ack=64832 Win=65304 Len=0
+64550  26.662688 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=68713 Ack=65475 Win=64661 Len=0
+101099  37.226970 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=72066 Ack=68018 Win=64733 Len=0
+107681  38.720624 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=72404 Ack=70422 Win=65535 Len=0
+107685  38.721246 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=72404 Ack=72722 Win=65535 Len=0
+111486  39.845172 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=97653 Ack=90388 Win=64554 Len=0
+120774  43.063715 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=98613 Ack=91031 Win=65119 Len=0
+123591  43.969184 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=110897 Ack=99390 Win=65119 Len=0
+148230  50.909550 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=112287 Ack=100869 Win=64820 Len=0
+153980  52.622333 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=115724 Ack=103524 Win=64853 Len=0
+160301  54.573447 244.3.153.67 -> 41.177.24.241 TCP 132 pictrography > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=49152 Len=74[Packet size limited during capture]
+305827 103.619188 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=115777 Ack=103577 Win=64800 Len=0
+320886 109.568009 244.3.153.67 -> 41.177.24.241 TCP 132 pictrography > xmpp-client [PSH, ACK] Seq=75 Ack=1 Win=49152 Len=74[Packet size limited during capture]
+397903 133.865741 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=115830 Ack=103634 Win=64743 Len=0
+511739 164.372436 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=115883 Ack=103687 Win=64690 Len=0
+512142 164.570475 244.3.153.67 -> 41.177.24.241 TCP 132 pictrography > xmpp-client [PSH, ACK] Seq=149 Ack=1 Win=49152 Len=74[Packet size limited during capture]
+614172 194.849726 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=115936 Ack=103740 Win=64637 Len=0
+694240 219.568173 244.3.153.67 -> 41.177.24.241 TCP 132 pictrography > xmpp-client [PSH, ACK] Seq=223 Ack=1 Win=49152 Len=74[Packet size limited during capture]
+707368 225.226410 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=115989 Ack=103793 Win=64584 Len=0
+787397 255.603141 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=116042 Ack=103846 Win=64531 Len=0
+838038 274.567760 244.3.153.67 -> 41.177.24.241 TCP 132 pictrography > xmpp-client [PSH, ACK] Seq=297 Ack=1 Win=49152 Len=74[Packet size limited during capture]
+865223 285.979828 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=116095 Ack=103899 Win=64478 Len=0
+954042 316.356559 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=116148 Ack=103952 Win=64425 Len=0
+988077 329.571396 244.3.153.67 -> 41.177.24.241 TCP 132 pictrography > xmpp-client [PSH, ACK] Seq=371 Ack=1 Win=49152 Len=74[Packet size limited during capture]
+992789 331.300646 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=116486 Ack=106356 Win=65535 Len=0
+992791 331.301290 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=116486 Ack=108656 Win=65535 Len=0
+995594 332.252921 244.3.153.67 -> 41.177.202.249 TCP 64 ftsrv > microsoft-ds [ACK] Seq=141755 Ack=126524 Win=65535 Len=0

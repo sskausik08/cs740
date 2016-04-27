@@ -1,0 +1,20 @@
+31320  13.227516 244.3.47.239 -> 41.177.98.121 TCP 66 ssslic-mgr > clariion-evr01 [SYN] Seq=0 Win=64240 Len=0 MSS=1380 SACK_PERM=1
+31322  13.228259 244.3.47.239 -> 41.177.98.121 TCP 64 ssslic-mgr > clariion-evr01 [ACK] Seq=1 Ack=1 Win=64860 Len=0
+31326  13.234309 244.3.47.239 -> 41.177.98.121 TCP 401 ssslic-mgr > clariion-evr01 [PSH, ACK] Seq=1 Ack=1 Win=64860 Len=343
+31338  13.240734 244.3.47.239 -> 41.177.98.121 TCP 64 ssslic-mgr > clariion-evr01 [ACK] Seq=344 Ack=1379 Win=63483 Len=0
+31386  13.261659 244.3.47.239 -> 41.177.98.121 TCP 64 ssslic-mgr > clariion-evr01 [FIN, ACK] Seq=344 Ack=1379 Win=63483 Len=0
+324093 111.222463 244.3.47.239 -> 41.177.98.121 TCP 66 dellwebadmin-1 > clariion-evr01 [SYN] Seq=0 Win=64240 Len=0 MSS=1380 SACK_PERM=1
+324097 111.223139 244.3.47.239 -> 41.177.98.121 TCP 64 dellwebadmin-1 > clariion-evr01 [ACK] Seq=1 Ack=1 Win=64860 Len=0
+324098 111.223365 244.3.47.239 -> 41.177.98.121 TCP 401 dellwebadmin-1 > clariion-evr01 [PSH, ACK] Seq=1 Ack=1 Win=64860 Len=343
+324123 111.231878 244.3.47.239 -> 41.177.98.121 TCP 64 dellwebadmin-1 > clariion-evr01 [ACK] Seq=344 Ack=1200 Win=63662 Len=0
+324124 111.232542 244.3.47.239 -> 41.177.98.121 TCP 64 dellwebadmin-1 > clariion-evr01 [FIN, ACK] Seq=344 Ack=1200 Win=63662 Len=0
+606010 192.223042 244.3.47.239 -> 41.177.98.121 TCP 66 ndm-server > clariion-evr01 [SYN] Seq=0 Win=64240 Len=0 MSS=1380 SACK_PERM=1
+606019 192.228018 244.3.47.239 -> 41.177.98.121 TCP 64 ndm-server > clariion-evr01 [ACK] Seq=1 Ack=1 Win=64860 Len=0
+606020 192.228257 244.3.47.239 -> 41.177.98.121 TCP 401 ndm-server > clariion-evr01 [PSH, ACK] Seq=1 Ack=1 Win=64860 Len=343
+606029 192.232575 244.3.47.239 -> 41.177.98.121 TCP 64 ndm-server > clariion-evr01 [ACK] Seq=344 Ack=1379 Win=63483 Len=0
+606030 192.233172 244.3.47.239 -> 41.177.98.121 TCP 64 ndm-server > clariion-evr01 [FIN, ACK] Seq=344 Ack=1379 Win=63483 Len=0
+871356 288.218854 244.3.47.239 -> 41.177.98.121 TCP 66 dwf > clariion-evr01 [SYN] Seq=0 Win=64240 Len=0 MSS=1380 SACK_PERM=1
+871360 288.219313 244.3.47.239 -> 41.177.98.121 TCP 64 dwf > clariion-evr01 [ACK] Seq=1 Ack=1 Win=64860 Len=0
+871362 288.219642 244.3.47.239 -> 41.177.98.121 TCP 401 dwf > clariion-evr01 [PSH, ACK] Seq=1 Ack=1 Win=64860 Len=343
+871453 288.233330 244.3.47.239 -> 41.177.98.121 TCP 64 dwf > clariion-evr01 [ACK] Seq=344 Ack=1379 Win=63483 Len=0
+871456 288.233929 244.3.47.239 -> 41.177.98.121 TCP 64 dwf > clariion-evr01 [FIN, ACK] Seq=344 Ack=1379 Win=63483 Len=0

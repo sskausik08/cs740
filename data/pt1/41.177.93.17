@@ -1,0 +1,12 @@
+17226   4.913373 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=11 Ack=238 Win=65298 Len=0
+26449  10.392198 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=38 Ack=2652 Win=65535 Len=0
+43032  18.251394 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=121 Ack=4311 Win=65535 Len=0
+52599  21.866501 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=142 Ack=4614 Win=65232 Len=0
+53942  22.304013 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=215 Ack=4837 Win=65009 Len=0
+54390  22.539123 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=223 Ack=7057 Win=65535 Len=0
+73225  29.875575 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=250 Ack=8834 Win=65535 Len=0
+97378  36.522794 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=277 Ack=9360 Win=65009 Len=0
+113916  40.569678 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=309 Ack=9772 Win=64597 Len=0
+116850  41.772799 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=319 Ack=9978 Win=64391 Len=0
+128540  45.163550 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=336 Ack=10752 Win=65535 Len=0
+147165  50.522852 41.177.93.17 -> 244.3.41.84  TCP 64 bvtsonar > telnet [ACK] Seq=362 Ack=11995 Win=64292 Len=0

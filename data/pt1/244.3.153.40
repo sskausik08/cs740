@@ -1,0 +1,6 @@
+91206  35.060986 244.3.153.40 -> 41.177.24.247 TCP 132 linx > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+253830  90.057055 244.3.153.40 -> 41.177.24.247 TCP 132 linx > xmpp-client [PSH, ACK] Seq=75 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+446769 145.058878 244.3.153.40 -> 41.177.24.247 TCP 132 linx > xmpp-client [PSH, ACK] Seq=149 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+631466 200.058191 244.3.153.40 -> 41.177.24.247 TCP 132 linx > xmpp-client [PSH, ACK] Seq=223 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+786172 255.060161 244.3.153.40 -> 41.177.24.247 TCP 132 linx > xmpp-client [PSH, ACK] Seq=297 Ack=1 Win=48396 Len=74[Packet size limited during capture]
+930654 310.060003 244.3.153.40 -> 41.177.24.247 TCP 132 linx > xmpp-client [PSH, ACK] Seq=371 Ack=1 Win=48396 Len=74[Packet size limited during capture]

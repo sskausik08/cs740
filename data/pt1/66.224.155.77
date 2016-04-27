@@ -1,0 +1,2 @@
+14249   4.022766 66.224.155.77 -> 41.177.26.13 TCP 70 dic-aida > http [ACK] Seq=1 Ack=2 Win=36403 Len=0 TSval=70540 TSecr=140341977
+129249  45.239947 66.224.155.77 -> 41.177.26.13 TCP 64 dic-aida > http [RST, ACK] Seq=1 Ack=2 Win=0 Len=0

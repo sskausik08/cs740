@@ -1,0 +1,2 @@
+514915 165.750722 150.64.41.218 -> 244.3.31.167 TCP 66 ssowatch > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1414 SACK_PERM=1
+521252 168.797263 150.64.41.218 -> 244.3.31.167 TCP 66 [TCP Retransmission] ssowatch > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1414 SACK_PERM=1

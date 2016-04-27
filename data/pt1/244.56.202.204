@@ -1,0 +1,243 @@
+62591  25.764510 244.56.202.204 -> 41.177.98.143 TCP 143 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=65453 Len=85
+62738  25.806206 244.56.202.204 -> 41.177.98.143 TCP 67 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=86 Ack=12 Win=65442 Len=9
+62815  25.859098 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=95 Ack=1716 Win=65535 Len=0
+177443  59.550144 244.56.202.204 -> 41.177.98.143 TCP 71 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=95 Ack=1716 Win=65535 Len=13
+177752  59.694058 244.56.202.204 -> 41.177.98.143 TCP 84 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=108 Ack=1743 Win=65508 Len=26
+178140  59.796791 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=134 Ack=1817 Win=65434 Len=23
+178413  59.895895 244.56.202.204 -> 41.177.98.143 TCP 624 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=157 Ack=1817 Win=65434 Len=566
+178896  60.122449 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=723 Ack=2009 Win=65242 Len=0
+179329  60.323585 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=723 Ack=2546 Win=64705 Len=0
+181977  61.172776 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=723 Ack=2546 Win=64705 Len=23
+182305  61.265695 244.56.202.204 -> 41.177.98.143 TCP 627 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=746 Ack=2546 Win=64705 Len=569
+183099  61.530803 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1315 Ack=2736 Win=64515 Len=0
+183728  61.732003 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1315 Ack=2972 Win=64279 Len=0
+184265  61.932975 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1315 Ack=3236 Win=65535 Len=0
+186681  62.797022 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=1315 Ack=3236 Win=65535 Len=23
+186771  62.895761 244.56.202.204 -> 41.177.98.143 TCP 631 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=1338 Ack=3236 Win=65535 Len=573
+187062  63.140072 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1911 Ack=3363 Win=65408 Len=0
+187435  63.341363 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1911 Ack=3515 Win=65256 Len=0
+187745  63.542600 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1911 Ack=3553 Win=65218 Len=0
+187956  63.743745 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1911 Ack=3629 Win=65142 Len=0
+188213  63.944896 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1911 Ack=3713 Win=65058 Len=0
+188280  63.986399 244.56.202.204 -> 41.177.98.143 TCP 79 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=1911 Ack=3981 Win=64790 Len=21
+188750  64.246465 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1932 Ack=4625 Win=64146 Len=0
+189798  65.048831 244.56.202.204 -> 41.177.98.143 TCP 79 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=1932 Ack=4625 Win=64146 Len=21
+190098  65.252443 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1953 Ack=5269 Win=65535 Len=0
+196674  67.490522 244.56.202.204 -> 41.177.98.143 TCP 73 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=1953 Ack=5269 Win=65535 Len=15
+197349  67.666514 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=1968 Ack=5870 Win=64934 Len=0
+197411  67.691502 244.56.202.204 -> 41.177.98.143 TCP 143 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=1968 Ack=5870 Win=64934 Len=85
+197532  67.732503 244.56.202.204 -> 41.177.98.143 TCP 65 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2053 Ack=5881 Win=64923 Len=7
+197707  67.819569 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2060 Ack=7127 Win=65535 Len=79
+198031  67.928353 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2139 Ack=7883 Win=64779 Len=79
+198141  67.997949 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2218 Ack=8659 Win=65535 Len=79
+198469  68.169626 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=2297 Ack=9249 Win=64945 Len=0
+217884  74.371759 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2297 Ack=9249 Win=64945 Len=79
+218117  74.455831 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2376 Ack=9864 Win=64330 Len=79
+218608  74.607261 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=2455 Ack=10476 Win=65535 Len=0
+221336  75.867245 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2455 Ack=10476 Win=65535 Len=79
+221663  75.951402 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2534 Ack=11082 Win=64929 Len=79
+221977  76.045380 244.56.202.204 -> 41.177.98.143 TCP 137 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2613 Ack=11701 Win=64310 Len=79
+222175  76.115710 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2692 Ack=12325 Win=65535 Len=80
+222758  76.317214 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=2772 Ack=12944 Win=64916 Len=0
+227218  77.755554 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2772 Ack=12944 Win=64916 Len=80
+227316  77.835670 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2852 Ack=13563 Win=64297 Len=80
+227706  78.027335 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=2932 Ack=14194 Win=65535 Len=0
+228639  78.499671 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=2932 Ack=14194 Win=65535 Len=80
+228729  78.557880 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3012 Ack=14846 Win=64883 Len=80
+229328  78.831886 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=3092 Ack=15451 Win=64278 Len=0
+229835  79.123208 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3092 Ack=15451 Win=64278 Len=80
+229898  79.192189 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3172 Ack=16046 Win=65535 Len=80
+230147  79.435409 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=3252 Ack=16666 Win=64915 Len=0
+231335  79.923242 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3252 Ack=16666 Win=64915 Len=80
+231434  79.976489 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3332 Ack=17289 Win=64292 Len=80
+231701  80.082451 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3412 Ack=17940 Win=65535 Len=80
+231966  80.168097 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3492 Ack=18631 Win=64844 Len=80
+232599  80.441370 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=3572 Ack=19244 Win=64231 Len=0
+234529  81.435338 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3572 Ack=19244 Win=64231 Len=80
+234663  81.519243 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3652 Ack=19928 Win=65535 Len=80
+235013  81.748946 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=3732 Ack=20851 Win=64612 Len=0
+238356  82.725266 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3732 Ack=20851 Win=64612 Len=80
+238633  82.813594 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3812 Ack=21840 Win=65535 Len=80
+239041  82.977872 244.56.202.204 -> 41.177.98.143 TCP 138 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3892 Ack=22496 Win=64879 Len=80
+239499  83.157143 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=3972 Ack=23165 Win=64210 Len=0
+349945 118.318709 244.56.202.204 -> 41.177.98.143 TCP 84 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3972 Ack=23165 Win=64210 Len=26
+350307 118.413404 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=3998 Ack=23239 Win=64136 Len=23
+350729 118.506621 244.56.202.204 -> 41.177.98.143 TCP 535 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=4021 Ack=23239 Win=64136 Len=477
+351304 118.767353 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=4498 Ack=23431 Win=65535 Len=0
+351672 118.968594 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=4498 Ack=23507 Win=65459 Len=0
+352096 119.270278 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=4498 Ack=23545 Win=65421 Len=0
+352404 119.471428 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=4498 Ack=23583 Win=65383 Len=0
+352700 119.672702 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=4498 Ack=23705 Win=65261 Len=0
+353050 119.873688 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=4498 Ack=23751 Win=65215 Len=0
+353313 120.074852 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=4498 Ack=23969 Win=64997 Len=0
+354875 120.925843 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=4498 Ack=23969 Win=64997 Len=23
+355085 121.026526 244.56.202.204 -> 41.177.98.143 TCP 538 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=4521 Ack=23969 Win=64997 Len=480
+355742 121.281955 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5001 Ack=24161 Win=64805 Len=0
+356109 121.483279 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5001 Ack=24237 Win=64729 Len=0
+357438 121.986232 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5001 Ack=24275 Win=64691 Len=0
+357919 122.187334 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5001 Ack=24313 Win=64653 Len=0
+358486 122.388466 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5001 Ack=24435 Win=64531 Len=0
+359093 122.589492 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5001 Ack=24699 Win=64267 Len=0
+361654 123.441843 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5001 Ack=24699 Win=64267 Len=23
+362081 123.536528 244.56.202.204 -> 41.177.98.143 TCP 545 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5024 Ack=24699 Win=64267 Len=487
+363397 123.796625 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=24826 Win=64140 Len=0
+364212 123.997850 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=24902 Win=65535 Len=0
+364676 124.199156 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=24940 Win=65497 Len=0
+365062 124.400288 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=24978 Win=65459 Len=0
+365459 124.701958 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=25016 Win=65421 Len=0
+366963 125.506791 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=25054 Win=65383 Len=0
+367905 126.009678 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=25092 Win=65345 Len=0
+373019 126.412141 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=25130 Win=65307 Len=0
+381010 126.713773 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=25214 Win=65223 Len=0
+382101 127.216790 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5511 Ack=25294 Win=65143 Len=0
+382531 127.258472 244.56.202.204 -> 41.177.98.143 TCP 79 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5511 Ack=25518 Win=64919 Len=21
+384809 127.518371 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5532 Ack=26299 Win=64138 Len=0
+386143 128.333546 244.56.202.204 -> 41.177.98.143 TCP 79 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5532 Ack=26299 Win=64138 Len=21
+386449 128.524175 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5553 Ack=27080 Win=65535 Len=0
+389260 129.960174 244.56.202.204 -> 41.177.98.143 TCP 84 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5553 Ack=27080 Win=65535 Len=26
+389351 130.030356 244.56.202.204 -> 41.177.98.143 TCP 73 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5579 Ack=27154 Win=65461 Len=15
+389754 130.234262 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5594 Ack=27667 Win=64948 Len=0
+389760 130.236616 244.56.202.204 -> 41.177.98.143 TCP 143 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5594 Ack=27667 Win=64948 Len=85
+389844 130.277695 244.56.202.204 -> 41.177.98.143 TCP 65 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5679 Ack=27678 Win=64937 Len=7
+390305 130.415298 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5686 Ack=29682 Win=65535 Len=0
+390339 130.432559 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5686 Ack=29682 Win=65535 Len=74
+390670 130.537851 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5760 Ack=30870 Win=64347 Len=74
+390863 130.638672 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5834 Ack=32733 Win=65535 Len=0
+390883 130.646768 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5834 Ack=32733 Win=65535 Len=74
+391257 130.749063 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5908 Ack=34551 Win=65535 Len=0
+391477 130.835415 244.56.202.204 -> 41.177.98.143 TCP 84 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5908 Ack=34551 Win=65535 Len=26
+391920 131.038950 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=5934 Ack=34625 Win=65461 Len=0
+399300 134.385144 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=5934 Ack=34625 Win=65461 Len=74
+399548 134.490075 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6008 Ack=37018 Win=65535 Len=0
+399614 134.508728 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6008 Ack=37018 Win=65535 Len=74
+399920 134.599127 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6082 Ack=38556 Win=65535 Len=0
+413391 138.066669 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6082 Ack=38556 Win=65535 Len=74
+413457 138.132818 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6156 Ack=40313 Win=65535 Len=0
+413485 138.146965 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6156 Ack=40313 Win=65535 Len=74
+413735 138.206116 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6230 Ack=41852 Win=65535 Len=0
+413841 138.251247 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6230 Ack=41852 Win=65535 Len=74
+414104 138.320200 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6304 Ack=43449 Win=65535 Len=0
+414122 138.327874 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6304 Ack=43449 Win=65535 Len=75
+414534 138.394096 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6379 Ack=45052 Win=65535 Len=0
+425093 139.589737 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6379 Ack=45052 Win=65535 Len=75
+425416 139.665269 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6454 Ack=46490 Win=64097 Len=75
+425781 139.742514 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6529 Ack=48134 Win=65535 Len=0
+430592 140.709350 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6529 Ack=48134 Win=65535 Len=75
+430919 140.789774 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6604 Ack=49833 Win=65535 Len=0
+430995 140.803455 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6604 Ack=49833 Win=65535 Len=75
+431806 140.997233 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6679 Ack=51141 Win=64227 Len=0
+434606 141.771706 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6679 Ack=51141 Win=64227 Len=75
+434934 141.861885 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6754 Ack=52781 Win=65535 Len=0
+434971 141.874637 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6754 Ack=52781 Win=65535 Len=75
+435204 141.950076 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6829 Ack=54519 Win=65535 Len=0
+439541 143.168406 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6829 Ack=54519 Win=65535 Len=75
+439808 143.272512 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6904 Ack=56729 Win=65535 Len=0
+439825 143.289957 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6904 Ack=56729 Win=65535 Len=75
+440012 143.353544 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=6979 Ack=58854 Win=65535 Len=0
+440286 143.410098 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=6979 Ack=58854 Win=65535 Len=75
+440631 143.465044 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7054 Ack=61193 Win=65535 Len=0
+440692 143.483117 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7054 Ack=61193 Win=65535 Len=75
+440876 143.538193 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7129 Ack=63447 Win=65535 Len=0
+443922 144.503571 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7129 Ack=63447 Win=65535 Len=75
+444128 144.587144 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7204 Ack=65921 Win=65535 Len=0
+444222 144.606256 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7204 Ack=65921 Win=65535 Len=75
+444428 144.700173 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7279 Ack=67712 Win=65535 Len=0
+444632 144.752930 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7279 Ack=67712 Win=65535 Len=75
+445623 144.841454 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7354 Ack=69778 Win=65535 Len=0
+445850 144.857486 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7354 Ack=69778 Win=65535 Len=75
+446480 144.911078 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7429 Ack=72049 Win=65535 Len=0
+447600 145.412725 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7429 Ack=72049 Win=65535 Len=75
+447725 145.466004 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7504 Ack=74184 Win=65535 Len=0
+447752 145.482886 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7504 Ack=74184 Win=65535 Len=75
+448053 145.575218 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7579 Ack=76116 Win=65535 Len=0
+448262 145.627058 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7579 Ack=76116 Win=65535 Len=75
+448479 145.698520 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7654 Ack=78465 Win=65535 Len=0
+448518 145.717324 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7654 Ack=78465 Win=65535 Len=75
+448674 145.770837 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7729 Ack=80805 Win=65535 Len=0
+451855 147.206968 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7729 Ack=80805 Win=65535 Len=75
+452329 147.333106 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7804 Ack=82055 Win=64285 Len=75
+452740 147.480204 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7879 Ack=84881 Win=65535 Len=0
+458628 149.924007 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7879 Ack=84881 Win=65535 Len=75
+458831 150.005847 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=7954 Ack=86984 Win=65535 Len=0
+458884 150.022381 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=7954 Ack=86984 Win=65535 Len=75
+459090 150.123004 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8029 Ack=89151 Win=65535 Len=0
+460868 150.812285 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8029 Ack=89151 Win=65535 Len=75
+460952 150.883509 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8104 Ack=91251 Win=65535 Len=0
+460972 150.900001 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8104 Ack=91251 Win=65535 Len=75
+461062 150.963100 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8179 Ack=93484 Win=65535 Len=0
+461212 151.084855 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8179 Ack=93484 Win=65535 Len=75
+461380 151.155961 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8254 Ack=95708 Win=65535 Len=0
+461421 151.173327 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8254 Ack=95708 Win=65535 Len=75
+461613 151.262702 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8329 Ack=97700 Win=65535 Len=0
+463731 152.356718 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8329 Ack=97700 Win=65535 Len=75
+463898 152.439634 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8404 Ack=99690 Win=65535 Len=0
+463929 152.458025 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8404 Ack=99690 Win=65535 Len=75
+464106 152.511370 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8479 Ack=101872 Win=65535 Len=0
+468401 154.500566 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8479 Ack=101872 Win=65535 Len=75
+468667 154.595207 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8554 Ack=104077 Win=65535 Len=0
+468750 154.615360 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8554 Ack=104077 Win=65535 Len=75
+468950 154.716039 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8629 Ack=106081 Win=65535 Len=0
+469069 154.770273 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8629 Ack=106081 Win=65535 Len=75
+469270 154.838014 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8704 Ack=107920 Win=65535 Len=0
+469284 154.852839 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8704 Ack=107920 Win=65535 Len=75
+469409 154.904302 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8779 Ack=109617 Win=65535 Len=0
+471570 155.759984 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8779 Ack=109617 Win=65535 Len=75
+471820 155.812065 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8854 Ack=111314 Win=65535 Len=0
+471874 155.825832 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8854 Ack=111314 Win=65535 Len=75
+472255 155.903423 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=8929 Ack=112941 Win=65535 Len=0
+472501 155.949380 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=8929 Ack=112941 Win=65535 Len=75
+472805 156.002944 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=9004 Ack=114572 Win=65535 Len=0
+472845 156.016085 244.56.202.204 -> 41.177.98.143 TCP 133 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=9004 Ack=114572 Win=65535 Len=75
+473244 156.096817 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=9079 Ack=116267 Win=65535 Len=0
+528922 171.871307 244.56.202.204 -> 41.177.98.143 TCP 71 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=9079 Ack=116267 Win=65535 Len=13
+529617 172.078775 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=9092 Ack=116294 Win=65508 Len=0
+534646 173.243057 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=9092 Ack=116294 Win=65508 Len=23
+535325 173.337148 244.56.202.204 -> 41.177.98.143 TCP 712 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=9115 Ack=116294 Win=65508 Len=654
+536098 173.587724 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=9769 Ack=116570 Win=65232 Len=0
+599097 189.928560 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=9769 Ack=116570 Win=65232 Len=23
+599352 190.027539 244.56.202.204 -> 41.177.98.143 TCP 704 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=9792 Ack=116570 Win=65232 Len=646
+600424 190.285208 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=10438 Ack=116699 Win=65103 Len=0
+600906 190.486664 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=10438 Ack=116775 Win=65027 Len=0
+601680 190.788170 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=10438 Ack=116813 Win=64989 Len=0
+602185 190.989599 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=10438 Ack=116851 Win=64951 Len=0
+602612 191.190616 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=10438 Ack=116935 Win=64867 Len=0
+603309 191.391749 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=10438 Ack=117198 Win=64604 Len=0
+606124 192.255144 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=10438 Ack=117198 Win=64604 Len=23
+606535 192.347359 244.56.202.204 -> 41.177.98.143 TCP 707 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=10461 Ack=117198 Win=64604 Len=649
+607138 192.598816 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11110 Ack=117390 Win=64412 Len=0
+607565 192.800090 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11110 Ack=117466 Win=64336 Len=0
+608601 193.303084 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11110 Ack=117504 Win=64298 Len=0
+609708 193.604787 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11110 Ack=117542 Win=64260 Len=0
+610527 193.805801 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11110 Ack=117889 Win=65535 Len=0
+613548 194.661655 244.56.202.204 -> 41.177.98.143 TCP 81 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11110 Ack=117889 Win=65535 Len=23
+613935 194.757476 244.56.202.204 -> 41.177.98.143 TCP 714 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11133 Ack=117889 Win=65535 Len=656
+614539 195.012974 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118016 Win=65408 Len=0
+615108 195.214176 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118092 Win=65332 Len=0
+615512 195.415339 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118130 Win=65294 Len=0
+615825 195.616616 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118168 Win=65256 Len=0
+616563 195.918314 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118206 Win=65218 Len=0
+618009 196.521841 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118244 Win=65180 Len=0
+618598 196.723141 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118282 Win=65142 Len=0
+619246 196.924299 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118366 Win=65058 Len=0
+622079 197.628258 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11789 Ack=118412 Win=65012 Len=0
+622400 197.669714 244.56.202.204 -> 41.177.98.143 TCP 79 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11789 Ack=118630 Win=64794 Len=21
+623655 197.929963 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11810 Ack=119546 Win=65535 Len=0
+626122 198.756661 244.56.202.204 -> 41.177.98.143 TCP 79 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11810 Ack=119546 Win=65535 Len=21
+626660 198.935892 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11831 Ack=120462 Win=64619 Len=0
+634850 200.736833 244.56.202.204 -> 41.177.98.143 TCP 84 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11831 Ack=120462 Win=64619 Len=26
+635271 200.803779 244.56.202.204 -> 41.177.98.143 TCP 73 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11857 Ack=120536 Win=64545 Len=15
+636390 200.947578 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11872 Ack=121222 Win=65535 Len=0
+636747 201.012192 244.56.202.204 -> 41.177.98.143 TCP 143 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11872 Ack=121222 Win=65535 Len=85
+636962 201.053266 244.56.202.204 -> 41.177.98.143 TCP 65 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11957 Ack=121233 Win=65524 Len=7
+637206 201.107605 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=11964 Ack=123258 Win=65535 Len=0
+637292 201.122845 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=11964 Ack=123258 Win=65535 Len=74
+637442 201.176831 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=12038 Ack=125672 Win=65535 Len=0
+637463 201.187344 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=12038 Ack=125672 Win=65535 Len=74
+638020 201.375710 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=12112 Ack=128152 Win=65535 Len=0
+638050 201.385597 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=12112 Ack=128152 Win=65535 Len=74
+638657 201.568377 244.56.202.204 -> 41.177.98.143 TCP 84 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=12186 Ack=129287 Win=64400 Len=26
+639295 201.752472 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=12212 Ack=129361 Win=64326 Len=0
+671917 209.368525 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=12212 Ack=129361 Win=64326 Len=74
+672198 209.510503 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=12286 Ack=130560 Win=65535 Len=74
+672461 209.622941 244.56.202.204 -> 41.177.98.143 TCP 132 netbill-keyrep > vcom-tunnel [PSH, ACK] Seq=12360 Ack=131452 Win=64643 Len=74
+672844 209.799425 244.56.202.204 -> 41.177.98.143 TCP 64 netbill-keyrep > vcom-tunnel [ACK] Seq=12434 Ack=132374 Win=65535 Len=0

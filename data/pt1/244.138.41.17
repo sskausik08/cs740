@@ -1,0 +1,4 @@
+12342   3.786768 244.138.41.17 -> 41.177.98.143 TCP 94 ws-discovery > vcom-tunnel [PSH, ACK] Seq=1 Ack=1 Win=64961 Len=36
+13275   3.922453 244.138.41.17 -> 41.177.98.143 TCP 64 ws-discovery > vcom-tunnel [ACK] Seq=37 Ack=83 Win=64879 Len=0
+944889 313.781166 244.138.41.17 -> 41.177.98.143 TCP 94 ws-discovery > vcom-tunnel [PSH, ACK] Seq=37 Ack=83 Win=64879 Len=36
+945665 313.922523 244.138.41.17 -> 41.177.98.143 TCP 64 ws-discovery > vcom-tunnel [ACK] Seq=73 Ack=165 Win=64797 Len=0

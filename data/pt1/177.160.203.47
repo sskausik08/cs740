@@ -1,0 +1,2 @@
+616964 196.053989 177.160.203.47 -> 244.3.61.225 TCP 66 netopia-vo3 > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+626725 198.980205 177.160.203.47 -> 244.3.61.225 TCP 66 [TCP Retransmission] netopia-vo3 > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

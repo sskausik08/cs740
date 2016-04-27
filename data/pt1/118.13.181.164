@@ -1,0 +1,3 @@
+759584 244.871587 118.13.181.164 -> 244.3.61.142 TCP 66 topflow > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+766515 247.776586 118.13.181.164 -> 244.3.61.142 TCP 66 [TCP Retransmission] topflow > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+783661 253.792685 118.13.181.164 -> 244.3.61.142 TCP 66 [TCP Retransmission] topflow > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

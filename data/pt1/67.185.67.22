@@ -1,0 +1,2 @@
+993868 331.658832 67.185.67.22 -> 244.3.31.40  TCP 66 bmap > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+999967 334.488677 67.185.67.22 -> 244.3.31.40  TCP 66 [TCP Retransmission] bmap > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

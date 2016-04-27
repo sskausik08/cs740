@@ -1,0 +1,86 @@
+28734  11.645969 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+28735  11.645974 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+31696  13.379220 41.177.3.184 -> 41.177.3.203 TCP 64 rmc > 58489 [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1460
+31702  13.379959 41.177.3.184 -> 41.177.3.203 TCP 64 rmc > 58489 [ACK] Seq=1 Ack=201 Win=5840 Len=0
+31704  13.380007 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58489 [PSH, ACK] Seq=1 Ack=201 Win=5840 Len=96
+31707  13.380356 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58489 [PSH, ACK] Seq=97 Ack=353 Win=5840 Len=96
+31712  13.380856 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58489 [PSH, ACK] Seq=193 Ack=433 Win=5840 Len=96
+31714  13.381227 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58489 [PSH, ACK] Seq=289 Ack=505 Win=5840 Len=96
+31717  13.381611 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58489 [PSH, ACK] Seq=385 Ack=649 Win=5840 Len=96
+31720  13.382137 41.177.3.184 -> 41.177.3.203 TCP 226 rmc > 58489 [PSH, ACK] Seq=481 Ack=785 Win=5840 Len=168
+31722  13.382848 41.177.3.184 -> 41.177.3.203 TCP 266 rmc > 58489 [PSH, ACK] Seq=649 Ack=977 Win=5840 Len=208
+31740  13.385353 41.177.3.184 -> 41.177.3.203 TCP 64 rmc > 58489 [FIN, ACK] Seq=857 Ack=978 Win=5840 Len=0
+58282  23.645299 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+58283  23.645303 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+93079  35.584617 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+93080  35.584622 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+136532  47.523938 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+136533  47.523942 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+177259  59.463241 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+177260  59.463245 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+208101  71.402565 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+208102  71.402570 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+240247  83.401886 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+240248  83.401891 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+282818  94.931218 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+282819  94.931222 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+313211 106.930532 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+313212 106.930537 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+351492 118.869840 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+351493 118.869845 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+391435 130.809144 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+391436 130.809148 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+437757 142.748477 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+437758 142.748482 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+468887 154.687794 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+468888 154.687798 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+516379 166.687108 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+516380 166.687113 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+554807 178.626435 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+554808 178.626439 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+601074 190.565739 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+601075 190.565743 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+642073 202.505049 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+642075 202.505079 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+683737 214.444377 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+683738 214.444382 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+709435 226.023715 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+709436 226.023720 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+744217 237.963030 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+744218 237.963035 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+748333 239.615606 41.177.3.184 -> 41.177.3.224 TCP 64 rmc > 52507 [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1460
+748336 239.616196 41.177.3.184 -> 41.177.3.224 TCP 64 rmc > 52507 [ACK] Seq=1 Ack=201 Win=5840 Len=0
+748337 239.616249 41.177.3.184 -> 41.177.3.224 TCP 154 rmc > 52507 [PSH, ACK] Seq=1 Ack=201 Win=5840 Len=96
+748339 239.616601 41.177.3.184 -> 41.177.3.224 TCP 154 rmc > 52507 [PSH, ACK] Seq=97 Ack=353 Win=5840 Len=96
+748341 239.617088 41.177.3.184 -> 41.177.3.224 TCP 154 rmc > 52507 [PSH, ACK] Seq=193 Ack=433 Win=5840 Len=96
+748343 239.617470 41.177.3.184 -> 41.177.3.224 TCP 154 rmc > 52507 [PSH, ACK] Seq=289 Ack=505 Win=5840 Len=96
+748345 239.617847 41.177.3.184 -> 41.177.3.224 TCP 154 rmc > 52507 [PSH, ACK] Seq=385 Ack=649 Win=5840 Len=96
+748347 239.618254 41.177.3.184 -> 41.177.3.224 TCP 226 rmc > 52507 [PSH, ACK] Seq=481 Ack=785 Win=5840 Len=168
+748351 239.618918 41.177.3.184 -> 41.177.3.224 TCP 266 rmc > 52507 [PSH, ACK] Seq=649 Ack=977 Win=5840 Len=208
+748357 239.621468 41.177.3.184 -> 41.177.3.224 TCP 64 rmc > 52507 [FIN, ACK] Seq=857 Ack=978 Win=5840 Len=0
+776265 249.962313 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+776266 249.962318 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+801194 261.901678 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+801195 261.901681 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+836302 273.840971 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+836303 273.840976 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+864744 285.780290 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+864745 285.780294 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+902480 297.719609 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+902481 297.719614 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+929623 309.718925 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+929624 309.718930 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+943429 313.415458 41.177.3.184 -> 41.177.3.203 TCP 64 rmc > 58512 [SYN, ACK] Seq=0 Ack=1 Win=5840 Len=0 MSS=1460
+943432 313.416061 41.177.3.184 -> 41.177.3.203 TCP 64 rmc > 58512 [ACK] Seq=1 Ack=201 Win=5840 Len=0
+943433 313.416114 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58512 [PSH, ACK] Seq=1 Ack=201 Win=5840 Len=96
+943435 313.416589 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58512 [PSH, ACK] Seq=97 Ack=353 Win=5840 Len=96
+943437 313.417200 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58512 [PSH, ACK] Seq=193 Ack=433 Win=5840 Len=96
+943440 313.417582 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58512 [PSH, ACK] Seq=289 Ack=505 Win=5840 Len=96
+943444 313.417957 41.177.3.184 -> 41.177.3.203 TCP 154 rmc > 58512 [PSH, ACK] Seq=385 Ack=649 Win=5840 Len=96
+943448 313.418492 41.177.3.184 -> 41.177.3.203 TCP 226 rmc > 58512 [PSH, ACK] Seq=481 Ack=785 Win=5840 Len=168
+943450 313.419203 41.177.3.184 -> 41.177.3.203 TCP 266 rmc > 58512 [PSH, ACK] Seq=649 Ack=977 Win=5840 Len=208
+943462 313.421713 41.177.3.184 -> 41.177.3.203 TCP 64 rmc > 58512 [FIN, ACK] Seq=857 Ack=978 Win=5840 Len=0
+966160 321.658237 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc
+966161 321.658241 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+998115 333.597566 41.177.3.184 -> 41.177.3.203 UDP 102 Source port: rmc  Destination port: rmc
+998116 333.597570 41.177.3.184 -> 41.177.3.224 UDP 102 Source port: rmc  Destination port: rmc

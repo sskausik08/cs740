@@ -1,0 +1,33 @@
+566456 181.090221 244.3.153.209 -> 41.177.24.241 TCP 70 natdataservice > https [SYN] Seq=0 Win=65535 Len=0 MSS=1150 WS=2 SACK_PERM=1
+566465 181.094381 244.3.153.209 -> 41.177.24.241 TCP 64 natdataservice > https [ACK] Seq=1 Ack=1 Win=65536 Len=0
+568449 181.626404 244.3.153.209 -> 41.177.24.241 TCP 64 natdataservice > https [ACK] Seq=1616 Ack=1713 Win=65536 Len=0
+585477 186.520915 244.3.153.209 -> 41.177.24.241 TCP 64 natdataservice > https [ACK] Seq=1616 Ack=1737 Win=65512 Len=0
+602213 190.994817 244.3.153.209 -> 41.177.24.241 TCP 64 natdataservice > https [FIN, ACK] Seq=1616 Ack=1737 Win=65512 Len=0
+602221 190.997000 244.3.153.209 -> 41.177.24.241 TCP 64 natdataservice > https [RST] Seq=1617 Win=0 Len=0
+625413 198.556972 244.3.153.209 -> 41.177.24.241 TCP 66 syam-webserver > xmpp-client [SYN] Seq=0 Win=49152 Len=0 MSS=1150 SACK_PERM=1
+625418 198.559751 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=1 Ack=1 Win=49152 Len=0
+625420 198.560840 244.3.153.209 -> 41.177.24.241 TCP 258 syam-webserver > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=49152 Len=200[Packet size limited during capture]
+625487 198.576997 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=201 Ack=368 Win=48785 Len=0
+625492 198.578951 244.3.153.209 -> 41.177.24.241 TCP 109 syam-webserver > xmpp-client [PSH, ACK] Seq=201 Ack=368 Win=48785 Len=51[Packet size limited during capture]
+626010 198.725787 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=252 Ack=418 Win=48735 Len=0
+626020 198.734844 244.3.153.209 -> 41.177.24.241 TCP 182 syam-webserver > xmpp-client [PSH, ACK] Seq=252 Ack=418 Win=48735 Len=124[Packet size limited during capture]
+626035 198.739775 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=376 Ack=2718 Win=49152 Len=0
+626061 198.742008 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=376 Ack=4252 Win=49152 Len=0
+626072 198.745313 244.3.153.209 -> 41.177.24.241 TCP 384 syam-webserver > xmpp-client [PSH, ACK] Seq=376 Ack=4252 Win=49152 Len=326[Packet size limited during capture]
+626890 199.018834 244.3.153.209 -> 41.177.24.241 TCP 324 syam-webserver > xmpp-client [PSH, ACK] Seq=702 Ack=4311 Win=49093 Len=266[Packet size limited during capture]
+626899 199.023772 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=968 Ack=4747 Win=48657 Len=0
+626901 199.025190 244.3.153.209 -> 41.177.24.241 TCP 228 syam-webserver > xmpp-client [PSH, ACK] Seq=968 Ack=4747 Win=48657 Len=170[Packet size limited during capture]
+636864 201.039564 244.3.153.209 -> 41.177.24.241 TCP 324 syam-webserver > xmpp-client [PSH, ACK] Seq=1138 Ack=4869 Win=48535 Len=266[Packet size limited during capture]
+636885 201.044413 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=1404 Ack=5305 Win=48099 Len=0
+636905 201.046311 244.3.153.209 -> 41.177.24.241 TCP 260 syam-webserver > xmpp-client [PSH, ACK] Seq=1404 Ack=5305 Win=48099 Len=202[Packet size limited during capture]
+636948 201.051360 244.3.153.209 -> 41.177.24.241 TCP 244 syam-webserver > xmpp-client [PSH, ACK] Seq=1606 Ack=5507 Win=49152 Len=186[Packet size limited during capture]
+637699 201.268982 244.3.153.209 -> 41.177.24.241 TCP 212 syam-webserver > xmpp-client [PSH, ACK] Seq=1792 Ack=5693 Win=48966 Len=154[Packet size limited during capture]
+637755 201.288975 244.3.153.209 -> 41.177.24.241 TCP 324 syam-webserver > xmpp-client [PSH, ACK] Seq=1946 Ack=6343 Win=48316 Len=266[Packet size limited during capture]
+637807 201.309604 244.3.153.209 -> 41.177.24.241 TCP 548 syam-webserver > xmpp-client [PSH, ACK] Seq=2212 Ack=6721 Win=49152 Len=490[Packet size limited during capture]
+637813 201.311345 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=2702 Ack=7381 Win=48492 Len=0
+637822 201.313961 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=2702 Ack=8073 Win=49152 Len=0
+638399 201.471603 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=2702 Ack=9117 Win=48108 Len=0
+638925 201.642730 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=2702 Ack=9607 Win=49152 Len=0
+788461 256.047332 244.3.153.209 -> 41.177.24.241 TCP 132 syam-webserver > xmpp-client [PSH, ACK] Seq=2702 Ack=9607 Win=49152 Len=74[Packet size limited during capture]
+912513 302.026485 244.3.153.209 -> 41.177.24.241 TCP 64 syam-webserver > xmpp-client [ACK] Seq=2776 Ack=9937 Win=48822 Len=0
+933537 311.042461 244.3.153.209 -> 41.177.24.241 TCP 132 syam-webserver > xmpp-client [PSH, ACK] Seq=2776 Ack=9937 Win=48822 Len=74[Packet size limited during capture]

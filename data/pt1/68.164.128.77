@@ -1,0 +1,2 @@
+852006 281.568909 68.164.128.77 -> 244.3.61.39  TCP 66 dvcprov-port > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+862303 284.505951 68.164.128.77 -> 244.3.61.39  TCP 66 [TCP Retransmission] dvcprov-port > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

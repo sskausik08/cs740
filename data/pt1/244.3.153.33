@@ -1,0 +1,26 @@
+21116   7.087523 244.3.153.33 -> 41.177.24.241 TCP 324 vdmplay > xmpp-client [PSH, ACK] Seq=1 Ack=1 Win=49152 Len=266[Packet size limited during capture]
+21139   7.112638 244.3.153.33 -> 41.177.24.241 TCP 64 vdmplay > xmpp-client [ACK] Seq=267 Ack=613 Win=48540 Len=0
+21141   7.114537 244.3.153.33 -> 41.177.24.241 TCP 324 vdmplay > xmpp-client [PSH, ACK] Seq=267 Ack=613 Win=48540 Len=266[Packet size limited during capture]
+21170   7.146222 244.3.153.33 -> 41.177.24.241 TCP 324 vdmplay > xmpp-client [PSH, ACK] Seq=533 Ack=879 Win=48274 Len=266[Packet size limited during capture]
+41189  17.207781 244.3.153.33 -> 41.177.24.241 TCP 64 vdmplay > xmpp-client [ACK] Seq=799 Ack=1209 Win=49152 Len=0
+42787  18.085637 244.3.153.33 -> 41.177.24.241 TCP 132 vdmplay > xmpp-client [PSH, ACK] Seq=799 Ack=1209 Win=49152 Len=74[Packet size limited during capture]
+109009  39.169290 244.3.153.33 -> 41.177.24.241 TCP 64 vdmplay > xmpp-client [ACK] Seq=873 Ack=1539 Win=48822 Len=0
+123666  44.035765 244.3.153.33 -> 41.177.24.241 TCP 64 centra > imaps [ACK] Seq=127 Ack=290 Win=64576 Len=0
+128313  45.129722 244.3.153.33 -> 41.177.24.241 TCP 64 centra > imaps [ACK] Seq=255 Ack=581 Win=65442 Len=0
+130894  45.676284 244.3.153.33 -> 41.177.24.241 TCP 64 centra > imaps [ACK] Seq=384 Ack=873 Win=65150 Len=0
+132922  46.332379 244.3.153.33 -> 41.177.24.241 TCP 64 centra > imaps [ACK] Seq=513 Ack=1165 Win=64858 Len=0
+212303  73.037650 244.3.153.33 -> 41.177.24.241 TCP 132 vdmplay > xmpp-client [PSH, ACK] Seq=873 Ack=1539 Win=48822 Len=74[Packet size limited during capture]
+385816 128.037415 244.3.153.33 -> 41.177.24.241 TCP 132 vdmplay > xmpp-client [PSH, ACK] Seq=947 Ack=1539 Win=48822 Len=74[Packet size limited during capture]
+459553 150.341802 244.3.153.33 -> 41.177.24.241 TCP 64 centra > imaps [ACK] Seq=642 Ack=1457 Win=64566 Len=0
+463815 152.409907 244.3.153.33 -> 41.177.24.241 TCP 64 centra > imaps [ACK] Seq=771 Ack=1749 Win=65442 Len=0
+576179 183.037225 244.3.153.33 -> 41.177.24.241 TCP 132 vdmplay > xmpp-client [PSH, ACK] Seq=1021 Ack=1539 Win=48822 Len=74[Packet size limited during capture]
+616595 195.941374 244.3.153.33 -> 41.177.24.241 TCP 64 centra > imaps [ACK] Seq=900 Ack=2041 Win=65150 Len=0
+744469 238.020334 244.3.153.33 -> 41.177.24.241 TCP 132 vdmplay > xmpp-client [PSH, ACK] Seq=1095 Ack=1539 Win=48822 Len=74[Packet size limited during capture]
+881098 293.020473 244.3.153.33 -> 41.177.24.241 TCP 132 vdmplay > xmpp-client [PSH, ACK] Seq=1169 Ack=1539 Win=48822 Len=74[Packet size limited during capture]
+1011887 339.646432 244.3.153.33 -> 41.177.3.18  TCP 122 gat-lmd > unieng [PSH, ACK] Seq=1 Ack=1 Win=30668 Len=64
+1011908 339.668004 244.3.153.33 -> 41.177.3.18  TCP 101 gat-lmd > unieng [PSH, ACK] Seq=65 Ack=37 Win=30632 Len=43
+1011922 339.677052 244.3.153.33 -> 41.177.3.18  TCP 90 gat-lmd > unieng [PSH, ACK] Seq=108 Ack=82 Win=30587 Len=32
+1011926 339.681012 244.3.153.33 -> 41.177.3.18  TCP 182 gat-lmd > unieng [PSH, ACK] Seq=140 Ack=110 Win=30559 Len=124
+1011934 339.684749 244.3.153.33 -> 41.177.3.18  TCP 98 gat-lmd > unieng [PSH, ACK] Seq=264 Ack=147 Win=30522 Len=40
+1011941 339.690555 244.3.153.33 -> 41.177.3.18  TCP 90 gat-lmd > unieng [PSH, ACK] Seq=304 Ack=180 Win=30489 Len=32
+1012153 339.895834 244.3.153.33 -> 41.177.3.18  TCP 64 gat-lmd > unieng [ACK] Seq=336 Ack=208 Win=30461 Len=0

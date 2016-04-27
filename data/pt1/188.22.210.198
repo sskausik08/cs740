@@ -1,0 +1,2 @@
+846443 278.948165 188.22.210.198 -> 244.3.31.40  TCP 66 magaya-network > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+853440 282.082761 188.22.210.198 -> 244.3.31.40  TCP 66 [TCP Retransmission] magaya-network > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

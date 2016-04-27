@@ -1,0 +1,4 @@
+670094 208.741720 253.213.108.0 -> 253.37.253.43 TCP 64 unicontrol > telnet [ACK] Seq=1 Ack=10 Win=65524 Len=0
+670095 208.741725 253.213.108.0 -> 253.37.253.43 TCP 64 [TCP Dup ACK 670094#1] unicontrol > telnet [ACK] Seq=1 Ack=10 Win=65524 Len=0
+670606 208.859402 253.213.108.0 -> 253.37.253.43 TCP 64 unicontrol > telnet [FIN, ACK] Seq=1 Ack=10 Win=65524 Len=0
+670607 208.859407 253.213.108.0 -> 253.37.253.43 TCP 64 [TCP Out-Of-Order] unicontrol > telnet [FIN, ACK] Seq=1 Ack=10 Win=65524 Len=0

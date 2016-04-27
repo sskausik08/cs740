@@ -1,0 +1,8 @@
+62213  25.511473 244.3.153.22 -> 244.3.176.224 TCP 64 msmq > microsoft-ds [ACK] Seq=1 Ack=2 Win=65496 Len=0
+243266  84.685460 244.3.153.22 -> 41.177.24.241 TCP 66 discovery-port > https [SYN] Seq=0 Win=65535 Len=0 MSS=1150 SACK_PERM=1
+243489  84.835828 244.3.153.22 -> 41.177.24.241 TCP 64 discovery-port > https [ACK] Seq=1 Ack=1 Win=65535 Len=0
+244790  85.371413 244.3.153.22 -> 41.177.24.241 TCP 64 discovery-port > https [ACK] Seq=1592 Ack=3247 Win=65535 Len=0
+244792  85.372586 244.3.153.22 -> 41.177.24.241 TCP 64 discovery-port > https [ACK] Seq=1592 Ack=3362 Win=65421 Len=0
+244809  85.384705 244.3.153.22 -> 41.177.24.241 TCP 64 discovery-port > https [FIN, ACK] Seq=1592 Ack=3362 Win=65421 Len=0
+447994 145.561600 244.3.153.22 -> 244.3.176.224 TCP 64 [TCP Keep-Alive ACK] msmq > microsoft-ds [ACK] Seq=1 Ack=2 Win=65496 Len=0
+814549 265.611773 244.3.153.22 -> 244.3.176.224 TCP 64 [TCP Keep-Alive ACK] msmq > microsoft-ds [ACK] Seq=1 Ack=2 Win=65496 Len=0

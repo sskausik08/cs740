@@ -1,0 +1,18 @@
+68326  28.137590 253.244.77.47 -> 253.23.23.108 TCP 66 itm-lm > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+78399  31.154608 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] itm-lm > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+100851  37.189769 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] itm-lm > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+252370  89.293871 253.244.77.47 -> 253.23.23.108 TCP 66 nmsigport > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+274051  92.321639 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] nmsigport > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+293185  98.446630 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] nmsigport > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+393488 131.640479 253.244.77.47 -> 253.23.23.108 TCP 66 aimpp-hello > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+400244 134.657545 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] aimpp-hello > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+430526 140.692716 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] aimpp-hello > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+644385 202.755942 253.244.77.47 -> 253.23.23.108 TCP 66 ispipes > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+656529 205.771835 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] ispipes > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+676694 211.706415 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] ispipes > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+760018 245.101531 253.244.77.47 -> 253.23.23.108 TCP 66 ttg-protocol > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+767582 248.118498 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] ttg-protocol > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+784409 254.153688 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] ttg-protocol > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+980841 327.380792 253.244.77.47 -> 253.23.23.108 TCP 66 sps-tunnel > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+990831 330.498409 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] sps-tunnel > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+1003235 336.432967 253.244.77.47 -> 253.23.23.108 TCP 66 [TCP Retransmission] sps-tunnel > netbios-ssn [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

@@ -1,0 +1,2 @@
+759707 244.960709 92.26.68.220 -> 244.3.31.40  TCP 66 rusb-sys-port > microsoft-ds [SYN] Seq=0 Win=16384 Len=0 MSS=1460 SACK_PERM=1
+766765 247.866573 92.26.68.220 -> 244.3.31.40  TCP 66 [TCP Retransmission] rusb-sys-port > microsoft-ds [SYN] Seq=0 Win=16384 Len=0 MSS=1460 SACK_PERM=1

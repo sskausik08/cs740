@@ -1,0 +1,37 @@
+12713   3.829873 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+12716   3.829956 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+87453  33.830840 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+87454  33.830900 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+188028  63.831690 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+188029  63.831745 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+277951  93.832509 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+277952  93.832567 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+363649 123.833437 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+363654 123.833528 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+413971 138.291635 41.177.3.241 -> 244.3.153.48 TCP 66 x11 > cera-bcm [SYN, ACK] Seq=0 Ack=1 Win=16384 Len=0 MSS=1380 SACK_PERM=1
+414797 138.477649 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > cera-bcm [ACK] Seq=1 Ack=1050 Win=64486 Len=0
+426178 139.802684 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > cera-bcm [ACK] Seq=59407 Ack=1606 Win=65535 Len=0
+426233 139.809676 41.177.3.241 -> 244.3.153.48 TCP 66 x11 > dpi-proxy [SYN, ACK] Seq=0 Ack=1 Win=16384 Len=0 MSS=1380 SACK_PERM=1
+427091 139.980518 41.177.3.241 -> 244.3.153.48 TCP 66 x11 > vocaltec-admin [SYN, ACK] Seq=0 Ack=1 Win=16384 Len=0 MSS=1380 SACK_PERM=1
+427450 140.028005 41.177.3.241 -> 244.3.153.48 TCP 66 [TCP segment of a reassembled PDU]
+430048 140.580789 41.177.3.241 -> 244.3.153.48 TCP 66 x11 > uma [SYN, ACK] Seq=0 Ack=1 Win=16384 Len=0 MSS=1380 SACK_PERM=1
+466942 153.834264 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+466943 153.834319 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+526211 171.039403 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > dpi-proxy [FIN, ACK] Seq=87935 Ack=5228 Win=64413 Len=0
+526212 171.039563 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > vocaltec-admin [FIN, ACK] Seq=60936 Ack=3393 Win=64973 Len=0
+526214 171.039657 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > uma [FIN, ACK] Seq=5520 Ack=529 Win=65007 Len=0
+578850 183.835103 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+578851 183.835155 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+582809 185.594224 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > vocaltec-admin [ACK] Seq=60937 Ack=3394 Win=64973 Len=0
+582813 185.594698 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > dpi-proxy [ACK] Seq=87936 Ack=5229 Win=64413 Len=0
+582817 185.595144 41.177.3.241 -> 244.3.153.48 TCP 64 x11 > uma [ACK] Seq=5521 Ack=530 Win=65007 Len=0
+681936 213.835933 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+681937 213.835991 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+757122 243.836844 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+757123 243.836897 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+836296 273.837729 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+836297 273.837780 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+915772 303.838670 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+915773 303.838725 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+998600 333.839422 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia
+998601 333.839476 41.177.3.241 -> 210.218.218.160 UDP 87 Source port: asia  Destination port: asia

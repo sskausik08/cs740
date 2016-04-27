@@ -1,0 +1,84 @@
+753382 241.766701 41.177.71.26 -> 253.37.253.43 TCP 87 osmosis-aeea > oob-ws-http [PSH, ACK] Seq=1 Ack=1 Win=63145 Len=29
+753383 241.766706 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] osmosis-aeea > oob-ws-http [PSH, ACK] Seq=1 Ack=1 Win=63145 Len=29
+753387 241.768729 41.177.71.26 -> 253.37.253.43 TCP 64 osmosis-aeea > oob-ws-http [FIN, ACK] Seq=30 Ack=30 Win=64512 Len=0
+753388 241.768733 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Out-Of-Order] osmosis-aeea > oob-ws-http [FIN, ACK] Seq=30 Ack=30 Win=64512 Len=0
+753453 241.776615 41.177.71.26 -> 253.37.253.43 TCP 64 osmosis-aeea > oob-ws-http [ACK] Seq=31 Ack=31 Win=64512 Len=0
+753454 241.776621 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 753453#1] osmosis-aeea > oob-ws-http [ACK] Seq=31 Ack=31 Win=64512 Len=0
+786401 255.252020 41.177.71.26 -> 253.37.253.43 TCP 66 autocuelog > oob-ws-http [SYN] Seq=0 Win=64512 Len=0 MSS=1380 SACK_PERM=1
+786402 255.252025 41.177.71.26 -> 253.37.253.43 TCP 66 [TCP Out-Of-Order] autocuelog > oob-ws-http [SYN] Seq=0 Win=64512 Len=0 MSS=1380 SACK_PERM=1
+786417 255.253777 41.177.71.26 -> 253.37.253.43 TCP 64 autocuelog > oob-ws-http [ACK] Seq=1 Ack=1 Win=64512 Len=0
+786418 255.253781 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 786417#1] autocuelog > oob-ws-http [ACK] Seq=1 Ack=1 Win=64512 Len=0
+786425 255.264300 41.177.71.26 -> 253.37.253.43 TCP 190 autocuelog > oob-ws-http [PSH, ACK] Seq=1 Ack=1 Win=64512 Len=132
+786426 255.264305 41.177.71.26 -> 253.37.253.43 TCP 190 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=1 Ack=1 Win=64512 Len=132
+786432 255.267977 41.177.71.26 -> 253.37.253.43 TCP 270 autocuelog > oob-ws-http [PSH, ACK] Seq=133 Ack=779 Win=63734 Len=212
+786433 255.267982 41.177.71.26 -> 253.37.253.43 TCP 270 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=133 Ack=779 Win=63734 Len=212
+786530 255.302902 41.177.71.26 -> 253.37.253.43 TCP 64 autocuelog > oob-ws-http [ACK] Seq=345 Ack=854 Win=63659 Len=0
+786531 255.302907 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 786530#1] autocuelog > oob-ws-http [ACK] Seq=345 Ack=854 Win=63659 Len=0
+786540 255.304717 41.177.71.26 -> 253.37.253.43 TCP 87 autocuelog > oob-ws-http [PSH, ACK] Seq=345 Ack=883 Win=63630 Len=29
+786541 255.304721 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=345 Ack=883 Win=63630 Len=29
+786551 255.307216 41.177.71.26 -> 253.37.253.43 TCP 87 autocuelog > oob-ws-http [PSH, ACK] Seq=374 Ack=912 Win=63601 Len=29
+786552 255.307221 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=374 Ack=912 Win=63601 Len=29
+786785 255.369834 41.177.71.26 -> 253.37.253.43 TCP 103 autocuelog > oob-ws-http [PSH, ACK] Seq=403 Ack=949 Win=63564 Len=45
+786786 255.369839 41.177.71.26 -> 253.37.253.43 TCP 103 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=403 Ack=949 Win=63564 Len=45
+786805 255.383474 41.177.71.26 -> 253.37.253.43 TCP 87 autocuelog > oob-ws-http [PSH, ACK] Seq=448 Ack=978 Win=63535 Len=29
+786806 255.383479 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=448 Ack=978 Win=63535 Len=29
+786837 255.388195 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=477 Ack=1065 Win=63448 Len=37
+786838 255.388200 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=477 Ack=1065 Win=63448 Len=37
+787670 255.684612 41.177.71.26 -> 253.37.253.43 TCP 87 autocuelog > oob-ws-http [PSH, ACK] Seq=514 Ack=1065 Win=63448 Len=29
+787671 255.684617 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=514 Ack=1065 Win=63448 Len=29
+787974 255.852069 41.177.71.26 -> 253.37.253.43 TCP 64 autocuelog > oob-ws-http [ACK] Seq=543 Ack=1310 Win=63203 Len=0
+787975 255.852074 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 787974#1] autocuelog > oob-ws-http [ACK] Seq=543 Ack=1310 Win=63203 Len=0
+791520 257.280959 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=543 Ack=1310 Win=63203 Len=37
+791521 257.280964 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=543 Ack=1310 Win=63203 Len=37
+792081 257.477109 41.177.71.26 -> 253.37.253.43 TCP 64 autocuelog > oob-ws-http [ACK] Seq=580 Ack=1347 Win=63166 Len=0
+792082 257.477114 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 792081#1] autocuelog > oob-ws-http [ACK] Seq=580 Ack=1347 Win=63166 Len=0
+792094 257.480345 41.177.71.26 -> 253.37.253.43 TCP 119 autocuelog > oob-ws-http [PSH, ACK] Seq=580 Ack=1821 Win=64512 Len=61
+792095 257.480350 41.177.71.26 -> 253.37.253.43 TCP 119 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=580 Ack=1821 Win=64512 Len=61
+792129 257.501815 41.177.71.26 -> 253.37.253.43 TCP 111 autocuelog > oob-ws-http [PSH, ACK] Seq=641 Ack=2778 Win=63555 Len=53
+792130 257.501820 41.177.71.26 -> 253.37.253.43 TCP 111 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=641 Ack=2778 Win=63555 Len=53
+792511 257.761049 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=694 Ack=4087 Win=64512 Len=37
+792512 257.761054 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=694 Ack=4087 Win=64512 Len=37
+792655 257.867150 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=731 Ack=5132 Win=63467 Len=37
+792656 257.867155 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=731 Ack=5132 Win=63467 Len=37
+792667 257.871644 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=768 Ack=5873 Win=64512 Len=37
+792668 257.871648 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=768 Ack=5873 Win=64512 Len=37
+792676 257.875388 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=805 Ack=6598 Win=63787 Len=37
+792677 257.875393 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=805 Ack=6598 Win=63787 Len=37
+792684 257.879587 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=842 Ack=7419 Win=64512 Len=37
+792685 257.879592 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=842 Ack=7419 Win=64512 Len=37
+792751 257.934850 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=879 Ack=8488 Win=63443 Len=37
+792752 257.934855 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=879 Ack=8488 Win=63443 Len=37
+792802 257.971076 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=916 Ack=9565 Win=64512 Len=37
+792803 257.971081 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=916 Ack=9565 Win=64512 Len=37
+792807 257.975542 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=953 Ack=10586 Win=63491 Len=37
+792808 257.975551 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=953 Ack=10586 Win=63491 Len=37
+792813 257.979929 41.177.71.26 -> 253.37.253.43 TCP 95 autocuelog > oob-ws-http [PSH, ACK] Seq=990 Ack=11863 Win=64512 Len=37
+792814 257.979934 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] autocuelog > oob-ws-http [PSH, ACK] Seq=990 Ack=11863 Win=64512 Len=37
+792863 258.006446 41.177.71.26 -> 253.37.253.43 TCP 64 autocuelog > oob-ws-http [ACK] Seq=1027 Ack=12178 Win=64198 Len=0
+792864 258.006452 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 792863#1] autocuelog > oob-ws-http [ACK] Seq=1027 Ack=12178 Win=64198 Len=0
+792865 258.006516 41.177.71.26 -> 253.37.253.43 TCP 64 autocuelog > oob-ws-http [FIN, ACK] Seq=1027 Ack=12178 Win=64198 Len=0
+792866 258.006522 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Out-Of-Order] autocuelog > oob-ws-http [FIN, ACK] Seq=1027 Ack=12178 Win=64198 Len=0
+794893 259.012019 41.177.71.26 -> 253.37.253.43 TCP 66 cardbox-http > oob-ws-http [SYN] Seq=0 Win=64512 Len=0 MSS=1380 SACK_PERM=1
+794894 259.012024 41.177.71.26 -> 253.37.253.43 TCP 66 [TCP Out-Of-Order] cardbox-http > oob-ws-http [SYN] Seq=0 Win=64512 Len=0 MSS=1380 SACK_PERM=1
+794902 259.013733 41.177.71.26 -> 253.37.253.43 TCP 64 cardbox-http > oob-ws-http [ACK] Seq=1 Ack=1 Win=64512 Len=0
+794903 259.013737 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 794902#1] cardbox-http > oob-ws-http [ACK] Seq=1 Ack=1 Win=64512 Len=0
+794919 259.024073 41.177.71.26 -> 253.37.253.43 TCP 190 cardbox-http > oob-ws-http [PSH, ACK] Seq=1 Ack=1 Win=64512 Len=132
+794920 259.024078 41.177.71.26 -> 253.37.253.43 TCP 190 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=1 Ack=1 Win=64512 Len=132
+794932 259.027786 41.177.71.26 -> 253.37.253.43 TCP 270 cardbox-http > oob-ws-http [PSH, ACK] Seq=133 Ack=779 Win=63734 Len=212
+794933 259.027791 41.177.71.26 -> 253.37.253.43 TCP 270 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=133 Ack=779 Win=63734 Len=212
+795046 259.061476 41.177.71.26 -> 253.37.253.43 TCP 64 cardbox-http > oob-ws-http [ACK] Seq=345 Ack=854 Win=63659 Len=0
+795047 259.061480 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 795046#1] cardbox-http > oob-ws-http [ACK] Seq=345 Ack=854 Win=63659 Len=0
+795064 259.064353 41.177.71.26 -> 253.37.253.43 TCP 87 cardbox-http > oob-ws-http [PSH, ACK] Seq=345 Ack=883 Win=63630 Len=29
+795065 259.064357 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=345 Ack=883 Win=63630 Len=29
+795225 259.119726 41.177.71.26 -> 253.37.253.43 TCP 87 cardbox-http > oob-ws-http [PSH, ACK] Seq=374 Ack=912 Win=63601 Len=29
+795226 259.119731 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=374 Ack=912 Win=63601 Len=29
+795401 259.182287 41.177.71.26 -> 253.37.253.43 TCP 103 cardbox-http > oob-ws-http [PSH, ACK] Seq=403 Ack=949 Win=63564 Len=45
+795402 259.182292 41.177.71.26 -> 253.37.253.43 TCP 103 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=403 Ack=949 Win=63564 Len=45
+795547 259.244737 41.177.71.26 -> 253.37.253.43 TCP 87 cardbox-http > oob-ws-http [PSH, ACK] Seq=448 Ack=978 Win=63535 Len=29
+795548 259.244741 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=448 Ack=978 Win=63535 Len=29
+795675 259.307215 41.177.71.26 -> 253.37.253.43 TCP 95 cardbox-http > oob-ws-http [PSH, ACK] Seq=477 Ack=1065 Win=63448 Len=37
+795676 259.307219 41.177.71.26 -> 253.37.253.43 TCP 95 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=477 Ack=1065 Win=63448 Len=37
+796128 259.587768 41.177.71.26 -> 253.37.253.43 TCP 87 cardbox-http > oob-ws-http [PSH, ACK] Seq=514 Ack=1065 Win=63448 Len=29
+796129 259.587773 41.177.71.26 -> 253.37.253.43 TCP 87 [TCP Retransmission] cardbox-http > oob-ws-http [PSH, ACK] Seq=514 Ack=1065 Win=63448 Len=29
+796374 259.711496 41.177.71.26 -> 253.37.253.43 TCP 64 cardbox-http > oob-ws-http [ACK] Seq=543 Ack=1310 Win=63203 Len=0
+796375 259.711501 41.177.71.26 -> 253.37.253.43 TCP 64 [TCP Dup ACK 796374#1] cardbox-http > oob-ws-http [ACK] Seq=543 Ack=1310 Win=63203 Len=0

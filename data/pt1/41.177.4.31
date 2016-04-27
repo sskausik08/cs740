@@ -1,0 +1,6 @@
+171936  57.256778  41.177.4.31 -> 244.3.153.197 TCP 400 xmpp-client > 49700 [PSH, ACK] Seq=1 Ack=102 Win=50072 Len=330 TSval=440776509 TSecr=599060251[Packet size limited during capture]
+333201 116.491850  41.177.4.31 -> 244.3.153.197 TCP 400 xmpp-client > 49700 [PSH, ACK] Seq=331 Ack=203 Win=50072 Len=330 TSval=440782432 TSecr=599060851[Packet size limited during capture]
+452566 147.404508  41.177.4.31 -> 244.3.153.197 TCP 400 xmpp-client > 49700 [PSH, ACK] Seq=661 Ack=304 Win=50072 Len=330 TSval=440785523 TSecr=599061150[Packet size limited during capture]
+663094 206.689121  41.177.4.31 -> 244.3.153.197 TCP 400 xmpp-client > 49700 [PSH, ACK] Seq=991 Ack=405 Win=50072 Len=330 TSval=440791452 TSecr=599061750[Packet size limited during capture]
+818008 266.914493  41.177.4.31 -> 244.3.153.197 TCP 400 xmpp-client > 49700 [PSH, ACK] Seq=1321 Ack=506 Win=50072 Len=330 TSval=440797474 TSecr=599062349[Packet size limited during capture]
+980211 327.007227  41.177.4.31 -> 244.3.153.197 TCP 400 xmpp-client > 49700 [PSH, ACK] Seq=1651 Ack=607 Win=50072 Len=330 TSval=440803483 TSecr=599062949[Packet size limited during capture]

@@ -1,0 +1,5 @@
+19731   6.492422 194.66.181.220 -> 244.3.41.84  TCP 64 rap-service > telnet [ACK] Seq=11 Ack=242 Win=63999 Len=0
+52161  21.475099 194.66.181.220 -> 244.3.41.84  TCP 64 rap-service > telnet [ACK] Seq=50 Ack=1576 Win=64240 Len=0
+52474  21.674576 194.66.181.220 -> 244.3.41.84  TCP 64 rap-service > telnet [ACK] Seq=50 Ack=2254 Win=63562 Len=0
+63407  26.202481 194.66.181.220 -> 244.3.41.84  TCP 64 rap-service > telnet [ACK] Seq=78 Ack=3588 Win=64240 Len=0
+63960  26.409201 194.66.181.220 -> 244.3.41.84  TCP 64 rap-service > telnet [ACK] Seq=78 Ack=4031 Win=63797 Len=0

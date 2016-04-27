@@ -1,0 +1,2 @@
+309849 105.744900 244.3.153.24 -> 41.177.3.117 TCP 64 findviatv > microsoft-ds [ACK] Seq=1 Ack=2 Win=64909 Len=0
+708643 225.722590 244.3.153.24 -> 41.177.3.117 TCP 64 [TCP Keep-Alive ACK] findviatv > microsoft-ds [ACK] Seq=1 Ack=2 Win=64909 Len=0

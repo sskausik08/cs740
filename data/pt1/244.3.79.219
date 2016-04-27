@@ -1,0 +1,3 @@
+876134 290.142555 244.3.79.219 -> 41.177.98.220 TCP 131 faxportwinport > op-probe [PSH, ACK] Seq=1 Ack=1 Win=64398 Len=73
+876264 290.187695 244.3.79.219 -> 41.177.98.220 TCP 186 faxportwinport > op-probe [PSH, ACK] Seq=74 Ack=109 Win=64290 Len=128
+876727 290.488835 244.3.79.219 -> 41.177.98.220 TCP 64 faxportwinport > op-probe [ACK] Seq=202 Ack=323 Win=65535 Len=0

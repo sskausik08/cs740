@@ -1,0 +1,3 @@
+72594  29.710856 41.177.244.46 -> 244.3.210.197 TCP 66 nm-asses-admin > http [SYN] Seq=0 Win=65535 Len=0 MSS=1380 SACK_PERM=1
+72598  29.711401 41.177.244.46 -> 244.3.210.197 TCP 64 nm-asses-admin > http [ACK] Seq=1 Ack=1 Win=65535 Len=0
+73179  29.866345 41.177.244.46 -> 244.3.210.197 TCP 64 nm-asses-admin > http [ACK] Seq=785 Ack=376 Win=65160 Len=0

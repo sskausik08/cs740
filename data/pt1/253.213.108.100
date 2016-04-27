@@ -1,0 +1,4 @@
+670103 208.742781 253.213.108.100 -> 253.37.253.43 TCP 64 connect-client > telnet [ACK] Seq=1 Ack=10 Win=64849 Len=0
+670104 208.742786 253.213.108.100 -> 253.37.253.43 TCP 64 [TCP Dup ACK 670103#1] connect-client > telnet [ACK] Seq=1 Ack=10 Win=64849 Len=0
+670433 208.812365 253.213.108.100 -> 253.37.253.43 TCP 64 connect-client > telnet [FIN, ACK] Seq=1 Ack=10 Win=64849 Len=0
+670434 208.812370 253.213.108.100 -> 253.37.253.43 TCP 64 [TCP Out-Of-Order] connect-client > telnet [FIN, ACK] Seq=1 Ack=10 Win=64849 Len=0

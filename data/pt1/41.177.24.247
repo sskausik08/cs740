@@ -1,0 +1,13 @@
+23942   8.755386 41.177.24.247 -> 244.3.153.55 TCP 64 xmpp-client > asci-val [ACK] Seq=1 Ack=75 Win=49450 Len=0
+91415  35.118248 41.177.24.247 -> 244.3.153.40 TCP 64 xmpp-client > linx [ACK] Seq=1 Ack=75 Win=49450 Len=0
+187963  63.751573 41.177.24.247 -> 244.3.153.55 TCP 64 xmpp-client > asci-val [ACK] Seq=1 Ack=149 Win=49450 Len=0
+253917  90.114461 41.177.24.247 -> 244.3.153.40 TCP 64 xmpp-client > linx [ACK] Seq=1 Ack=149 Win=49450 Len=0
+351232 118.747579 41.177.24.247 -> 244.3.153.55 TCP 64 xmpp-client > asci-val [ACK] Seq=1 Ack=223 Win=49450 Len=0
+446910 145.120542 41.177.24.247 -> 244.3.153.40 TCP 64 xmpp-client > linx [ACK] Seq=1 Ack=223 Win=49450 Len=0
+536750 173.753752 41.177.24.247 -> 244.3.153.55 TCP 64 xmpp-client > asci-val [ACK] Seq=1 Ack=297 Win=49450 Len=0
+631647 200.126713 41.177.24.247 -> 244.3.153.40 TCP 64 xmpp-client > linx [ACK] Seq=1 Ack=297 Win=49450 Len=0
+716838 228.749952 41.177.24.247 -> 244.3.153.55 TCP 64 xmpp-client > asci-val [ACK] Seq=1 Ack=371 Win=49450 Len=0
+786254 255.114601 41.177.24.247 -> 244.3.153.40 TCP 64 xmpp-client > linx [ACK] Seq=1 Ack=371 Win=49450 Len=0
+859178 283.756081 41.177.24.247 -> 244.3.153.55 TCP 64 xmpp-client > asci-val [ACK] Seq=1 Ack=445 Win=49450 Len=0
+930786 310.119020 41.177.24.247 -> 244.3.153.40 TCP 64 xmpp-client > linx [ACK] Seq=1 Ack=445 Win=49450 Len=0
+1010107 338.752214 41.177.24.247 -> 244.3.153.55 TCP 64 xmpp-client > asci-val [ACK] Seq=1 Ack=519 Win=49450 Len=0

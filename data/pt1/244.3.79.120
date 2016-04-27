@@ -1,0 +1,3 @@
+879064 292.170022 244.3.79.120 -> 41.177.98.220 TCP 242 availant-mgr > dpserve [PSH, ACK] Seq=1 Ack=1 Win=65535 Len=184
+879157 292.241929 244.3.79.120 -> 41.177.98.220 TCP 139 availant-mgr > dpserve [PSH, ACK] Seq=185 Ack=92 Win=65444 Len=81
+879417 292.413768 244.3.79.120 -> 41.177.98.220 TCP 64 availant-mgr > dpserve [ACK] Seq=266 Ack=161 Win=65375 Len=0

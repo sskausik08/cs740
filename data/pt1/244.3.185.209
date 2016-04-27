@@ -1,0 +1,2 @@
+236577  82.339876 244.3.185.209 -> 41.177.98.220 TCP 132 dellpwrappks > ups-onlinet [PSH, ACK] Seq=1 Ack=1 Win=65464 Len=74
+237520  82.512102 244.3.185.209 -> 41.177.98.220 TCP 64 dellpwrappks > ups-onlinet [ACK] Seq=75 Ack=854 Win=64611 Len=0

@@ -1,0 +1,2 @@
+427021 139.961107 188.244.194.57 -> 244.3.31.168 TCP 66 skytelnet > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1
+439178 143.020874 188.244.194.57 -> 244.3.31.168 TCP 66 [TCP Retransmission] skytelnet > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1440 SACK_PERM=1

@@ -1,0 +1,2 @@
+386142 128.331905 151.30.41.215 -> 244.3.61.225 TCP 66 reftek > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1
+392694 131.341973 151.30.41.215 -> 244.3.61.225 TCP 66 [TCP Retransmission] reftek > microsoft-ds [SYN] Seq=0 Win=65535 Len=0 MSS=1460 SACK_PERM=1

@@ -1,0 +1,3 @@
+447828 145.513693 244.3.176.224 -> 244.3.153.22 TCP 64 [TCP Keep-Alive] microsoft-ds > msmq [ACK] Seq=1 Ack=1 Win=64216 Len=1
+745364 238.245260 244.3.176.224 -> 244.3.153.103 TCP 64 [TCP Keep-Alive] microsoft-ds > slingshot [ACK] Seq=1 Ack=1 Win=63793 Len=1
+814363 265.564100 244.3.176.224 -> 244.3.153.22 TCP 64 [TCP Keep-Alive] microsoft-ds > msmq [ACK] Seq=1 Ack=1 Win=64216 Len=1

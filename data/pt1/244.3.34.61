@@ -1,0 +1,4 @@
+301825 101.796535  244.3.34.61 -> 244.3.41.84  TCP 64 syscomlan > telnet [ACK] Seq=11 Ack=43 Win=64608 Len=0
+302536 102.202784  244.3.34.61 -> 244.3.41.84  TCP 64 syscomlan > telnet [ACK] Seq=21 Ack=56 Win=64595 Len=0
+512136 164.561232  244.3.34.61 -> 244.3.41.84  TCP 64 syscomlan > telnet [ACK] Seq=31 Ack=98 Win=64553 Len=0
+667580 208.025457  244.3.34.61 -> 244.3.41.84  TCP 64 syscomlan > telnet [ACK] Seq=41 Ack=139 Win=64512 Len=0

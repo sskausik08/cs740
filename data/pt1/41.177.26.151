@@ -1,0 +1,12 @@
+60869  24.734809 41.177.26.151 -> 223.198.64.139 TCP 64 irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=1 Win=65340 Len=0
+62492  25.694878 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=1 Win=65340 Len=0
+67084  27.624692 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=1 Win=65340 Len=0
+79462  31.474710 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=1 Win=65340 Len=0
+108951  39.155628 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=1 Win=65340 Len=0
+160192  54.535134 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=1 Win=65340 Len=0
+164178  55.626263 41.177.26.151 -> 223.198.64.139 TCP 64 http > hsrpv6 [ACK] Seq=2 Ack=2 Win=65340 Len=0
+244631  85.295426 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=2 Win=65340 Len=0
+447306 145.306330 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=2 Win=65340 Len=0
+655531 205.317071 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=2 Win=65340 Len=0
+813483 265.327903 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=2 Win=65340 Len=0
+976565 325.338706 41.177.26.151 -> 223.198.64.139 TCP 64 [TCP Retransmission] irdmi > hsrpv6 [FIN, ACK] Seq=1 Ack=2 Win=65340 Len=0
