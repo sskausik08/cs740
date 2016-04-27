@@ -104,7 +104,7 @@ def parse(tracefile):
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="work_client argument parser")
 	#parser.add_argument("-u", "--udp", help="use UDP", default=False)
-	parser.add_argument("-b", "--bytes", help="#bytes to send", default=4096)
+	#parser.add_argument("-b", "--bytes", help="#bytes to send", default=4096)
 	parser.add_argument("-ip", "--ip", help="IP address to send to", default="127.0.0.1")
 	parser.add_argument("-t", "--trace", help="trace file to use (.txt)", default="")
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 	   
 
 	# get #bytes to send from the args (this will be phased out once trace files work)
-	bytesToSend = int(args["bytes"])
+	#bytesToSend = int(args["bytes"])
 
 	# create all of the packets to send based on trace file
 	# will be a list of Packet objects
