@@ -28,16 +28,16 @@ from FlowDatabase import FlowDatabase
 log = core.getLogger()
 
 hostMap = dict()
-hostMap["10.0.0.1"] = "s1"
-hostMap["10.0.0.2"] = "s4"
+# hostMap["10.0.0.1"] = "s1"
+# hostMap["10.0.0.2"] = "s4"
 
 macMap = dict()
-macMap["10.0.0.1"] = EthAddr("00:00:00:00:00:01")
-macMap["10.0.0.2"] = EthAddr("00:00:00:00:00:02")
+# macMap["10.0.0.1"] = EthAddr("00:00:00:00:00:1")
+# macMap["10.0.0.2"] = EthAddr("00:00:00:00:00:02")
 
 EthAddr("00:00:00:00:00:01")
 
-QUEUE_SIZE = 500 # In Kbytes
+QUEUE_SIZE = 50 # In Kbytes
 
 class Scheduler (EventMixin):
 
@@ -268,7 +268,7 @@ class Scheduler (EventMixin):
 	def deleteRule(self, srcip, dstip, sw1, sw2) : 
 		msg = of.ofp_flow_mod()
 		connection = self.switchConnections[sw1]
-		msg.command = OFPFC_DELETE
+		msg.command = of.OFPFC_DELETE
 		#Match 
 		msg.match = of.ofp_match()
 		msg.match.dl_type = ethernet.IP_TYPE
@@ -351,14 +351,25 @@ class Scheduler (EventMixin):
 			fid = dec[0]
 			oldpath = dec[1]
 			newpath = dec[2]
-			self.addForwardingRules(srcip=self.fdb.getSourceIP(fid), srcSw=newpath[0], dstip=self.fdb.getDestinationIP(fid), dstSw=newpath[len(newpath)-1], path=newpath)
 			self.deleteStaleForwardingRules(srcip=self.fdb.getSourceIP(fid), dstip=self.fdb.getDestinationIP(fid), path=oldpath)
+			self.addForwardingRules(srcip=self.fdb.getSourceIP(fid), srcSw=newpath[0], dstip=self.fdb.getDestinationIP(fid), dstSw=newpath[len(newpath)-1], path=newpath)
 
 			# update stat
 			for stat in self.routeStatus : 
 				if fid == stat[4] : stat[2] = newpath
 					
 def launch():
+	f1 = open("phy-hosts", 'r')
+	host_desc = f1.readlines()
+
+	for line in host_desc:
+		lineArr = line.split()
+		hostMap[lineArr[2]] = lineArr[3]    
+		ip = lineArr[2].split(".")
+		ethstr = str("00:00:00:00:00:") + ip[3]
+		macMap[lineArr[2]] = EthAddr(ethstr)		
+
+
 	# Run spanning tree so that we can deal with topologies with loops
 	pox.openflow.discovery.launch()
 	#pox.proto.arp_responder.launch(kw=macMap)

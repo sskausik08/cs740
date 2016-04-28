@@ -21,14 +21,14 @@ class FlowCharacteristic:
         if self.AvgTOn == 0 : 
             return 0
         periods = int(t/(self.AvgTOn + self.AvgTOff))
-        print "Bytes in time", t, (self.AvgThroughput * periods) + (t - periods*(self.AvgTOn + self.AvgTOff)) * self.AvgThroughput/self.AvgTOn 
+        #print "Bytes in time", t, (self.AvgThroughput * periods) + (t - periods*(self.AvgTOn + self.AvgTOff)) * self.AvgThroughput/self.AvgTOn 
         return (self.AvgThroughput * periods) + (t - periods*(self.AvgTOn + self.AvgTOff)) * self.AvgThroughput/self.AvgTOn 
 
     # Insert a value into the flow's history
     def insert(self, byteValue, timeValue):
         byteVal = byteValue - self.prevBytes
         interval = timeValue - self.prevTime
-        print byteVal, interval
+        #print byteVal, interval
         if byteVal > 0 :
             # On Time
             self.Throughput += byteVal
@@ -38,7 +38,7 @@ class FlowCharacteristic:
                 # OFF -> ON
                 self.AvgTOff = (1 - self.ewmaConst) * self.AvgTOff + self.ewmaConst * self.TOff 
                 self.TOff = 0
-                print "average off times is", self.AvgTOff
+                #print "average off times is", self.AvgTOff
 
             self.prevOnFlag = True
         else : 
@@ -57,7 +57,7 @@ class FlowCharacteristic:
         self.prevBytes = byteValue
         self.prevTime = timeValue
 
-        print "Stat", self.AvgThroughput, self.AvgTOn, self.AvgTOff
+        #print "Stat", self.AvgThroughput, self.AvgTOn, self.AvgTOff
         
     def learned(self) :
         """ has the system learned something about this flow """

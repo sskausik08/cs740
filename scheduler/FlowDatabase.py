@@ -22,6 +22,12 @@ class FlowDatabase(object):
 
 		self.criticalTimes = defaultdict(lambda:defaultdict(lambda:None))
 
+		self.visited = dict()
+		for sw in range(1, self.topology.getSwitchCount() + 1) :
+			self.visited[sw] = False
+
+
+
 	def addFlow(self, header, src, dst, fc) :
 		self.flows[self.flowID] = [src, dst, header]
 		self.flowCharacteristics[self.flowID] = fc
@@ -45,21 +51,17 @@ class FlowDatabase(object):
 		prevpath = self.paths[flowID]
 		self.paths[flowID] = path
 
-		# Update Flow characteristics along the path now
-		swReroute = 0
-		if len(prevpath) <> 0 : 
-			for swReroute in range(len(path) - 1) : 
-				if prevpath[swReroute] <> path[swReroute] :
-					break
-
+		print prevpath, path
 		# Update old switches on path and new switches
-		for i in range(swReroute, len(prevpath) - 1) : 
-			sw1 = path[i]
-			sw2 = path[i + 1]
+		for i in range(0, len(prevpath) - 1) : 
+			sw1 = prevpath[i]
+			sw2 = prevpath[i + 1]
 			# Decrement sw1's queue to sw2 
 			self.updateCriticalTime(sw1, sw2)
 
-		for i in range(swReroute, len(path) - 1) :
+		print "Updated older path"
+
+		for i in range(0, len(path) - 1) :
 			sw1 = path[i]
 			sw2 = path[i + 1]
 			# increment sw1's queue to sw2
@@ -68,6 +70,7 @@ class FlowDatabase(object):
 			# Update Flow Characteristics of this flow for next switch
 			if sw1 not in self.pathCharacteristics[flowID] :
 				print "Characteristic does not exist!!"
+				print sw1, flowID
 			else : 
 				# Updated fc
 				fc = self.pathCharacteristics[flowID][sw1]
@@ -125,12 +128,13 @@ class FlowDatabase(object):
 			for f in switchFlows : 
 				if sw1 not in self.pathCharacteristics[f] :
 					print "Characteristic does not exist!!"
+					print sw1, sw2, f
 				else : 
 					fc = self.pathCharacteristics[f][sw1]
 					totBytes += fc.getBytes(t)
 
 		# Critical time is t 
-		print "Critical time is ", t
+		print "Critical time is for ",sw1, sw2, "is ", t
 		self.criticalTimes[sw1][sw2] = t
 
 	def computeCriticalEvent(self, sw1, sw2, fcNew) : 
@@ -138,37 +142,54 @@ class FlowDatabase(object):
 		switchFlows = self.getSwitchFlows(sw1, sw2)
 
 		t = self.criticalTimes[sw1][sw2]
+		print t
 		totBytes = self.queueSize + 100 # Initial val
 		while totBytes > self.queueSize and t > 0: 
 			t = t - T_MIN
 			totBytes = fcNew.getBytes(t)
 			for f in switchFlows : 
-				if sw1 not in self.pathCharacteristics[flowID] :
+				if sw1 not in self.pathCharacteristics[f] :
 					print "Characteristic does not exist!!"
+					print sw1, sw2, f
 				else : 
-					fc = self.pathCharacteristics[flowID][sw1]
+					fc = self.pathCharacteristics[f][sw1]
 					totBytes += fc.getBytes(t)
 
+		print sw1, sw2, t
 		t = t + T_MIN
 		# Critical time is t 
-		print "Critical time is ", t
+		print "Computed Critical time is for ",sw1, sw2, "is ", t
+		return t
 
 	def updateCriticalTimes(self) : 
 		swCount = self.topology.getSwitchCount()
 
-		for sw in range(1, swCount) : 
+		for sw in range(1, swCount + 1) : 
 			neighbours = self.topology.getSwitchNeighbours(sw)
 			for n in neighbours : 
 				self.updateCriticalTime(sw, n)
 
 	def findNewPath(self, fid) : 
 		""" Perform a greedy depth first search for finding new path for fid """
+		print "Find new path for ", fid
 		src = self.getSourceSwitch(fid)
 		dst = self.getDestinationSwitch(fid)
+
+		for sw in range(1, self.topology.getSwitchCount() + 1) :
+			self.visited[sw] = False
+
 		path = self.greedyDFS(src, self.pathCharacteristics[fid][src], dst)
+		return path
 
 	def greedyDFS(self, sw, fc, dst) :
 		""" At switch sw with flow characteristics fc, find a greedy path to dst"""
+
+		if self.visited[sw] :
+			# Already visited 
+			return None
+		else: 
+			self.visited[sw] = True
+
 		neighbours = self.topology.getSwitchNeighbours(sw)
 		swPairList = []
 		for n in neighbours : 
@@ -190,8 +211,9 @@ class FlowDatabase(object):
 			updatedfc = self.findCharacteristic(sw, nextsw, fc)
 			path = self.greedyDFS(nextsw, updatedfc, dst) 
 			if path <> None : 
-				path.insert(sw, 0)
+				path.insert(0, sw)
 				return path
+		
 
 		# if none of the neighbours have permissible values, return None
 		return None
@@ -242,6 +264,7 @@ class FlowDatabase(object):
 		return criticalSwitches 
 
 	def scheduleEpoch(self) : 
+		self.topology.printSwitchMappings()
 		# Get Critical Switches in this epoch
 		criticalSwitches = self.getCriticalSwitches()
 
@@ -250,6 +273,7 @@ class FlowDatabase(object):
 		if len(criticalSwitches) == 0 : 
 			return [] # No switches in critical state this epoch
 
+		print "Critical Switches:", criticalSwitches
 		for cpair in criticalSwitches : 
 			sw1 = cpair[0]
 			sw2 = cpair[1]
@@ -262,24 +286,28 @@ class FlowDatabase(object):
 				if f in rerouteFlows : continue # Rerouted Flow already
 				flowOrder.append([f, self.pathCharacteristics[f][sw1].getBytes(ct)])
 
+			if len(flowOrder) == 1 :
+				# One only potential flow on switch, dont reroute
+				continue
+
 			# Reroute largest flow in the switch
 			flowOrder = sorted(flowOrder, key=lambda pair: pair[1], reverse=True) 
 
 			rerouteFlowCount = 0
 			for fpair in flowOrder : 
-				if len(flowOrder) - reroutedFlows == 1 :
+				if len(flowOrder) - rerouteFlowCount == 1 :
 					# Only one flow left, dont reroute.
 					break 
 
 				f = fpair[0]
-				path = findNewPath(f)
+				path = self.findNewPath(f)
 				if path == None :
 					continue
 				print "Rerouting flow ", f, " to new path ", path
 				prevpath = copy.deepcopy(self.paths[f])
 				self.changePath(f, path)
 				rerouteFlowCount += 1
-				reroutedFlows.append(f)
+				rerouteFlows.append(f)
 				rerouteDecisions.append([f, prevpath, path])
 
 				if self.criticalTimes[sw1][sw2] > T_SCHEDULER_EPOCH : 
