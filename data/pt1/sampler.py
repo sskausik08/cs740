@@ -2,6 +2,7 @@
 import glob
 import argparse
 import random
+import hashlib
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-n', type=int)
@@ -31,10 +32,12 @@ for fname in a:
     with open(fname, 'r') as inFile, open("samples/"+d[fname], 'w') as outFile:
         for line in inFile:
             ln = line.split()
-            # Want a closed set of hosts
-            if ln[4] in a:
-                # Perform mapping and write
-                ln[2] = d[ln[2]]
-                ln[4] = d[ln[4]]
-                line = " ".join(ln)
-                outFile.write(line)
+
+            # Perform mapping on src & dest and write
+            ln[2] = d[ln[2]]
+
+            # Want a closed set of hosts, so we hash destination ip & mod #hosts
+            dsthash = hashlib.md5(b'' + ln[4])
+            ln[4] = '10.0.0.' + str(int(dsthash.hexdigest(), 16) % len(a))
+            line = " ".join(ln)
+            outFile.write(line)
