@@ -96,8 +96,9 @@ def perfTest():
 
 	net.start()
 	time.sleep(15)
-	h1, h4 = net.get('h1', 'h4')
-	net.iperf((h1, h4))
+	h1 = net.get('h1')
+	print h1.cmd('ifconfig')
+	print h1.cmd('ping 10.0.0.2 -c 100 -s 100 -i 0.1')
 	net.pingAll()
 	net.pingAll()
 	
