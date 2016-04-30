@@ -25,7 +25,7 @@ for fname in fnames:
 # Set up mapping Don't sample more than 256 things!
 d = {}
 for i, host in enumerate(a):
-    d[host] = "10.0.0." + str(i)
+    d[host] = "10.0.0." + str(i + 1)
 
 # Only include packets with a source & dest in the sampled set
 for fname in a:
@@ -38,6 +38,9 @@ for fname in a:
 
             # Want a closed set of hosts, so we hash destination ip & mod #hosts
             dsthash = hashlib.md5(b'' + ln[4])
-            ln[4] = '10.0.0.' + str(int(dsthash.hexdigest(), 16) % len(a))
+            ln[4] = '10.0.0.' + str(1 + (int(dsthash.hexdigest(), 16) % len(a)))
+            # Hack to make not send to self
+            if ln[4] = ln[2]:
+                ln[4] = '10.0.0.' + str(1 + ((1 + int(dsthash.hexdigest(), 16)) % len(a)))
             line = " ".join(ln)
             outFile.write(line)
