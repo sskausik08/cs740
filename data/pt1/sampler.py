@@ -32,6 +32,9 @@ for fname in a:
     with open(fname, 'r') as inFile, open("samples/"+d[fname], 'w') as outFile:
         for line in inFile:
             ln = line.split()
+            # Filter out zero length packets
+            if ln[-1] == "Len=0":
+                continue
 
             # Perform mapping on src & dest and write
             ln[2] = d[ln[2]]
