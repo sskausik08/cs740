@@ -49,7 +49,7 @@ def main_tcp(bytesToSend, ip):
 def main_udp(bytesToSend, ip):
 	UDP_IP = ip
 	UDP_PORT = 5005
-	MESSAGE = "A"
+	MESSAGE = "A"*1000
 
 	print "UDP IP: ", UDP_IP
 	print "UDP port: ", UDP_PORT
@@ -62,7 +62,7 @@ def main_udp(bytesToSend, ip):
 	
 
 	# Send #bytesToSend TCP packets
-	for i in range(bytesToSend):
+	for i in range(bytesToSend/1000 + 1):
 		sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
 		time.sleep(0.0001)
 
