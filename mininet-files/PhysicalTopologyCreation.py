@@ -73,7 +73,6 @@ class PhyTopo( Topo ):
 
 def perfTest():
 	"Create network and run simple performance test"
-	print "Here"
 	scheduler = RemoteController( 'scheduler', ip='192.168.56.1', port=6633 )
 	topo = PhyTopo()
 	net = Mininet(topo=topo, 
@@ -96,11 +95,22 @@ def perfTest():
 
 	net.start()
 	time.sleep(15)
-	h1 = net.get('h1')
-	print h1.cmd('ifconfig')
-	print h1.cmd('ping 10.0.0.2 -c 100 -s 100 -i 0.1')
-	net.pingAll()
-	net.pingAll()
+
+	for host in net.hosts :
+		host.cmd('python work_server.py -ip ' + host.IP() + ' &')
+		host.cmd('python work_client.py -t samples/'+ host.IP() + ' &')
+
+	# h1 = net.get('h1')
+	# h2 = net.get('h2')
+	# h5 = net.get('h5')
+	# print h1.cmd('ifconfig')
+	# print h1.cmd('ping 10.0.0.2 -c 100 -s 100 -i 0.1')
+	# h2.cmd('python work_server.py -ip 10.0.0.2 &')
+	# h5.cmd('python work_client.py -t samples/10.0.0.5 &')
+
+	CLI(net)
+
+	net.stop()
 	
 
 
