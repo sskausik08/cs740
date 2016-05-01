@@ -11,8 +11,25 @@ for fname in glob.glob("*.*.*.*"):
             time = float(ln[1])
             srcip = ln[2]
             dstip = ln[4]
-            srcprt = ln[7]
-            dstprt = ln[9]
+            # Hack to get around differing port pair positions
+            for i, word in enumerate(ln):
+                if word == '>':
+                    break
+            # Okay, this is a really bad hack... damn formatting inconsistencies
+            if i + 1 == len(ln):
+                for i, word in enumerate(ln):
+                    if word == 'Source':
+                        break
+                srcprt = ln[i + 2]
+                for i, word in enumerate(ln):
+                    if word == 'Destination':
+                        break
+                dstprt = ln[i + 2]
+            else:
+                srcprt = ln[i - 1]
+                dstprt = ln[i + 1]
+
+            # Okay, I hope that covers all the bad nasty formatting stuff!
             key = srcip + ":" + srcprt + " -> " + dstip + ":" + dstprt
             if key not in flows.keys():
                 flows[key] = [] 
