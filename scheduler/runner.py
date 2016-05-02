@@ -64,5 +64,5 @@ for flow in flows:
         thread.start()
         threads.append(thread)
 
-for thread in threads
+for thread in threads:
     thread.join()
