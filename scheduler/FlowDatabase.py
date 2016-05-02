@@ -51,7 +51,7 @@ class FlowDatabase(object):
 		prevpath = self.paths[flowID]
 		self.paths[flowID] = path
 
-		print prevpath, path
+		#print prevpath, path
 		# Update old switches on path and new switches
 		for i in range(0, len(prevpath) - 1) : 
 			sw1 = prevpath[i]
@@ -59,7 +59,7 @@ class FlowDatabase(object):
 			# Decrement sw1's queue to sw2 
 			self.updateCriticalTime(sw1, sw2)
 
-		print "Updated older path"
+		#print "Updated older path"
 
 		for i in range(0, len(path) - 1) :
 			sw1 = path[i]
@@ -70,7 +70,7 @@ class FlowDatabase(object):
 			# Update Flow Characteristics of this flow for next switch
 			if sw1 not in self.pathCharacteristics[flowID] :
 				print "Characteristic does not exist!!"
-				print sw1, flowID
+				#print sw1, flowID
 			else : 
 				# Updated fc
 				fc = self.pathCharacteristics[flowID][sw1]
@@ -79,8 +79,8 @@ class FlowDatabase(object):
 				
 				totBytes = self.getTotalBytes(sw1, sw2, TOn)
 				if totBytes == 0 : 
-					print fc.AvgThroughput, TOn, rate
-					print "Total Bytes shouldnt be zero!"
+					#print fc.AvgThroughput, TOn, rate
+					#print "Total Bytes shouldnt be zero!"
 					exit(0)
 			
 				newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput)/float(totBytes)))
@@ -88,7 +88,7 @@ class FlowDatabase(object):
 				newTOff = fc.AvgTOff - (newTOn - TOn)
 
 				self.pathCharacteristics[flowID][sw2] = FlowCharacteristic(fc.AvgThroughput, newTOn, newTOff)
-				print "Updated Characteristic at ", sw1, sw2, fc.AvgThroughput, newTOn, newTOff
+				#print "Updated Characteristic at ", sw1, sw2, fc.AvgThroughput, newTOn, newTOff
 
 			# Need to modify other flows affected by this, check if difference crosses
 			# a threshold value, if yes, update the flows all the way to destination
@@ -130,7 +130,7 @@ class FlowDatabase(object):
 		if len(switchFlows) == 0 : 
 			return 1000 * T_SCHEDULER_EPOCH
 			
-		print miceCount/len(switchFlows)
+		#print miceCount/len(switchFlows)
 		if miceCount/len(switchFlows) < 0.1 : 
 			# No mice flows. No critical event
 			self.criticalTimes[sw1][sw2] = 2 * T_SCHEDULER_EPOCH * float(len(switchFlows)/miceCount)
@@ -143,7 +143,7 @@ class FlowDatabase(object):
 			for f in switchFlows : 
 				if sw1 not in self.pathCharacteristics[f] :
 					print "Characteristic does not exist!!"
-					print sw1, sw2, f
+					#print sw1, sw2, f
 				else : 
 					fc = self.pathCharacteristics[f][sw1]
 					totBytes += fc.getBytes(t)
@@ -180,7 +180,7 @@ class FlowDatabase(object):
 			for f in switchFlows : 
 				if sw1 not in self.pathCharacteristics[f] :
 					print "Characteristic does not exist!!"
-					print sw1, sw2, f
+					#print sw1, sw2, f
 				else : 
 					fc = self.pathCharacteristics[f][sw1]
 					totBytes += fc.getBytes(t)
@@ -199,7 +199,7 @@ class FlowDatabase(object):
 
 	def findNewPath(self, fid) : 
 		""" Perform a greedy depth first search for finding new path for fid """
-		print "Find new path for ", fid
+		#print "Find new path for ", fid
 		src = self.getSourceSwitch(fid)
 		dst = self.getDestinationSwitch(fid)
 
@@ -254,8 +254,8 @@ class FlowDatabase(object):
 		
 		totBytes = self.getTotalBytes(sw1, sw2, TOn) + fc.AvgThroughput
 		if totBytes == 0 : 
-			print fc.AvgThroughput, TOn, rate
-			print "Total Bytes shouldnt be zero!"
+			#print fc.AvgThroughput, TOn, rate
+			#print "Total Bytes shouldnt be zero!"
 			exit(0)
 		newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput)/float(totBytes)))
 		newTOn = fc.AvgThroughput / newrate
@@ -301,7 +301,7 @@ class FlowDatabase(object):
 		if len(criticalSwitches) == 0 : 
 			return [] # No switches in critical state this epoch
 
-		print "Critical Switches:", criticalSwitches
+		#print "Critical Switches:", criticalSwitches
 		for cpair in criticalSwitches : 
 			sw1 = cpair[0]
 			sw2 = cpair[1]
@@ -331,7 +331,7 @@ class FlowDatabase(object):
 				path = self.findNewPath(f)
 				if path == None :
 					continue
-				print "Rerouting flow ", f, " to new path ", path
+				#print "Rerouting flow ", f, " to new path ", path
 				prevpath = copy.deepcopy(self.paths[f])
 				self.changePath(f, path)
 				rerouteFlowCount += 1
@@ -362,7 +362,7 @@ class FlowDatabase(object):
 			
 			totBytes = self.getTotalBytes(sw1, sw2, TOn)
 			if totBytes == 0 : 
-				print fc.AvgThroughput, TOn, rate
+				#print fc.AvgThroughput, TOn, rate
 				print "Total Bytes shouldnt be zero!"
 				exit(0)
 			newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput)/float(totBytes)))
