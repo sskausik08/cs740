@@ -99,8 +99,8 @@ topo.addSwitch("sw7", ["sw7"])
 
 
 sim = Simulator(topo)
-totalFlows = 2500
-ratio = 0.75
+totalFlows = 2500 
+ratio = 0.95 # Mice/Total
 miceFlows = int(totalFlows * ratio)
 elephantFlows = totalFlows - miceFlows
 swCount = topo.getSwitchCount()
