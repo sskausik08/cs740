@@ -8,7 +8,7 @@ T_MIN = 1 # Granularity of time to be concerned about.
 T_SCHEDULER_EPOCH = 20
 
 class FlowDatabase(object):
-	def __init__(self, topo, queueSize, bandwidth=1000) :
+	def __init__(self, topo, queueSize, bandwidth=100) :
 		""" Database to store the set of flows in the network """
 		self.flows = dict()
 		self.flowCharacteristics = dict()
@@ -82,7 +82,8 @@ class FlowDatabase(object):
 					print fc.AvgThroughput, TOn, rate
 					print "Total Bytes shouldnt be zero!"
 					exit(0)
-				newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput/totBytes)))
+			
+				newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput)/float(totBytes)))
 				newTOn = fc.AvgThroughput / newrate
 				newTOff = fc.AvgTOff - (newTOn - TOn)
 
@@ -120,11 +121,25 @@ class FlowDatabase(object):
 		""" Updates the critical time for queue at sw1 going to link sw2 """
 		switchFlows = self.getSwitchFlows(sw1, sw2)
 		# For switchFlows, find critical time. Assuming queue size to be 0.
+
+		miceCount = 0
+		for f in switchFlows : 
+			if self.flowCharacteristics[f].isMice :
+				miceCount += 1
+
+		if len(switchFlows) == 0 : 
+			return 1000 * T_SCHEDULER_EPOCH
+			
+		print miceCount/len(switchFlows)
+		if miceCount/len(switchFlows) < 0.1 : 
+			# No mice flows. No critical event
+			self.criticalTimes[sw1][sw2] = 2 * T_SCHEDULER_EPOCH * float(len(switchFlows)/miceCount)
+
 		t = 0
 		totBytes = 0
 		while totBytes < self.queueSize and t < 2 * T_SCHEDULER_EPOCH: # Dont care about event if T > 2 * epoch 
 			t = t + T_MIN
-			totBytes = 0
+			totBytes = -1 * t * 100 
 			for f in switchFlows : 
 				if sw1 not in self.pathCharacteristics[f] :
 					print "Characteristic does not exist!!"
@@ -134,7 +149,7 @@ class FlowDatabase(object):
 					totBytes += fc.getBytes(t)
 
 		# Critical time is t 
-		print "Critical time is for ",sw1, sw2, "is ", t
+		#print "Critical time is for ",sw1, sw2, "is ", t
 		self.criticalTimes[sw1][sw2] = t
 
 	def computeCriticalEvent(self, sw1, sw2, fcNew) : 
@@ -142,11 +157,26 @@ class FlowDatabase(object):
 		switchFlows = self.getSwitchFlows(sw1, sw2)
 
 		t = self.criticalTimes[sw1][sw2]
-		print t
+
 		totBytes = self.queueSize + 100 # Initial val
-		while totBytes > self.queueSize and t > 0: 
-			t = t - T_MIN
-			totBytes = fcNew.getBytes(t)
+
+		miceCount = 0
+		for f in switchFlows : 
+			if self.flowCharacteristics[f].isMice :
+				miceCount += 1
+
+		if len(switchFlows) == 0 : 
+			return 1000 * T_SCHEDULER_EPOCH
+
+		if miceCount/len(switchFlows) < 0.1 : 
+			# No mice flows. No critical event
+			return 2 * T_SCHEDULER_EPOCH * float(len(switchFlows)/miceCount)
+
+		t = 0
+		totBytes = 0
+		while totBytes < self.queueSize and t < 2 * T_SCHEDULER_EPOCH: # Dont care about event if T > 2 * epoch 
+			t = t + T_MIN
+			totBytes = -1 * t * 100 
 			for f in switchFlows : 
 				if sw1 not in self.pathCharacteristics[f] :
 					print "Characteristic does not exist!!"
@@ -155,10 +185,8 @@ class FlowDatabase(object):
 					fc = self.pathCharacteristics[f][sw1]
 					totBytes += fc.getBytes(t)
 
-		print sw1, sw2, t
-		t = t + T_MIN
 		# Critical time is t 
-		print "Computed Critical time is for ",sw1, sw2, "is ", t
+		#print "Computed Critical time is for ",sw1, sw2, "is ", t
 		return t
 
 	def updateCriticalTimes(self) : 
@@ -229,7 +257,7 @@ class FlowDatabase(object):
 			print fc.AvgThroughput, TOn, rate
 			print "Total Bytes shouldnt be zero!"
 			exit(0)
-		newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput/totBytes)))
+		newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput)/float(totBytes)))
 		newTOn = fc.AvgThroughput / newrate
 		newTOff = fc.AvgTOff - (newTOn - TOn)
 
@@ -337,7 +365,7 @@ class FlowDatabase(object):
 				print fc.AvgThroughput, TOn, rate
 				print "Total Bytes shouldnt be zero!"
 				exit(0)
-			newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput/totBytes)))
+			newrate = min(rate, float(self.bandwidth * float(fc.AvgThroughput)/float(totBytes)))
 			newTOn = fc.AvgThroughput / newrate
 			newTOff = fc.AvgTOff - (newTOn - TOn)
 

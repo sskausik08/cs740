@@ -21,8 +21,7 @@ class FlowCharacteristic:
         if self.AvgTOn == 0 : 
             return 0
         periods = int(t/(self.AvgTOn + self.AvgTOff))
-        #print "Bytes in time", t, (self.AvgThroughput * periods) + (t - periods*(self.AvgTOn + self.AvgTOff)) * self.AvgThroughput/self.AvgTOn 
-        return (self.AvgThroughput * periods) + (t - periods*(self.AvgTOn + self.AvgTOff)) * self.AvgThroughput/self.AvgTOn 
+        return (self.AvgThroughput * periods) + min(self.AvgTOn, (t - periods*(self.AvgTOn + self.AvgTOff))) * self.AvgThroughput/self.AvgTOn 
 
     # Insert a value into the flow's history
     def insert(self, byteValue, timeValue):
@@ -65,6 +64,11 @@ class FlowCharacteristic:
             # Something inferred. 
             return True    
 
+    def isMice(self) :
+        if self.AvgThroughput > 40 : 
+            return False
+        else : 
+            return True
 
 
         
