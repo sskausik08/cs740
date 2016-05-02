@@ -124,7 +124,9 @@ sim = Simulator(topo)
 parser = argparse.ArgumentParser()
 parser.add_argument('--total', '-t', type=int, default=2500)
 parser.add_argument('--ratio', '-r', type=float, default=.95)
+parser.add_argument('--outfile', '-o', default=None)
 args = parser.parse_args()
+fname = args.outfile
 totalFlows = args.total
 ratio = args.ratio
 
@@ -145,3 +147,8 @@ for i in range(elephantFlows) :
 s1 = sim.computeCriticalFlowCount()
 s2 = sim.schedule()
 print s1, s2
+
+# So we can output results to a file (don't have to get from stdout)
+if fname != None:
+    with open(fname, 'a+') as f:
+        f.write(s1 + "," + s2 + "\n")
