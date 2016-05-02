@@ -151,4 +151,4 @@ print s1, s2
 # So we can output results to a file (don't have to get from stdout)
 if fname != None:
     with open(fname, 'a+') as f:
-        f.write(s1 + "," + s2 + "\n")
+        f.write(str(s1) + "," + str(s2) + "\n")
