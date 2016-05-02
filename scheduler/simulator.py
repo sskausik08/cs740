@@ -1,6 +1,7 @@
 from FlowDatabase import FlowDatabase
 from FlowCharacteristic import FlowCharacteristic
 from Topology import Topology
+import argparse
 import random
 
 
@@ -99,8 +100,15 @@ topo.addSwitch("sw7", ["sw7"])
 
 
 sim = Simulator(topo)
-totalFlows = 2500 
-ratio = 0.95 # Mice/Total
+#totalFlows = 2500    Now done as commandline arguments!
+#ratio = 0.95 # Mice/Total
+parser = argparse.ArgumentParser()
+parser.add_argument('--total', '-t', type=int, default=2500)
+parser.add_argument('--ratio', '-r', type=float, default=.95)
+args = parser.parse_args()
+totalFlows = args.total
+ratio = args.ratio
+
 miceFlows = int(totalFlows * ratio)
 elephantFlows = totalFlows - miceFlows
 swCount = topo.getSwitchCount()
@@ -118,7 +126,3 @@ for i in range(elephantFlows) :
 s1 = sim.computeCriticalFlowCount()
 s2 = sim.schedule()
 print s1, s2
-
-
-
-
