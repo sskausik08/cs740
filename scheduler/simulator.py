@@ -88,14 +88,25 @@ class Simulator(object) :
 
 
 		
+# topo = Topology()
+# topo.addSwitch("sw1", ["sw2", "sw3", "sw4", "sw5", "sw6", "sw7"])
+# topo.addSwitch("sw2", ["sw3", "sw4", "sw5", "sw6", "sw7"])
+# topo.addSwitch("sw3", ["sw4", "sw5", "sw6", "sw7"])
+# topo.addSwitch("sw4", ["sw5", "sw6", "sw7"])
+# topo.addSwitch("sw5", ["sw6", "sw7"])
+# topo.addSwitch("sw6", ["sw7"])
+# topo.addSwitch("sw7", ["sw7"])
+
+
+# Fat Tree topo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Fat_tree_network.svg/2000px-Fat_tree_network.svg.png
 topo = Topology()
-topo.addSwitch("sw1", ["sw2", "sw3", "sw4", "sw5", "sw6", "sw7"])
-topo.addSwitch("sw2", ["sw3", "sw4", "sw5", "sw6", "sw7"])
-topo.addSwitch("sw3", ["sw4", "sw5", "sw6", "sw7"])
-topo.addSwitch("sw4", ["sw5", "sw6", "sw7"])
-topo.addSwitch("sw5", ["sw6", "sw7"])
-topo.addSwitch("sw6", ["sw7"])
-topo.addSwitch("sw7", ["sw7"])
+topo.addSwitch("sw1", ["sw2", "sw3"])
+topo.addSwitch("sw2", ["sw4", "sw5"])
+topo.addSwitch("sw3", ["sw6", "sw7"])
+topo.addSwitch("sw4", ["sw8", "sw9"])
+topo.addSwitch("sw5", ["sw10", "sw11"])
+topo.addSwitch("sw6", ["sw12", "sw13"])
+topo.addSwitch("sw7", ["sw14", "sw15"])
 
 
 
