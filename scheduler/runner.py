@@ -11,7 +11,7 @@ python runner.py -f 500 -F 5000 -n 10 -r 0 -R 1 -m 11 -p simulator.py
 
 # First build list of cs machine host names
 hosts = []
-for i in range(10):
+for i in range(9):
     if i < 9:
         hosts.append("macaroni-0" + str(1 + i))
     else:
@@ -59,8 +59,8 @@ threads = []
 for flow in flows:
     for ratio in ratios:
         cmd = ["ssh", hosts[i], "python", path, "-t", str(int(flow)), "-r", str(ratio), "-o", "F_" + str(int(flow)) + "_R_" + str(ratio)]
-        i = (i + 1) % hosts # Advance to next host
-        thread = threading.thread(target=subprocess.call, args=cmd)
+        i = (i + 1) % len(hosts) # Advance to next host
+        thread = threading.Thread(target=subprocess.Popen, args=[cmd])
         thread.start()
         threads.append(thread)
 
