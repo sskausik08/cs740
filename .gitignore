@@ -63,3 +63,8 @@ target/
 
 # Mac files
 .DS_Store
+
+# Latex files
+*.aux
+*.log
+*.gz
