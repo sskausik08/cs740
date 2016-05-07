@@ -96,27 +96,54 @@ class Simulator(object) :
 # topo.addSwitch("sw5", ["sw6", "sw7"])
 # topo.addSwitch("sw6", ["sw7"])
 # topo.addSwitch("sw7", ["sw7"])
+def fattree(k) :
+		# Make a k-ary Fat Tree. 
+		if not k%2 == 0 :
+			k = k - 1
+		edge = range(0,k*k/2)
+		aggregation = range(k*k/2, k*k)
+		core = range(k*k,k*k+(k*k/4))
 
+		topo = Topology()
+
+		for e in edge :
+			switch = "e" + str(e)
+			neighbours = []
+			pod = e / (k/2)
+			for off in range(0,k/2) :
+				agg = k * (k / 2) + (pod * (k/2)) + off
+				neighbours.append("a" + str(agg))
+			topo.addSwitch(switch, neighbours)
+
+		for a in aggregation :
+			switch = "a" + str(a) 
+			neighbours = []
+			firstCore = k*k + (a % (k/2)) * (k/2)
+			for c in range(firstCore, firstCore + k/2) :
+				neighbours.append("c" + str(c))
+			topo.addSwitch(switch, neighbours)
+						
+		for c in core :
+			topo.addSwitch("c" + str(c), [])
+
+		return topo
 
 # Fat Tree topo: http://www.slideshare.net/AnkitaMahajan2/fattree-a-scalable-fauult-tolerant
-topo = Topology()
-topo.addSwitch("sw1", ["sw5", "sw7", "sw9", "sw11"])
-topo.addSwitch("sw2", ["sw5", "sw7", "sw9", "sw11"])
-topo.addSwitch("sw3", ["sw6", "sw8", "sw10", "sw12"])
-topo.addSwitch("sw4", ["sw6", "sw8", "sw10", "sw12"])
-topo.addSwitch("sw5", ["sw13", "sw14"])
-topo.addSwitch("sw6", ["sw13", "sw14"])
-topo.addSwitch("sw7", ["sw15", "sw16"])
-topo.addSwitch("sw8", ["sw15", "sw16"])
-topo.addSwitch("sw9", ["sw17", "sw18"])
-topo.addSwitch("sw10", ["sw17", "sw18"])
-topo.addSwitch("sw11", ["sw19", "sw20"])
-topo.addSwitch("sw12", ["sw19", "sw20"])
+# topo = Topology()
+# topo.addSwitch("sw1", ["sw5", "sw7", "sw9", "sw11"])
+# topo.addSwitch("sw2", ["sw5", "sw7", "sw9", "sw11"])
+# topo.addSwitch("sw3", ["sw6", "sw8", "sw10", "sw12"])
+# topo.addSwitch("sw4", ["sw6", "sw8", "sw10", "sw12"])
+# topo.addSwitch("sw5", ["sw13", "sw14"])
+# topo.addSwitch("sw6", ["sw13", "sw14"])
+# topo.addSwitch("sw7", ["sw15", "sw16"])
+# topo.addSwitch("sw8", ["sw15", "sw16"])
+# topo.addSwitch("sw9", ["sw17", "sw18"])
+# topo.addSwitch("sw10", ["sw17", "sw18"])
+# topo.addSwitch("sw11", ["sw19", "sw20"])
+# topo.addSwitch("sw12", ["sw19", "sw20"])
 
-
-
-
-
+topo = fattree(6)
 
 sim = Simulator(topo)
 #totalFlows = 2500    Now done as commandline arguments!
