@@ -68,3 +68,6 @@ target/
 *.aux
 *.log
 *.gz
+
+# report
+report/report.pdf
