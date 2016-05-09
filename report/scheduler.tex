@@ -87,11 +87,24 @@ While we measure the characteristic of the flow at the source edge switch,
 the flow characteristics would change as the flow traverses through the network.
 Let us consider a single switch. If a flow sent data at a rate greater than the output
 bandwidth, the rate of the output flow would be truncated by the output capacity. 
-Here, we assume no bytes are lost, so the output $\Omega$ would remain
+If there is no losses at switch, then the output $\Omega$ would remain
 constant. Using this, we can find the output $T_{ON}$ and $T_{OFF}$, which
 would be different from the input characteristic. However, instead of measuring 
 this at each switch (which would lead to increased load of querying), we predict
 the path characteristics of the flow as it flows through the network. 
+
+For estimating the path characteristics of the flow, we assume two things: (1) No losses
+at the switch- our predictions would be more conservative than if there were losses
+(2)No fair queuing at switches- the output bandwidth is alloted in proportion to the input
+rates of the flows, so if a flow sends a higher rate, then it would get a larger share of the output 
+bandwidth. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\columnwidth]{switchmodel.png}
+	\caption{TODO}
+	\label{fig:switchmodel}
+\end{figure}
 
 
 \section{Queue Buildup Model}
