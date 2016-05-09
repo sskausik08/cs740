@@ -1,7 +1,89 @@
 \section{System Architecture}
+\Cref{fig:architecture} displays the system architecture of the scheduler used
+for predictive queue management in software-defined networks. The four 
+components of the system are as follows: 
+\begin{figure}
+	\centering
+	\includegraphics[width=\columnwidth]{architecture.png}
+	\caption{System architecture}
+	\label{fig:architecture}
+\end{figure}
 
+\begin{itemize}
+	\item \textbf{SDN Controller}: The centralized point of control of the network. The 
+	advantages of using SDNs for predictive queue management are two-fold:
+	(1) OpenFlow has support for centralized monitoring of switches for different
+	statistics, thus eliminating the need for specialized boxes for measurement and
+	developing clever monitoring algorithms to minimize load on switches due to 
+	querying statistics (2) The controller can add/modify forwarding rules at switches,
+	thus providing a centralized point to decide routing of flows, which is received as
+	output from the dynamic scheduler to prevent queue buildups. 
+	
+	\item \textbf{Network Monitor}: Based on the monitoring algorithm used at the
+	controller, statistics from the entire network topology is collected and passed to the
+	network monitor, which store the necessary statistics needed to predict queue buildups in switches.
+	
+	\item \textbf{Flow Classifier}: Using the characteristics gathered by the network monitor,
+	the flow classifier will classify the flow as mice/elephant based on some threshold (can be user-defined)
+	
+	\item \textbf{Dynamic Scheduler}: The scheduler predicts queue buildups using the characteristics
+	from the network monitor, and dynamically schedules paths for flows to prevent queue buildups affecting
+	latency-sensitive mice flows using an earliest-deadline-first greedy scheduling algorithm to find new paths,
+	which are sent to the controller to be deployed to the network.
+\end{itemize}
+We describe the components in detail in the following sections.
 \section{Flow Characteristics}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\columnwidth]{flowchar.png}
+	\caption{Flow Characteristic Model}
+	\label{fig:flowchar}
+\end{figure}
+To predict how queue builds up, we need to develop a model of a flow 
+such that we can predict the data it sends in any duration of time. We 
+characterize each flow as following an repeating ON/OFF model \cite{datacentertraffic}
+as shown in \Cref{fig:flowchar}. The three main parameters are:
+\begin{enumerate}
+	\item \textbf{Active time($T_{ON}$)}: The duration of time 
+	for which the flow is actively transmitting data
+	\item \textbf{Inactive time($T_{OFF}$)}: The duration of time 
+	for which the flow is inactive between two transmission cycles
+	\item \textbf{Transmission Bytes($\Omega$)}: The total number
+	of bytes sent in a single transmission period (the rate is assumed
+	to be constant in the period)
+\end{enumerate}
+By maintaining a model for a flow, we can use this to easily estimate
+the number of bytes sent by this flow in a time interval. The queue
+buildup model can be built by using this information from all flows
+going through the queue. Development of sophisticated flow characteristic
+models based on specific distributions is a direction of future work. 
+
+\subsection{Measurement}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\columnwidth]{meastrace.png}
+	\caption{Example measurement trace for a flow}
+	\label{fig:meastrace}
+\end{figure}
+We use OpenFlow's support for obtaining flow statistics from 
+switches to estimate the flow characteristic parameters. An example
+measurement trace for a flow is shown in \Cref{fig:meastrace}. In
+every $t_{meas}$, the edge switch where the flow enters the network,
+ is queried for the statistics of the 
+flow, which returns the cumulative bytes received at the switch. We maintain
+a expotential moving average(EWMA) for each parameter, and update the average
+from each reading. 
+
+The main advantages of this approach is that by measuring flow
+characteristics, we do not need cooperation from the tenants to provide information about
+flows (which may be difficult in public clouds and can be misused by malicious tenants). The 
+major shortcoming of this approach is that the least count of $T_{ON}$ and $T_{OFF}$ is
+the query time interval $t_{meas}$ (we cannot say anything about a time inside a query interval).
+Thus, it is a crucial trade-off between accuracy of the flow characteristics and the load on switches
+due to increased querying. We try to address these concerns in later sections.
 
 \section{Queue Buildup Model}
 
 \section{Scheduling }
+
+\section{Scalability}
