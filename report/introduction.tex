@@ -2,6 +2,25 @@
 Datacenters see diverse network workloads with different objectives. Primarily, traffic can be classified into two kinds of flows: high-throughput flows (elephant) and low-throughput, latency-sensitive (mouse) flows. Many applications have a multi-layer partition/aggregate pattern workflow where a task at each layer is partitioned into multiple tasks and provided to the workers at the next level. To provide some guarantees, workers will typically be assigned tight deadlines. Network delays can lead to missed deadlines, causing deteriorated performance. Thus,
 one of the key factors to application performance in datacenters is to provide low latency guarantees to the latency-sensitive flows.
  
-When elephant and mice flows traverse the same queue, the major reason for increased latency is queue buildups. There are two primary cases in which queue buildup severely increases the latency of mice flows. In the first case, the mice flows experience increased latency as they are in queue behind the packets from the elephant flows that have built up the queue. In the second case, the mice flows are interleaved with elephant flows in queue, causing an unfair share of bandwidth and increased latency as well as jitter for the mice flows. Thus, there is a need to classify flows and monitor switch queues to detect queue buildups in real-time. When we detect queue buildups, we need to dynamically schedule flows on different routes based on their classification to ensure low latencies. 
+When elephant and mice flows traverse the same queue, the major reason for increased latency is queue buildups. There are two primary cases shown in Figure \ref{fig:cases} in which queue buildup severely increases the latency of mice flows. In the first case, the mice flows experience increased latency as they are in queue behind the packets from the elephant flows that have built up the queue. In the second case,  the mice flows are interleaved with elephant flows in queue, causing an unfair share of bandwidth and increased latency as well as jitter for the mice flows. Thus, there is a need to classify flows and monitor switch queues to detect queue buildups in real-time. When we detect queue buildups, we need to dynamically schedule flows on different routes based on their classification to ensure low latencies. 
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.55\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{case1}
+  \caption{Case 1}
+  \label{fig:case1}
+\end{subfigure}%
+\\
+\begin{subfigure}{.55\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{case2}
+  \caption{Case 2 }
+  \label{fig:case2}
+\end{subfigure}
+\caption{Cases of Queue Buildup}
+\label{fig:cases}
+\end{figure}
 
 The prominence of software-defined networks has increased in recent times, and offers a centralized control of the network. The SDN controller has a global view of the network (such as topology and routing information) and can collect any relevant statistics (such as link utilization and traffic matrix). Using the resources available in a typical SDN setup, we believe there exist the means to schedule flows in real-time to avoid the problem of mice and elephant flow conflicts. Thus, we ask the following question: \emph{How can we perform dynamic flow scheduling to minimize latency of the mice flows in a software-defined datacenter? }  
