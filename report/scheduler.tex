@@ -80,7 +80,19 @@ flows (which may be difficult in public clouds and can be misused by malicious t
 major shortcoming of this approach is that the least count of $T_{ON}$ and $T_{OFF}$ is
 the query time interval $t_{meas}$ (we cannot say anything about a time inside a query interval).
 Thus, it is a crucial trade-off between accuracy of the flow characteristics and the load on switches
-due to increased querying. We try to address these concerns in later sections.
+due to frequent querying. 
+
+\subsection{Path Characteristic}
+While we measure the characteristic of the flow at the source edge switch, 
+the flow characteristics would change as the flow traverses through the network.
+Let us consider a single switch. If a flow sent data at a rate greater than the output
+bandwidth, the rate of the output flow would be truncated by the output capacity. 
+Here, we assume no bytes are lost, so the output $\Omega$ would remain
+constant. Using this, we can find the output $T_{ON}$ and $T_{OFF}$, which
+would be different from the input characteristic. However, instead of measuring 
+this at each switch (which would lead to increased load of querying), we predict
+the path characteristics of the flow as it flows through the network. 
+
 
 \section{Queue Buildup Model}
 
