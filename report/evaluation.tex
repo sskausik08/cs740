@@ -2,9 +2,31 @@
 Initially, we intended to use the POX SDN controller and Mininet to emulate a
 datacenter network. Unfortunately, this does not provide a good way to measure
 latency due to high varience in measurements. Instead, we simulated a workload
-by sampling from a tail heavy distribution similar to the one described in
+with a tail heavy distribution similar to the one described in
 \cite{dctcp} and estimated how many critical events our scheduling algorithm
 could prevent in comparison to doing no scheduling at all.
+
+\subsection{Simulation Framework}
+Thus, to evaluate the performance improvement of predictive
+queue management scheduling, we decided to pursue a simulation
+approach. One of the available simulators for software-defined networks
+\emph{fs-sdn} \cite{fssdn} had the limitations that it did not simulate
+queueing delays, and thus could not used to evaluate our system. 
+
+Thus, to provide a best-case analysis of our algorithm,we built a 
+flow-based simulator which simulates flows and its paths in the network,
+instead of individual packets. The simulator can be configured for network topology,
+total number of flows, and the composition of elephant and mice flows. For these
+experiments, we provide exact  flow characteristics to the scheduler for the edge
+switches. 
+
+The flows are randomly distributed across endpoints, and the flows
+are sent through the shortest path between their endpoints. Since we know
+exactly the characteristics of each flow, the simulator can accurately count the
+number of mice flows affected by critical queue buildups at some point of time
+if the shortest path allocation was followed. After this, we run a single iteration
+of our scheduler from this configuration, and count the number of flows 
+affected after the new paths are deployed. 
 
 \iffalse this stuff was in here originally, might have some material that's
 good to have on hand, idk... Also, I think here's where you would describe the
@@ -14,7 +36,7 @@ We can also test our system in a real-world setting by setting up a small datace
 
 \fi
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includegraphics[width=\columnwidth]{crit_plot.png}
 	\caption{Plot of number of critical events observed in scheduling and no
@@ -24,7 +46,7 @@ We can also test our system in a real-world setting by setting up a small datace
 	\label{fig:critplt}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includegraphics[width=\columnwidth]{small_datacenter.png}
 	\caption{Contour plot for small-sized datacenter. Blue indicates small
@@ -51,7 +73,7 @@ comes from the fact that at lower ratios of mice flows, there are fewer total
 mice flows, and thus, fewer which could possibly be affected by a critical
 event. Although, it is still possible that this result is an artifact of our
 simulator, and would require further investigation to rule out entirely.
-\begin{figure}[H]
+\begin{figure}
 	\centering
 	\includegraphics[width=\columnwidth]{large_datacenter.png}
 	\caption{Contour plot for medium-sized datacenter. Blue indicates small

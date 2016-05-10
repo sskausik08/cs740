@@ -1,3 +1,8 @@
-\section{Introduction}
+\section{Abstract}
 Datacenters see diverse network workloads with different objectives. Primarily, traffic can be classified into two kinds of flows: high-throughput flows (elephant) and low-throughput, latency-sensitive (mouse) flows. Many applications have a multi-layer partition/aggregate pattern workflow where a task at each layer is partitioned into multiple tasks and provided to the workers at the next level. To provide some guarantees, workers will typically be assigned tight deadlines. Network delays can lead to missed deadlines, causing deteriorated performance. Thus,
-one of the key factors to application performance in datacenters is to provide low latency guarantees to the latency-sensitive flows.  
+one of the key factors to application performance in datacenters is to provide low latency guarantees to the latency-sensitive flows.  In this project, we try to address these issues in a software-defined datacenter network by building a predictive
+models of how switch queues build up. This is aided by OpenFlow's support for querying switches for flow
+statistics to accurate predict flow characteristics. With a predictive model in place, we develop a greedy
+earliest-deadline-first scheduling for finding new paths for flows to prevent queue buildups affecting mice
+flows. We present a best-case performance evaluation of our scheduling, which demonstrates the usefulness
+of managing queues effectively in datacenters. 
