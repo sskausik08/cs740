@@ -59,10 +59,11 @@ going through the queue. Development of sophisticated flow characteristic
 models based on specific distributions is a direction of future work. 
 
 \subsection{Measurement}
-\begin{figure}[H]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=\columnwidth]{meastrace.png}
-	\caption{Example measurement trace for a flow}
+	\caption{Example measurement trace for a flow. An interval where the total bytes change 
+		is marked as an ON period, and conversely, an OFF period means the reading is constant.}
 	\label{fig:meastrace}
 \end{figure}
 We use OpenFlow's support for obtaining flow statistics from 
@@ -95,7 +96,7 @@ the path characteristics of the flow as it flows through the network.
 
 For estimating the path characteristics of the flow, we assume two things: (1) No losses
 at the switch- our predictions would be more conservative than if there were losses
-(2)No fair queuing at switches- the output bandwidth is alloted in proportion to the input
+(2) No fair queuing at switches- the output bandwidth is alloted in proportion to the input
 rates of the flows, so if a flow sends a higher rate, then it would get a larger share of the output 
 bandwidth. 
 
@@ -106,6 +107,29 @@ bandwidth.
 	\label{fig:switchmodel}
 \end{figure}
 
+Consider two switch $sw_i$ and $sw_j$(\Cref{fig:switchmodel}) and let the out link
+capacity connecting $sw_i \rightarrow sw_j$ to be $C_{ij}^{out}$. Let $Flows$
+denote the set of flows traversing $sw_i \rightarrow sw_j$. Consider a flow $f$ at $sw_i$ 
+with characteristics $\Omega, T_{ON}, T_{OFF}$. The output characteristics $\Omega',T_{ON}', T_{OFF}'$  are described as follows: 
+\begin{equation}
+	\Omega' = \Omega
+\end{equation} 
+The output rate is proportional to the proportion of input data sent by $f$. The data sent by
+$f$ in a active period is $\Omega$. Let $\Omega(t)$ denote the bytes sent by the flow in time $t$.
+We decide the proportion by the amount of data sent by other flows sent in $T_{ON}$ and
+divide the output capacity using this proportion. Thus, the estimated output rate $R'$ is defined as follows: 
+\begin{equation}
+	R' = min(\ \frac{\Omega}{T_{ON}}, \ \  C_{ij}^{out} * \frac{\Omega}{\sum_{f \in Flows} \Omega_f(T_{ON}) })
+\end{equation}
+The $min$ operation is to ensure that the output rate does not increase the input rate,
+the flow cannot accelerate at any point in the path. With the estimated output rate, we can find the other parameters of the characteristic. As the rate will decrease, the active time will increase to sent the $\Omega$ bytes.
+\begin{equation}
+	T_{ON}' = \frac{\Omega}{R'}
+\end{equation}
+The inactive times will reduce because of the increase in active times. 
+\begin{equation}
+	T_{OFF}' = T_{OFF} - ( T_{ON}'  - T_{ON} )
+\end{equation}
 
 \section{Queue Buildup Model}
 
