@@ -1,2 +1,46 @@
-\section{Experimental approach}
-As far as our preliminary experimental approach, we will use the POX SDN controller and Mininet to emulate a datacenter network. One challenge we foresee is being able to generate a workload similar to a real-world data center. We plan to emulate a workload by sampling from a tail heavy distribution similar to the one described in \cite{dctcp}. We can use the Fat-Tree topology \cite{fattree} as a representative datacenter network with the hosts connected to the edges. We can also test our system in a real-world setting by setting up a small datacenter topology in Cloudlab and running it with network workloads to evaluate the performance of our system on a physical network.  The different axes of evaluation are as follows: latency suffered by the mice flows, size of queue buildup and performance of the system in terms of overhead of measurement, classification and scheduling. 
+\section{Evaluation}
+Initially, we intended to use the POX SDN controller and Mininet to emulate a
+datacenter network. Unfortunately, this does not provide a good way to measure
+latency due to high varience in measurements. Instead, we simulated a workload
+by sampling from a tail heavy distribution similar to the one described in
+\cite{dctcp} and estimated how many critical events our scheduling algorithm
+could prevent in comparison to doing no scheduling at all.
+
+\iffalse this stuff was in here originally, might have some material that's
+good to have on hand, idk... Also, I think here's where you would describe the
+simulator, including how stuff's parameterizable
+
+We can also test our system in a real-world setting by setting up a small datacenter topology in Cloudlab and running it with network workloads to evaluate the performance of our system on a physical network.  The different axes of evaluation are as follows: latency suffered by the mice flows, size of queue buildup and performance of the system in terms of overhead of measurement, classification and scheduling. 
+
+\fi
+
+We used the Fat-Tree topology \cite{fattree} as a representative datacenter
+network with the hosts connected to the edges. In our simulations, we looked at
+two different Fat-Tree topologies. The first one has (however many) nodes, and
+would represent a small datacenter. The other has (insert number of nodes here)
+nodes, representing a larger datacenter. In (figure number) we look at how the
+number of critical events varies by the number of total flows and by the ratio
+of mice to total flows for both scheduling and without scheduling. These are
+results we observed in the small datacenter simulation, although the results
+for the large datacenter are similar. As expected, the number of critical events
+increases with the number of flows in both cases, but with scheduling, we 
+consistently perform at least as good if not better for each value of flow and
+ratio. Unexpectedly, the number of critical events does not seem to strictly
+decrease as the ratio of mice flows increases. For example, in the case of 2500
+flows, the maximum occurs at a ratio of 0.7. We suspect that the reason for this
+comes from the fact that at lower ratios of mice flows, there are fewer total
+mice flows, and thus, fewer which could possibly be affected by a critical
+event. Although, it is still possible that this result is an artifact of our
+simulator, and would require further investigation to rule out entirely.
+
+We then wanted to see if there was a particular range of flow and ratio values
+in each topology for which our scheduling might perform the best. Figure
+(figure number for region plots) shows a contour plot with number of flows along
+the y-axis, ratio of mice to total along the x-axis, and the difference in
+number of critical events between no scheduling and scheduling in the z-axis. In
+the small data center, the largest improvement is seen in the region with flows
+between 2-2.5 thousand, and ratios between .9 and .95. Within this region, we
+observed a 45 percent improvement over no scheduling. In the large data center,
+the best region when flows range between 8 and 10 thousand, and the ratio is
+between .9 and 1. In this region, we observed a 58 percent improvement over no
+scheduling.
