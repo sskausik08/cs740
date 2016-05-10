@@ -103,7 +103,7 @@ bandwidth.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\columnwidth]{switchmodel.png}
-	\caption{TODO}
+	\caption{Illustration of a switch queue model}
 	\label{fig:switchmodel}
 \end{figure}
 
@@ -119,7 +119,7 @@ $f$ in a active period is $\Omega$. Let $\Omega(t)$ denote the bytes sent by the
 We decide the proportion by the amount of data sent by other flows sent in $T_{ON}$ and
 divide the output capacity using this proportion. Thus, the estimated output rate $R'$ is defined as follows: 
 \begin{equation}
-	R' = min(\ \frac{\Omega}{T_{ON}}, \ \  C_{ij}^{out} * \frac{\Omega}{\sum_{f \in Flows} \Omega_f(T_{ON}) })
+	R' = min(\ \frac{\Omega}{T_{ON}}, \ \  C_{ij}^{out} \times \frac{\Omega}{\sum_{f \in Flows} \Omega_f(T_{ON}) })
 \end{equation}
 The $min$ operation is to ensure that the output rate does not increase the input rate,
 the flow cannot accelerate at any point in the path. With the estimated output rate, we can find the other parameters of the characteristic. As the rate will decrease, the active time will increase to sent the $\Omega$ bytes.
@@ -130,9 +130,80 @@ The inactive times will reduce because of the increase in active times.
 \begin{equation}
 	T_{OFF}' = T_{OFF} - ( T_{ON}'  - T_{ON} )
 \end{equation}
+Thus, by measuring flow statistics and using these equations, we have a comprehensive picture of characteristics of flows on all switches of the topology. In the next section, we explain how we use these to predict queue buildups.
+
+\subsection{Flow Classifier}
+In our current iteration, we have defined two set of classes (elephant and mice), and defined 
+a configurable threshold on $\Omega$ and $T_{ON}$ to classify a flow. However, there can
+exist multiple classes of flows with different priorities, and the scheduling can be modified to
+take into account the priorities.
 
 \section{Queue Buildup Model}
+As discussed earlier, latency-sensitive mice flows are affected when a switch queue increases beyond
+some threshold. Instead of reactively responding to these events, which may be difficult, we 
+predictively try to ensure that mice flows are not affected by these queue buildups. To perform this,
+we need a model of queue builds up. Using the same example in \Cref{fig:switchmodel}, we define $Q_{ij}(t)$ as the function of queue size of $sw_i \rightarrow sw_j$ over time t as:
+\begin{equation}
+	Q_{ij}(t) = Q_{ij}(t=0) - C_{ij}^{out} \times t + \sum_{f \in Flows} \Omega_f(t)
+\end{equation}
+The intuition behind the above equation is that increase is queue size from initial
+queue size ($Q_{ij}(t=0)$) is the difference of bytes received in the queue ($\sum_{f \in Flows} \Omega_f(t)$) and the bytes send out the queue ($C_{ij}^{out} \times t $). 
 
-\section{Scheduling }
+OpenFlow has no support for querying current queue size in the switch, thus
+there is no direct way to measure the queue size at any point of time. So, to 
+predict initial size, we query flow statistics for $Flows$ at $sw_i$ and $sw_j$,
+and the difference between the statistics is a good estimate of current queue size.
 
+Finally, we define the critical time $t_c$ for a switch when $Q_{ij}(t_c) > threshold$ such 
+that there are mice flows affected by the queue buildup.  This 
+threshold can be defined based on latency limits or can be set to total queue size to
+denote congestion events. The critical threshold can also depend on the number of 
+mice flows being affected (can ignore small number of mice flows being affected in large
+networks).
+
+\section{Scheduling Algorithm}
+By building a predictive model of queues, we can manage the flows effectively
+and ahead of time, instead of reacting to failures or higher latencies. Another advantage 
+of this approach is that we can run the scheduler at larger epochs, thus reducing the
+overload of scheduling. 
+
+Let us formally define the objectives of scheduling. The input to the scheduler
+is the set of flows and their paths along the network, with the estimated  
+characteristics for each flow. Also, using the queue buildup model of each switch
+queue and certain user-defined objectives of critical threshold, we can obtain the
+critical times for each of switches, if the flows maintain their current paths. 
+
+The scheduler is invoked in every $t_{sched}$ epoch, and uses a 
+earliest-deadline-first algorithm, which basically means we only consider
+switches with critical times $< t_{sched}$ within the current time. The rationale 
+behind this is that these switches will be critical before the scheduler is invoked 
+again, so require attention in this iteration. 
+
+Once we have identified the switches in critical mode this epoch,
+the next step of the scheduling algorithm is to reroute certain flows 
+traversing these switches along paths 
+such that the switches will not be critical in this epoch. For this, we use 
+a greedy depth-first search in the network to find suitable reroute paths for
+flows. For choosing the flows to reroute, we choose elephant flows over mice flows,
+as rerouting a single elephant can dramatically change the critical time at the switch.
+Also to prevent route-flapping, we do not choose flows which was rerouted in the previous
+two iterations of the scheduler. 
+
+Once we choose a flow, we now decide a new route for this flow. We explore the 
+network from the source switch in a depth-first manner such that we recompute the
+critical time for the switch if this flow was also added along the switch. If a switch 
+is or becomes critical within this epoch, we do not explore this switch further (\emph{unfeasible} path). This search is greedy because we will terminate once we find a path from source
+ to destination (or leave the flow's path as it is). This way, we always do better than 
+ a naive scheduling algorithm which does not take into consideration queue buildups.  
 \section{Scalability}
+
+
+
+
+
+
+
+
+
+
+
