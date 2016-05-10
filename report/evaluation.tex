@@ -26,7 +26,8 @@ exactly the characteristics of each flow, the simulator can accurately count the
 number of mice flows affected by critical queue buildups at some point of time
 if the shortest path allocation was followed. After this, we run a single iteration
 of our scheduler from this configuration, and count the number of flows 
-affected after the new paths are deployed. 
+affected after the new paths are deployed, decide by the greedy EDF search. 
+
 
 \iffalse this stuff was in here originally, might have some material that's
 good to have on hand, idk... Also, I think here's where you would describe the
@@ -35,6 +36,8 @@ simulator, including how stuff's parameterizable
 We can also test our system in a real-world setting by setting up a small datacenter topology in Cloudlab and running it with network workloads to evaluate the performance of our system on a physical network.  The different axes of evaluation are as follows: latency suffered by the mice flows, size of queue buildup and performance of the system in terms of overhead of measurement, classification and scheduling. 
 
 \fi
+
+\subsection{Results}
 
 \begin{figure}
 	\centering
