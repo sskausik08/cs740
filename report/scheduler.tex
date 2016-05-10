@@ -41,7 +41,7 @@ We describe the components in detail in the following sections.
 \end{figure}
 To predict how queue builds up, we need to develop a model of a flow 
 such that we can predict the data it sends in any duration of time. We 
-characterize each flow as following an repeating ON/OFF model \cite{datacentertraffic}
+characterize each flow as following a repeating ON/OFF model \cite{datacentertraffic}
 as shown in \Cref{fig:flowchar}. The three main parameters are:
 \begin{enumerate}
 	\item \textbf{Active time($T_{ON}$)}: The duration of time 
@@ -72,10 +72,10 @@ measurement trace for a flow is shown in \Cref{fig:meastrace}. In
 every $t_{meas}$, the edge switch where the flow enters the network,
  is queried for the statistics of the 
 flow, which returns the cumulative bytes received at the switch. We maintain
-a expotential moving average(EWMA) for each parameter, and update the average
+a exponential moving average(EWMA) for each parameter, and update the average
 from each reading. 
 
-The main advantages of this approach is that by measuring flow
+The main advantage of this approach is that by measuring flow
 characteristics, we do not need cooperation from the tenants to provide information about
 flows (which may be difficult in public clouds and can be misused by malicious tenants). The 
 major shortcoming of this approach is that the least count of $T_{ON}$ and $T_{OFF}$ is
@@ -88,10 +88,10 @@ While we measure the characteristic of the flow at the source edge switch,
 the flow characteristics would change as the flow traverses through the network.
 Let us consider a single switch. If a flow sent data at a rate greater than the output
 bandwidth, the rate of the output flow would be truncated by the output capacity. 
-If there is no losses at switch, then the output $\Omega$ would remain
+If there are no losses at the switch, then the output $\Omega$ would remain
 constant. Using this, we can find the output $T_{ON}$ and $T_{OFF}$, which
 would be different from the input characteristic. However, instead of measuring 
-this at each switch (which would lead to increased load of querying), we predict
+this at each switch (which would lead to increased querying load), we predict
 the path characteristics of the flow as it flows through the network. 
 
 For estimating the path characteristics of the flow, we assume two things: (1) No losses
@@ -107,7 +107,7 @@ bandwidth.
 	\label{fig:switchmodel}
 \end{figure}
 
-Consider two switch $sw_i$ and $sw_j$(\Cref{fig:switchmodel}) and let the out link
+Consider two switches $sw_i$ and $sw_j$(\Cref{fig:switchmodel}) and let the out link
 capacity connecting $sw_i \rightarrow sw_j$ to be $C_{ij}^{out}$. Let $Flows$
 denote the set of flows traversing $sw_i \rightarrow sw_j$. Consider a flow $f$ at $sw_i$ 
 with characteristics $\Omega, T_{ON}, T_{OFF}$. The output characteristics $\Omega',T_{ON}', T_{OFF}'$  are described as follows: 
@@ -122,21 +122,20 @@ divide the output capacity using this proportion. Thus, the estimated output rat
 	R' = min(\ \frac{\Omega}{T_{ON}}, \ \  C_{ij}^{out} \times \frac{\Omega}{\sum_{f \in Flows} \Omega_f(T_{ON}) })
 \end{equation}
 The $min$ operation is to ensure that the output rate does not increase the input rate,
-the flow cannot accelerate at any point in the path. With the estimated output rate, we can find the other parameters of the characteristic. As the rate will decrease, the active time will increase to sent the $\Omega$ bytes.
+the flow cannot accelerate at any point in the path. With the estimated output rate, we can find the other parameters of the characteristic. As the rate will decrease, the active time will increase to send the $\Omega$ bytes.
 \begin{equation}
 	T_{ON}' = \frac{\Omega}{R'}
 \end{equation}
-The inactive times will reduce because of the increase in active times. 
+The length of inactive times will be reduced because of the increase in active times. 
 \begin{equation}
 	T_{OFF}' = T_{OFF} - ( T_{ON}'  - T_{ON} )
 \end{equation}
 Thus, by measuring flow statistics and using these equations, we have a comprehensive picture of characteristics of flows on all switches of the topology. In the next section, we explain how we use these to predict queue buildups.
 
 \subsection{Flow Classifier}
-In our current iteration, we have defined two set of classes (elephant and mice), and defined 
+In our current iteration, we have defined two sets of classes (elephant and mice), and defined 
 a configurable threshold on $\Omega$ and $T_{ON}$ to classify a flow. However, there can
-exist multiple classes of flows with different priorities, and the scheduling can be modified to
-take into account the priorities.
+exist multiple classes of flows with different priorities, and the scheduling can be modified to take the priorities into account.
 
 \section{Queue Buildup Model}
 As discussed earlier, latency-sensitive mice flows are affected when a switch queue increases beyond
@@ -146,7 +145,7 @@ we need a model of queue builds up. Using the same example in \Cref{fig:switchmo
 \begin{equation}
 	Q_{ij}(t) = Q_{ij}(t=0) - C_{ij}^{out} \times t + \sum_{f \in Flows} \Omega_f(t)
 \end{equation}
-The intuition behind the above equation is that increase is queue size from initial
+The intuition behind the above equation is that increase in queue size from initial
 queue size ($Q_{ij}(t=0)$) is the difference of bytes received in the queue ($\sum_{f \in Flows} \Omega_f(t)$) and the bytes send out the queue ($C_{ij}^{out} \times t $). 
 
 OpenFlow has no support for querying current queue size in the switch, thus
@@ -165,7 +164,7 @@ networks).
 By building a predictive model of queues, we can manage the flows effectively
 and ahead of time, instead of reacting to failures or higher latencies. Another advantage 
 of this approach is that we can run the scheduler at larger epochs, thus reducing the
-overload of scheduling. 
+overhead of scheduling. 
 
 Let us formally define the objectives of scheduling. The input to the scheduler
 is the set of flows and their paths along the network, with the estimated  
@@ -174,7 +173,7 @@ queue and certain user-defined objectives of critical threshold, we can obtain t
 critical times for each of switches, if the flows maintain their current paths. 
 
 The scheduler is invoked in every $t_{sched}$ epoch, and uses a 
-earliest-deadline-first algorithm, which basically means we only consider
+earliest-deadline-first algorithm, which essentially means we only consider
 switches with critical times $< t_{sched}$ within the current time. The rationale 
 behind this is that these switches will be critical before the scheduler is invoked 
 again, so require attention in this iteration. 
