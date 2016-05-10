@@ -13,22 +13,35 @@ simulator, including how stuff's parameterizable
 We can also test our system in a real-world setting by setting up a small datacenter topology in Cloudlab and running it with network workloads to evaluate the performance of our system on a physical network.  The different axes of evaluation are as follows: latency suffered by the mice flows, size of queue buildup and performance of the system in terms of overhead of measurement, classification and scheduling. 
 
 \fi
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\columnwidth]{crit_plot.png}
+	\caption{Plot of number of critical events observed in scheduling and no
+    scheduling for varying numbers of flows and ratios between mice and total
+    flows. For each flow and ratio value, scheduling consistently results in
+    either an equal or smaller number of critical events.}
+	\label{fig:critplt}
+\end{figure}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\columnwidth]{small_datacenter.png}
-	\caption{TODO}
+	\caption{Contour plot for small-sized datacenter. Blue indicates small
+    difference between the number of critical events observed from no
+    scheduling and with scheduling, red indicates a large difference.}
 	\label{fig:smalldc}
 \end{figure}
 
 We used the Fat-Tree topology \cite{fattree} as a representative datacenter
 network with the hosts connected to the edges. In our simulations, we looked at
-two different Fat-Tree topologies. The first one has (however many) nodes, and
-would represent a small datacenter. The other has (insert number of nodes here)
-nodes, representing a larger datacenter. In (figure number) we look at how the
+two different Fat-Tree topologies. The first one has 20 nodes, and
+would represent a small datacenter. The other has 45 nodes, representing a
+medium-sized datacenter. In \ref{fig:critplt} we look at how the
 number of critical events varies by the number of total flows and by the ratio
 of mice to total flows for both scheduling and without scheduling. These are
 results we observed in the small datacenter simulation, although the results
-for the large datacenter are similar. As expected, the number of critical events
+for the medium datacenter are similar. As expected, the number of critical events
 increases with the number of flows in both cases, but with scheduling, we 
 consistently perform at least as good if not better for each value of flow and
 ratio. Unexpectedly, the number of critical events does not seem to strictly
@@ -41,18 +54,21 @@ simulator, and would require further investigation to rule out entirely.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\columnwidth]{large_datacenter.png}
-	\caption{TODO}
+	\caption{Contour plot for medium-sized datacenter. Blue indicates small
+    difference between the number of critical events observed from no
+    scheduling and with scheduling, red indicates a large difference.}
 	\label{fig:largedc}
 \end{figure}
 
 We then wanted to see if there was a particular range of flow and ratio values
 in each topology for which our scheduling might perform the best. Figure
-(figure number for region plots) shows a contour plot with number of flows along
+\ref{fig:smalldc} shows a contour plot with number of flows along
 the y-axis, ratio of mice to total along the x-axis, and the difference in
 number of critical events between no scheduling and scheduling in the z-axis. In
 the small data center, the largest improvement is seen in the region with flows
 between 2-2.5 thousand, and ratios between .9 and .95. Within this region, we
-observed a 45 percent improvement over no scheduling. In the large data center,
+observed a 45 percent improvement over no scheduling. Figure \ref{fig:largedc}
+shows a similar plot for the medium datacenter. In the medium data center,
 the best region when flows range between 8 and 10 thousand, and the ratio is
 between .9 and 1. In this region, we observed a 58 percent improvement over no
 scheduling.
