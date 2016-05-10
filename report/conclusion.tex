@@ -1,0 +1,23 @@
+\section{Conclusion and Future Work}
+In this project, we present a predictive queue management system for software-defined
+networks, and demonstrate the best-case performance improvement of the approach.  
+
+One of the concerns with this approach is its scalability. Since the measurement and scheduling
+is independent from each other, distributed controllers can be used for measuring slices 
+of the network, and can be aggregated to a centralized server for making the scheduling decisions.
+Similarily, the new rules to be installed can be distributed across the controllers for fast installation.
+However, the scheduler can be a bottleneck as number of flows increase, and the scheduling epoch
+has to be decided in conjuction of the scale of the network. Also, another direction of research is 
+to evaluate the optimal scheduling (instead of the greedy approach proposed in this paper). 
+
+By building predictive models of flows, there are interesting applications to this approach. This can
+be used for predicting good rule timeout values for switches, and perform efficient rule management
+in SDNs. Also, the predictive models can be use to proactively install rules in the network, thus reducing
+the latency suffered by flows due to forwarding rules installation. 
+
+Finally, this project helped us understand and build models characterizing different phenomena
+in the networks, and the complexity of dependent phenomena. The experience of building a complete
+system from scratch was fulfilling, and made us realize the challenges involved in them. Finally, software-
+defined networks are still in a nascent phase, and our failed experiments with Mininet and non-availability of 
+good simulation frameworks like \emph{ns-2} emphasise the requirement of good prototyping software
+for SDN applications to run simulations and evaluate different parameters. 

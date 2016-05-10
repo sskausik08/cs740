@@ -23,7 +23,7 @@ switches.
 The flows are randomly distributed across endpoints, and the flows
 are sent through the shortest path between their endpoints. Since we know
 exactly the characteristics of each flow, the simulator can accurately count the
-number of mice flows affected by critical queue buildups at some point of time
+number of mice flows affected by queue buildups(critical events) at some point of time
 if the shortest path allocation was followed. After this, we run a single iteration
 of our scheduler from this configuration, and count the number of flows 
 affected after the new paths are deployed, decide by the greedy EDF search. 
